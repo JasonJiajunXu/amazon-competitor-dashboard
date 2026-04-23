@@ -2,17 +2,17 @@
   "generatedAt": "2026/04/23 18:55",
   "reports": {
     "racebox": {
-      "status": "configured",
-      "sync_label": "已配置",
-      "summary": "已配置 SellerSprite 跟踪入口，后续会按主 ASIN 拉取每日销量。",
+      "status": "live",
+      "sync_label": "已连通",
+      "summary": "Racebox Mini S 已接入 SellerSprite，4 月逐日销量已经开始记录。",
       "items": [
         {
           "asin": "B0C8JCB8TZ",
           "marketplace": "US",
           "label": "Racebox Mini S",
-          "status": "configured",
-          "status_text": "Configured",
-          "note": "主力 ASIN 已建档，等待自动刷新任务开始写入日销量。"
+          "status": "live",
+          "status_text": "Live",
+          "note": "当前已展示 2026 年 4 月逐日日销量，后续会继续追加每天快照。"
         }
       ]
     },

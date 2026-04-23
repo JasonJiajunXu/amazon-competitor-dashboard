@@ -1,7 +1,31 @@
 {
   "latestSnapshotDate": "2026-04-23",
   "reports": {
-    "racebox": [],
+    "racebox": [
+      { "date": "2026-04-01", "sales": 5, "amount": 1350, "price": 270, "bsr": 61693 },
+      { "date": "2026-04-02", "sales": 5, "amount": 1350, "price": 270, "bsr": 60312 },
+      { "date": "2026-04-03", "sales": 5, "amount": 1350, "price": 270, "bsr": 59215 },
+      { "date": "2026-04-04", "sales": 4, "amount": 1080, "price": 270, "bsr": 63331 },
+      { "date": "2026-04-05", "sales": 4, "amount": 1080, "price": 270, "bsr": 71593 },
+      { "date": "2026-04-06", "sales": 4, "amount": 1080, "price": 270, "bsr": 67836 },
+      { "date": "2026-04-07", "sales": 4, "amount": 1080, "price": 270, "bsr": 64451 },
+      { "date": "2026-04-08", "sales": 4, "amount": 1080, "price": 270, "bsr": 62180 },
+      { "date": "2026-04-09", "sales": 4, "amount": 1080, "price": 270, "bsr": 64390 },
+      { "date": "2026-04-10", "sales": 6, "amount": 1620, "price": 270, "bsr": 67385 },
+      { "date": "2026-04-11", "sales": 5, "amount": 1350, "price": 270, "bsr": 46562 },
+      { "date": "2026-04-12", "sales": 5, "amount": 1350, "price": 270, "bsr": 48148 },
+      { "date": "2026-04-13", "sales": 7, "amount": 1890, "price": 270, "bsr": 52426 },
+      { "date": "2026-04-14", "sales": 6, "amount": 1620, "price": 270, "bsr": 44068 },
+      { "date": "2026-04-15", "sales": 6, "amount": 1620, "price": 270, "bsr": 45686 },
+      { "date": "2026-04-16", "sales": 5, "amount": 1350, "price": 270, "bsr": 47342 },
+      { "date": "2026-04-17", "sales": 5, "amount": 1350, "price": 270, "bsr": 62094 },
+      { "date": "2026-04-18", "sales": 5, "amount": 1350, "price": 270, "bsr": 60765 },
+      { "date": "2026-04-19", "sales": 5, "amount": 1350, "price": 270, "bsr": 58938 },
+      { "date": "2026-04-20", "sales": 5, "amount": 1350, "price": 270, "bsr": 61976 },
+      { "date": "2026-04-21", "sales": 5, "amount": 1350, "price": 270, "bsr": 55840 },
+      { "date": "2026-04-22", "sales": 5, "amount": 1350, "price": 270, "bsr": 59923 },
+      { "date": "2026-04-23", "sales": 5, "amount": 1350, "price": 270, "bsr": 59380 }
+    ],
     "bushnell": [],
     "tag": [],
     "garmin_r10": [

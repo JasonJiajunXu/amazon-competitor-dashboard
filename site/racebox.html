@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racebox 4 月日销量页</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+</head>
+<body class="report-body">
+  <div class="shell">
+    <header class="topbar report-topbar">
+      <div class="brand-lockup">
+        <a class="back-link" href="./index.html">返回入口</a>
+        <div>
+          <p class="topbar-label">Racebox Daily</p>
+          <h1>Racebox 4 月日销量页</h1>
+        </div>
+      </div>
+      <div class="topbar-meta">
+        <div class="meta-badge">
+          <span>最近刷新</span>
+          <strong id="racebox-last-updated">-</strong>
+        </div>
+      </div>
+    </header>
+
+    <main class="report-layout">
+      <section class="summary-strip" id="racebox-summary"></section>
+
+      <section class="daily-sales-section">
+        <article class="visual-card">
+          <div class="visual-head">
+            <div>
+              <p class="kicker">April Daily Sales</p>
+              <h3>2026 年 4 月逐日销量</h3>
+            </div>
+          </div>
+          <div class="daily-strip" id="racebox-daily-strip"></div>
+          <canvas id="racebox-daily-chart"></canvas>
+        </article>
+
+        <article class="detail-card">
+          <div class="panel-heading compact">
+            <p class="kicker">Monthly Context</p>
+            <h2>历史月度趋势继续保留</h2>
+          </div>
+          <div class="table-wrap" id="racebox-monthly-table"></div>
+        </article>
+      </section>
+
+      <section class="detail-columns">
+        <article class="detail-card wide">
+          <div class="panel-heading compact">
+            <p class="kicker">April Breakdown</p>
+            <h2>4 月每日明细</h2>
+          </div>
+          <div class="table-wrap" id="racebox-daily-table"></div>
+        </article>
+
+        <aside class="detail-sidebar">
+          <section class="detail-card">
+            <div class="panel-heading compact">
+              <p class="kicker">Sync Status</p>
+              <h2>SellerSprite 状态</h2>
+            </div>
+            <div id="racebox-sync-status"></div>
+          </section>
+
+          <section class="detail-card">
+            <div class="panel-heading compact">
+              <p class="kicker">Insight</p>
+              <h2>Racebox 观察</h2>
+            </div>
+            <div id="racebox-insights"></div>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <script src="./data-loader.js"></script>
+  <script src="./racebox.js"></script>
+</body>
+</html>

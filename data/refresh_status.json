@@ -1,25 +1,30 @@
 {
-  "lastUpdated": "2026/04/23 18:55",
-  "note": "入口页和详情页已经接好 SellerSprite 同步位，Garmin R10 已有日销量样例，其余产品等待每日自动刷新任务写入。",
+  "lastUpdated": "2026/04/23 19:28",
+  "note": "以前的月度数据继续保留；Racebox 已新增 2026 年 4 月逐日销量记录，并单独列页展示。",
   "sellerSprite": {
     "configuredAsins": 9,
     "pendingReports": 1,
-    "liveReports": 1,
+    "liveReports": 2,
     "latestDailySnapshot": "2026-04-23"
   },
   "logs": [
     {
-      "time": "2026/04/23 18:55",
+      "time": "2026/04/23 19:28",
+      "tag": "Racebox",
+      "description": "Racebox Mini S 已接入 4 月逐日销量，月度历史数据继续保留在原看板里。"
+    },
+    {
+      "time": "2026/04/23 19:28",
       "tag": "SellerSprite",
-      "description": "9 个 ASIN 已进入同步配置，Garmin R10 已接入近 14 日日销量样例。"
+      "description": "SellerSprite 连通报告增至 2 个：Garmin R10 与 Racebox。"
     },
     {
-      "time": "2026/04/23 18:55",
+      "time": "2026/04/23 19:28",
       "tag": "UI",
-      "description": "详情页新增 SellerSprite 状态区、近 14 日销量趋势和明细表。"
+      "description": "首页新增 Racebox 单独入口页，详情继续保留月度图表与明细。"
     },
     {
-      "time": "2026/04/23 18:55",
+      "time": "2026/04/23 19:28",
       "tag": "Next",
       "description": "下一步会把每日自动刷新任务挂上，并持续回写站点数据文件。"
     }

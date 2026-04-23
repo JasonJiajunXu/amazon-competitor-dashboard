@@ -1,9 +1,17 @@
 function renderHome(payload) {
   const { viewConfig, refreshStatus } = payload;
   const order = ["overview", "golf", "baseball", "shooting", "brand-lines", "all"];
+  const extraEntries = [
+    {
+      id: "racebox-april",
+      title: "Racebox 4 月日销量页",
+      description: "保留原月度数据，并单独查看 Racebox 4 月每天销量。",
+      href: "./racebox.html",
+    },
+  ];
   const grid = document.getElementById("entry-grid");
 
-  grid.innerHTML = order
+  const defaultEntries = order
     .map((key, index) => {
       const view = viewConfig[key];
       return `
@@ -18,7 +26,24 @@ function renderHome(payload) {
           <div class="entry-arrow">→</div>
         </a>
       `;
-    })
+    });
+
+  const specialEntries = extraEntries.map(
+    (entry, index) => `
+      <a class="entry-button special-entry" href="${entry.href}">
+        <div class="entry-left">
+          <div class="entry-icon">R${index + 1}</div>
+          <div>
+            <div class="entry-title">${entry.title}</div>
+            <div class="entry-meta">${entry.description}</div>
+          </div>
+        </div>
+        <div class="entry-arrow">→</div>
+      </a>
+    `,
+  );
+
+  grid.innerHTML = [...specialEntries, ...defaultEntries]
     .join("");
 
   document.getElementById("last-updated").textContent = refreshStatus.lastUpdated;
