@@ -9,6 +9,123 @@ function formatCompact(value) {
   return String(Math.round(value));
 }
 
+function csvToObjects(text) {
+  const rows = [];
+  let row = [];
+  let cell = "";
+  let inQuotes = false;
+
+  for (let i = 0; i < text.length; i += 1) {
+    const char = text[i];
+    const next = text[i + 1];
+
+    if (char === '"') {
+      if (inQuotes && next === '"') {
+        cell += '"';
+        i += 1;
+      } else {
+        inQuotes = !inQuotes;
+      }
+      continue;
+    }
+
+    if (char === "," && !inQuotes) {
+      row.push(cell);
+      cell = "";
+      continue;
+    }
+
+    if ((char === "\n" || char === "\r") && !inQuotes) {
+      if (char === "\r" && next === "\n") i += 1;
+      row.push(cell);
+      if (row.length > 1 || row[0] !== "") rows.push(row);
+      row = [];
+      cell = "";
+      continue;
+    }
+
+    cell += char;
+  }
+
+  if (cell || row.length) {
+    row.push(cell);
+    rows.push(row);
+  }
+
+  const [header, ...body] = rows;
+  return body.map((values) =>
+    Object.fromEntries(header.map((key, index) => [key, values[index] ?? ""])),
+  );
+}
+
+function maybeNumber(value) {
+  if (value === "" || value == null) return null;
+  const num = Number(value);
+  return Number.isNaN(num) ? value : num;
+}
+
+function hydratePayload([reportsRaw, heroRaw, seriesRaw, insightsRaw]) {
+  const heroByReport = {};
+  const seriesByReport = {};
+  const insightsByReport = {};
+
+  heroRaw.forEach((row) => {
+    const item = {
+      report_id: row.report_id,
+      position: maybeNumber(row.position),
+      label: row.label,
+      value_text: row.value_text,
+      value_numeric: maybeNumber(row.value_numeric),
+    };
+    heroByReport[item.report_id] ||= [];
+    heroByReport[item.report_id].push(item);
+  });
+
+  seriesRaw.forEach((row) => {
+    const item = {
+      report_id: row.report_id,
+      period_label: row.period_label,
+      series_name: row.series_name,
+      metric_kind: row.metric_kind,
+      value: maybeNumber(row.value),
+    };
+    seriesByReport[item.report_id] ||= [];
+    seriesByReport[item.report_id].push(item);
+  });
+
+  insightsRaw.forEach((row) => {
+    const item = {
+      report_id: row.report_id,
+      position: maybeNumber(row.position),
+      title: row.title,
+      body: row.body,
+    };
+    insightsByReport[item.report_id] ||= [];
+    insightsByReport[item.report_id].push(item);
+  });
+
+  const reports = reportsRaw.map((row) => ({
+    ...row,
+    asin_count: maybeNumber(row.asin_count),
+    hero_stats: heroByReport[row.report_id] || [],
+    series: seriesByReport[row.report_id] || [],
+    insights: insightsByReport[row.report_id] || [],
+  }));
+
+  reports.forEach((report) => {
+    report.headline_sales =
+      report.hero_stats.find((item) => item.value_numeric != null && item.label.includes("销量"))?.value_numeric ?? null;
+    report.headline_revenue =
+      report.hero_stats.find((item) => item.value_numeric != null && item.label.includes("销售额"))?.value_numeric ?? null;
+  });
+
+  return {
+    report_count: reports.length,
+    series_count: seriesRaw.length,
+    reports,
+  };
+}
+
 function buildSummaryCards(reports) {
   const container = document.getElementById("summary-cards");
   container.innerHTML = reports
@@ -142,31 +259,28 @@ function renderReportDetail(report) {
       : `<div class="insight-item">这份报告原始页面没有单独写 insight 卡，但月度序列已经保留下来了。</div>`;
 
   const grouped = seriesGroups(report);
-  const labels =
-    Object.values(grouped)[0]?.map((row) => row.period_label) || [];
+  const labels = Object.values(grouped)[0]?.map((row) => row.period_label) || [];
 
-  const datasets = Object.entries(grouped)
-    .filter(([seriesName]) => seriesName !== "M")
-    .map(([seriesName, rows]) => {
-      const lower = seriesName.toLowerCase();
-      const isRevenue = lower.includes("rev");
-      const isPrice = lower.includes("price");
-      return {
-        label: seriesName,
-        data: rows.map((row) => row.value),
-        borderColor: report.theme_color,
-        backgroundColor: isRevenue
-          ? `${report.theme_color}22`
-          : isPrice
-            ? "#d9770622"
-            : `${report.theme_color}55`,
-        type: isRevenue || isPrice ? "line" : "bar",
-        yAxisID: isPrice ? "y1" : "y",
-        tension: 0.28,
-        borderWidth: 2,
-        borderRadius: 6,
-      };
-    });
+  const datasets = Object.entries(grouped).map(([seriesName, rows]) => {
+    const lower = seriesName.toLowerCase();
+    const isRevenue = lower.includes("rev");
+    const isPrice = lower.includes("price");
+    return {
+      label: seriesName,
+      data: rows.map((row) => row.value),
+      borderColor: report.theme_color,
+      backgroundColor: isRevenue
+        ? `${report.theme_color}22`
+        : isPrice
+          ? "#d9770622"
+          : `${report.theme_color}55`,
+      type: isRevenue || isPrice ? "line" : "bar",
+      yAxisID: isPrice ? "y1" : "y",
+      tension: 0.28,
+      borderWidth: 2,
+      borderRadius: 6,
+    };
+  });
 
   if (detailChart) detailChart.destroy();
   detailChart = new Chart(document.getElementById("detail-chart"), {
@@ -193,11 +307,20 @@ function renderReportDetail(report) {
 }
 
 async function init() {
-  const dataUrl = window.location.pathname.includes("/site/")
-    ? "../data/dashboard.json"
-    : "./data/dashboard.json";
-  const response = await fetch(dataUrl);
-  const payload = await response.json();
+  const [reportsCsv, heroCsv, seriesCsv, insightsCsv] = await Promise.all([
+    fetch("./data/reports.csv").then((response) => response.text()),
+    fetch("./data/hero_stats.csv").then((response) => response.text()),
+    fetch("./data/monthly_series.csv").then((response) => response.text()),
+    fetch("./data/insights.csv").then((response) => response.text()),
+  ]);
+
+  const payload = hydratePayload([
+    csvToObjects(reportsCsv),
+    csvToObjects(heroCsv),
+    csvToObjects(seriesCsv),
+    csvToObjects(insightsCsv),
+  ]);
+
   document.getElementById("report-count").textContent = payload.report_count;
   document.getElementById("series-count").textContent = payload.series_count;
 

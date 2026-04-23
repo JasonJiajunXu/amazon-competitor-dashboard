@@ -3,9 +3,6 @@ name: Deploy competitor dashboard to GitHub Pages
 on:
   push:
     branches: ["main"]
-    paths:
-      - "metabase_dashboard_pack/**"
-      - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -32,9 +29,10 @@ jobs:
           mkdir -p dist
           cp -R site/. dist/
           mkdir -p dist/data
-          cp data/dashboard.json dist/data/dashboard.json
           cp data/reports.csv dist/data/reports.csv
+          cp data/hero_stats.csv dist/data/hero_stats.csv
           cp data/monthly_series.csv dist/data/monthly_series.csv
+          cp data/insights.csv dist/data/insights.csv
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
