@@ -43,12 +43,42 @@ function buildChooser(reports, activeReportId) {
     .map(
       (report) => `
         <button class="product-chip ${report.report_id === activeReportId ? "active" : ""}" data-report-id="${report.report_id}">
-          <div class="product-name">${report.title}</div>
-          <div class="product-asin">${report.primary_asin || report.brand}</div>
+          <img class="product-thumb" src="${report.image_url}" alt="${report.title}">
+          <div class="product-chip-copy">
+            <div class="product-name">${report.title}</div>
+            <div class="product-asin">${report.primary_asin || report.brand}</div>
+          </div>
         </button>
       `,
     )
     .join("");
+}
+
+function buildProductImage(report) {
+  const hero = document.getElementById("product-hero-card");
+  const panel = document.getElementById("product-image-panel");
+  const imageMarkup = report.image_url
+    ? `<img class="product-showcase-image" src="${report.image_url}" alt="${report.title}">`
+    : `<div class="empty-state">当前产品还没有可展示的图片。</div>`;
+
+  hero.innerHTML = `
+    <div class="product-hero-copy">
+      <p class="kicker">Product Spotlight</p>
+      <h2>${report.title}</h2>
+      <p class="product-hero-note">${report.card_description || report.subtitle || report.asin_text}</p>
+      <div class="product-hero-meta">${report.primary_asin || report.brand} · ${report.brand_line || report.report_label || ""}</div>
+    </div>
+    <div class="product-hero-media">
+      ${imageMarkup}
+    </div>
+  `;
+
+  panel.innerHTML = `
+    <div class="product-image-panel">
+      ${imageMarkup}
+      <div class="product-image-caption">${report.card_meta || report.product_tag || report.brand}</div>
+    </div>
+  `;
 }
 
 function buildSummary(report) {
@@ -396,6 +426,7 @@ function renderReportView(payload) {
 
   buildChooser(filtered, report.report_id);
   buildSummary(report);
+  buildProductImage(report);
   buildHeroStats(report);
   buildInsights(report);
   buildTrackingLinks(report);
@@ -411,6 +442,7 @@ function renderReportView(payload) {
     if (!next) return;
     buildChooser(filtered, next.report_id);
     buildSummary(next);
+    buildProductImage(next);
     buildHeroStats(next);
     buildInsights(next);
     buildTrackingLinks(next);

@@ -43,6 +43,20 @@ function renderRacebox(payload) {
   const peakDay = dailyRows.reduce((max, row) => (row.sales > (max?.sales || -1) ? row : max), null);
 
   document.getElementById("racebox-last-updated").textContent = payload.refreshStatus.lastUpdated;
+  const imageMarkup = report.image_url
+    ? `<img class="product-showcase-image" src="${report.image_url}" alt="${report.title}">`
+    : `<div class="empty-state">当前产品还没有可展示的图片。</div>`;
+  document.getElementById("racebox-hero-card").innerHTML = `
+    <div class="product-hero-copy">
+      <p class="kicker">Product Spotlight</p>
+      <h2>${report.title}</h2>
+      <p class="product-hero-note">${report.card_description || report.subtitle || report.asin_text}</p>
+      <div class="product-hero-meta">${report.primary_asin || report.brand} · ${report.card_meta || report.product_tag || report.brand}</div>
+    </div>
+    <div class="product-hero-media">
+      ${imageMarkup}
+    </div>
+  `;
   document.getElementById("racebox-summary").innerHTML = `
     <article class="summary-card">
       <div class="kicker">April Sales</div>
@@ -178,6 +192,12 @@ function renderRacebox(payload) {
   `;
 
   const sync = report.seller_sprite;
+  document.getElementById("racebox-image-panel").innerHTML = `
+    <div class="product-image-panel">
+      ${imageMarkup}
+      <div class="product-image-caption">${report.card_meta || report.product_tag || report.brand}</div>
+    </div>
+  `;
   document.getElementById("racebox-sync-status").innerHTML = sync.items.map((item) => `
     <div class="tracking-item">
       <strong>${item.label}</strong>

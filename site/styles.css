@@ -309,11 +309,28 @@ h3 {
 }
 
 .product-chip {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   padding: 14px 18px;
   border-radius: 999px;
   background: var(--panel-soft);
   border: 1px solid var(--line);
   cursor: pointer;
+}
+
+.product-thumb {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  object-fit: cover;
+  background: #fff;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+
+.product-chip-copy {
+  min-width: 0;
 }
 
 .product-chip.active {
@@ -330,6 +347,58 @@ h3 {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
+}
+
+.product-hero-card {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+  padding: 24px 26px;
+  background: linear-gradient(135deg, rgba(93, 132, 241, 0.08), rgba(47, 143, 131, 0.08));
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow);
+}
+
+.product-hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-hero-note {
+  margin: 12px 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.product-hero-meta {
+  margin-top: 14px;
+  font-family: "Manrope", sans-serif;
+  color: var(--ink);
+}
+
+.product-hero-media,
+.product-image-panel {
+  display: grid;
+  gap: 14px;
+  justify-items: center;
+}
+
+.product-showcase-image {
+  width: min(100%, 320px);
+  max-height: 320px;
+  object-fit: contain;
+  border-radius: 24px;
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 18px;
+}
+
+.product-image-caption {
+  text-align: center;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 .daily-sales-section {
@@ -533,6 +602,7 @@ canvas {
 
 @media (max-width: 1200px) {
   .home-layout,
+  .product-hero-card,
   .daily-sales-section,
   .visual-grid,
   .detail-columns {
