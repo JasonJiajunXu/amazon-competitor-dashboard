@@ -6,6 +6,8 @@
 
 - `data/`
   - 抽取后的结构化数据
+  - `sellersprite_status.json` 保存 SellerSprite 跟踪配置和同步状态
+  - `sellersprite_daily.json` 保存近 14 日 SellerSprite 日销量样例/快照
 - `site/`
   - 前端看板页面
 - `scripts/extract_competitor_reports.py`
@@ -39,12 +41,13 @@
 
 - `/Users/jasonjiajunxu/Desktop/04.10竞品调研.html`
 
-## 以后怎么自动更新
+## SellerSprite 每日更新
 
-如果你后面要接你的亚马逊 API，推荐这样做：
+现在这套站点已经预留好了 SellerSprite 的同步位：
 
-1. 新增一个拉 API 的脚本，生成 `data/dashboard.json`
-2. 用 GitHub Actions 定时运行
-3. 每次更新后自动重新部署 Pages
+1. 在 `data/sellersprite_status.json` 里维护要跟踪的 ASIN 和市场
+2. 每天刷新 `data/sellersprite_daily.json`
+3. 同步更新 `data/refresh_status.json`
+4. 推送到 GitHub 后，Pages 会自动重新部署
 
 这样网址不变，内容每天自动刷新。

@@ -122,16 +122,22 @@ function buildRefreshStatus(reports, heroRows, seriesRows, statusFile) {
     trackedReportCount: reports.length,
     trackedSeriesCount: seriesRows.length,
     heroCount: heroRows.length,
+    configuredAsinCount: statusFile?.sellerSprite?.configuredAsins || 0,
+    pendingReportCount: statusFile?.sellerSprite?.pendingReports || 0,
+    liveReportCount: statusFile?.sellerSprite?.liveReports || 0,
+    latestDailySnapshot: statusFile?.sellerSprite?.latestDailySnapshot || "",
   };
 }
 
 async function loadDashboardData() {
-  const [reportsCsv, heroCsv, seriesCsv, insightsCsv, statusFile] = await Promise.all([
+  const [reportsCsv, heroCsv, seriesCsv, insightsCsv, statusFile, sellerSpriteStatus, sellerSpriteDaily] = await Promise.all([
     fetch("./data/reports.csv").then((response) => response.text()),
     fetch("./data/hero_stats.csv").then((response) => response.text()),
     fetch("./data/monthly_series.csv").then((response) => response.text()),
     fetch("./data/insights.csv").then((response) => response.text()),
     fetch("./data/refresh_status.json").then((response) => response.json()),
+    fetch("./data/sellersprite_status.json").then((response) => response.json()),
+    fetch("./data/sellersprite_daily.json").then((response) => response.json()),
   ]);
 
   const reportsRaw = csvToObjects(reportsCsv);
@@ -142,6 +148,8 @@ async function loadDashboardData() {
   const heroByReport = {};
   const seriesByReport = {};
   const insightsByReport = {};
+  const sellerSpriteByReport = sellerSpriteStatus?.reports || {};
+  const sellerSpriteDailyByReport = sellerSpriteDaily?.reports || {};
 
   heroRaw.forEach((row) => {
     const item = {
@@ -186,6 +194,13 @@ async function loadDashboardData() {
       series: seriesByReport[row.report_id] || [],
       insights: insightsByReport[row.report_id] || [],
       category: classifyReport(row.report_id),
+      seller_sprite: sellerSpriteByReport[row.report_id] || {
+        status: "unconfigured",
+        sync_label: "未配置",
+        summary: "当前报告还没有 SellerSprite 跟踪配置。",
+        items: [],
+      },
+      seller_sprite_daily: sellerSpriteDailyByReport[row.report_id] || [],
     };
     report.headline_sales =
       report.hero_stats.find((item) => item.value_numeric != null && item.label.includes("销量"))?.value_numeric ?? null;
@@ -198,5 +213,9 @@ async function loadDashboardData() {
     reports,
     refreshStatus: buildRefreshStatus(reports, heroRaw, seriesRaw, statusFile),
     viewConfig: getViewConfig(),
+    sellerSpriteMeta: {
+      generatedAt: sellerSpriteStatus?.generatedAt || "",
+      latestDailySnapshot: sellerSpriteDaily?.latestSnapshotDate || "",
+    },
   };
 }

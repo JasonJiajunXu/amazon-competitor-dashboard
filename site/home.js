@@ -24,7 +24,9 @@ function renderHome(payload) {
   document.getElementById("last-updated").textContent = refreshStatus.lastUpdated;
   document.getElementById("last-updated-note").textContent = refreshStatus.note;
   document.getElementById("tracked-report-count").textContent = refreshStatus.trackedReportCount;
+  document.getElementById("configured-asin-count").textContent = refreshStatus.configuredAsinCount;
   document.getElementById("tracked-series-count").textContent = refreshStatus.trackedSeriesCount;
+  document.getElementById("pending-report-count").textContent = refreshStatus.pendingReportCount;
   document.getElementById("refresh-log").innerHTML = refreshStatus.logs
     .map(
       (item) => `

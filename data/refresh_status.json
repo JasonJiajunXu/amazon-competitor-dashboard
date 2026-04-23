@@ -1,21 +1,27 @@
 {
-  "lastUpdated": "2026/04/23 16:42",
-  "note": "当前是历史竞品整理版，下一步接入 SellerSprite 每日销量更新。",
+  "lastUpdated": "2026/04/23 18:55",
+  "note": "入口页和详情页已经接好 SellerSprite 同步位，Garmin R10 已有日销量样例，其余产品等待每日自动刷新任务写入。",
+  "sellerSprite": {
+    "configuredAsins": 9,
+    "pendingReports": 1,
+    "liveReports": 1,
+    "latestDailySnapshot": "2026-04-23"
+  },
   "logs": [
     {
-      "time": "2026/04/23 16:42",
-      "tag": "Amazon",
-      "description": "竞品历史数据已整理为入口页 + 详情页结构。"
+      "time": "2026/04/23 18:55",
+      "tag": "SellerSprite",
+      "description": "9 个 ASIN 已进入同步配置，Garmin R10 已接入近 14 日日销量样例。"
     },
     {
-      "time": "2026/04/23 16:42",
+      "time": "2026/04/23 18:55",
       "tag": "UI",
-      "description": "图表已改为所有关键数值直接显示，不依赖 hover。"
+      "description": "详情页新增 SellerSprite 状态区、近 14 日销量趋势和明细表。"
     },
     {
-      "time": "2026/04/23 16:42",
+      "time": "2026/04/23 18:55",
       "tag": "Next",
-      "description": "下一步将把 SellerSprite 产品同步和每日自动刷新接上。"
+      "description": "下一步会把每日自动刷新任务挂上，并持续回写站点数据文件。"
     }
   ]
 }

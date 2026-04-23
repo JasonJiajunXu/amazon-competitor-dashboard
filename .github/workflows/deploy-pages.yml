@@ -34,6 +34,8 @@ jobs:
           cp data/monthly_series.csv dist/data/monthly_series.csv
           cp data/insights.csv dist/data/insights.csv
           cp data/refresh_status.json dist/data/refresh_status.json
+          cp data/sellersprite_status.json dist/data/sellersprite_status.json
+          cp data/sellersprite_daily.json dist/data/sellersprite_daily.json
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

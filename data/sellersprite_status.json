@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026/04/23 18:55",
+  "reports": {
+    "racebox": {
+      "status": "configured",
+      "sync_label": "已配置",
+      "summary": "已配置 SellerSprite 跟踪入口，后续会按主 ASIN 拉取每日销量。",
+      "items": [
+        {
+          "asin": "B0C8JCB8TZ",
+          "marketplace": "US",
+          "label": "Racebox Mini S",
+          "status": "configured",
+          "status_text": "Configured",
+          "note": "主力 ASIN 已建档，等待自动刷新任务开始写入日销量。"
+        }
+      ]
+    },
+    "bushnell": {
+      "status": "configured",
+      "sync_label": "已配置",
+      "summary": "Bushnell Velocity 已加入每日同步名单。",
+      "items": [
+        {
+          "asin": "B0002X7V1Q",
+          "marketplace": "US",
+          "label": "Bushnell Velocity",
+          "status": "configured",
+          "status_text": "Configured",
+          "note": "后续将按美国站日销量持续更新。"
+        }
+      ]
+    },
+    "tag": {
+      "status": "configured",
+      "sync_label": "已配置",
+      "summary": "TAG ONE Sports Radar 已加入 SellerSprite 同步名单。",
+      "items": [
+        {
+          "asin": "B0F9TSSR69",
+          "marketplace": "US",
+          "label": "TAG ONE",
+          "status": "configured",
+          "status_text": "Configured",
+          "note": "新品日销量会在首次自动刷新后落到页面。"
+        }
+      ]
+    },
+    "garmin_r10": {
+      "status": "live",
+      "sync_label": "已连通",
+      "summary": "Garmin Approach R10 已接入 SellerSprite 日销量样例数据。",
+      "items": [
+        {
+          "asin": "B095QX1FSR",
+          "marketplace": "US",
+          "label": "Garmin Approach R10",
+          "status": "live",
+          "status_text": "Live",
+          "note": "当前已展示最近 14 日 SellerSprite 日销量样例。"
+        }
+      ]
+    },
+    "rapsodo": {
+      "status": "configured",
+      "sync_label": "已配置",
+      "summary": "Rapsodo 双产品线已挂到 SellerSprite 编目里。",
+      "items": [
+        {
+          "asin": "B0F2GPHBLC",
+          "marketplace": "US",
+          "label": "Rapsodo MLM2PRO",
+          "status": "configured",
+          "status_text": "Configured",
+          "note": "旗舰款等待自动刷新任务写入日销量。"
+        },
+        {
+          "asin": "B07T91KFMP",
+          "marketplace": "US",
+          "label": "Rapsodo MLM",
+          "status": "configured",
+          "status_text": "Configured",
+          "note": "经典款等待自动刷新任务写入日销量。"
+        }
+      ]
+    },
+    "garmin_xero": {
+      "status": "pending_identifier",
+      "sync_label": "待补 ASIN",
+      "summary": "这组报告是多经销商聚合款，当前原始文件里没有明确 ASIN，需要补一份 SKU/ASIN 对照表。",
+      "items": [
+        {
+          "asin": "",
+          "marketplace": "US",
+          "label": "Garmin Xero C1 Pro / C2",
+          "status": "pending_identifier",
+          "status_text": "Pending ID",
+          "note": "等补齐 8 个 bundle ASIN 后即可加入 SellerSprite 每日同步。"
+        }
+      ]
+    },
+    "rangecraft": {
+      "status": "configured",
+      "sync_label": "已配置",
+      "summary": "Rangecraft Velocity Pro 已加入 SellerSprite 同步名单。",
+      "items": [
+        {
+          "asin": "B0DZQYB35H",
+          "marketplace": "US",
+          "label": "Rangecraft Velocity Pro",
+          "status": "configured",
+          "status_text": "Configured",
+          "note": "待自动刷新后展示近 14 日日销量。"
+        }
+      ]
+    },
+    "blue_tees": {
+      "status": "configured",
+      "sync_label": "已配置",
+      "summary": "Blue Tees Player+ 已加入 SellerSprite 同步名单。",
+      "items": [
+        {
+          "asin": "B0CF9VQ8PC",
+          "marketplace": "US",
+          "label": "Blue Tees Player+",
+          "status": "configured",
+          "status_text": "Configured",
+          "note": "待自动刷新后展示近 14 日日销量。"
+        }
+      ]
+    },
+    "rapsodo_mlm": {
+      "status": "configured",
+      "sync_label": "已配置",
+      "summary": "Rapsodo MLM 已加入 SellerSprite 同步名单。",
+      "items": [
+        {
+          "asin": "B07T91KFMP",
+          "marketplace": "US",
+          "label": "Rapsodo MLM",
+          "status": "configured",
+          "status_text": "Configured",
+          "note": "待自动刷新后展示近 14 日日销量。"
+        }
+      ]
+    }
+  }
+}

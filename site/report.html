@@ -39,6 +39,27 @@
 
       <section class="summary-strip" id="summary-strip"></section>
 
+      <section class="daily-sales-section">
+        <article class="visual-card">
+          <div class="visual-head">
+            <div>
+              <p class="kicker">SellerSprite Daily</p>
+              <h3>近 14 日销量趋势</h3>
+            </div>
+          </div>
+          <div class="daily-strip" id="daily-strip"></div>
+          <canvas id="daily-chart"></canvas>
+        </article>
+
+        <article class="detail-card">
+          <div class="panel-heading compact">
+            <p class="kicker">Daily Breakdown</p>
+            <h2>近 14 日销量明细</h2>
+          </div>
+          <div class="table-wrap" id="daily-table"></div>
+        </article>
+      </section>
+
       <section class="visual-grid">
         <article class="visual-card">
           <div class="visual-head">
@@ -90,7 +111,7 @@
           <section class="detail-card">
             <div class="panel-heading compact">
               <p class="kicker">Sync Queue</p>
-              <h2>SellerSprite 对接名单</h2>
+              <h2>SellerSprite 同步状态</h2>
             </div>
             <div id="tracking-links"></div>
           </section>

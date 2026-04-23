@@ -1,5 +1,6 @@
 let salesChart;
 let secondaryChart;
+let dailyChart;
 
 function formatCompact(value) {
   if (value == null || Number.isNaN(value)) return "-";
@@ -51,6 +52,8 @@ function buildChooser(reports, activeReportId) {
 }
 
 function buildSummary(report) {
+  const syncState = report.seller_sprite?.status === "live" ? "已连通" : report.seller_sprite?.sync_label || "待接入";
+  const syncNote = report.seller_sprite?.summary || "本页已经预留产品同步名单，下一步连每日更新。";
   const cards = [
     {
       label: "主销量指标",
@@ -69,8 +72,8 @@ function buildSummary(report) {
     },
     {
       label: "SellerSprite 状态",
-      value: "待接入",
-      note: "本页已经预留产品同步名单，下一步连每日更新。",
+      value: syncState,
+      note: syncNote,
     },
   ];
 
@@ -115,19 +118,108 @@ function buildInsights(report) {
 }
 
 function buildTrackingLinks(report) {
-  const asins = [...new Set((report.asin_text.match(/\b[A-Z0-9]{10}\b/g) || []))];
-  const items = asins.length > 0 ? asins : [report.primary_asin].filter(Boolean);
+  const items = report.seller_sprite?.items || [];
+  if (items.length === 0) {
+    document.getElementById("tracking-links").innerHTML = `
+      <div class="tracking-item empty">
+        <strong>还没有 SellerSprite 跟踪项</strong>
+        <p>这份报告暂时没有绑定 ASIN 或市场，后续补齐后就能进入每天自动刷新。</p>
+        <div class="tracking-tag pending">Pending setup</div>
+      </div>
+    `;
+    return;
+  }
+
   document.getElementById("tracking-links").innerHTML = items
     .map(
-      (asin) => `
+      (item) => `
         <div class="tracking-item">
-          <strong>${asin}</strong>
-          <p>${report.title} 已纳入 SellerSprite 同步名单。下一步会把这些 ASIN 接到每日自动刷新脚本。</p>
-          <div class="tracking-tag">Ready for daily sync</div>
+          <strong>${item.label || item.asin || "待补充"}</strong>
+          <p>${item.marketplace || "-"} · ${item.asin || "待补 ASIN"} · ${item.note || "已加入 SellerSprite 同步名单。"}</p>
+          <div class="tracking-tag ${item.status || "configured"}">${item.status_text || item.status || "Configured"}</div>
         </div>
       `,
     )
     .join("");
+}
+
+function buildDailyStrip(report) {
+  const rows = report.seller_sprite_daily || [];
+  if (rows.length === 0) {
+    document.getElementById("daily-strip").innerHTML = `
+      <div class="daily-metric empty-state">
+        <strong>等待首次自动刷新</strong>
+        <span>SellerSprite 每日销量数据会在自动任务首次跑完后显示到这里。</span>
+      </div>
+    `;
+    return;
+  }
+
+  const latest = rows[rows.length - 1];
+  const total = rows.reduce((sum, row) => sum + (row.sales || 0), 0);
+  const revenue = rows.reduce((sum, row) => sum + (row.amount || 0), 0);
+  const averagePrice = rows.reduce((sum, row) => sum + (row.price || 0), 0) / rows.length;
+
+  document.getElementById("daily-strip").innerHTML = `
+    <div class="daily-metric">
+      <span>最近日期</span>
+      <strong>${latest.date}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>14 日累计销量</span>
+      <strong>${total}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>14 日累计销售额</span>
+      <strong>$${formatCompact(revenue)}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>14 日均价</span>
+      <strong>$${Math.round(averagePrice)}</strong>
+    </div>
+  `;
+}
+
+function buildDailyTable(report) {
+  const rows = report.seller_sprite_daily || [];
+  if (rows.length === 0) {
+    document.getElementById("daily-table").innerHTML = `
+      <div class="empty-state">
+        SellerSprite 日销量明细会在首次自动刷新后出现在这里。
+      </div>
+    `;
+    return;
+  }
+
+  const body = [...rows]
+    .reverse()
+    .map(
+      (row) => `
+        <tr>
+          <td>${row.date}</td>
+          <td>${row.sales}</td>
+          <td>$${row.amount.toLocaleString()}</td>
+          <td>$${row.price}</td>
+          <td>${row.bsr.toLocaleString()}</td>
+        </tr>
+      `,
+    )
+    .join("");
+
+  document.getElementById("daily-table").innerHTML = `
+    <table>
+      <thead>
+        <tr>
+          <th>日期</th>
+          <th>销量</th>
+          <th>销售额</th>
+          <th>价格</th>
+          <th>BSR</th>
+        </tr>
+      </thead>
+      <tbody>${body}</tbody>
+    </table>
+  `;
 }
 
 function buildMonthlyTable(report) {
@@ -236,6 +328,58 @@ function renderCharts(report) {
     },
     plugins: [createValueLabelPlugin()],
   });
+
+  const dailyRows = report.seller_sprite_daily || [];
+  if (dailyChart) dailyChart.destroy();
+  const dailyCanvas = document.getElementById("daily-chart");
+
+  if (dailyRows.length === 0) {
+    const ctx = dailyCanvas.getContext("2d");
+    ctx.clearRect(0, 0, dailyCanvas.width, dailyCanvas.height);
+    return;
+  }
+
+  dailyChart = new Chart(dailyCanvas, {
+    data: {
+      labels: dailyRows.map((row) => row.date.slice(5)),
+      datasets: [
+        {
+          type: "bar",
+          label: "日销量",
+          data: dailyRows.map((row) => row.sales),
+          backgroundColor: report.theme_color || "#5d84f1",
+          borderRadius: 8,
+          yAxisID: "y",
+        },
+        {
+          type: "line",
+          label: "价格",
+          data: dailyRows.map((row) => row.price),
+          borderColor: "#b38322",
+          backgroundColor: "rgba(179,131,34,0.16)",
+          yAxisID: "y1",
+          tension: 0.25,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { position: "top", labels: { usePointStyle: true } },
+        tooltip: { enabled: false },
+      },
+      scales: {
+        x: { grid: { display: false } },
+        y: { beginAtZero: true },
+        y1: {
+          position: "right",
+          grid: { drawOnChartArea: false },
+          beginAtZero: false,
+        },
+      },
+    },
+    plugins: [createValueLabelPlugin()],
+  });
 }
 
 function renderReportView(payload) {
@@ -255,6 +399,8 @@ function renderReportView(payload) {
   buildHeroStats(report);
   buildInsights(report);
   buildTrackingLinks(report);
+  buildDailyStrip(report);
+  buildDailyTable(report);
   buildMonthlyTable(report);
   renderCharts(report);
 
@@ -268,6 +414,8 @@ function renderReportView(payload) {
     buildHeroStats(next);
     buildInsights(next);
     buildTrackingLinks(next);
+    buildDailyStrip(next);
+    buildDailyTable(next);
     buildMonthlyTable(next);
     renderCharts(next);
   });
