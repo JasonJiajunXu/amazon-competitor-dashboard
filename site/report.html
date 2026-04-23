@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>销量看板详情</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+</head>
+<body class="report-body">
+  <div class="shell">
+    <header class="topbar report-topbar">
+      <div class="brand-lockup">
+        <a class="back-link" href="./index.html">返回入口</a>
+        <div>
+          <p class="topbar-label" id="view-label">Amazon Sales Dashboard</p>
+          <h1 id="view-title">加载中</h1>
+        </div>
+      </div>
+      <div class="topbar-meta">
+        <div class="meta-badge">
+          <span>最近刷新</span>
+          <strong id="report-last-updated">-</strong>
+        </div>
+      </div>
+    </header>
+
+    <main class="report-layout">
+      <section class="selector-panel">
+        <div class="panel-heading compact">
+          <p class="kicker">Products</p>
+          <h2>产品入口</h2>
+        </div>
+        <div class="product-chooser" id="product-chooser"></div>
+      </section>
+
+      <section class="summary-strip" id="summary-strip"></section>
+
+      <section class="visual-grid">
+        <article class="visual-card">
+          <div class="visual-head">
+            <div>
+              <p class="kicker">Visible Values</p>
+              <h3>月度销量趋势</h3>
+            </div>
+          </div>
+          <canvas id="sales-chart"></canvas>
+        </article>
+
+        <article class="visual-card">
+          <div class="visual-head">
+            <div>
+              <p class="kicker">Visible Values</p>
+              <h3>收入 / 价格 / 结构</h3>
+            </div>
+          </div>
+          <canvas id="secondary-chart"></canvas>
+        </article>
+      </section>
+
+      <section class="detail-columns">
+        <article class="detail-card wide">
+          <div class="panel-heading compact">
+            <p class="kicker">Monthly Breakdown</p>
+            <h2>月度数据明细</h2>
+          </div>
+          <div class="table-wrap" id="monthly-table"></div>
+        </article>
+
+        <aside class="detail-sidebar">
+          <section class="detail-card">
+            <div class="panel-heading compact">
+              <p class="kicker">Snapshot</p>
+              <h2>关键指标</h2>
+            </div>
+            <div id="hero-stats"></div>
+          </section>
+
+          <section class="detail-card">
+            <div class="panel-heading compact">
+              <p class="kicker">Insight</p>
+              <h2>一眼能看懂的结论</h2>
+            </div>
+            <div id="insights"></div>
+          </section>
+
+          <section class="detail-card">
+            <div class="panel-heading compact">
+              <p class="kicker">Sync Queue</p>
+              <h2>SellerSprite 对接名单</h2>
+            </div>
+            <div id="tracking-links"></div>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <script src="./data-loader.js"></script>
+  <script src="./report.js"></script>
+</body>
+</html>

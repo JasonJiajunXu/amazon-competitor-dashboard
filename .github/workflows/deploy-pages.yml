@@ -33,6 +33,7 @@ jobs:
           cp data/hero_stats.csv dist/data/hero_stats.csv
           cp data/monthly_series.csv dist/data/monthly_series.csv
           cp data/insights.csv dist/data/insights.csv
+          cp data/refresh_status.json dist/data/refresh_status.json
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

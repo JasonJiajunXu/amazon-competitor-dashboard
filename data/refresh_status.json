@@ -1,0 +1,21 @@
+{
+  "lastUpdated": "2026/04/23 16:42",
+  "note": "当前是历史竞品整理版，下一步接入 SellerSprite 每日销量更新。",
+  "logs": [
+    {
+      "time": "2026/04/23 16:42",
+      "tag": "Amazon",
+      "description": "竞品历史数据已整理为入口页 + 详情页结构。"
+    },
+    {
+      "time": "2026/04/23 16:42",
+      "tag": "UI",
+      "description": "图表已改为所有关键数值直接显示，不依赖 hover。"
+    },
+    {
+      "time": "2026/04/23 16:42",
+      "tag": "Next",
+      "description": "下一步将把 SellerSprite 产品同步和每日自动刷新接上。"
+    }
+  ]
+}
