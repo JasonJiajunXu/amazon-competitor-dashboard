@@ -1,0 +1,37 @@
+report_id,position,label,value_text,value_numeric,subtext,tone
+racebox,1,全球总销量 (件),"2,620",2620.0,12 个月累计,default
+racebox,2,峰值月销量 (12月),376,376.0,环比 +60%,default
+racebox,3,美国站年销售额,$273K,273000.0,核心市场 · 49.5%,default
+racebox,4,德国站年销售额,€145K,145000.0,欧洲第一 · 仅 1 款 ASIN,default
+bushnell,1,2025 全年销量,"18,000",18000.0,"月均 1,500 件",default
+bushnell,2,2025 全年销售额,$2.31M,2310000.0,均价 $128,default
+bushnell,3,峰值月销量 (07),"2,032",2032.0,含 Prime Day 大促,default
+bushnell,4,2026 Q1 vs 2025 Q1,-32%,,销量同比下滑,warn
+tag,1,累计销量 (件),"1,716",1716.0,9 个月销售期,default
+tag,2,累计销售额,$482K,482000.0,均价 $281,default
+tag,3,峰值月销 (2025-12),496,496.0,圣诞季爆发,default
+tag,4,类目 BSR,#35,,Baseball Pitching Trainers,default
+garmin_r10,1,2025 美国销量,"14,320",14320.0,"月均 1,193 件",default
+garmin_r10,2,2025 美国销售额,$6.66M,6660000.0,均价 $465,default
+garmin_r10,3,峰值月销量 (11月),"2,563",2563.0,含黑五大促,default
+garmin_r10,4,2026 Q1 vs 2025 Q1,+34%,,3 月降价驱动,default
+rapsodo,1,MLM2PRO 2025 销量,"7,272",7272.0,$5.10M · 67.5% 占比,default
+rapsodo,2,MLM 2025 销量,"9,650",9650.0,$2.45M · 32.5% 占比,default
+rapsodo,3,两款产品价位,$700 vs $250,,2.8 倍价差,default
+rapsodo,4,合计 2025 销售额,$7.55M,7550000.0,高尔夫品类强势,default
+garmin_xero,1,C1 Pro 累计销量,"6,863",6863.0,5 个 ASIN bundle 聚合,default
+garmin_xero,2,C1 Pro 累计销售额,$3.51M,3510000.0,综合均价 $512,default
+garmin_xero,3,C2 累计销量,518,518.0,3 个 ASIN · 3 个月,default
+garmin_xero,4,C1+C2 合计销售额,$3.87M,3870000.0,全产品线总 GMV,default
+rangecraft,1,累计销量 (件),"5,505",5505.0,11 个月销售期,default
+rangecraft,2,累计销售额,$2.20M,2200000.0,均价 $399,default
+rangecraft,3,峰值月销 (2025-12),880,880.0,圣诞旺季,default
+rangecraft,4,类目 BSR (Gun Sights),#100,,#1 New Release,default
+blue_tees,1,累计销量（件）,"32,458",32458.0,14 个月跟踪窗口,default
+blue_tees,2,累计销售额,$6.10M,6100000.0,均价 $188,default
+blue_tees,3,峰值月销（12 月）,"7,302",7302.0,圣诞礼物季暴击,default
+blue_tees,4,Golf Course GPS Units,#1,,Best Seller 徽章,default
+rapsodo_mlm,1,累计销量（件）,"10,560",10560.0,14 个月跟踪窗口,default
+rapsodo_mlm,2,累计销售额,$2.74M,2740000.0,均价 $259,default
+rapsodo_mlm,3,峰值月销（12 月）,"1,525",1525.0,圣诞降价促销,default
+rapsodo_mlm,4,累计评论数,"3,145",3145.0,6 年长尾护城河,default

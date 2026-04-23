@@ -1,0 +1,3205 @@
+{
+  "generated_from": "/Users/jasonjiajunxu/Desktop/04.10竞品调研.html",
+  "report_count": 9,
+  "series_count": 336,
+  "reports": [
+    {
+      "report_id": "racebox",
+      "brand": "RACEBOX",
+      "brand_since": "🏎️ GPS Performance Meter · Since 2017",
+      "report_label": "Brand-Wide Annual Report · 4 ASINs · 5 Markets",
+      "title": "Racebox",
+      "subtitle": "2025 Global Sales Dashboard",
+      "asin_text": "主力 ASIN: B0C8JCB8TZ (Mini S) · Automotive Speedometers",
+      "primary_asin": "B0C8JCB8TZ",
+      "asin_count": 1,
+      "image_url": "https://m.media-amazon.com/images/I/41YyvSYEE5L._AC_SR600,600_.jpg",
+      "product_tag": "★ 4.5 · 131 reviews · $269.99",
+      "theme_color": "#e63946",
+      "brand_line": "RACEBOX · 4 ASINs",
+      "card_title": "Racebox 全线产品",
+      "card_meta": "Mini S · Micro · Mini · 10Hz",
+      "card_description": "赛车 GPS 测速记录器品牌全线 ASIN 销量调研，覆盖美/德/英/法/加 5 个市场。",
+      "headline_metric_1_label": "2025 销量",
+      "headline_metric_1_value": "2,620",
+      "headline_metric_2_label": "全球分布",
+      "headline_metric_2_value": "5 国",
+      "headline_sales": 2620.0,
+      "headline_revenue": null,
+      "hero_stats": [
+        {
+          "report_id": "racebox",
+          "position": 1,
+          "label": "全球总销量",
+          "value_text": "2,620",
+          "value_numeric": 2620.0
+        },
+        {
+          "report_id": "racebox",
+          "position": 2,
+          "label": "覆盖站点",
+          "value_text": "5 国",
+          "value_numeric": 5.0
+        },
+        {
+          "report_id": "racebox",
+          "position": 3,
+          "label": "在售产品",
+          "value_text": "4 款",
+          "value_numeric": 4.0
+        },
+        {
+          "report_id": "racebox",
+          "position": 4,
+          "label": "月均销量",
+          "value_text": "220",
+          "value_numeric": 220.0
+        }
+      ],
+      "series": [
+        {
+          "report_id": "racebox",
+          "period_label": "1月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 58
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "2月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 52
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "3月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 88
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "4月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 100
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "5月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 119
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "6月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 106
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "7月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 71
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "8月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 81
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "9月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 119
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "10月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 79
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "11月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 121
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "12月",
+          "series_name": "US",
+          "metric_kind": "segment_units",
+          "value": 256
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "1月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 65
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "2月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 70
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "3月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 63
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "4月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 69
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "5月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 66
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "6月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 55
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "7月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 53
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "8月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 58
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "9月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 49
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "10月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 74
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "11月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 55
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "12月",
+          "series_name": "DE",
+          "metric_kind": "segment_units",
+          "value": 66
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "1月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 22
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "2月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 23
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "3月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 33
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "4月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 33
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "5月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 21
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "6月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 13
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "7月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 33
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "8月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 34
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "9月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 36
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "10月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 30
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "11月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 46
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "12月",
+          "series_name": "UK",
+          "metric_kind": "segment_units",
+          "value": 41
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "1月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 25
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "2月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 10
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "3月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 23
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "4月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 28
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "5月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 27
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "6月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 34
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "7月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 28
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "8月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 27
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "9月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 22
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "10月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 12
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "11月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 13
+        },
+        {
+          "report_id": "racebox",
+          "period_label": "12月",
+          "series_name": "FR",
+          "metric_kind": "segment_units",
+          "value": 13
+        }
+      ],
+      "insights": [
+        {
+          "report_id": "racebox",
+          "position": 1,
+          "title": "德国站增长机会",
+          "body": "DE 站仅凭 Mini S 一款产品年销 743 件，若将 Micro 和 10Hz 上架至 DE 站，预计可再增 300+ 件/年。"
+        },
+        {
+          "report_id": "racebox",
+          "position": 2,
+          "title": "法国站持续下滑",
+          "body": "FR 站从 6 月的 34 件/月下滑至 Q4 仅 13 件/月，需检查定价竞争力、广告投放及 Listing 本地化。"
+        },
+        {
+          "report_id": "racebox",
+          "position": 3,
+          "title": "12 月旺季效应",
+          "body": "12 月全球销量 376 件，环比增长 60%，主要由 US 圣诞礼品需求驱动。建议提前备货 Q4。"
+        },
+        {
+          "report_id": "racebox",
+          "position": 4,
+          "title": "亚太空白市场",
+          "body": "日本、澳大利亚均未布局。JP 站赛车文化成熟，建议优先测试 Mini S 和 Micro 两款产品。"
+        },
+        {
+          "report_id": "racebox",
+          "position": 5,
+          "title": "10Hz 高客单价优势",
+          "body": "10Hz Official 虽然销量仅占 US 站 29%，但凭 $330+ 均价贡献 47% 的销售额 ($127K)。"
+        },
+        {
+          "report_id": "racebox",
+          "position": 6,
+          "title": "季节性运营策略",
+          "body": "1-2 月全球淡季仅 155-170 件/月，可利用此期优化 Listing、储备库存、降低广告成本。"
+        }
+      ]
+    },
+    {
+      "report_id": "bushnell",
+      "brand": "BUSHNELL",
+      "brand_since": "⚾ Speed Gun · Since 1948 · Optics & Outdoor",
+      "report_label": "Single Product Sales Report",
+      "title": "Velocity",
+      "subtitle": "Speed Gun · Annual Performance",
+      "asin_text": "ASIN: B0002X7V1Q · Sports Speed & Agility Training",
+      "primary_asin": "B0002X7V1Q",
+      "asin_count": 1,
+      "image_url": "https://m.media-amazon.com/images/I/31kiYPayQwL._AC_US600_.jpg",
+      "product_tag": "★ 4.3 · 4,587 reviews",
+      "theme_color": "#ffb703",
+      "brand_line": "BUSHNELL · B0002X7V1Q",
+      "card_title": "Bushnell Velocity",
+      "card_meta": "$120-150 · ★4.3 · 4,587 reviews",
+      "card_description": "经典棒球速度枪 (2014年上架)，Sports Speed & Agility 类目 #11，年销 18,000+ 件常青款。",
+      "headline_metric_1_label": "2025 销量",
+      "headline_metric_1_value": "18,000",
+      "headline_metric_2_label": "2025 销售额",
+      "headline_metric_2_value": "$2.31M",
+      "headline_sales": 18000.0,
+      "headline_revenue": 2310000.0,
+      "hero_stats": [
+        {
+          "report_id": "bushnell",
+          "position": 1,
+          "label": "2025 总销量",
+          "value_text": "18,000",
+          "value_numeric": 18000.0
+        },
+        {
+          "report_id": "bushnell",
+          "position": 2,
+          "label": "2025 总销售额",
+          "value_text": "$2.31M",
+          "value_numeric": 2310000.0
+        },
+        {
+          "report_id": "bushnell",
+          "position": 3,
+          "label": "2026 至今销量",
+          "value_text": "3,487",
+          "value_numeric": 3487.0
+        },
+        {
+          "report_id": "bushnell",
+          "position": 4,
+          "label": "2026 至今销售额",
+          "value_text": "$507K",
+          "value_numeric": 507000.0
+        }
+      ],
+      "series": [
+        {
+          "report_id": "bushnell",
+          "period_label": "25/01",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1024
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/02",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1073
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/03",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1640
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/04",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1762
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/05",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1966
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/06",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1854
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/07",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 2032
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/08",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 957
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/09",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1224
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/10",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1343
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/11",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1602
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/12",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1523
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/01",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 846
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/02",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 887
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/03",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1319
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/04*",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 435
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/01",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 115702
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/02",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 123470
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/03",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 187118
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/04",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 204156
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/05",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 234086
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/06",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 244208
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/07",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 252144
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/08",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 162820
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/09",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 154061
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/10",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 187164
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/11",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 211612
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/12",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 232985
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/01",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 126866
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/02",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 133015
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/03",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 187143
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/04*",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 59624
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/01",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 113
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/02",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 115
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/03",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 116
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/04",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 116
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/05",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 119
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/06",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 135
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/07",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 128
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/08",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 170
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/09",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 127
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/10",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 144
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/11",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 142
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "25/12",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 152
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/01",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 150
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/02",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 150
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/03",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 145
+        },
+        {
+          "report_id": "bushnell",
+          "period_label": "26/04*",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 137
+        }
+      ],
+      "insights": [
+        {
+          "report_id": "bushnell",
+          "position": 1,
+          "title": "稳定的爆款单品",
+          "body": "该 ASIN 自 2014 年上架，至今累计 4,587 个评分（4.3 星），是 Sports Speed & Agility 类目第 11 名，由 Amazon 自营发货，运营极其稳定。"
+        },
+        {
+          "report_id": "bushnell",
+          "position": 2,
+          "title": "春夏运动旺季",
+          "body": "3-7 月销量持续走高，从 1 月 1,024 件增长至 7 月峰值 2,032 件，对应棒球、田径等户外运动赛季，季节性规律明显。"
+        },
+        {
+          "report_id": "bushnell",
+          "position": 3,
+          "title": "8 月异常断崖",
+          "body": "2025 年 8 月销量从 7 月的 2,032 件骤降至 957 件 (-53%)，同期均价从 $128 拉高至 $170，疑似断货或库存调整导致涨价限流。"
+        },
+        {
+          "report_id": "bushnell",
+          "position": 4,
+          "title": "黑五暴击",
+          "body": "2025 年 11 月 28 日（黑五）单日销量达 298 件，11 月最后 4 天累计销量超 650 件，配合 $102 促销价创全年最强单日表现。"
+        },
+        {
+          "report_id": "bushnell",
+          "position": 5,
+          "title": "2026 Q1 同比下滑",
+          "body": "2026 年 1-3 月累计销量 3,052 件，同比 2025 年同期 (3,737 件) 下降 18%。主因是均价从 $115 提升至 $148，价格策略变化抑制了需求。"
+        },
+        {
+          "report_id": "bushnell",
+          "position": 6,
+          "title": "价格敏感型产品",
+          "body": "数据显示该产品价格弹性高：每次降价至 $108 以下都会带动销量暴增（7 月 10 日降价至 $108 当日销量 129 件）。建议旺季前考虑战术性降价。"
+        }
+      ]
+    },
+    {
+      "report_id": "tag",
+      "brand": "TAG SPORTS",
+      "brand_since": "⚾ Multi-Sport Speed Radar · 2025 New Brand",
+      "report_label": "New Product Launch Report · 9 months",
+      "title": "TAG ONE",
+      "subtitle": "Sports Speed Radar · 多用途运动雷达",
+      "asin_text": "ASIN: B0F9TSSR69 · Baseball Pitching Trainers",
+      "primary_asin": "B0F9TSSR69",
+      "asin_count": 1,
+      "image_url": "https://m.media-amazon.com/images/I/41kElE6xIaL._AC_SL1500_.jpg",
+      "product_tag": "★ 4.2 · 54 reviews · $289.99",
+      "theme_color": "#ef4444",
+      "brand_line": "TAG SPORTS · B0F9TSSR69",
+      "card_title": "TAG ONE Sports Radar",
+      "card_meta": "$289.99 · ★4.2 · 54 reviews · 2025/07 上架",
+      "card_description": "棒球/垒球/高尔夫多用途速度雷达。新品 9 个月跑出 1,716 件，27 倍增长曲线。",
+      "headline_metric_1_label": "累计销量",
+      "headline_metric_1_value": "1,716",
+      "headline_metric_2_label": "累计销售额",
+      "headline_metric_2_value": "$482K",
+      "headline_sales": 1716.0,
+      "headline_revenue": 482000.0,
+      "hero_stats": [
+        {
+          "report_id": "tag",
+          "position": 1,
+          "label": "累计销量",
+          "value_text": "1,716",
+          "value_numeric": 1716.0
+        },
+        {
+          "report_id": "tag",
+          "position": 2,
+          "label": "累计销售额",
+          "value_text": "$482K",
+          "value_numeric": 482000.0
+        },
+        {
+          "report_id": "tag",
+          "position": 3,
+          "label": "峰值月销 (12月)",
+          "value_text": "496",
+          "value_numeric": 496.0
+        },
+        {
+          "report_id": "tag",
+          "position": 4,
+          "label": "7→12月增长倍数",
+          "value_text": "27×",
+          "value_numeric": 27.0
+        }
+      ],
+      "series": [
+        {
+          "report_id": "tag",
+          "period_label": "25/07",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 18
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/08",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 56
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/09",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 105
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/10",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 199
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/11",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 291
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/12",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 496
+        },
+        {
+          "report_id": "tag",
+          "period_label": "26/01",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 131
+        },
+        {
+          "report_id": "tag",
+          "period_label": "26/02",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 129
+        },
+        {
+          "report_id": "tag",
+          "period_label": "26/03",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 227
+        },
+        {
+          "report_id": "tag",
+          "period_label": "26/04*",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 64
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/07",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 5220
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/08",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 16240
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/09",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 30450
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/10",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 57710
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/11",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 84390
+        },
+        {
+          "report_id": "tag",
+          "period_label": "25/12",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 143840
+        },
+        {
+          "report_id": "tag",
+          "period_label": "26/01",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 37990
+        },
+        {
+          "report_id": "tag",
+          "period_label": "26/02",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 37410
+        },
+        {
+          "report_id": "tag",
+          "period_label": "26/03",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 65830
+        },
+        {
+          "report_id": "tag",
+          "period_label": "26/04*",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 18560
+        }
+      ],
+      "insights": [
+        {
+          "report_id": "tag",
+          "position": 1,
+          "title": "27 倍爆发增长",
+          "body": "从 7 月 18 件起步，到 12 月 496 件单月——6 个月内增长 27 倍。这种斜率在 $290 客单价的体育品类中相当罕见，反映了 FBA 配送 + 多场景定位 (棒球/垒球/高尔夫) 的组合优势。"
+        },
+        {
+          "report_id": "tag",
+          "position": 2,
+          "title": "圣诞礼品定位精准",
+          "body": "11-12 月销量分别为 291/496 件，对应黑五和圣诞礼品采购旺季。$290 的价位带正好契合\"父母给孩子的运动礼物\"需求场景。"
+        },
+        {
+          "report_id": "tag",
+          "position": 3,
+          "title": "价格刚性极强",
+          "body": "9 个月销售期内售价稳定在 $289.99，从未促销或降价。说明 TAG SPORTS 对自身产品力有信心，不靠价格战换销量。"
+        },
+        {
+          "report_id": "tag",
+          "position": 4,
+          "title": "1-2 月节后冷却",
+          "body": "1 月销量从 12 月的 496 件骤降至 131 件 (-73.6%)，2 月持平 (129 件)。属于典型的\"圣诞礼品后效\"，3 月已开始反弹至 227 件。"
+        },
+        {
+          "report_id": "tag",
+          "position": 5,
+          "title": "评论积累滞后",
+          "body": "1,716 件累计销量却只有 54 条评论 (留评率 3.1%)，明显偏低。说明产品满意度尚未充分沉淀，需要更主动地引导用户留评以提升 listing 权重。"
+        },
+        {
+          "report_id": "tag",
+          "position": 6,
+          "title": "纯美国市场",
+          "body": "100% 销量来自美国，CA/UK/DE/JP 完全未布局。作为新品牌资源有限可以理解，但 2026 年若想突破，加拿大棒球市场是最值得测试的下一站。"
+        }
+      ]
+    },
+    {
+      "report_id": "garmin_r10",
+      "brand": "GARMIN",
+      "brand_since": "⛳ Approach R10 · Portable Golf Launch Monitor",
+      "report_label": "Single Product Sales Report · Global Markets",
+      "title": "Approach R10",
+      "subtitle": "Garmin Golf Launch Monitor · 高尔夫挥杆雷达",
+      "asin_text": "ASIN: B095QX1FSR · Golf Swing Trainers",
+      "primary_asin": "B095QX1FSR",
+      "asin_count": 1,
+      "image_url": "https://m.media-amazon.com/images/I/31R1XdujCjS._AC_SR600,600_.jpg",
+      "product_tag": "★ 4.2 · 1,070 reviews · $399.98",
+      "theme_color": "#00aeef",
+      "brand_line": "GARMIN · B095QX1FSR",
+      "card_title": "Garmin Approach R10",
+      "card_meta": "$399.98 · ★4.2 · 1,070 reviews · Amazon's Choice",
+      "card_description": "Golf Swing Trainers 类目 #5。高尔夫挥杆训练雷达，加拿大市场销量达美国 19% 的特殊案例。",
+      "headline_metric_1_label": "2025 销量",
+      "headline_metric_1_value": "14,320",
+      "headline_metric_2_label": "2025 销售额",
+      "headline_metric_2_value": "$6.66M",
+      "headline_sales": 14320.0,
+      "headline_revenue": 6660000.0,
+      "hero_stats": [
+        {
+          "report_id": "garmin_r10",
+          "position": 1,
+          "label": "2025 美国销量",
+          "value_text": "14,320",
+          "value_numeric": 14320.0
+        },
+        {
+          "report_id": "garmin_r10",
+          "position": 2,
+          "label": "2025 美国销售额",
+          "value_text": "$6.66M",
+          "value_numeric": 6660000.0
+        },
+        {
+          "report_id": "garmin_r10",
+          "position": 3,
+          "label": "2026 至今销量",
+          "value_text": "3,643",
+          "value_numeric": 3643.0
+        },
+        {
+          "report_id": "garmin_r10",
+          "position": 4,
+          "label": "加拿大年销量",
+          "value_text": "2,761",
+          "value_numeric": 2761.0
+        }
+      ],
+      "series": [
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/01",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 980
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/02",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 470
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/03",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 935
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/04",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 517
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/05",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1633
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/06",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1173
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/07",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 676
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/08",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 654
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/09",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 886
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/10",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1441
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/11",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 2563
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/12",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 2392
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "26/01",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 815
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "26/02",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 814
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "26/03",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1571
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "26/04*",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 443
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/01",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 538020
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/02",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 258030
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/03",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 513315
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/04",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 283833
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/05",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 815067
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/06",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 585327
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/07",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 371124
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/08",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 359046
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/09",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 442114
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/10",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 719159
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/11",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 1202047
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "25/12",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 1121848
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "26/01",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 463735
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "26/02",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 463166
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "26/03",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 628400
+        },
+        {
+          "report_id": "garmin_r10",
+          "period_label": "26/04*",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 177200
+        }
+      ],
+      "insights": [
+        {
+          "report_id": "garmin_r10",
+          "position": 1,
+          "title": "类目第 5 名",
+          "body": "在 Golf Swing Trainers 类目排名第 5，是 Amazon's Choice。1,070 条评论积累 4.2 星，作为 $400+ 客单价的设备类产品，已经形成稳固的市场地位。"
+        },
+        {
+          "report_id": "garmin_r10",
+          "position": 2,
+          "title": "2026 年 3 月战略性大降价",
+          "body": "3 月 17 日起售价从 $570 直接降至 $400 (-30%)，立即推动 3 月销量从 814 件跃升至 1,571 件 (+93%)。这是面对 Rapsodo MLM2PRO 等竞品压力的明确应对。"
+        },
+        {
+          "report_id": "garmin_r10",
+          "position": 3,
+          "title": "加拿大占比异常高",
+          "body": "CA 销量约 2,761 件，达到 US 销量的 19.3%，远高于典型 5-8% 的比例。建议加大加拿大市场广告投入，可能是被低估的金矿。"
+        },
+        {
+          "report_id": "garmin_r10",
+          "position": 4,
+          "title": "11-12 月强季节性",
+          "body": "2025 年 11-12 月销量分别 2,563 / 2,392 件，是平均月销 (~1,193) 的 2 倍以上。圣诞礼品 + 室内训练需求叠加。"
+        },
+        {
+          "report_id": "garmin_r10",
+          "position": 5,
+          "title": "2 月异常疲软",
+          "body": "2025/2 月销量仅 470 件 (vs 1 月 980 件，腰斩)，2026/2 月同样疲软 (814 件)。这是高尔夫品类的典型空窗期，需做好淡季运营。"
+        },
+        {
+          "report_id": "garmin_r10",
+          "position": 6,
+          "title": "价格弹性测试明确",
+          "body": "从 $570→$400 的降价，直接带来 +93% 的销量增长，毛利率虽下降但销售总额仍上升。说明 Garmin 在试探\"以价换量\"的最优平衡点。"
+        }
+      ]
+    },
+    {
+      "report_id": "rapsodo",
+      "brand": "RAPSODO",
+      "brand_since": "⛳ Mobile Launch Monitor · Golf Line",
+      "report_label": "Brand Line Report · 2 Golf ASINs (Baseball Off-Amazon)",
+      "title": "Rapsodo Golf",
+      "subtitle": "MLM2PRO + MLM · 高尔夫双产品线",
+      "asin_text": "主力 ASIN: B0F2GPHBLC (MLM2PRO) + B07T91KFMP (MLM)",
+      "primary_asin": "B0F2GPHBLC",
+      "asin_count": 2,
+      "image_url": "https://m.media-amazon.com/images/I/61wZBViBUJL._AC_SL1500_.jpg",
+      "product_tag": "MLM2PRO ★4.5 · 531 reviews · $699.99",
+      "theme_color": "#10b981",
+      "brand_line": "RAPSODO · 2 ASINs 对比",
+      "card_title": "Rapsodo Golf Line",
+      "card_meta": "MLM2PRO ($700) + MLM ($250) 品牌对比",
+      "card_description": "Rapsodo 高尔夫双产品线深度对比。MLM2PRO (旗舰) + MLM (经典)。揭示品牌如何用产品分层覆盖不同预算段用户。棒球产品线未上 Amazon。",
+      "headline_metric_1_label": "2025 合计销量",
+      "headline_metric_1_value": "16,922",
+      "headline_metric_2_label": "2025 合计销售额",
+      "headline_metric_2_value": "$7.55M",
+      "headline_sales": 16922.0,
+      "headline_revenue": 7550000.0,
+      "hero_stats": [
+        {
+          "report_id": "rapsodo",
+          "position": 1,
+          "label": "2025 总销量",
+          "value_text": "16,922",
+          "value_numeric": 16922.0
+        },
+        {
+          "report_id": "rapsodo",
+          "position": 2,
+          "label": "2025 总销售额",
+          "value_text": "$7.55M",
+          "value_numeric": 7550000.0
+        },
+        {
+          "report_id": "rapsodo",
+          "position": 3,
+          "label": "高尔夫产品",
+          "value_text": "2 款",
+          "value_numeric": 2.0
+        },
+        {
+          "report_id": "rapsodo",
+          "position": 4,
+          "label": "Golf GPS Best Seller",
+          "value_text": "#1",
+          "value_numeric": null
+        }
+      ],
+      "series": [
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/01",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/02",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/03",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/04",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 11
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/05",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 661
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/06",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 972
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/07",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 1105
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/08",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 857
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/09",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 766
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/10",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 726
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/11",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 816
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/12",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 1358
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "26/01",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 760
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "26/02",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 618
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "26/03",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 543
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "26/04*",
+          "series_name": "mlm2pro",
+          "metric_kind": "segment_units",
+          "value": 116
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/01",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 539
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/02",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 583
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/03",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 1098
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/04",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 1123
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/05",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 1035
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/06",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 1066
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/07",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 1091
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/08",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 439
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/09",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 360
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/10",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 355
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/11",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 436
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "25/12",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 1525
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "26/01",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 307
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "26/02",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 220
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "26/03",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 323
+        },
+        {
+          "report_id": "rapsodo",
+          "period_label": "26/04*",
+          "series_name": "mlm",
+          "metric_kind": "segment_units",
+          "value": 60
+        }
+      ],
+      "insights": [
+        {
+          "report_id": "rapsodo",
+          "position": 1,
+          "title": "MLM 是 #1 Best Seller",
+          "body": "Rapsodo MLM 在 Golf Course GPS Units 类目稳居 #1 Best Seller，3,145 条评论 + 4.4 星，是该品类的绝对领头羊。靠 6 年的市场积累形成护城河。"
+        },
+        {
+          "report_id": "rapsodo",
+          "position": 2,
+          "title": "双产品线价格分层",
+          "body": "MLM ($250) + MLM2PRO ($700) 形成清晰的价格梯度，覆盖入门和进阶两个细分用户群。MLM2PRO 销量虽然只有 MLM 的 75%，但销售额是后者的 2 倍 ($5.10M vs $2.45M)。"
+        },
+        {
+          "report_id": "rapsodo",
+          "position": 3,
+          "title": "MLM2PRO 起跳极快",
+          "body": "MLM2PRO 4 月上架后，5 月就跑出 661 件 / $463K，到 12 月达到 1,358 件 / $951K 的峰值。短短 9 个月跑出 7,272 件，是新品爬坡的标杆案例。"
+        },
+        {
+          "report_id": "rapsodo",
+          "position": 4,
+          "title": "棒球产品线刻意离开 Amazon",
+          "body": "Rapsodo PRO 3.0 ($4,000)、HITTING 2.0 ($1,200) 等专业棒球设备完全不上 Amazon。这是有意的渠道分层——B2B 棒球走专业经销商和官网，消费级高尔夫走 Amazon。"
+        },
+        {
+          "report_id": "rapsodo",
+          "position": 5,
+          "title": "MLM 8 月断崖",
+          "body": "MLM 8 月销量从 7 月的 1,091 件骤降至 439 件 (-60%)，对应价格从 $250 拉到 $300 的库存调控。说明该产品对价格极度敏感。"
+        },
+        {
+          "report_id": "rapsodo",
+          "position": 6,
+          "title": "纯美国市场",
+          "body": "两款产品 100% 销量来自美国 Amazon，CA/UK/DE/JP 完全未通过 Amazon 销售。Rapsodo 在欧洲和加拿大有官网直销但不进 Amazon——典型的\"渠道分而治之\"策略。"
+        }
+      ]
+    },
+    {
+      "report_id": "garmin_xero",
+      "brand": "GARMIN",
+      "brand_since": "🎯 Xero Chronograph · 100–5,000 FPS · Shooting",
+      "report_label": "Two-Generation Comparison · C1 Pro vs C2",
+      "title": "Xero C1 Pro & C2",
+      "subtitle": "Garmin 弹道测速雷达 销量调研",
+      "asin_text": "聚合 8 个 ASIN · C1 Pro 5 个 bundle + C2 3 个 bundle (同一产品 · 不同 reseller)",
+      "primary_asin": "",
+      "asin_count": 0,
+      "image_url": "https://m.media-amazon.com/images/I/41bhAEaHjHL._AC_SL1500_.jpg",
+      "product_tag": "C1 Pro ★4.8 · 154 reviews · $504.99",
+      "theme_color": "#f97316",
+      "brand_line": "GARMIN · 5+ ASINs",
+      "card_title": "Garmin Xero C1 Pro & C2",
+      "card_meta": "C1 Pro $500 (Gen 1) · C2 $700 (Gen 2)",
+      "card_description": "两代弹道测速雷达对比分析。C2 在 2025/11 发布但延迟到 2026/01 才铺货——经典的换代节奏。",
+      "headline_metric_1_label": "累计销量",
+      "headline_metric_1_value": "7,381",
+      "headline_metric_2_label": "累计销售额",
+      "headline_metric_2_value": "$3.87M",
+      "headline_sales": 5186.0,
+      "headline_revenue": 2750000.0,
+      "hero_stats": [
+        {
+          "report_id": "garmin_xero",
+          "position": 1,
+          "label": "C1 Pro 2025 销量",
+          "value_text": "5,186",
+          "value_numeric": 5186.0
+        },
+        {
+          "report_id": "garmin_xero",
+          "position": 2,
+          "label": "C1 Pro 2025 销售额",
+          "value_text": "$2.75M",
+          "value_numeric": 2750000.0
+        },
+        {
+          "report_id": "garmin_xero",
+          "position": 3,
+          "label": "C2 至今销量",
+          "value_text": "~518",
+          "value_numeric": 518.0
+        },
+        {
+          "report_id": "garmin_xero",
+          "position": 4,
+          "label": "聚合数据源",
+          "value_text": "8 ASINs",
+          "value_numeric": null
+        }
+      ],
+      "series": [
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/03",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 235
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/04",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 301
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/05",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 302
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/06",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 413
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/07",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 707
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/08",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 694
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/09",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 597
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/10",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 618
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/11",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 641
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/12",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 678
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/01",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 514
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/02",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 501
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/03",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 573
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/04*",
+          "series_name": "c1",
+          "metric_kind": "segment_units",
+          "value": 89
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/03",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/04",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/05",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/06",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/07",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/08",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/09",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/10",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/11",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/12",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 0
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/01",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 31
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/02",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 207
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/03",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 230
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/04*",
+          "series_name": "c2",
+          "metric_kind": "segment_units",
+          "value": 50
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/03",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 119700
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/04",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 153200
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/05",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 161500
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/06",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 218500
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/07",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 360500
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/08",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 353300
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/09",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 304500
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/10",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 343900
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/11",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 330600
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "25/12",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 343600
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/01",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 281800
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/02",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 406500
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/03",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 449400
+        },
+        {
+          "report_id": "garmin_xero",
+          "period_label": "26/04*",
+          "series_name": "totalRev",
+          "metric_kind": "revenue",
+          "value": 98400
+        }
+      ],
+      "insights": [
+        {
+          "report_id": "garmin_xero",
+          "position": 1,
+          "title": "C1 Pro 的爆发节点",
+          "body": "2025 年 6 月销量从 254 件跃升至 357 件 (+40.6%)，7 月再翻倍至 669 件，对应美国狩猎季节前夕和 Prime Day 的双重利好。"
+        },
+        {
+          "report_id": "garmin_xero",
+          "position": 2,
+          "title": "C2 上架的策略性延后",
+          "body": "C2 listing 在 2025/11/23 创建，但延迟到 2026/1/26 才开始铺货。Garmin 主动避开了与 C1 Pro 的圣诞节正面竞争——先占位防御，后转产换代。"
+        },
+        {
+          "report_id": "garmin_xero",
+          "position": 3,
+          "title": "C2 起跳速度极快",
+          "body": "C2 从 1 月 24 件到 2 月 156 件再到 3 月 199 件，3 个月爬到接近 C1 Pro 月销的 40%。考虑到 $700 的高客单价和细分品类，这种斜率说明 C2 的产品力被市场快速接受。"
+        },
+        {
+          "report_id": "garmin_xero",
+          "position": 4,
+          "title": "C2 的 40% 溢价被接受",
+          "body": "C2 比 C1 Pro 贵 40% ($700 vs $500)，但消费者并未抗拒。射击类高客单价用户对功能升级的支付意愿强，几百美元的差价不构成决策障碍。"
+        },
+        {
+          "report_id": "garmin_xero",
+          "position": 5,
+          "title": "纯 reseller 销售模型",
+          "body": "Garmin 不在 Amazon 自营，而是通过 6ave、Certified Brands、PlayBetter、GPS City 等多家授权经销商销售。销量自然分散，单一 ASIN 看不出真实规模，必须聚合分析。"
+        },
+        {
+          "report_id": "garmin_xero",
+          "position": 6,
+          "title": "无蚕食并存策略成立",
+          "body": "2026 年 1-3 月，C1 Pro 月销稳定在 400-500 件区间，C2 同步增长。两款产品瞄准的是不同细分用户——休闲射击 vs 进阶玩家。Garmin 的策略是\"双轨并行\"。"
+        }
+      ]
+    },
+    {
+      "report_id": "rangecraft",
+      "brand": "ATHLON OPTICS",
+      "brand_since": "🎯 Rangecraft Velocity Pro · Ballistic Radar",
+      "report_label": "Single Product Report · Garmin Xero 直接竞品",
+      "title": "Rangecraft",
+      "subtitle": "Velocity Pro Radar Chronograph",
+      "asin_text": "ASIN: B0DZQYB35H · Gun Sights · 2025年3月上架",
+      "primary_asin": "B0DZQYB35H",
+      "asin_count": 1,
+      "image_url": "https://m.media-amazon.com/images/I/41a2on9paXL._AC_SL1500_.jpg",
+      "product_tag": "★ 4.8 · 199 reviews · $399.95",
+      "theme_color": "#dc2626",
+      "brand_line": "ATHLON OPTICS · B0DZQYB35H",
+      "card_title": "Rangecraft Velocity Pro",
+      "card_meta": "$399.95 · ★4.8 · 199 reviews · 2025/03 上架",
+      "card_description": "Athlon 切入弹道测速雷达品类的首款产品。8 个月追平 Garmin C1 Pro 1.5 年的销量积累。",
+      "headline_metric_1_label": "累计销量",
+      "headline_metric_1_value": "5,505",
+      "headline_metric_2_label": "累计销售额",
+      "headline_metric_2_value": "$2.20M",
+      "headline_sales": 4458.0,
+      "headline_revenue": 1780000.0,
+      "hero_stats": [
+        {
+          "report_id": "rangecraft",
+          "position": 1,
+          "label": "2025 总销量",
+          "value_text": "4,458",
+          "value_numeric": 4458.0
+        },
+        {
+          "report_id": "rangecraft",
+          "position": 2,
+          "label": "2025 总销售额",
+          "value_text": "$1.78M",
+          "value_numeric": 1780000.0
+        },
+        {
+          "report_id": "rangecraft",
+          "position": 3,
+          "label": "2026 至今销量",
+          "value_text": "1,047",
+          "value_numeric": 1047.0
+        },
+        {
+          "report_id": "rangecraft",
+          "position": 4,
+          "label": "5→12月增长倍数",
+          "value_text": "22×",
+          "value_numeric": 22.0
+        }
+      ],
+      "series": [
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/05",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 39
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/06",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 68
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/07",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 426
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/08",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 589
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/09",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 739
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/10",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 851
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/11",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 866
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/12",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 880
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "26/01",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 389
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "26/02",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 293
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "26/03",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 321
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "26/04*",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 44
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/05",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 16150
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/06",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 27199
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/07",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 170384
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/08",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 235594
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/09",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 295593
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/10",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 340391
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/11",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 346391
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "25/12",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 347400
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "26/01",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 155382
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "26/02",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 117192
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "26/03",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 127024
+        },
+        {
+          "report_id": "rangecraft",
+          "period_label": "26/04*",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 17598
+        }
+      ],
+      "insights": [
+        {
+          "report_id": "rangecraft",
+          "position": 1,
+          "title": "7 月单月翻 6 倍",
+          "body": "从 6 月 68 件直接跳到 7 月 426 件 (+526%)，对应 Prime Day 流量爆发 + 狩猎季前期备货。这种斜率说明市场对 Athlon 这个挑战者的接受度极高——价格优势比品牌信任更重要。"
+        },
+        {
+          "report_id": "rangecraft",
+          "position": 2,
+          "title": "产品力被市场验证",
+          "body": "4.8 ★ 评分 + 199 评论 (留评率 4.5%) 在该品类是顶级水平。对比 Garmin C1 Pro 同期 154 评论，Rangecraft 的评论积累速度反而更快。2.4\" 彩屏命中\"看不清显示\"的用户痛点。"
+        },
+        {
+          "report_id": "rangecraft",
+          "position": 3,
+          "title": "价格刚性极强",
+          "body": "从 5 月到 4 月，售价几乎全程稳定在 $399.95，仅在 12 月圣诞和 3 月底有过短暂的 $350-$379 试探性促销。没有靠降价换销量。"
+        },
+        {
+          "report_id": "rangecraft",
+          "position": 4,
+          "title": "狩猎季驱动明显",
+          "body": "9-12 月连续 4 个月销量稳定在 740-880 区间，对应美国狩猎季 (Sep-Jan)。黑五 11/28 单日 50 件、12/1 单日 59 件，是平日 (~28 件) 的 2 倍。"
+        },
+        {
+          "report_id": "rangecraft",
+          "position": 5,
+          "title": "1-2 月明显回调",
+          "body": "1 月销量从 12 月的 880 件降至 389 件 (-55.8%)，2 月再降至 293 件。属于狩猎季结束后的典型节后冷却。但 3 月已开始反弹至 321 件。"
+        },
+        {
+          "report_id": "rangecraft",
+          "position": 6,
+          "title": "正面挑战 Garmin 成功",
+          "body": "2025 年 Athlon 4,458 件 vs Garmin Xero C1 Pro 5,186 件（聚合 5 个 bundle ASIN 后）——仅落后 14%。Athlon 用 8 个月追到 Garmin 先发 1.5 年的 86%，说明这个品类的\"品牌护城河\"远比想象中浅，价格 + 显示屏差异化即可撬动市场。"
+        }
+      ]
+    },
+    {
+      "report_id": "blue_tees",
+      "brand": "BLUE TEES GOLF",
+      "brand_since": "⛳ Player+ · AI GPS Speaker · #1 Best Seller",
+      "report_label": "Single Product Sales Report · 爆款深度分析",
+      "title": "Blue Tees Player+",
+      "subtitle": "AI-Powered GPS Golf Speaker · 触屏 + 音箱二合一",
+      "asin_text": "ASIN: B0CF9VQ8PC · Golf Course GPS Units · #1 Best Seller",
+      "primary_asin": "B0CF9VQ8PC",
+      "asin_count": 1,
+      "image_url": "https://m.media-amazon.com/images/I/31xEss70gmL._AC_US600_.jpg",
+      "product_tag": "★ 4.5 · 1,517 reviews · $169.98",
+      "theme_color": "#1e90ff",
+      "brand_line": "BLUE TEES GOLF · B0CF9VQ8PC",
+      "card_title": "Blue Tees Player+",
+      "card_meta": "$169.98 · ★4.5 · 1,517 reviews · AI GPS Speaker",
+      "card_description": "Golf Course GPS Units 类目 #1 Best Seller。触屏 GPS + 蓝牙音箱二合一。12 月单月爆卖 7,302 件，$1.42M 销售额——圣诞礼物季的现象级表现。",
+      "headline_metric_1_label": "2025 销量",
+      "headline_metric_1_value": "25,550",
+      "headline_metric_2_label": "2025 销售额",
+      "headline_metric_2_value": "$4.93M",
+      "headline_sales": 25550.0,
+      "headline_revenue": 4930000.0,
+      "hero_stats": [
+        {
+          "report_id": "blue_tees",
+          "position": 1,
+          "label": "2025 总销量",
+          "value_text": "25,550",
+          "value_numeric": 25550.0
+        },
+        {
+          "report_id": "blue_tees",
+          "position": 2,
+          "label": "2025 销售额",
+          "value_text": "$4.93M",
+          "value_numeric": 4930000.0
+        },
+        {
+          "report_id": "blue_tees",
+          "position": 3,
+          "label": "12 月爆峰销量",
+          "value_text": "7,302",
+          "value_numeric": 7302.0
+        },
+        {
+          "report_id": "blue_tees",
+          "position": 4,
+          "label": "12 月销售额",
+          "value_text": "$1.42M",
+          "value_numeric": 1420000.0
+        }
+      ],
+      "series": [
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/03",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1058
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/04",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1398
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/05",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1969
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/06",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 2267
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/07",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 2230
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/08",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1805
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/09",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1429
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/10",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 2546
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/11",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 3546
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/12",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 7302
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/01",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 2117
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/02",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1705
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/03",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 2492
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/04*",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 594
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/03",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 206430
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/04",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 269808
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/05",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 377368
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/06",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 451133
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/07",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 439842
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/08",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 357768
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/09",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 271439
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/10",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 482235
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/11",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 657760
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/12",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 1417066
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/01",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 360211
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/02",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 289816
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/03",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 423801
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/04*",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 100968
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/03",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 195
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/04",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 191
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/05",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 192
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/06",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 199
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/07",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 198
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/08",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 198
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/09",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 190
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/10",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 190
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/11",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 189
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "25/12",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 194
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/01",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 170
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/02",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 170
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/03",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 170
+        },
+        {
+          "report_id": "blue_tees",
+          "period_label": "26/04*",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 170
+        }
+      ],
+      "insights": [
+        {
+          "report_id": "blue_tees",
+          "position": 1,
+          "title": "圣诞季现象级爆发",
+          "body": "12 月单月 7,302 件 / $1.42M，环比 +106%，几乎是前 3 个最强月份的总和。黑五 11/28 单日 378 件、11/29 543 件、11/30 455 件——这种斜率在 Golf GPS 品类非常罕见，反映了 音箱 + GPS 二合一 的场景是理想高尔夫礼品。"
+        },
+        {
+          "report_id": "blue_tees",
+          "position": 2,
+          "title": "#1 Best Seller 徽章",
+          "body": "拿下 Golf Course GPS Units 类目第 1 名 Best Seller 徽章，这是该品类曝光和转化的顶级位置。对比同品类的 Rapsodo MLM（$250、3,145 评论、老品牌），Blue Tees Player+ 用 $80 价差 + 更新功能 快速后发先至。"
+        },
+        {
+          "report_id": "blue_tees",
+          "position": 3,
+          "title": "2026/1 主动降价",
+          "body": "2026 年 1 月起，售价从 $190 直接降至 $170 并保持至今。这是爆款后的经典动作：趁着 #1 Best Seller 势头锁定长期市占率，用 10% 降价换取 Q2 旺季爆发前的 Amazon 算法权重。"
+        },
+        {
+          "report_id": "blue_tees",
+          "position": 4,
+          "title": "父亲节高峰",
+          "body": "2025 年 5-6 月销量连续走高至 1,969 → 2,267 件，对应母亲节（5/11）到父亲节（6/15）的礼品窗口。考虑到目标用户是中年男性高尔夫爱好者，父亲节是仅次于圣诞的第二高峰。"
+        },
+        {
+          "report_id": "blue_tees",
+          "position": 5,
+          "title": "8-9 月夏歇期",
+          "body": "8 月 1,805 件 → 9 月 1,429 件（-21%），对应美国夏末淡季和高尔夫暑热低峰。这与 Garmin R10 的同期模式完全一致，说明 整个 Golf Tech 品类共享季节性曲线。"
+        },
+        {
+          "report_id": "blue_tees",
+          "position": 6,
+          "title": "$170 价位突破点",
+          "body": "Blue Tees 的成功证明：Golf GPS 品类存在一个 \"$150-$200 甜蜜点\"——比 Garmin Approach G30 ($150) 多一个音箱功能，比 Rapsodo MLM ($250) 便宜 $80，成为中端市场最优解。新进入者若想切入该品类，此价位带值得重点研究。"
+        }
+      ]
+    },
+    {
+      "report_id": "rapsodo_mlm",
+      "brand": "RAPSODO",
+      "brand_since": "⛳ MLM · Mobile Launch Monitor · Since 2019",
+      "report_label": "Single Product Sales Report · 经典长尾款深度分析",
+      "title": "Rapsodo MLM",
+      "subtitle": "Mobile Launch Monitor · 6 年长尾产品",
+      "asin_text": "ASIN: B07T91KFMP · Golf Course GPS Units · 2019/06 上架",
+      "primary_asin": "B07T91KFMP",
+      "asin_count": 1,
+      "image_url": "https://m.media-amazon.com/images/I/41N2FQKoxhL._SL1500_.jpg",
+      "product_tag": "★ 4.1 · 3,145 reviews · $249.99",
+      "theme_color": "#059669",
+      "brand_line": "RAPSODO · B07T91KFMP",
+      "card_title": "Rapsodo MLM",
+      "card_meta": "$249.99 · ★4.1 · 3,145 reviews · 2019 上架",
+      "card_description": "Mobile Launch Monitor · 经典款高尔夫发射监测仪。6 年长尾产品，3,145 条评论的强护城河，Golf GPS 类目长期霸榜。价格敏感型典型案例。",
+      "headline_metric_1_label": "2025 销量",
+      "headline_metric_1_value": "9,650",
+      "headline_metric_2_label": "2025 销售额",
+      "headline_metric_2_value": "$2.45M",
+      "headline_sales": 9650.0,
+      "headline_revenue": 2510000.0,
+      "hero_stats": [
+        {
+          "report_id": "rapsodo_mlm",
+          "position": 1,
+          "label": "2025 总销量",
+          "value_text": "9,650",
+          "value_numeric": 9650.0
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "position": 2,
+          "label": "2025 销售额",
+          "value_text": "$2.51M",
+          "value_numeric": 2510000.0
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "position": 3,
+          "label": "总评论数",
+          "value_text": "3,145",
+          "value_numeric": 3145.0
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "position": 4,
+          "label": "在架时长",
+          "value_text": "6 年",
+          "value_numeric": 6.0
+        }
+      ],
+      "series": [
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/01",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 539
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/02",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 583
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/03",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1098
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/04",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1123
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/05",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1035
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/06",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1066
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/07",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1091
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/08",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 439
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/09",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 360
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/10",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 355
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/11",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 436
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/12",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 1525
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/01",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 307
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/02",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 220
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/03",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 323
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/04*",
+          "series_name": "sales",
+          "metric_kind": "units",
+          "value": 60
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/01",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 134750
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/02",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 145750
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/03",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 274500
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/04",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 280750
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/05",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 258750
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/06",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 266500
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/07",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 272750
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/08",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 131700
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/09",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 108000
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/10",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 106500
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/11",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 109000
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/12",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 320250
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/01",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 66005
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/02",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 47300
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/03",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 69445
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/04*",
+          "series_name": "rev",
+          "metric_kind": "revenue",
+          "value": 12900
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/01",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 250
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/02",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 250
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/03",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 250
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/04",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 250
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/05",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 250
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/06",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 250
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/07",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 250
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/08",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 300
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/09",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 300
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/10",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 300
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/11",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 250
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "25/12",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 210
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/01",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 215
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/02",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 215
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/03",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 215
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "period_label": "26/04*",
+          "series_name": "price",
+          "metric_kind": "price",
+          "value": 215
+        }
+      ],
+      "insights": [
+        {
+          "report_id": "rapsodo_mlm",
+          "position": 1,
+          "title": "8 月涨价实验失败",
+          "body": "Rapsodo 在 2025/8 尝试把 MLM 从 $250 涨价到 $300（+20%），结果销量从 1,091 件直接崩到 439 件（-60%），持续 4 个月低迷。这是 Amazon 平台价格敏感度测试 的教科书案例——长尾成熟产品的价格带极窄。"
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "position": 2,
+          "title": "12 月降价救赎",
+          "body": "11 月底降回 $250，12 月进一步降至 $210 立即触发爆单——月销从 436 件飙升到 1,525 件（+250%），$210 成为圣诞期的最佳价位。$210 vs $300 的 30% 差价撬动了近 4 倍的销量。"
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "position": 3,
+          "title": "3,145 评论的护城河",
+          "body": "6 年累计 3,145 条评论是品类内最强的社交证明。对比 Garmin R10 的 1,070 评论、Rapsodo MLM2PRO 的 531 评论、Blue Tees Player+ 的 1,517 评论，MLM 的评论数是第二名的 2 倍。这是 老产品长尾效应的核心资产。"
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "position": 4,
+          "title": "评分 4.1 星的压力",
+          "body": "3,145 评论下 4.1 星——这是一个比较尴尬的数字。对比 Blue Tees Player+ 的 4.5 星、Garmin R10 的 4.2 星、MLM2PRO 的 4.4 星，MLM 的用户满意度是同类中最低的。老产品的技术迭代已经跟不上新品，这可能是 Rapsodo 推出 MLM2PRO 的根本原因。"
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "position": 5,
+          "title": "被 Blue Tees 后来居上",
+          "body": "2025 年 MLM 销量 9,650 件，同期 Blue Tees Player+ 销量 25,550 件（2.6 倍）。虽然产品类型略有不同（MLM 是发射监测仪、Player+ 是 GPS 音箱），但它们争夺的都是 Golf Course GPS Units 类目的注意力。新品牌 + 低价 + 新功能组合正在蚕食 Rapsodo MLM 的市场份额。"
+        },
+        {
+          "report_id": "rapsodo_mlm",
+          "position": 6,
+          "title": "价格锁定 $210-215 策略",
+          "body": "2026 年 1 月起，Rapsodo 永久将 MLM 锁定在 $215 价位，这是一个明智的战略调整——承认 $250 的黄金时代已过，用 $215 稳住长尾销量。Q1 2026 月均 283 件虽然大幅低于 2025 同期，但比 2025 年 9-10 月 $300 价位的 357 件更具可持续性。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon 竞品调研看板</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Metabase Dashboard Prototype</p>
+        <h1>体育科技竞品调研总览</h1>
+        <p class="hero-copy">把原始 HTML 调研整理成标准化数据后，这个原型展示了适合搬进 Metabase 的总览看板结构：产品池、销量层级、收入规模、月度趋势和关键洞察。</p>
+      </div>
+      <div class="hero-side">
+        <div class="stat-box">
+          <div class="stat-label">报告数量</div>
+          <div class="stat-value" id="report-count">-</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">月度序列</div>
+          <div class="stat-value" id="series-count">-</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="panel metrics-grid" id="summary-cards"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="panel-kicker">Overview</p>
+          <h2>销量与销售额排名</h2>
+        </div>
+      </div>
+      <div class="chart-grid">
+        <div class="chart-card">
+          <h3>Headline Sales</h3>
+          <canvas id="sales-chart"></canvas>
+        </div>
+        <div class="chart-card">
+          <h3>Headline Revenue</h3>
+          <canvas id="revenue-chart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="panel-kicker">Detail</p>
+          <h2>单报告趋势拆解</h2>
+        </div>
+        <label class="report-picker">
+          <span>选择报告</span>
+          <select id="report-select"></select>
+        </label>
+      </div>
+      <div class="detail-layout">
+        <div class="detail-main">
+          <div class="detail-card report-header" id="report-header"></div>
+          <div class="detail-card">
+            <h3>月度趋势</h3>
+            <canvas id="detail-chart"></canvas>
+          </div>
+        </div>
+        <aside class="detail-side">
+          <div class="detail-card">
+            <h3>关键指标</h3>
+            <div id="hero-stats"></div>
+          </div>
+          <div class="detail-card">
+            <h3>核心洞察</h3>
+            <div id="insights"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="panel-kicker">Data</p>
+          <h2>Metabase 建模建议</h2>
+        </div>
+      </div>
+      <div class="model-grid">
+        <div class="model-card">
+          <h3>`reports`</h3>
+          <p>一行一个报告/产品，放品牌、ASIN、价格带、主图、主题色等静态字段。</p>
+        </div>
+        <div class="model-card">
+          <h3>`hero_stats`</h3>
+          <p>主页 KPI 卡片和筛选后顶部数字，适合做指标区和详情页摘要。</p>
+        </div>
+        <div class="model-card">
+          <h3>`monthly_series`</h3>
+          <p>趋势图主表，按 `report_id + period + series_name` 存销量、销售额、价格、国家拆分。</p>
+        </div>
+        <div class="model-card">
+          <h3>`insights`</h3>
+          <p>洞察卡、备注区、运营结论，适合放在详情页或周报摘要模块。</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
