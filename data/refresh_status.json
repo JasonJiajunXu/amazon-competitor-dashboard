@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026/04/23 19:28",
-  "note": "以前的月度数据继续保留；Racebox 已新增 2026 年 4 月逐日销量记录，并单独列页展示。",
+  "lastUpdated": "2026/04/24 09:41",
+  "note": "月度历史数据继续保留；SellerSprite 已完成本轮日更，Racebox 保留 4 月逐日记录，其余产品同步到最近 14 天。",
   "sellerSprite": {
     "configuredAsins": 9,
     "pendingReports": 1,
-    "liveReports": 2,
-    "latestDailySnapshot": "2026-04-23"
+    "liveReports": 8,
+    "latestDailySnapshot": "2026-04-24"
   },
   "logs": [
     {
-      "time": "2026/04/23 19:28",
-      "tag": "Racebox",
-      "description": "Racebox Mini S 已接入 4 月逐日销量，月度历史数据继续保留在原看板里。"
-    },
-    {
-      "time": "2026/04/23 19:28",
+      "time": "2026/04/24 09:41",
       "tag": "SellerSprite",
-      "description": "SellerSprite 连通报告增至 2 个：Garmin R10 与 Racebox。"
+      "description": "已完成 8 组已配置产品的日销量刷新，最新快照日期为 2026/04/24。"
     },
     {
-      "time": "2026/04/23 19:28",
-      "tag": "UI",
-      "description": "首页新增 Racebox 单独入口页，详情继续保留月度图表与明细。"
+      "time": "2026/04/24 09:41",
+      "tag": "Racebox",
+      "description": "Racebox 继续保留 4 月逐日销量历史，并补入 04/24 最新销量。"
     },
     {
-      "time": "2026/04/23 19:28",
-      "tag": "Next",
-      "description": "下一步会把每日自动刷新任务挂上，并持续回写站点数据文件。"
+      "time": "2026/04/24 09:41",
+      "tag": "Dashboard",
+      "description": "Bushnell、TAG、Rapsodo、Rangecraft、Blue Tees 等页面已补齐最近 14 天日销量。"
+    },
+    {
+      "time": "2026/04/24 09:41",
+      "tag": "Pending",
+      "description": "Garmin Xero 仍缺 bundle ASIN，对应页面继续保持待补标记。"
     }
   ]
 }

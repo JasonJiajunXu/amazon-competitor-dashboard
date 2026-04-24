@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026/04/23 18:55",
+  "generatedAt": "2026/04/24 09:41",
   "reports": {
     "racebox": {
       "status": "live",
       "sync_label": "已连通",
-      "summary": "Racebox Mini S 已接入 SellerSprite，4 月逐日销量已经开始记录。",
+      "summary": "Racebox Mini S 已接入 SellerSprite，4 月逐日销量继续累积并保留历史记录。",
       "items": [
         {
           "asin": "B0C8JCB8TZ",
@@ -12,44 +12,44 @@
           "label": "Racebox Mini S",
           "status": "live",
           "status_text": "Live",
-          "note": "当前已展示 2026 年 4 月逐日日销量，后续会继续追加每天快照。"
+          "note": "最近一次日销量快照已更新到 2026-04-24。"
         }
       ]
     },
     "bushnell": {
-      "status": "configured",
-      "sync_label": "已配置",
-      "summary": "Bushnell Velocity 已加入每日同步名单。",
+      "status": "live",
+      "sync_label": "已连通",
+      "summary": "Bushnell Velocity 已接入 SellerSprite，页面展示最近 14 日日销量。",
       "items": [
         {
           "asin": "B0002X7V1Q",
           "marketplace": "US",
           "label": "Bushnell Velocity",
-          "status": "configured",
-          "status_text": "Configured",
-          "note": "后续将按美国站日销量持续更新。"
+          "status": "live",
+          "status_text": "Live",
+          "note": "最近一次日销量快照已更新到 2026-04-24。"
         }
       ]
     },
     "tag": {
-      "status": "configured",
-      "sync_label": "已配置",
-      "summary": "TAG ONE Sports Radar 已加入 SellerSprite 同步名单。",
+      "status": "live",
+      "sync_label": "已连通",
+      "summary": "TAG ONE Sports Radar 已接入 SellerSprite，页面展示最近 14 日日销量。",
       "items": [
         {
           "asin": "B0F9TSSR69",
           "marketplace": "US",
           "label": "TAG ONE",
-          "status": "configured",
-          "status_text": "Configured",
-          "note": "新品日销量会在首次自动刷新后落到页面。"
+          "status": "live",
+          "status_text": "Live",
+          "note": "最近一次日销量快照已更新到 2026-04-24。"
         }
       ]
     },
     "garmin_r10": {
       "status": "live",
       "sync_label": "已连通",
-      "summary": "Garmin Approach R10 已接入 SellerSprite 日销量样例数据。",
+      "summary": "Garmin Approach R10 已接入 SellerSprite，页面展示最近 14 日日销量。",
       "items": [
         {
           "asin": "B095QX1FSR",
@@ -57,30 +57,30 @@
           "label": "Garmin Approach R10",
           "status": "live",
           "status_text": "Live",
-          "note": "当前已展示最近 14 日 SellerSprite 日销量样例。"
+          "note": "最近一次日销量快照已更新到 2026-04-24。"
         }
       ]
     },
     "rapsodo": {
-      "status": "configured",
-      "sync_label": "已配置",
-      "summary": "Rapsodo 双产品线已挂到 SellerSprite 编目里。",
+      "status": "live",
+      "sync_label": "已连通",
+      "summary": "Rapsodo 双产品线已接入 SellerSprite，页面展示最近 14 日合并销量。",
       "items": [
         {
           "asin": "B0F2GPHBLC",
           "marketplace": "US",
           "label": "Rapsodo MLM2PRO",
-          "status": "configured",
-          "status_text": "Configured",
-          "note": "旗舰款等待自动刷新任务写入日销量。"
+          "status": "live",
+          "status_text": "Live",
+          "note": "最近一次日销量快照已更新到 2026-04-24。"
         },
         {
           "asin": "B07T91KFMP",
           "marketplace": "US",
           "label": "Rapsodo MLM",
-          "status": "configured",
-          "status_text": "Configured",
-          "note": "经典款等待自动刷新任务写入日销量。"
+          "status": "live",
+          "status_text": "Live",
+          "note": "最近一次日销量快照已更新到 2026-04-24。"
         }
       ]
     },
@@ -100,47 +100,47 @@
       ]
     },
     "rangecraft": {
-      "status": "configured",
-      "sync_label": "已配置",
-      "summary": "Rangecraft Velocity Pro 已加入 SellerSprite 同步名单。",
+      "status": "live",
+      "sync_label": "已连通",
+      "summary": "Rangecraft Velocity Pro 已接入 SellerSprite，页面展示最近 14 日日销量。",
       "items": [
         {
           "asin": "B0DZQYB35H",
           "marketplace": "US",
           "label": "Rangecraft Velocity Pro",
-          "status": "configured",
-          "status_text": "Configured",
-          "note": "待自动刷新后展示近 14 日日销量。"
+          "status": "live",
+          "status_text": "Live",
+          "note": "最近一次日销量快照已更新到 2026-04-24。"
         }
       ]
     },
     "blue_tees": {
-      "status": "configured",
-      "sync_label": "已配置",
-      "summary": "Blue Tees Player+ 已加入 SellerSprite 同步名单。",
+      "status": "live",
+      "sync_label": "已连通",
+      "summary": "Blue Tees Player+ 已接入 SellerSprite，页面展示最近 14 日日销量。",
       "items": [
         {
           "asin": "B0CF9VQ8PC",
           "marketplace": "US",
           "label": "Blue Tees Player+",
-          "status": "configured",
-          "status_text": "Configured",
-          "note": "待自动刷新后展示近 14 日日销量。"
+          "status": "live",
+          "status_text": "Live",
+          "note": "最近一次日销量快照已更新到 2026-04-24。"
         }
       ]
     },
     "rapsodo_mlm": {
-      "status": "configured",
-      "sync_label": "已配置",
-      "summary": "Rapsodo MLM 已加入 SellerSprite 同步名单。",
+      "status": "live",
+      "sync_label": "已连通",
+      "summary": "Rapsodo MLM 已接入 SellerSprite，页面展示最近 14 日日销量。",
       "items": [
         {
           "asin": "B07T91KFMP",
           "marketplace": "US",
           "label": "Rapsodo MLM",
-          "status": "configured",
-          "status_text": "Configured",
-          "note": "待自动刷新后展示近 14 日日销量。"
+          "status": "live",
+          "status_text": "Live",
+          "note": "最近一次日销量快照已更新到 2026-04-24。"
         }
       ]
     }
