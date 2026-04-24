@@ -110,6 +110,10 @@ PRODUCT_ASIN_MAP = {
     "B0BQ6DWMLT": "dragy",
     "B0BQ9QT51G": "dragy",
 }
+MANUAL_MARKET_ASIN_SCAN = {
+    "B0BQ648WBW": ["DE", "IT", "ES"],
+    "B0BQ6DT2CV": ["DE", "IT"],
+}
 EXCLUDED_ASINS = {
     "B077KKPMTB",
 }
@@ -362,6 +366,7 @@ def build_scope(
 def build() -> None:
     secret_key = load_secret_key()
     all_products: list[dict[str, Any]] = []
+    asin_predictions: dict[tuple[str, str], dict[str, Any]] = {}
 
     for marketplace in MARKETS:
         payload = call_tool(
@@ -402,7 +407,58 @@ def build() -> None:
             }
             all_products.append(enriched)
 
-    asin_predictions: dict[tuple[str, str], dict[str, Any]] = {}
+    existing_keys = {(item["marketplace"], item["asin"]) for item in all_products}
+    for asin, marketplaces in MANUAL_MARKET_ASIN_SCAN.items():
+        base_item = next((item for item in all_products if item["asin"] == asin), None)
+        for marketplace in marketplaces:
+            key = (marketplace, asin)
+            if key in existing_keys:
+                continue
+            prediction = call_tool(
+                secret_key,
+                "asin_prediction",
+                {"asin": asin, "marketplace": marketplace},
+            )
+            prediction_data = prediction.get("data") or {}
+            asin_predictions[key] = prediction_data
+            raw_rows = prediction_data.get("dailyItemList") or []
+            has_positive_sales = any(max(0, int(row.get("sales", 0))) > 0 for row in raw_rows)
+            if not has_positive_sales:
+                continue
+            last_price = next(
+                (max(0, int(row.get("price", 0))) for row in reversed(raw_rows) if int(row.get("price", 0)) > 0),
+                base_item["price"] if base_item else 0,
+            )
+            current_month = max((row["date"][:7] for row in raw_rows), default="")
+            monthly_units = sum(
+                max(0, int(row.get("sales", 0)))
+                for row in raw_rows
+                if current_month and row["date"].startswith(current_month)
+            )
+            monthly_revenue = sum(
+                max(0, int(row.get("amount", 0)))
+                for row in raw_rows
+                if current_month and row["date"].startswith(current_month)
+            )
+            all_products.append(
+                {
+                    "asin": asin,
+                    "marketplace": marketplace,
+                    "country": MARKET_LABELS[marketplace],
+                    "title": base_item["title"] if base_item else asin,
+                    "imageUrl": base_item["imageUrl"] if base_item else "",
+                    "price": last_price,
+                    "monthlyUnits": monthly_units,
+                    "monthlyRevenue": monthly_revenue,
+                    "rating": base_item["rating"] if base_item else 0,
+                    "ratings": base_item["ratings"] if base_item else 0,
+                    "sellerName": base_item["sellerName"] if base_item else "",
+                    "lineId": PRODUCT_ASIN_MAP.get(asin, ""),
+                    "lineName": LINE_META.get(PRODUCT_ASIN_MAP.get(asin, ""), {}).get("name", "Other"),
+                }
+            )
+            existing_keys.add(key)
+
     for product in all_products:
         key = (product["marketplace"], product["asin"])
         if key in asin_predictions:
