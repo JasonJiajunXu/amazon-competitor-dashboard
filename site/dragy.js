@@ -20,11 +20,31 @@ const DRAGY_COLORS = {
   AU: "#0f9d58",
 };
 
+const WORLD_MAP_SVG = `
+  <svg viewBox="0 0 1000 520" class="atlas-svg" aria-hidden="true">
+    <path class="atlas-land" d="M92 118l34-32 46-14 52 10 44 28 24 29-8 26-31 18-14 29-30 8-28-8-20 17-25-3-24-24 8-34-20-22 12-28z"></path>
+    <path class="atlas-land" d="M260 266l31 10 25 33 17 59-11 55-28 33-24-11-8-44 7-37-20-48 11-50z"></path>
+    <path class="atlas-land" d="M430 112l31-32 50-11 58 13 41 26-4 32-26 11-18 24-28 1-16 28-39 16-34-5-17-28-19-18 7-34z"></path>
+    <path class="atlas-land" d="M470 215l26-10 18 13-5 18 21 18 1 37 21 27-8 23-23-1-16-22-16 8-8 29-19 4-9-30 10-28-10-22 4-31 13-33z"></path>
+    <path class="atlas-land" d="M620 119l55-30 61-3 59 18 59 6 76 41 18 45-21 26-47 6-23 24-49 1-11 25-48 19-52-7-21-27-54-11-42-31 1-57 39-45z"></path>
+    <path class="atlas-land" d="M780 322l42-10 47 12 36 29 18 30-11 26-32 11-36-5-23-18-25 4-25-17-7-30 16-32z"></path>
+  </svg>
+`;
+
 const state = {
   payload: null,
   scopeId: "global",
   month: null,
 };
+
+function getScopeName(scopeId) {
+  if (scopeId === "global") return "全部产品";
+  return state.payload.scopes[scopeId].meta.name;
+}
+
+function isPortfolioView() {
+  return state.scopeId === "global";
+}
 
 function formatCompact(value) {
   if (value == null || Number.isNaN(value)) return "-";
@@ -64,12 +84,16 @@ function ensureSelectedMonth() {
 
 function renderHero() {
   const payload = state.payload;
+  const heroTitle = isPortfolioView() ? "dragy 品牌销量总览" : `${getScopeName(state.scopeId)} 销量聚焦`;
+  const heroNote = isPortfolioView()
+    ? "先用全部产品模式判断 dragy 这 5 个产品组的体量、结构和主力国家，再进入单产品模式深看某一条产品线。"
+    : `当前已经进入 ${getScopeName(state.scopeId)} 的单产品视图，下面所有图表和国家表都只围绕这一条产品线展开，不再混入其他产品。`;
   document.getElementById("dragy-last-updated").textContent = payload.generatedAt;
   document.getElementById("dragy-hero-card").innerHTML = `
     <div class="product-hero-copy">
       <p class="kicker">Brand Overview</p>
-      <h2>${payload.title}</h2>
-      <p class="product-hero-note">这页已经按 5 个具体产品拆开：dragy Pro、dragy（仅 DRG70-C）、dragy Pro Refurbished、dragy Refurbished（仅 DRG70-C）、Mount。先看最近 30 天每天销量，再往下钻月度和国家分布。</p>
+      <h2>${heroTitle}</h2>
+      <p class="product-hero-note">${heroNote}</p>
       <div class="product-hero-meta">${payload.recent30Start} 至 ${payload.recent30End} · 近 12 个月可钻取 · 5 个产品联动国家和月份</div>
     </div>
     <div class="product-hero-media">
@@ -79,16 +103,19 @@ function renderHero() {
 }
 
 function renderScopeTabs() {
-  const scope = getScope();
+  const portfolioView = isPortfolioView();
   const tabs = state.payload.scopeOrder
     .map((scopeId) => {
       const item = state.payload.scopes[scopeId];
       const active = scopeId === state.scopeId ? "active" : "";
+      const metaLine = portfolioView
+        ? `${item.meta.label} · 30天销量 ${item.recent30.sales}`
+        : item.meta.label;
       return `
         <button class="product-chip ${active}" type="button" data-scope="${scopeId}">
           <div class="product-chip-copy">
-            <div class="product-name">${item.meta.name}</div>
-            <div class="product-asin">${item.meta.label} · 30天销量 ${item.recent30.sales}</div>
+            <div class="product-name">${scopeId === "global" ? "全部产品" : item.meta.name}</div>
+            <div class="product-asin">${metaLine}</div>
           </div>
         </button>
       `;
@@ -102,8 +129,6 @@ function renderScopeTabs() {
       renderDynamic();
     });
   });
-
-  return scope;
 }
 
 function renderSummary() {
@@ -115,7 +140,7 @@ function renderSummary() {
   document.getElementById("dragy-summary").innerHTML = `
     <article class="summary-card">
       <div class="kicker">Selected Scope</div>
-      <div class="summary-value">${scope.meta.name}</div>
+      <div class="summary-value">${getScopeName(state.scopeId)}</div>
       <div class="summary-note">${scope.meta.description}</div>
     </article>
     <article class="summary-card">
@@ -136,19 +161,26 @@ function renderSummary() {
   `;
 }
 
-function renderLineCards() {
+function renderComparisonSection() {
+  const panel = document.getElementById("dragy-comparison-panel");
+  if (!isPortfolioView()) {
+    panel.classList.add("is-focused");
+    document.getElementById("dragy-line-cards").innerHTML = "";
+    return;
+  }
+
+  panel.classList.remove("is-focused");
   const cards = state.payload.scopeOrder.filter((scopeId) => scopeId !== "global")
     .map((scopeId) => {
       const scope = state.payload.scopes[scopeId];
       const recent = scope.recent30;
       const topCountry = [...recent.countrySummary].sort((a, b) => b.sales - a.sales)[0];
-      const active = scopeId === state.scopeId ? "active" : "";
       const markets = recent.countrySummary
         .filter((item) => item.sales > 0)
         .map((item) => item.marketplace)
         .join(" · ");
       return `
-        <article class="detail-card line-card ${active}" data-scope-card="${scopeId}">
+        <article class="detail-card line-card" data-scope-card="${scopeId}">
           <div class="panel-heading compact">
             <p class="kicker">${scope.meta.label}</p>
             <h3>${scope.meta.name}</h3>
@@ -258,7 +290,7 @@ function renderRecentSection() {
           }))
         : [
             {
-              label: scope.meta.name,
+              label: getScopeName(state.scopeId),
               data: rows.map((row) => row.sales),
               backgroundColor: DRAGY_COLORS[state.scopeId],
               borderRadius: 6,
@@ -321,7 +353,7 @@ function renderMonthSection() {
       labels: months.map((item) => item.label.slice(2)),
       datasets: [
         {
-          label: scope.meta.name,
+          label: getScopeName(state.scopeId),
           data: months.map((item) => item.sales),
           backgroundColor: DRAGY_COLORS[state.scopeId],
           borderRadius: 8,
@@ -393,7 +425,7 @@ function renderMonthSection() {
           }))
         : [
             {
-              label: scope.meta.name,
+              label: getScopeName(state.scopeId),
               data: rows.map((row) => row.sales),
               backgroundColor: DRAGY_COLORS[state.scopeId],
               borderRadius: 6,
@@ -442,17 +474,10 @@ function renderMapSection() {
   const scope = getScope();
   const monthData = getSelectedMonthData();
   const maxSales = Math.max(...monthData.countrySummary.map((item) => item.sales), 1);
-  const mapSvg = `
-    <svg viewBox="0 0 1000 520" class="atlas-svg" aria-hidden="true">
-      <ellipse cx="165" cy="155" rx="120" ry="76" class="atlas-land"></ellipse>
-      <ellipse cx="265" cy="330" rx="64" ry="105" class="atlas-land"></ellipse>
-      <ellipse cx="500" cy="150" rx="90" ry="56" class="atlas-land"></ellipse>
-      <ellipse cx="575" cy="120" rx="48" ry="36" class="atlas-land"></ellipse>
-      <ellipse cx="560" cy="258" rx="94" ry="124" class="atlas-land"></ellipse>
-      <ellipse cx="770" cy="190" rx="176" ry="98" class="atlas-land"></ellipse>
-      <ellipse cx="848" cy="378" rx="96" ry="60" class="atlas-land"></ellipse>
-    </svg>
-  `;
+  const rankedCountries = [...monthData.countrySummary]
+    .filter((item) => item.sales > 0)
+    .sort((a, b) => b.sales - a.sales)
+    .slice(0, 3);
 
   const markers = monthData.countrySummary
     .map((item) => {
@@ -472,11 +497,26 @@ function renderMapSection() {
     .join("");
 
   document.getElementById("dragy-map-board").innerHTML = `
+    <div class="country-topline">
+      ${rankedCountries.length ? rankedCountries.map((item, index) => `
+        <div class="country-pill">
+          <span>Top ${index + 1}</span>
+          <strong>${item.country}</strong>
+          <div class="summary-note">${monthData.label} · ${item.sales} 件</div>
+        </div>
+      `).join("") : `
+        <div class="country-pill">
+          <span>Top Country</span>
+          <strong>暂无销量</strong>
+          <div class="summary-note">${monthData.label} 当前没有国家销量</div>
+        </div>
+      `}
+    </div>
     <div class="atlas-surface">
-      ${mapSvg}
+      ${WORLD_MAP_SVG}
       ${markers}
     </div>
-    <div class="map-caption">当前地图展示的是 ${scope.meta.name} 在 ${monthData.label} 的国家销量分布。</div>
+    <div class="map-caption">当前地图展示的是 ${getScopeName(state.scopeId)} 在 ${monthData.label} 的国家销量分布。</div>
   `;
 
   const recentSummary = scope.recent30.countrySummary.reduce((acc, item) => {
@@ -517,7 +557,7 @@ function renderSidebar() {
   document.getElementById("dragy-image-panel").innerHTML = `
     <div class="product-image-panel">
       <img class="product-showcase-image" src="${scope.heroImage || state.payload.heroImage}" alt="${scope.meta.name} 产品图">
-      <div class="product-image-caption">${scope.meta.name} 当前使用销量最高的产品图作为视觉封面。</div>
+      <div class="product-image-caption">${getScopeName(state.scopeId)} 当前使用销量最高的产品图作为视觉封面。</div>
     </div>
   `;
 
@@ -545,9 +585,11 @@ function renderSidebar() {
 }
 
 function renderDynamic() {
+  document.body.classList.toggle("scope-focused", !isPortfolioView());
+  renderHero();
   renderScopeTabs();
   renderSummary();
-  renderLineCards();
+  renderComparisonSection();
   renderRecentSection();
   renderMonthSection();
   renderMapSection();
@@ -557,7 +599,6 @@ function renderDynamic() {
 loadDragyData().then((payload) => {
   state.payload = payload;
   state.month = payload.defaultMonth;
-  renderHero();
   ensureSelectedMonth();
   renderDynamic();
 });
