@@ -44,8 +44,8 @@ MAP_POSITIONS = {
 LINE_META = {
     "global": {
         "id": "global",
-        "name": "Global",
-        "label": "全球总览",
+        "name": "全部产品",
+        "label": "产品组合",
         "description": "把 5 个 dragy 产品组放在一起看，先判断品牌整体体量，再往下拆具体产品线。",
         "color": "#111827",
     },

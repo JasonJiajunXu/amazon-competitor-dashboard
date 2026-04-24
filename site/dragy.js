@@ -20,16 +20,33 @@ const DRAGY_COLORS = {
   AU: "#0f9d58",
 };
 
-const WORLD_MAP_SVG = `
-  <svg viewBox="0 0 1000 520" class="atlas-svg" aria-hidden="true">
-    <path class="atlas-land" d="M92 118l34-32 46-14 52 10 44 28 24 29-8 26-31 18-14 29-30 8-28-8-20 17-25-3-24-24 8-34-20-22 12-28z"></path>
-    <path class="atlas-land" d="M260 266l31 10 25 33 17 59-11 55-28 33-24-11-8-44 7-37-20-48 11-50z"></path>
-    <path class="atlas-land" d="M430 112l31-32 50-11 58 13 41 26-4 32-26 11-18 24-28 1-16 28-39 16-34-5-17-28-19-18 7-34z"></path>
-    <path class="atlas-land" d="M470 215l26-10 18 13-5 18 21 18 1 37 21 27-8 23-23-1-16-22-16 8-8 29-19 4-9-30 10-28-10-22 4-31 13-33z"></path>
-    <path class="atlas-land" d="M620 119l55-30 61-3 59 18 59 6 76 41 18 45-21 26-47 6-23 24-49 1-11 25-48 19-52-7-21-27-54-11-42-31 1-57 39-45z"></path>
-    <path class="atlas-land" d="M780 322l42-10 47 12 36 29 18 30-11 26-32 11-36-5-23-18-25 4-25-17-7-30 16-32z"></path>
-  </svg>
-`;
+const WORLD_MAP_HTML = window.__WORLD_MAP_SVG__ || "";
+const MARKET_TO_MAP_ID = {
+  US: "us",
+  CA: "ca",
+  UK: "gb",
+  DE: "de",
+  FR: "fr",
+  IT: "it",
+  ES: "es",
+  JP: "jp",
+  AU: "au",
+};
+const MAP_LABEL_OFFSETS = {
+  US: { x: -2.5, y: 7 },
+  CA: { x: -3, y: -5 },
+  UK: { x: -1.5, y: -5.5 },
+  DE: { x: 3.2, y: -3.5 },
+  FR: { x: -3.4, y: 2.8 },
+  IT: { x: 4.2, y: 5.2 },
+  ES: { x: -4.4, y: 5.6 },
+  JP: { x: 4.4, y: -2.4 },
+  AU: { x: 2.2, y: 7.2 },
+};
+const MAP_FILL_LOW = "#dbe8ef";
+const MAP_FILL_HIGH = "#355f96";
+const MAP_STROKE_LOW = "#aabcc6";
+const MAP_STROKE_HIGH = "#183a62";
 
 const state = {
   payload: null,
@@ -56,6 +73,93 @@ function formatCompact(value) {
 function formatCurrency(value) {
   if (value == null || Number.isNaN(value)) return "-";
   return `$${Math.round(value).toLocaleString()}`;
+}
+
+function parseHexColor(hex) {
+  const cleaned = hex.replace("#", "");
+  const value = cleaned.length === 3
+    ? cleaned.split("").map((char) => `${char}${char}`).join("")
+    : cleaned;
+  return {
+    r: Number.parseInt(value.slice(0, 2), 16),
+    g: Number.parseInt(value.slice(2, 4), 16),
+    b: Number.parseInt(value.slice(4, 6), 16),
+  };
+}
+
+function mixHexColors(start, end, t) {
+  const from = parseHexColor(start);
+  const to = parseHexColor(end);
+  const clamp = Math.max(0, Math.min(1, t));
+  const blend = (left, right) => Math.round(left + (right - left) * clamp);
+  return `rgb(${blend(from.r, to.r)}, ${blend(from.g, to.g)}, ${blend(from.b, to.b)})`;
+}
+
+function buildMapLegend(maxSales) {
+  if (!maxSales) {
+    return `
+      <div class="map-legend">
+        <span class="map-legend-label">销量热度</span>
+        <div class="map-legend-scale no-data">
+          <span>本月暂无国家销量</span>
+        </div>
+      </div>
+    `;
+  }
+  return `
+    <div class="map-legend">
+      <span class="map-legend-label">销量热度</span>
+      <div class="map-legend-scale">
+        <span>低</span>
+        <div class="map-legend-bar"></div>
+        <span>${maxSales}</span>
+      </div>
+    </div>
+  `;
+}
+
+function paintSalesMap(countrySummary) {
+  const root = document.getElementById("dragy-map-board");
+  const svg = root.querySelector("svg");
+  const overlay = root.querySelector(".atlas-overlay");
+  if (!svg || !overlay) return;
+
+  const viewBoxRaw = svg.getAttribute("viewBox");
+  if (!viewBoxRaw) return;
+  const [viewX, viewY, viewWidth, viewHeight] = viewBoxRaw.split(/\s+/).map(Number);
+  const maxSales = Math.max(...countrySummary.map((item) => item.sales), 0);
+
+  countrySummary.forEach((item) => {
+    const mapId = MARKET_TO_MAP_ID[item.marketplace];
+    if (!mapId) return;
+    const node = svg.querySelector(`#${mapId}`);
+    if (!node) return;
+
+    if (item.sales > 0 && maxSales > 0) {
+      const weight = 0.16 + ((item.sales / maxSales) * 0.84);
+      node.classList.add("is-active-market");
+      node.style.fill = mixHexColors(MAP_FILL_LOW, MAP_FILL_HIGH, weight);
+      node.style.stroke = mixHexColors(MAP_STROKE_LOW, MAP_STROKE_HIGH, weight);
+      node.style.strokeWidth = "1.2";
+
+      const box = node.getBBox();
+      const centerX = (((box.x + (box.width / 2)) - viewX) / viewWidth) * 100;
+      const centerY = (((box.y + (box.height / 2)) - viewY) / viewHeight) * 100;
+      const offset = MAP_LABEL_OFFSETS[item.marketplace] || { x: 0, y: 0 };
+      const label = document.createElement("div");
+      label.className = "map-country-tag";
+      label.style.left = `${centerX + offset.x}%`;
+      label.style.top = `${centerY + offset.y}%`;
+      label.innerHTML = `
+        <span>${item.marketplace}</span>
+        <strong>${item.sales}</strong>
+      `;
+      overlay.appendChild(label);
+      return;
+    }
+
+    node.classList.add("is-tracked-market");
+  });
 }
 
 function loadDragyData() {
@@ -108,9 +212,7 @@ function renderScopeTabs() {
     .map((scopeId) => {
       const item = state.payload.scopes[scopeId];
       const active = scopeId === state.scopeId ? "active" : "";
-      const metaLine = portfolioView
-        ? `${item.meta.label} · 30天销量 ${item.recent30.sales}`
-        : item.meta.label;
+      const metaLine = item.meta.label;
       return `
         <button class="product-chip ${active}" type="button" data-scope="${scopeId}">
           <div class="product-chip-copy">
@@ -479,23 +581,6 @@ function renderMapSection() {
     .sort((a, b) => b.sales - a.sales)
     .slice(0, 3);
 
-  const markers = monthData.countrySummary
-    .map((item) => {
-      const point = state.payload.mapPositions[item.marketplace];
-      const size = item.sales > 0 ? 26 + Math.round((item.sales / maxSales) * 30) : 14;
-      return `
-        <div class="map-marker ${item.sales > 0 ? "active" : "inactive"}"
-             style="left:${point.x}%;top:${point.y}%;width:${size}px;height:${size}px;border-color:${DRAGY_COLORS[item.marketplace]};">
-          <span class="map-marker-dot" style="background:${DRAGY_COLORS[item.marketplace]};"></span>
-          <div class="map-marker-label">
-            <strong>${item.marketplace}</strong>
-            <span>${item.sales}</span>
-          </div>
-        </div>
-      `;
-    })
-    .join("");
-
   document.getElementById("dragy-map-board").innerHTML = `
     <div class="country-topline">
       ${rankedCountries.length ? rankedCountries.map((item, index) => `
@@ -512,12 +597,16 @@ function renderMapSection() {
         </div>
       `}
     </div>
+    ${buildMapLegend(maxSales)}
     <div class="atlas-surface">
-      ${WORLD_MAP_SVG}
-      ${markers}
+      <div class="atlas-map-frame">
+        ${WORLD_MAP_HTML}
+      </div>
+      <div class="atlas-overlay"></div>
     </div>
-    <div class="map-caption">当前地图展示的是 ${getScopeName(state.scopeId)} 在 ${monthData.label} 的国家销量分布。</div>
+    <div class="map-caption">当前地图展示的是 ${getScopeName(state.scopeId)} 在 ${monthData.label} 的国家销量分布。底图基于公开 SVG 世界地图资源。</div>
   `;
+  paintSalesMap(monthData.countrySummary);
 
   const recentSummary = scope.recent30.countrySummary.reduce((acc, item) => {
     acc[item.marketplace] = item;
