@@ -69,7 +69,7 @@ function renderHero() {
     <div class="product-hero-copy">
       <p class="kicker">Brand Overview</p>
       <h2>${payload.title}</h2>
-      <p class="product-hero-note">这页已经按 5 个具体产品拆开：dragy Pro、dragy、dragy Pro Refurbished、dragy Refurbished、Mount。先看最近 30 天每天销量，再往下钻月度和国家分布。</p>
+      <p class="product-hero-note">这页已经按 5 个具体产品拆开：dragy Pro、dragy（仅 DRG70-C）、dragy Pro Refurbished、dragy Refurbished（仅 DRG70-C）、Mount。先看最近 30 天每天销量，再往下钻月度和国家分布。</p>
       <div class="product-hero-meta">${payload.recent30Start} 至 ${payload.recent30End} · 近 12 个月可钻取 · 5 个产品联动国家和月份</div>
     </div>
     <div class="product-hero-media">

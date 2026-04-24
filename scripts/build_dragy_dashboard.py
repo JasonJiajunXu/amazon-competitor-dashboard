@@ -59,8 +59,8 @@ LINE_META = {
     "dragy": {
         "id": "dragy",
         "name": "dragy",
-        "label": "经典款",
-        "description": "经典 GPS Performance Meter，价格更低，适合和 Pro 对比看销量体量与国家覆盖差异。",
+        "label": "DRG70-C 正价款",
+        "description": "这里的 dragy 只指 DRG70-C 正价款，不包含旧款 DRG69，适合和 Pro 对比看核心主销型号体量。",
         "color": "#5d84f1",
     },
     "dragy_pro_refurbished": {
@@ -73,8 +73,8 @@ LINE_META = {
     "dragy_refurbished": {
         "id": "dragy_refurbished",
         "name": "dragy Refurbished",
-        "label": "经典翻新款",
-        "description": "经典 dragy 的 Refurbished 版本，观察低价翻新机在各国家是否仍有持续需求。",
+        "label": "DRG70-C 翻新款",
+        "description": "这里只看 DRG70-C 的 Refurbished 版本，用来观察该主销型号翻新机的持续需求。",
         "color": "#6b7280",
     },
     "mount": {
@@ -109,8 +109,14 @@ PRODUCT_ASIN_MAP = {
     "B0BQ6DT2CV": "mount",
     "B0BQ6DWMLT": "dragy",
     "B0BQ9QT51G": "dragy",
-    "B077KKPMTB": "dragy",
 }
+EXCLUDED_ASINS = {
+    "B077KKPMTB",
+}
+EXCLUDED_TITLE_TERMS = [
+    "drg69",
+    "2018 model",
+]
 
 
 def load_secret_key() -> str:
@@ -148,9 +154,13 @@ def normalize_title(title: str) -> str:
 
 
 def classify_product(asin: str, title: str) -> str:
+    if asin in EXCLUDED_ASINS:
+        return ""
     if asin in PRODUCT_ASIN_MAP:
         return PRODUCT_ASIN_MAP[asin]
     lower = normalize_title(title).lower()
+    if any(term in lower for term in EXCLUDED_TITLE_TERMS):
+        return ""
     if any(term in lower for term in ACCESSORY_TERMS):
         return "mount"
     if "refurbished" in lower and "dragy pro" in lower:
@@ -373,6 +383,8 @@ def build() -> None:
         for item in items:
             title = normalize_title(item["title"])
             line_id = classify_product(item["asin"], title)
+            if not line_id:
+                continue
             enriched = {
                 "asin": item["asin"],
                 "marketplace": marketplace,
@@ -468,7 +480,7 @@ def build() -> None:
         "mapPositions": MAP_POSITIONS,
         "notes": [
             "第一屏默认先看最近 30 天每天销量，避免用户一上来就被过多国家维度打散。",
-            "这版已经按 5 个产品拆开：dragy Pro、dragy、dragy Pro Refurbished、dragy Refurbished、Mount。",
+            "这版已经按 5 个产品拆开：dragy Pro、dragy（仅 DRG70-C）、dragy Pro Refurbished、dragy Refurbished（仅 DRG70-C）、Mount。",
             "第三屏用近 12 个月月度条做入口，点击任意月份，下方会切到那个自然月的每天销量。",
             "地图和国家表会跟随当前产品与月份同步变化，既能看全球，也能看单国家贡献。"
         ],
