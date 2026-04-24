@@ -1,0 +1,5185 @@
+{
+  "brand": "dragy",
+  "title": "dragy 全球近 30 天销量看板",
+  "generatedAt": "2026/04/24 12:00",
+  "latestDate": "2026-04-24",
+  "windowStart": "2026-03-26",
+  "windowEnd": "2026-04-24",
+  "heroImage": "./assets/products/dragy.jpg",
+  "dailyRows": [
+    {
+      "date": "2026-03-26",
+      "globalSales": 32,
+      "globalAmount": 5913,
+      "countries": {
+        "US": {
+          "sales": 20,
+          "amount": 3660,
+          "price": 183,
+          "bsr": 15126
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 288,
+          "price": 144,
+          "bsr": 8420
+        },
+        "DE": {
+          "sales": 6,
+          "amount": 934,
+          "price": 156,
+          "bsr": 20890
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 40497
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4291
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "globalSales": 32,
+      "globalAmount": 5943,
+      "countries": {
+        "US": {
+          "sales": 23,
+          "amount": 4137,
+          "price": 180,
+          "bsr": 16096
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 6348
+        },
+        "DE": {
+          "sales": 4,
+          "amount": 631,
+          "price": 158,
+          "bsr": 17262
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 33153
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 5108
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-03-28",
+      "globalSales": 33,
+      "globalAmount": 6222,
+      "countries": {
+        "US": {
+          "sales": 24,
+          "amount": 4416,
+          "price": 184,
+          "bsr": 12584
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 9763
+        },
+        "DE": {
+          "sales": 4,
+          "amount": 631,
+          "price": 158,
+          "bsr": 22217
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 30079
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4870
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-03-29",
+      "globalSales": 31,
+      "globalAmount": 5994,
+      "countries": {
+        "US": {
+          "sales": 21,
+          "amount": 3899,
+          "price": 186,
+          "bsr": 13055
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 8640
+        },
+        "DE": {
+          "sales": 4,
+          "amount": 631,
+          "price": 158,
+          "bsr": 22334
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 30252
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 5082
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "globalSales": 27,
+      "globalAmount": 5058,
+      "countries": {
+        "US": {
+          "sales": 19,
+          "amount": 3541,
+          "price": 186,
+          "bsr": 15671
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 9524
+        },
+        "DE": {
+          "sales": 4,
+          "amount": 631,
+          "price": 158,
+          "bsr": 22334
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 30252
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 2,
+          "amount": 578,
+          "price": 289,
+          "bsr": 4019
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-03-31",
+      "globalSales": 26,
+      "globalAmount": 4989,
+      "countries": {
+        "US": {
+          "sales": 17,
+          "amount": 3183,
+          "price": 187,
+          "bsr": 16991
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 10186
+        },
+        "DE": {
+          "sales": 4,
+          "amount": 631,
+          "price": 158,
+          "bsr": 24548
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 32348
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4984
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "globalSales": 26,
+      "globalAmount": 4929,
+      "countries": {
+        "US": {
+          "sales": 16,
+          "amount": 2984,
+          "price": 186,
+          "bsr": 20072
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 10391
+        },
+        "DE": {
+          "sales": 4,
+          "amount": 606,
+          "price": 152,
+          "bsr": 27106
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 43355
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4835
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "globalSales": 29,
+      "globalAmount": 5546,
+      "countries": {
+        "US": {
+          "sales": 20,
+          "amount": 3740,
+          "price": 187,
+          "bsr": 20953
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 8480
+        },
+        "DE": {
+          "sales": 3,
+          "amount": 467,
+          "price": 156,
+          "bsr": 36012
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 20812
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 5053
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "globalSales": 29,
+      "globalAmount": 5706,
+      "countries": {
+        "US": {
+          "sales": 21,
+          "amount": 3939,
+          "price": 188,
+          "bsr": 18481
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 10854
+        },
+        "DE": {
+          "sales": 2,
+          "amount": 303,
+          "price": 152,
+          "bsr": 28995
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 23080
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 5221
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-04",
+      "globalSales": 27,
+      "globalAmount": 5218,
+      "countries": {
+        "US": {
+          "sales": 20,
+          "amount": 3740,
+          "price": 187,
+          "bsr": 16764
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 15522
+        },
+        "DE": {
+          "sales": 2,
+          "amount": 303,
+          "price": 152,
+          "bsr": 39840
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 36607
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 3947
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "globalSales": 30,
+      "globalAmount": 5690,
+      "countries": {
+        "US": {
+          "sales": 19,
+          "amount": 3581,
+          "price": 188,
+          "bsr": 16826
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 13040
+        },
+        "DE": {
+          "sales": 6,
+          "amount": 934,
+          "price": 156,
+          "bsr": 24952
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 28499
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4125
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "globalSales": 33,
+      "globalAmount": 6272,
+      "countries": {
+        "US": {
+          "sales": 19,
+          "amount": 3541,
+          "price": 186,
+          "bsr": 16623
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 288,
+          "price": 144,
+          "bsr": 13082
+        },
+        "DE": {
+          "sales": 6,
+          "amount": 959,
+          "price": 160,
+          "bsr": 12857
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 30922
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 5185
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "globalSales": 32,
+      "globalAmount": 6058,
+      "countries": {
+        "US": {
+          "sales": 20,
+          "amount": 3780,
+          "price": 189,
+          "bsr": 15895
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 288,
+          "price": 144,
+          "bsr": 5940
+        },
+        "DE": {
+          "sales": 5,
+          "amount": 795,
+          "price": 159,
+          "bsr": 13123
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 17382
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4337
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "globalSales": 34,
+      "globalAmount": 6561,
+      "countries": {
+        "US": {
+          "sales": 22,
+          "amount": 4138,
+          "price": 188,
+          "bsr": 16739
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 10585
+        },
+        "DE": {
+          "sales": 5,
+          "amount": 795,
+          "price": 159,
+          "bsr": 15497
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 19739
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 4173
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "globalSales": 32,
+      "globalAmount": 6073,
+      "countries": {
+        "US": {
+          "sales": 21,
+          "amount": 3939,
+          "price": 188,
+          "bsr": 14796
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 8474
+        },
+        "DE": {
+          "sales": 6,
+          "amount": 959,
+          "price": 160,
+          "bsr": 13739
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 22637
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4071
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "globalSales": 35,
+      "globalAmount": 6845,
+      "countries": {
+        "US": {
+          "sales": 23,
+          "amount": 4297,
+          "price": 187,
+          "bsr": 16865
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 8955
+        },
+        "DE": {
+          "sales": 5,
+          "amount": 795,
+          "price": 159,
+          "bsr": 12198
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 24517
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 5,
+          "amount": 1445,
+          "price": 289,
+          "bsr": 5114
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "globalSales": 30,
+      "globalAmount": 5910,
+      "countries": {
+        "US": {
+          "sales": 21,
+          "amount": 3979,
+          "price": 189,
+          "bsr": 14887
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 9083
+        },
+        "DE": {
+          "sales": 3,
+          "amount": 467,
+          "price": 156,
+          "bsr": 18359
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 25291
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 3277
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "globalSales": 32,
+      "globalAmount": 6128,
+      "countries": {
+        "US": {
+          "sales": 20,
+          "amount": 3780,
+          "price": 189,
+          "bsr": 15031
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 8691
+        },
+        "DE": {
+          "sales": 6,
+          "amount": 884,
+          "price": 147,
+          "bsr": 23760
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 39214
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 3983
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "globalSales": 35,
+      "globalAmount": 6685,
+      "countries": {
+        "US": {
+          "sales": 25,
+          "amount": 4615,
+          "price": 185,
+          "bsr": 16624
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 9084
+        },
+        "DE": {
+          "sales": 4,
+          "amount": 606,
+          "price": 152,
+          "bsr": 17411
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 30982
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 3816
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "globalSales": 38,
+      "globalAmount": 7307,
+      "countries": {
+        "US": {
+          "sales": 24,
+          "amount": 4456,
+          "price": 186,
+          "bsr": 15570
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 14450
+        },
+        "DE": {
+          "sales": 5,
+          "amount": 770,
+          "price": 154,
+          "bsr": 30917
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 3,
+          "amount": 492,
+          "price": 164,
+          "bsr": 26431
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 5,
+          "amount": 1445,
+          "price": 289,
+          "bsr": 3107
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "globalSales": 38,
+      "globalAmount": 6985,
+      "countries": {
+        "US": {
+          "sales": 21,
+          "amount": 3859,
+          "price": 184,
+          "bsr": 15542
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 271,
+          "price": 136,
+          "bsr": 9608
+        },
+        "DE": {
+          "sales": 8,
+          "amount": 1172,
+          "price": 146,
+          "bsr": 19888
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 2,
+          "amount": 309,
+          "price": 154,
+          "bsr": 16279
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 5,
+          "amount": 1374,
+          "price": 275,
+          "bsr": 2819
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "globalSales": 36,
+      "globalAmount": 6524,
+      "countries": {
+        "US": {
+          "sales": 21,
+          "amount": 3939,
+          "price": 188,
+          "bsr": 15354
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 6902
+        },
+        "DE": {
+          "sales": 8,
+          "amount": 1102,
+          "price": 138,
+          "bsr": 13777
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 149,
+          "price": 149,
+          "bsr": 20458
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1076,
+          "price": 269,
+          "bsr": 3906
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "globalSales": 40,
+      "globalAmount": 7120,
+      "countries": {
+        "US": {
+          "sales": 25,
+          "amount": 4655,
+          "price": 186,
+          "bsr": 16241
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 6118
+        },
+        "DE": {
+          "sales": 9,
+          "amount": 1251,
+          "price": 139,
+          "bsr": 12200
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 149,
+          "price": 149,
+          "bsr": 24557
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 807,
+          "price": 269,
+          "bsr": 5126
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "globalSales": 33,
+      "globalAmount": 5877,
+      "countries": {
+        "US": {
+          "sales": 22,
+          "amount": 4098,
+          "price": 186,
+          "bsr": 14813
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 7973
+        },
+        "DE": {
+          "sales": 6,
+          "amount": 834,
+          "price": 139,
+          "bsr": 11692
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 149,
+          "price": 149,
+          "bsr": 37256
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 2,
+          "amount": 538,
+          "price": 269,
+          "bsr": 7108
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "globalSales": 36,
+      "globalAmount": 6494,
+      "countries": {
+        "US": {
+          "sales": 23,
+          "amount": 4297,
+          "price": 187,
+          "bsr": 16391
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 7508
+        },
+        "DE": {
+          "sales": 6,
+          "amount": 834,
+          "price": 139,
+          "bsr": 14354
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 2,
+          "amount": 298,
+          "price": 149,
+          "bsr": 20582
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 807,
+          "price": 269,
+          "bsr": 5241
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "globalSales": 36,
+      "globalAmount": 6433,
+      "countries": {
+        "US": {
+          "sales": 23,
+          "amount": 4257,
+          "price": 185,
+          "bsr": 16155
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 7361
+        },
+        "DE": {
+          "sales": 6,
+          "amount": 834,
+          "price": 139,
+          "bsr": 17271
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 2,
+          "amount": 277,
+          "price": 138,
+          "bsr": 20743
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 3,
+          "amount": 807,
+          "price": 269,
+          "bsr": 5957
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "globalSales": 36,
+      "globalAmount": 6678,
+      "countries": {
+        "US": {
+          "sales": 23,
+          "amount": 4297,
+          "price": 187,
+          "bsr": 15185
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 6774
+        },
+        "DE": {
+          "sales": 6,
+          "amount": 834,
+          "price": 139,
+          "bsr": 17346
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 213,
+          "price": 213,
+          "bsr": 24450
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1076,
+          "price": 269,
+          "bsr": 3987
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "globalSales": 37,
+      "globalAmount": 6768,
+      "countries": {
+        "US": {
+          "sales": 23,
+          "amount": 4337,
+          "price": 189,
+          "bsr": 14795
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 6133
+        },
+        "DE": {
+          "sales": 6,
+          "amount": 799,
+          "price": 133,
+          "bsr": 17176
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 2,
+          "amount": 298,
+          "price": 149,
+          "bsr": 19284
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1076,
+          "price": 269,
+          "bsr": 3924
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "globalSales": 37,
+      "globalAmount": 6757,
+      "countries": {
+        "US": {
+          "sales": 24,
+          "amount": 4536,
+          "price": 189,
+          "bsr": 13783
+        },
+        "UK": {
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 6289
+        },
+        "DE": {
+          "sales": 5,
+          "amount": 685,
+          "price": 137,
+          "bsr": 21656
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 2,
+          "amount": 255,
+          "price": 128,
+          "bsr": 23420
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 1023,
+          "price": 256,
+          "bsr": 3422
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "globalSales": 36,
+      "globalAmount": 6628,
+      "countries": {
+        "US": {
+          "sales": 23,
+          "amount": 4337,
+          "price": 189,
+          "bsr": 14498
+        },
+        "UK": {
+          "sales": 1,
+          "amount": 129,
+          "price": 129,
+          "bsr": 9559
+        },
+        "DE": {
+          "sales": 7,
+          "amount": 953,
+          "price": 136,
+          "bsr": 18385
+        },
+        "FR": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "IT": {
+          "sales": 1,
+          "amount": 213,
+          "price": 213,
+          "bsr": 24707
+        },
+        "ES": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "CA": {
+          "sales": 4,
+          "amount": 996,
+          "price": 249,
+          "bsr": 3525
+        },
+        "JP": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        },
+        "AU": {
+          "sales": 0,
+          "amount": 0,
+          "price": 0,
+          "bsr": null
+        }
+      }
+    }
+  ],
+  "countrySummary": [
+    {
+      "marketplace": "US",
+      "country": "美国",
+      "trackedProducts": 3,
+      "accessoryProducts": 0,
+      "totalSales30d": 643,
+      "totalAmount30d": 119957,
+      "avgPrice30d": 187,
+      "latestSales": 23,
+      "latestAmount": 4337,
+      "monthlyUnits": 640,
+      "monthlyRevenue": 119320.0,
+      "products": [
+        {
+          "marketplace": "US",
+          "country": "美国",
+          "asin": "B0DSV36JY9",
+          "title": "All New dragy Pro - Professional GPS Performance Meter, up to 25Hz GPS Laptimer, with Built-in Memory & 6-Axis IMU Motion Sensor | Includes dragy Mount for Easy Installation",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51VCKL18KQL._AC_US200_.jpg",
+          "price": 199.0,
+          "monthlyUnits": 439,
+          "monthlyRevenue": 87361.0,
+          "rating": 4.4,
+          "ratings": 112,
+          "sellerName": "Dragy",
+          "isMainUnit": true,
+          "dailyWindow": [
+            {
+              "date": "2026-03-26",
+              "sales": 12,
+              "amount": 2388,
+              "price": 199,
+              "bsr": 18533
+            },
+            {
+              "date": "2026-03-27",
+              "sales": 12,
+              "amount": 2388,
+              "price": 199,
+              "bsr": 22041
+            },
+            {
+              "date": "2026-03-28",
+              "sales": 15,
+              "amount": 2985,
+              "price": 199,
+              "bsr": 21675
+            },
+            {
+              "date": "2026-03-29",
+              "sales": 14,
+              "amount": 2786,
+              "price": 199,
+              "bsr": 17361
+            },
+            {
+              "date": "2026-03-30",
+              "sales": 13,
+              "amount": 2587,
+              "price": 199,
+              "bsr": 18278
+            },
+            {
+              "date": "2026-03-31",
+              "sales": 12,
+              "amount": 2388,
+              "price": 199,
+              "bsr": 19528
+            },
+            {
+              "date": "2026-04-01",
+              "sales": 11,
+              "amount": 2189,
+              "price": 199,
+              "bsr": 21169
+            },
+            {
+              "date": "2026-04-02",
+              "sales": 14,
+              "amount": 2786,
+              "price": 199,
+              "bsr": 22844
+            },
+            {
+              "date": "2026-04-03",
+              "sales": 15,
+              "amount": 2985,
+              "price": 199,
+              "bsr": 19075
+            },
+            {
+              "date": "2026-04-04",
+              "sales": 14,
+              "amount": 2786,
+              "price": 199,
+              "bsr": 16764
+            },
+            {
+              "date": "2026-04-05",
+              "sales": 14,
+              "amount": 2786,
+              "price": 199,
+              "bsr": 16826
+            },
+            {
+              "date": "2026-04-06",
+              "sales": 13,
+              "amount": 2587,
+              "price": 199,
+              "bsr": 16623
+            },
+            {
+              "date": "2026-04-07",
+              "sales": 15,
+              "amount": 2985,
+              "price": 199,
+              "bsr": 15895
+            },
+            {
+              "date": "2026-04-08",
+              "sales": 16,
+              "amount": 3184,
+              "price": 199,
+              "bsr": 16739
+            },
+            {
+              "date": "2026-04-09",
+              "sales": 15,
+              "amount": 2985,
+              "price": 199,
+              "bsr": 14796
+            },
+            {
+              "date": "2026-04-10",
+              "sales": 16,
+              "amount": 3184,
+              "price": 199,
+              "bsr": 16865
+            },
+            {
+              "date": "2026-04-11",
+              "sales": 16,
+              "amount": 3184,
+              "price": 199,
+              "bsr": 14887
+            },
+            {
+              "date": "2026-04-12",
+              "sales": 15,
+              "amount": 2985,
+              "price": 199,
+              "bsr": 15031
+            },
+            {
+              "date": "2026-04-13",
+              "sales": 16,
+              "amount": 3184,
+              "price": 199,
+              "bsr": 16624
+            },
+            {
+              "date": "2026-04-14",
+              "sales": 16,
+              "amount": 3184,
+              "price": 199,
+              "bsr": 15719
+            },
+            {
+              "date": "2026-04-15",
+              "sales": 13,
+              "amount": 2587,
+              "price": 199,
+              "bsr": 16317
+            },
+            {
+              "date": "2026-04-16",
+              "sales": 15,
+              "amount": 2985,
+              "price": 199,
+              "bsr": 19568
+            },
+            {
+              "date": "2026-04-17",
+              "sales": 17,
+              "amount": 3383,
+              "price": 199,
+              "bsr": 16241
+            },
+            {
+              "date": "2026-04-18",
+              "sales": 15,
+              "amount": 2985,
+              "price": 199,
+              "bsr": 14813
+            },
+            {
+              "date": "2026-04-19",
+              "sales": 16,
+              "amount": 3184,
+              "price": 199,
+              "bsr": 16859
+            },
+            {
+              "date": "2026-04-20",
+              "sales": 15,
+              "amount": 2985,
+              "price": 199,
+              "bsr": 16861
+            },
+            {
+              "date": "2026-04-21",
+              "sales": 16,
+              "amount": 3184,
+              "price": 199,
+              "bsr": 15185
+            },
+            {
+              "date": "2026-04-22",
+              "sales": 17,
+              "amount": 3383,
+              "price": 199,
+              "bsr": 14795
+            },
+            {
+              "date": "2026-04-23",
+              "sales": 18,
+              "amount": 3582,
+              "price": 199,
+              "bsr": 13783
+            },
+            {
+              "date": "2026-04-24",
+              "sales": 17,
+              "amount": 3383,
+              "price": 199,
+              "bsr": 14498
+            }
+          ]
+        },
+        {
+          "marketplace": "US",
+          "country": "美国",
+          "asin": "B0BQ6DWMLT",
+          "title": "New dragy GPS Based Performance Meter, up to 25Hz GPS Laptimer, Upgraded UBLOX 10th Gen High Performance GPS Module, Trusted by Million Users, USB-C Charging Port (DRG70-C)",
+          "imageUrl": "https://m.media-amazon.com/images/I/41ga26EfcrL._AC_SR200,200_.jpg",
+          "price": 159.0,
+          "monthlyUnits": 201,
+          "monthlyRevenue": 31959.0,
+          "rating": 4.6,
+          "ratings": 518,
+          "sellerName": "Dragy International",
+          "isMainUnit": true,
+          "dailyWindow": [
+            {
+              "date": "2026-03-26",
+              "sales": 8,
+              "amount": 1272,
+              "price": 159,
+              "bsr": 15126
+            },
+            {
+              "date": "2026-03-27",
+              "sales": 11,
+              "amount": 1749,
+              "price": 159,
+              "bsr": 16096
+            },
+            {
+              "date": "2026-03-28",
+              "sales": 9,
+              "amount": 1431,
+              "price": 159,
+              "bsr": 12584
+            },
+            {
+              "date": "2026-03-29",
+              "sales": 7,
+              "amount": 1113,
+              "price": 159,
+              "bsr": 13055
+            },
+            {
+              "date": "2026-03-30",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 15671
+            },
+            {
+              "date": "2026-03-31",
+              "sales": 5,
+              "amount": 795,
+              "price": 159,
+              "bsr": 16991
+            },
+            {
+              "date": "2026-04-01",
+              "sales": 5,
+              "amount": 795,
+              "price": 159,
+              "bsr": 20072
+            },
+            {
+              "date": "2026-04-02",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 20953
+            },
+            {
+              "date": "2026-04-03",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 18481
+            },
+            {
+              "date": "2026-04-04",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 18347
+            },
+            {
+              "date": "2026-04-05",
+              "sales": 5,
+              "amount": 795,
+              "price": 159,
+              "bsr": 17597
+            },
+            {
+              "date": "2026-04-06",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 18248
+            },
+            {
+              "date": "2026-04-07",
+              "sales": 5,
+              "amount": 795,
+              "price": 159,
+              "bsr": 17867
+            },
+            {
+              "date": "2026-04-08",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 18951
+            },
+            {
+              "date": "2026-04-09",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 18523
+            },
+            {
+              "date": "2026-04-10",
+              "sales": 7,
+              "amount": 1113,
+              "price": 159,
+              "bsr": 17684
+            },
+            {
+              "date": "2026-04-11",
+              "sales": 5,
+              "amount": 795,
+              "price": 159,
+              "bsr": 15870
+            },
+            {
+              "date": "2026-04-12",
+              "sales": 5,
+              "amount": 795,
+              "price": 159,
+              "bsr": 19068
+            },
+            {
+              "date": "2026-04-13",
+              "sales": 9,
+              "amount": 1431,
+              "price": 159,
+              "bsr": 19268
+            },
+            {
+              "date": "2026-04-14",
+              "sales": 8,
+              "amount": 1272,
+              "price": 159,
+              "bsr": 15570
+            },
+            {
+              "date": "2026-04-15",
+              "sales": 8,
+              "amount": 1272,
+              "price": 159,
+              "bsr": 15542
+            },
+            {
+              "date": "2026-04-16",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 15354
+            },
+            {
+              "date": "2026-04-17",
+              "sales": 8,
+              "amount": 1272,
+              "price": 159,
+              "bsr": 19058
+            },
+            {
+              "date": "2026-04-18",
+              "sales": 7,
+              "amount": 1113,
+              "price": 159,
+              "bsr": 15765
+            },
+            {
+              "date": "2026-04-19",
+              "sales": 7,
+              "amount": 1113,
+              "price": 159,
+              "bsr": 16391
+            },
+            {
+              "date": "2026-04-20",
+              "sales": 8,
+              "amount": 1272,
+              "price": 159,
+              "bsr": 16155
+            },
+            {
+              "date": "2026-04-21",
+              "sales": 7,
+              "amount": 1113,
+              "price": 159,
+              "bsr": 16487
+            },
+            {
+              "date": "2026-04-22",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 18763
+            },
+            {
+              "date": "2026-04-23",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 18800
+            },
+            {
+              "date": "2026-04-24",
+              "sales": 6,
+              "amount": 954,
+              "price": 159,
+              "bsr": 20204
+            }
+          ]
+        },
+        {
+          "marketplace": "US",
+          "country": "美国",
+          "asin": "B0BQ6DT2CV",
+          "title": "Official dragy Mount, Window Suction Cup Mount Compatible with dragy DRG69/70 Series GPS Based Performance Meter",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51eNzVwqZTL._AC_US200_.jpg",
+          "price": 29.0,
+          "monthlyUnits": 0,
+          "monthlyRevenue": 0,
+          "rating": 4.6,
+          "ratings": 103,
+          "sellerName": "Dragy",
+          "isMainUnit": true,
+          "dailyWindow": []
+        }
+      ],
+      "accessories": []
+    },
+    {
+      "marketplace": "UK",
+      "country": "英国",
+      "trackedProducts": 1,
+      "accessoryProducts": 0,
+      "totalSales30d": 42,
+      "totalAmount30d": 5776,
+      "avgPrice30d": 138,
+      "latestSales": 1,
+      "latestAmount": 129,
+      "monthlyUnits": 45,
+      "monthlyRevenue": 5805.0,
+      "products": [
+        {
+          "marketplace": "UK",
+          "country": "英国",
+          "asin": "B0DSV36JY9",
+          "title": "All New dragy Pro - Professional 25Hz GPS Performance Meter, with Built-in Memory & 6-Axis IMU Motion Sensor | Includes Mount for Easy Installation",
+          "imageUrl": "https://m.media-amazon.com/images/I/21ppLp3eiqL._AC_US200_.jpg",
+          "price": 129.0,
+          "monthlyUnits": 45,
+          "monthlyRevenue": 5805.0,
+          "rating": 4.5,
+          "ratings": 111,
+          "sellerName": "Dragy International",
+          "isMainUnit": true,
+          "dailyWindow": [
+            {
+              "date": "2026-03-26",
+              "sales": 2,
+              "amount": 288,
+              "price": 144,
+              "bsr": 8420
+            },
+            {
+              "date": "2026-03-27",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 6348
+            },
+            {
+              "date": "2026-03-28",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 9763
+            },
+            {
+              "date": "2026-03-29",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 8640
+            },
+            {
+              "date": "2026-03-30",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 9524
+            },
+            {
+              "date": "2026-03-31",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 10186
+            },
+            {
+              "date": "2026-04-01",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 10391
+            },
+            {
+              "date": "2026-04-02",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 8480
+            },
+            {
+              "date": "2026-04-03",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 10854
+            },
+            {
+              "date": "2026-04-04",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 15522
+            },
+            {
+              "date": "2026-04-05",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 13040
+            },
+            {
+              "date": "2026-04-06",
+              "sales": 2,
+              "amount": 288,
+              "price": 144,
+              "bsr": 13082
+            },
+            {
+              "date": "2026-04-07",
+              "sales": 2,
+              "amount": 288,
+              "price": 144,
+              "bsr": 5940
+            },
+            {
+              "date": "2026-04-08",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 10585
+            },
+            {
+              "date": "2026-04-09",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 8474
+            },
+            {
+              "date": "2026-04-10",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 8955
+            },
+            {
+              "date": "2026-04-11",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 9083
+            },
+            {
+              "date": "2026-04-12",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 8691
+            },
+            {
+              "date": "2026-04-13",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 9084
+            },
+            {
+              "date": "2026-04-14",
+              "sales": 1,
+              "amount": 144,
+              "price": 144,
+              "bsr": 14450
+            },
+            {
+              "date": "2026-04-15",
+              "sales": 2,
+              "amount": 271,
+              "price": 135,
+              "bsr": 9608
+            },
+            {
+              "date": "2026-04-16",
+              "sales": 2,
+              "amount": 258,
+              "price": 129,
+              "bsr": 6902
+            },
+            {
+              "date": "2026-04-17",
+              "sales": 2,
+              "amount": 258,
+              "price": 129,
+              "bsr": 6118
+            },
+            {
+              "date": "2026-04-18",
+              "sales": 2,
+              "amount": 258,
+              "price": 129,
+              "bsr": 7973
+            },
+            {
+              "date": "2026-04-19",
+              "sales": 2,
+              "amount": 258,
+              "price": 129,
+              "bsr": 7508
+            },
+            {
+              "date": "2026-04-20",
+              "sales": 2,
+              "amount": 258,
+              "price": 129,
+              "bsr": 7361
+            },
+            {
+              "date": "2026-04-21",
+              "sales": 2,
+              "amount": 258,
+              "price": 129,
+              "bsr": 6774
+            },
+            {
+              "date": "2026-04-22",
+              "sales": 2,
+              "amount": 258,
+              "price": 129,
+              "bsr": 6133
+            },
+            {
+              "date": "2026-04-23",
+              "sales": 2,
+              "amount": 258,
+              "price": 129,
+              "bsr": 6289
+            },
+            {
+              "date": "2026-04-24",
+              "sales": 1,
+              "amount": 129,
+              "price": 129,
+              "bsr": 9559
+            }
+          ]
+        }
+      ],
+      "accessories": []
+    },
+    {
+      "marketplace": "DE",
+      "country": "德国",
+      "trackedProducts": 2,
+      "accessoryProducts": 0,
+      "totalSales30d": 155,
+      "totalAmount30d": 23030,
+      "avgPrice30d": 149,
+      "latestSales": 7,
+      "latestAmount": 953,
+      "monthlyUnits": 144,
+      "monthlyRevenue": 19956.0,
+      "products": [
+        {
+          "marketplace": "DE",
+          "country": "德国",
+          "asin": "B0DSV36JY9",
+          "title": "Dragy Pro, professionelles 25 Hz GPS-Leistungsmesser, mit integriertem Speicher und 6-Achsen-IMU-Bewegungsmelder, inklusive Dragy Halterung für einfache Installation",
+          "imageUrl": "https://m.media-amazon.com/images/I/21ppLp3eiqL._AC_US200_.jpg",
+          "price": 149.0,
+          "monthlyUnits": 94,
+          "monthlyRevenue": 14006.0,
+          "rating": 4.4,
+          "ratings": 107,
+          "sellerName": "Dragy International",
+          "isMainUnit": true,
+          "dailyWindow": [
+            {
+              "date": "2026-03-26",
+              "sales": 4,
+              "amount": 656,
+              "price": 164,
+              "bsr": 20890
+            },
+            {
+              "date": "2026-03-27",
+              "sales": 3,
+              "amount": 492,
+              "price": 164,
+              "bsr": 17262
+            },
+            {
+              "date": "2026-03-28",
+              "sales": 3,
+              "amount": 492,
+              "price": 164,
+              "bsr": 22217
+            },
+            {
+              "date": "2026-03-29",
+              "sales": 3,
+              "amount": 492,
+              "price": 164,
+              "bsr": 22334
+            },
+            {
+              "date": "2026-03-30",
+              "sales": 3,
+              "amount": 492,
+              "price": 164,
+              "bsr": 22334
+            },
+            {
+              "date": "2026-03-31",
+              "sales": 3,
+              "amount": 492,
+              "price": 164,
+              "bsr": 24548
+            },
+            {
+              "date": "2026-04-01",
+              "sales": 2,
+              "amount": 328,
+              "price": 164,
+              "bsr": 27106
+            },
+            {
+              "date": "2026-04-02",
+              "sales": 2,
+              "amount": 328,
+              "price": 164,
+              "bsr": 36012
+            },
+            {
+              "date": "2026-04-03",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 28995
+            },
+            {
+              "date": "2026-04-04",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 39840
+            },
+            {
+              "date": "2026-04-05",
+              "sales": 4,
+              "amount": 656,
+              "price": 164,
+              "bsr": 24952
+            },
+            {
+              "date": "2026-04-06",
+              "sales": 5,
+              "amount": 820,
+              "price": 164,
+              "bsr": 12857
+            },
+            {
+              "date": "2026-04-07",
+              "sales": 4,
+              "amount": 656,
+              "price": 164,
+              "bsr": 13123
+            },
+            {
+              "date": "2026-04-08",
+              "sales": 4,
+              "amount": 656,
+              "price": 164,
+              "bsr": 15497
+            },
+            {
+              "date": "2026-04-09",
+              "sales": 5,
+              "amount": 820,
+              "price": 164,
+              "bsr": 13739
+            },
+            {
+              "date": "2026-04-10",
+              "sales": 4,
+              "amount": 656,
+              "price": 164,
+              "bsr": 12198
+            },
+            {
+              "date": "2026-04-11",
+              "sales": 2,
+              "amount": 328,
+              "price": 164,
+              "bsr": 18359
+            },
+            {
+              "date": "2026-04-12",
+              "sales": 2,
+              "amount": 328,
+              "price": 164,
+              "bsr": 23760
+            },
+            {
+              "date": "2026-04-13",
+              "sales": 2,
+              "amount": 328,
+              "price": 164,
+              "bsr": 25392
+            },
+            {
+              "date": "2026-04-14",
+              "sales": 3,
+              "amount": 492,
+              "price": 164,
+              "bsr": 33992
+            },
+            {
+              "date": "2026-04-15",
+              "sales": 5,
+              "amount": 783,
+              "price": 157,
+              "bsr": 19888
+            },
+            {
+              "date": "2026-04-16",
+              "sales": 5,
+              "amount": 745,
+              "price": 149,
+              "bsr": 13777
+            },
+            {
+              "date": "2026-04-17",
+              "sales": 6,
+              "amount": 894,
+              "price": 149,
+              "bsr": 12200
+            },
+            {
+              "date": "2026-04-18",
+              "sales": 4,
+              "amount": 596,
+              "price": 149,
+              "bsr": 11692
+            },
+            {
+              "date": "2026-04-19",
+              "sales": 4,
+              "amount": 596,
+              "price": 149,
+              "bsr": 14354
+            },
+            {
+              "date": "2026-04-20",
+              "sales": 4,
+              "amount": 596,
+              "price": 149,
+              "bsr": 17271
+            },
+            {
+              "date": "2026-04-21",
+              "sales": 4,
+              "amount": 596,
+              "price": 149,
+              "bsr": 17346
+            },
+            {
+              "date": "2026-04-22",
+              "sales": 4,
+              "amount": 596,
+              "price": 149,
+              "bsr": 17176
+            },
+            {
+              "date": "2026-04-23",
+              "sales": 3,
+              "amount": 447,
+              "price": 149,
+              "bsr": 21656
+            },
+            {
+              "date": "2026-04-24",
+              "sales": 4,
+              "amount": 596,
+              "price": 149,
+              "bsr": 18385
+            }
+          ]
+        },
+        {
+          "marketplace": "DE",
+          "country": "德国",
+          "asin": "B0BQ6DWMLT",
+          "title": "Neues GPS-basiertes Leistungsmessgerät, bis zu 25 Hz GPS-Rundentimer, Motorrad-Video-Overlay, verbessertes UBLOX-Hochleistungs-Modul der 10. Generation, USB-Typ-C-Ladeanschluss (DRG70-C)",
+          "imageUrl": "https://m.media-amazon.com/images/I/41ga26EfcrL._AC_SR200,200_.jpg",
+          "price": 119.0,
+          "monthlyUnits": 50,
+          "monthlyRevenue": 5950.0,
+          "rating": 4.6,
+          "ratings": 576,
+          "sellerName": "Dragy International",
+          "isMainUnit": true,
+          "dailyWindow": [
+            {
+              "date": "2026-03-26",
+              "sales": 2,
+              "amount": 278,
+              "price": 139,
+              "bsr": 48254
+            },
+            {
+              "date": "2026-03-27",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 40096
+            },
+            {
+              "date": "2026-03-28",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 49078
+            },
+            {
+              "date": "2026-03-29",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 48331
+            },
+            {
+              "date": "2026-03-30",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 48331
+            },
+            {
+              "date": "2026-03-31",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 48331
+            },
+            {
+              "date": "2026-04-01",
+              "sales": 2,
+              "amount": 278,
+              "price": 139,
+              "bsr": 43104
+            },
+            {
+              "date": "2026-04-02",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 40092
+            },
+            {
+              "date": "2026-04-03",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 45476
+            },
+            {
+              "date": "2026-04-04",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 40067
+            },
+            {
+              "date": "2026-04-05",
+              "sales": 2,
+              "amount": 278,
+              "price": 139,
+              "bsr": 33990
+            },
+            {
+              "date": "2026-04-06",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 32957
+            },
+            {
+              "date": "2026-04-07",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 47409
+            },
+            {
+              "date": "2026-04-08",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 74373
+            },
+            {
+              "date": "2026-04-09",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 46290
+            },
+            {
+              "date": "2026-04-10",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 67745
+            },
+            {
+              "date": "2026-04-11",
+              "sales": 1,
+              "amount": 139,
+              "price": 139,
+              "bsr": 46643
+            },
+            {
+              "date": "2026-04-12",
+              "sales": 4,
+              "amount": 556,
+              "price": 139,
+              "bsr": 40923
+            },
+            {
+              "date": "2026-04-13",
+              "sales": 2,
+              "amount": 278,
+              "price": 139,
+              "bsr": 17411
+            },
+            {
+              "date": "2026-04-14",
+              "sales": 2,
+              "amount": 278,
+              "price": 139,
+              "bsr": 30917
+            },
+            {
+              "date": "2026-04-15",
+              "sales": 3,
+              "amount": 389,
+              "price": 130,
+              "bsr": 33751
+            },
+            {
+              "date": "2026-04-16",
+              "sales": 3,
+              "amount": 357,
+              "price": 119,
+              "bsr": 23198
+            },
+            {
+              "date": "2026-04-17",
+              "sales": 3,
+              "amount": 357,
+              "price": 119,
+              "bsr": 20806
+            },
+            {
+              "date": "2026-04-18",
+              "sales": 2,
+              "amount": 238,
+              "price": 119,
+              "bsr": 21091
+            },
+            {
+              "date": "2026-04-19",
+              "sales": 2,
+              "amount": 238,
+              "price": 119,
+              "bsr": 23141
+            },
+            {
+              "date": "2026-04-20",
+              "sales": 2,
+              "amount": 238,
+              "price": 119,
+              "bsr": 30397
+            },
+            {
+              "date": "2026-04-21",
+              "sales": 2,
+              "amount": 238,
+              "price": 119,
+              "bsr": 34552
+            },
+            {
+              "date": "2026-04-22",
+              "sales": 2,
+              "amount": 203,
+              "price": 119,
+              "bsr": 41398
+            },
+            {
+              "date": "2026-04-23",
+              "sales": 2,
+              "amount": 238,
+              "price": 119,
+              "bsr": 28728
+            },
+            {
+              "date": "2026-04-24",
+              "sales": 3,
+              "amount": 357,
+              "price": 119,
+              "bsr": 24817
+            }
+          ]
+        }
+      ],
+      "accessories": []
+    },
+    {
+      "marketplace": "FR",
+      "country": "法国",
+      "trackedProducts": 0,
+      "accessoryProducts": 0,
+      "totalSales30d": 0,
+      "totalAmount30d": 0,
+      "avgPrice30d": 0,
+      "latestSales": 0,
+      "latestAmount": 0,
+      "monthlyUnits": 0,
+      "monthlyRevenue": 0,
+      "products": [],
+      "accessories": []
+    },
+    {
+      "marketplace": "IT",
+      "country": "意大利",
+      "trackedProducts": 1,
+      "accessoryProducts": 0,
+      "totalSales30d": 42,
+      "totalAmount30d": 6738,
+      "avgPrice30d": 160,
+      "latestSales": 1,
+      "latestAmount": 213,
+      "monthlyUnits": 40,
+      "monthlyRevenue": 5960.0,
+      "products": [
+        {
+          "marketplace": "IT",
+          "country": "意大利",
+          "asin": "B0DSV36JY9",
+          "title": "Dragy Pro - Misuratore di prestazioni GPS professionale da 25 Hz, con memoria integrata e sensore di movimento IMU a 6 assi, include supporto dragy per una facile installazione",
+          "imageUrl": "https://m.media-amazon.com/images/I/21ppLp3eiqL._AC_US200_.jpg",
+          "price": 149.0,
+          "monthlyUnits": 40,
+          "monthlyRevenue": 5960.0,
+          "rating": 4.4,
+          "ratings": 105,
+          "sellerName": "Dragy International",
+          "isMainUnit": true,
+          "dailyWindow": [
+            {
+              "date": "2026-03-26",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 40497
+            },
+            {
+              "date": "2026-03-27",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 33153
+            },
+            {
+              "date": "2026-03-28",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 30079
+            },
+            {
+              "date": "2026-03-29",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 30252
+            },
+            {
+              "date": "2026-03-30",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 30252
+            },
+            {
+              "date": "2026-03-31",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 32348
+            },
+            {
+              "date": "2026-04-01",
+              "sales": 2,
+              "amount": 328,
+              "price": 164,
+              "bsr": 43355
+            },
+            {
+              "date": "2026-04-02",
+              "sales": 2,
+              "amount": 328,
+              "price": 164,
+              "bsr": 20812
+            },
+            {
+              "date": "2026-04-03",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 23080
+            },
+            {
+              "date": "2026-04-04",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 36607
+            },
+            {
+              "date": "2026-04-05",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 28499
+            },
+            {
+              "date": "2026-04-06",
+              "sales": 2,
+              "amount": 328,
+              "price": 164,
+              "bsr": 30922
+            },
+            {
+              "date": "2026-04-07",
+              "sales": 2,
+              "amount": 328,
+              "price": 164,
+              "bsr": 17382
+            },
+            {
+              "date": "2026-04-08",
+              "sales": 2,
+              "amount": 328,
+              "price": 164,
+              "bsr": 19739
+            },
+            {
+              "date": "2026-04-09",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 22637
+            },
+            {
+              "date": "2026-04-10",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 24517
+            },
+            {
+              "date": "2026-04-11",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 25291
+            },
+            {
+              "date": "2026-04-12",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 39214
+            },
+            {
+              "date": "2026-04-13",
+              "sales": 1,
+              "amount": 164,
+              "price": 164,
+              "bsr": 30982
+            },
+            {
+              "date": "2026-04-14",
+              "sales": 3,
+              "amount": 492,
+              "price": 164,
+              "bsr": 26431
+            },
+            {
+              "date": "2026-04-15",
+              "sales": 2,
+              "amount": 309,
+              "price": 155,
+              "bsr": 16279
+            },
+            {
+              "date": "2026-04-16",
+              "sales": 1,
+              "amount": 149,
+              "price": 149,
+              "bsr": 20458
+            },
+            {
+              "date": "2026-04-17",
+              "sales": 1,
+              "amount": 149,
+              "price": 149,
+              "bsr": 24557
+            },
+            {
+              "date": "2026-04-18",
+              "sales": 1,
+              "amount": 149,
+              "price": 149,
+              "bsr": 37256
+            },
+            {
+              "date": "2026-04-19",
+              "sales": 2,
+              "amount": 298,
+              "price": 149,
+              "bsr": 20582
+            },
+            {
+              "date": "2026-04-20",
+              "sales": 2,
+              "amount": 277,
+              "price": 149,
+              "bsr": 20743
+            },
+            {
+              "date": "2026-04-21",
+              "sales": 1,
+              "amount": 213,
+              "price": 149,
+              "bsr": 24450
+            },
+            {
+              "date": "2026-04-22",
+              "sales": 2,
+              "amount": 298,
+              "price": 149,
+              "bsr": 19284
+            },
+            {
+              "date": "2026-04-23",
+              "sales": 2,
+              "amount": 255,
+              "price": 149,
+              "bsr": 23420
+            },
+            {
+              "date": "2026-04-24",
+              "sales": 1,
+              "amount": 213,
+              "price": 149,
+              "bsr": 24707
+            }
+          ]
+        }
+      ],
+      "accessories": []
+    },
+    {
+      "marketplace": "ES",
+      "country": "西班牙",
+      "trackedProducts": 0,
+      "accessoryProducts": 0,
+      "totalSales30d": 0,
+      "totalAmount30d": 0,
+      "avgPrice30d": 0,
+      "latestSales": 0,
+      "latestAmount": 0,
+      "monthlyUnits": 0,
+      "monthlyRevenue": 0,
+      "products": [],
+      "accessories": []
+    },
+    {
+      "marketplace": "CA",
+      "country": "加拿大",
+      "trackedProducts": 1,
+      "accessoryProducts": 0,
+      "totalSales30d": 106,
+      "totalAmount30d": 29810,
+      "avgPrice30d": 281,
+      "latestSales": 4,
+      "latestAmount": 996,
+      "monthlyUnits": 99,
+      "monthlyRevenue": 24651.0,
+      "products": [
+        {
+          "marketplace": "CA",
+          "country": "加拿大",
+          "asin": "B0DSV36JY9",
+          "title": "All New dragy Pro - Professional 25Hz GPS Performance Meter, with Built-in Memory & 6-Axis IMU Motion Sensor | Includes dragy Mount for Easy Installation",
+          "imageUrl": "https://m.media-amazon.com/images/I/21ppLp3eiqL._AC_US200_.jpg",
+          "price": 249.0,
+          "monthlyUnits": 99,
+          "monthlyRevenue": 24651.0,
+          "rating": 4.5,
+          "ratings": 105,
+          "sellerName": "Dragy International",
+          "isMainUnit": true,
+          "dailyWindow": [
+            {
+              "date": "2026-03-26",
+              "sales": 3,
+              "amount": 867,
+              "price": 289,
+              "bsr": 4291
+            },
+            {
+              "date": "2026-03-27",
+              "sales": 3,
+              "amount": 867,
+              "price": 289,
+              "bsr": 5108
+            },
+            {
+              "date": "2026-03-28",
+              "sales": 3,
+              "amount": 867,
+              "price": 289,
+              "bsr": 4870
+            },
+            {
+              "date": "2026-03-29",
+              "sales": 4,
+              "amount": 1156,
+              "price": 289,
+              "bsr": 5082
+            },
+            {
+              "date": "2026-03-30",
+              "sales": 2,
+              "amount": 578,
+              "price": 289,
+              "bsr": 4019
+            },
+            {
+              "date": "2026-03-31",
+              "sales": 3,
+              "amount": 867,
+              "price": 289,
+              "bsr": 4984
+            },
+            {
+              "date": "2026-04-01",
+              "sales": 3,
+              "amount": 867,
+              "price": 289,
+              "bsr": 4835
+            },
+            {
+              "date": "2026-04-02",
+              "sales": 3,
+              "amount": 867,
+              "price": 289,
+              "bsr": 5053
+            },
+            {
+              "date": "2026-04-03",
+              "sales": 4,
+              "amount": 1156,
+              "price": 289,
+              "bsr": 5221
+            },
+            {
+              "date": "2026-04-04",
+              "sales": 3,
+              "amount": 867,
+              "price": 289,
+              "bsr": 3947
+            },
+            {
+              "date": "2026-04-05",
+              "sales": 3,
+              "amount": 867,
+              "price": 289,
+              "bsr": 4125
+            },
+            {
+              "date": "2026-04-06",
+              "sales": 4,
+              "amount": 1156,
+              "price": 289,
+              "bsr": 5185
+            },
+            {
+              "date": "2026-04-07",
+              "sales": 3,
+              "amount": 867,
+              "price": 289,
+              "bsr": 4337
+            },
+            {
+              "date": "2026-04-08",
+              "sales": 4,
+              "amount": 1156,
+              "price": 289,
+              "bsr": 4173
+            },
+            {
+              "date": "2026-04-09",
+              "sales": 3,
+              "amount": 867,
+              "price": 289,
+              "bsr": 4071
+            },
+            {
+              "date": "2026-04-10",
+              "sales": 5,
+              "amount": 1445,
+              "price": 289,
+              "bsr": 5114
+            },
+            {
+              "date": "2026-04-11",
+              "sales": 4,
+              "amount": 1156,
+              "price": 289,
+              "bsr": 3277
+            },
+            {
+              "date": "2026-04-12",
+              "sales": 4,
+              "amount": 1156,
+              "price": 289,
+              "bsr": 3983
+            },
+            {
+              "date": "2026-04-13",
+              "sales": 4,
+              "amount": 1156,
+              "price": 289,
+              "bsr": 3816
+            },
+            {
+              "date": "2026-04-14",
+              "sales": 5,
+              "amount": 1445,
+              "price": 289,
+              "bsr": 3107
+            },
+            {
+              "date": "2026-04-15",
+              "sales": 5,
+              "amount": 1374,
+              "price": 275,
+              "bsr": 2819
+            },
+            {
+              "date": "2026-04-16",
+              "sales": 4,
+              "amount": 1076,
+              "price": 269,
+              "bsr": 3906
+            },
+            {
+              "date": "2026-04-17",
+              "sales": 3,
+              "amount": 807,
+              "price": 269,
+              "bsr": 5126
+            },
+            {
+              "date": "2026-04-18",
+              "sales": 2,
+              "amount": 538,
+              "price": 269,
+              "bsr": 7108
+            },
+            {
+              "date": "2026-04-19",
+              "sales": 3,
+              "amount": 807,
+              "price": 269,
+              "bsr": 5241
+            },
+            {
+              "date": "2026-04-20",
+              "sales": 3,
+              "amount": 807,
+              "price": 269,
+              "bsr": 5957
+            },
+            {
+              "date": "2026-04-21",
+              "sales": 4,
+              "amount": 1076,
+              "price": 269,
+              "bsr": 3987
+            },
+            {
+              "date": "2026-04-22",
+              "sales": 4,
+              "amount": 1076,
+              "price": 269,
+              "bsr": 3924
+            },
+            {
+              "date": "2026-04-23",
+              "sales": 4,
+              "amount": 1023,
+              "price": 256,
+              "bsr": 3422
+            },
+            {
+              "date": "2026-04-24",
+              "sales": 4,
+              "amount": 996,
+              "price": 249,
+              "bsr": 3525
+            }
+          ]
+        }
+      ],
+      "accessories": []
+    },
+    {
+      "marketplace": "JP",
+      "country": "日本",
+      "trackedProducts": 0,
+      "accessoryProducts": 0,
+      "totalSales30d": 0,
+      "totalAmount30d": 0,
+      "avgPrice30d": 0,
+      "latestSales": 0,
+      "latestAmount": 0,
+      "monthlyUnits": 0,
+      "monthlyRevenue": 0,
+      "products": [],
+      "accessories": []
+    },
+    {
+      "marketplace": "AU",
+      "country": "澳大利亚",
+      "trackedProducts": 0,
+      "accessoryProducts": 0,
+      "totalSales30d": 0,
+      "totalAmount30d": 0,
+      "avgPrice30d": 0,
+      "latestSales": 0,
+      "latestAmount": 0,
+      "monthlyUnits": 0,
+      "monthlyRevenue": 0,
+      "products": [],
+      "accessories": []
+    }
+  ],
+  "trackedProducts": [
+    {
+      "marketplace": "US",
+      "country": "美国",
+      "asin": "B0DSV36JY9",
+      "title": "All New dragy Pro - Professional GPS Performance Meter, up to 25Hz GPS Laptimer, with Built-in Memory & 6-Axis IMU Motion Sensor | Includes dragy Mount for Easy Installation",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51VCKL18KQL._AC_US200_.jpg",
+      "price": 199.0,
+      "monthlyUnits": 439,
+      "monthlyRevenue": 87361.0,
+      "rating": 4.4,
+      "ratings": 112,
+      "sellerName": "Dragy",
+      "isMainUnit": true,
+      "dailyWindow": [
+        {
+          "date": "2026-03-26",
+          "sales": 12,
+          "amount": 2388,
+          "price": 199,
+          "bsr": 18533
+        },
+        {
+          "date": "2026-03-27",
+          "sales": 12,
+          "amount": 2388,
+          "price": 199,
+          "bsr": 22041
+        },
+        {
+          "date": "2026-03-28",
+          "sales": 15,
+          "amount": 2985,
+          "price": 199,
+          "bsr": 21675
+        },
+        {
+          "date": "2026-03-29",
+          "sales": 14,
+          "amount": 2786,
+          "price": 199,
+          "bsr": 17361
+        },
+        {
+          "date": "2026-03-30",
+          "sales": 13,
+          "amount": 2587,
+          "price": 199,
+          "bsr": 18278
+        },
+        {
+          "date": "2026-03-31",
+          "sales": 12,
+          "amount": 2388,
+          "price": 199,
+          "bsr": 19528
+        },
+        {
+          "date": "2026-04-01",
+          "sales": 11,
+          "amount": 2189,
+          "price": 199,
+          "bsr": 21169
+        },
+        {
+          "date": "2026-04-02",
+          "sales": 14,
+          "amount": 2786,
+          "price": 199,
+          "bsr": 22844
+        },
+        {
+          "date": "2026-04-03",
+          "sales": 15,
+          "amount": 2985,
+          "price": 199,
+          "bsr": 19075
+        },
+        {
+          "date": "2026-04-04",
+          "sales": 14,
+          "amount": 2786,
+          "price": 199,
+          "bsr": 16764
+        },
+        {
+          "date": "2026-04-05",
+          "sales": 14,
+          "amount": 2786,
+          "price": 199,
+          "bsr": 16826
+        },
+        {
+          "date": "2026-04-06",
+          "sales": 13,
+          "amount": 2587,
+          "price": 199,
+          "bsr": 16623
+        },
+        {
+          "date": "2026-04-07",
+          "sales": 15,
+          "amount": 2985,
+          "price": 199,
+          "bsr": 15895
+        },
+        {
+          "date": "2026-04-08",
+          "sales": 16,
+          "amount": 3184,
+          "price": 199,
+          "bsr": 16739
+        },
+        {
+          "date": "2026-04-09",
+          "sales": 15,
+          "amount": 2985,
+          "price": 199,
+          "bsr": 14796
+        },
+        {
+          "date": "2026-04-10",
+          "sales": 16,
+          "amount": 3184,
+          "price": 199,
+          "bsr": 16865
+        },
+        {
+          "date": "2026-04-11",
+          "sales": 16,
+          "amount": 3184,
+          "price": 199,
+          "bsr": 14887
+        },
+        {
+          "date": "2026-04-12",
+          "sales": 15,
+          "amount": 2985,
+          "price": 199,
+          "bsr": 15031
+        },
+        {
+          "date": "2026-04-13",
+          "sales": 16,
+          "amount": 3184,
+          "price": 199,
+          "bsr": 16624
+        },
+        {
+          "date": "2026-04-14",
+          "sales": 16,
+          "amount": 3184,
+          "price": 199,
+          "bsr": 15719
+        },
+        {
+          "date": "2026-04-15",
+          "sales": 13,
+          "amount": 2587,
+          "price": 199,
+          "bsr": 16317
+        },
+        {
+          "date": "2026-04-16",
+          "sales": 15,
+          "amount": 2985,
+          "price": 199,
+          "bsr": 19568
+        },
+        {
+          "date": "2026-04-17",
+          "sales": 17,
+          "amount": 3383,
+          "price": 199,
+          "bsr": 16241
+        },
+        {
+          "date": "2026-04-18",
+          "sales": 15,
+          "amount": 2985,
+          "price": 199,
+          "bsr": 14813
+        },
+        {
+          "date": "2026-04-19",
+          "sales": 16,
+          "amount": 3184,
+          "price": 199,
+          "bsr": 16859
+        },
+        {
+          "date": "2026-04-20",
+          "sales": 15,
+          "amount": 2985,
+          "price": 199,
+          "bsr": 16861
+        },
+        {
+          "date": "2026-04-21",
+          "sales": 16,
+          "amount": 3184,
+          "price": 199,
+          "bsr": 15185
+        },
+        {
+          "date": "2026-04-22",
+          "sales": 17,
+          "amount": 3383,
+          "price": 199,
+          "bsr": 14795
+        },
+        {
+          "date": "2026-04-23",
+          "sales": 18,
+          "amount": 3582,
+          "price": 199,
+          "bsr": 13783
+        },
+        {
+          "date": "2026-04-24",
+          "sales": 17,
+          "amount": 3383,
+          "price": 199,
+          "bsr": 14498
+        }
+      ]
+    },
+    {
+      "marketplace": "US",
+      "country": "美国",
+      "asin": "B0BQ6DWMLT",
+      "title": "New dragy GPS Based Performance Meter, up to 25Hz GPS Laptimer, Upgraded UBLOX 10th Gen High Performance GPS Module, Trusted by Million Users, USB-C Charging Port (DRG70-C)",
+      "imageUrl": "https://m.media-amazon.com/images/I/41ga26EfcrL._AC_SR200,200_.jpg",
+      "price": 159.0,
+      "monthlyUnits": 201,
+      "monthlyRevenue": 31959.0,
+      "rating": 4.6,
+      "ratings": 518,
+      "sellerName": "Dragy International",
+      "isMainUnit": true,
+      "dailyWindow": [
+        {
+          "date": "2026-03-26",
+          "sales": 8,
+          "amount": 1272,
+          "price": 159,
+          "bsr": 15126
+        },
+        {
+          "date": "2026-03-27",
+          "sales": 11,
+          "amount": 1749,
+          "price": 159,
+          "bsr": 16096
+        },
+        {
+          "date": "2026-03-28",
+          "sales": 9,
+          "amount": 1431,
+          "price": 159,
+          "bsr": 12584
+        },
+        {
+          "date": "2026-03-29",
+          "sales": 7,
+          "amount": 1113,
+          "price": 159,
+          "bsr": 13055
+        },
+        {
+          "date": "2026-03-30",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 15671
+        },
+        {
+          "date": "2026-03-31",
+          "sales": 5,
+          "amount": 795,
+          "price": 159,
+          "bsr": 16991
+        },
+        {
+          "date": "2026-04-01",
+          "sales": 5,
+          "amount": 795,
+          "price": 159,
+          "bsr": 20072
+        },
+        {
+          "date": "2026-04-02",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 20953
+        },
+        {
+          "date": "2026-04-03",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 18481
+        },
+        {
+          "date": "2026-04-04",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 18347
+        },
+        {
+          "date": "2026-04-05",
+          "sales": 5,
+          "amount": 795,
+          "price": 159,
+          "bsr": 17597
+        },
+        {
+          "date": "2026-04-06",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 18248
+        },
+        {
+          "date": "2026-04-07",
+          "sales": 5,
+          "amount": 795,
+          "price": 159,
+          "bsr": 17867
+        },
+        {
+          "date": "2026-04-08",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 18951
+        },
+        {
+          "date": "2026-04-09",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 18523
+        },
+        {
+          "date": "2026-04-10",
+          "sales": 7,
+          "amount": 1113,
+          "price": 159,
+          "bsr": 17684
+        },
+        {
+          "date": "2026-04-11",
+          "sales": 5,
+          "amount": 795,
+          "price": 159,
+          "bsr": 15870
+        },
+        {
+          "date": "2026-04-12",
+          "sales": 5,
+          "amount": 795,
+          "price": 159,
+          "bsr": 19068
+        },
+        {
+          "date": "2026-04-13",
+          "sales": 9,
+          "amount": 1431,
+          "price": 159,
+          "bsr": 19268
+        },
+        {
+          "date": "2026-04-14",
+          "sales": 8,
+          "amount": 1272,
+          "price": 159,
+          "bsr": 15570
+        },
+        {
+          "date": "2026-04-15",
+          "sales": 8,
+          "amount": 1272,
+          "price": 159,
+          "bsr": 15542
+        },
+        {
+          "date": "2026-04-16",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 15354
+        },
+        {
+          "date": "2026-04-17",
+          "sales": 8,
+          "amount": 1272,
+          "price": 159,
+          "bsr": 19058
+        },
+        {
+          "date": "2026-04-18",
+          "sales": 7,
+          "amount": 1113,
+          "price": 159,
+          "bsr": 15765
+        },
+        {
+          "date": "2026-04-19",
+          "sales": 7,
+          "amount": 1113,
+          "price": 159,
+          "bsr": 16391
+        },
+        {
+          "date": "2026-04-20",
+          "sales": 8,
+          "amount": 1272,
+          "price": 159,
+          "bsr": 16155
+        },
+        {
+          "date": "2026-04-21",
+          "sales": 7,
+          "amount": 1113,
+          "price": 159,
+          "bsr": 16487
+        },
+        {
+          "date": "2026-04-22",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 18763
+        },
+        {
+          "date": "2026-04-23",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 18800
+        },
+        {
+          "date": "2026-04-24",
+          "sales": 6,
+          "amount": 954,
+          "price": 159,
+          "bsr": 20204
+        }
+      ]
+    },
+    {
+      "marketplace": "US",
+      "country": "美国",
+      "asin": "B0BQ6DT2CV",
+      "title": "Official dragy Mount, Window Suction Cup Mount Compatible with dragy DRG69/70 Series GPS Based Performance Meter",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51eNzVwqZTL._AC_US200_.jpg",
+      "price": 29.0,
+      "monthlyUnits": 0,
+      "monthlyRevenue": 0,
+      "rating": 4.6,
+      "ratings": 103,
+      "sellerName": "Dragy",
+      "isMainUnit": true,
+      "dailyWindow": []
+    },
+    {
+      "marketplace": "UK",
+      "country": "英国",
+      "asin": "B0DSV36JY9",
+      "title": "All New dragy Pro - Professional 25Hz GPS Performance Meter, with Built-in Memory & 6-Axis IMU Motion Sensor | Includes Mount for Easy Installation",
+      "imageUrl": "https://m.media-amazon.com/images/I/21ppLp3eiqL._AC_US200_.jpg",
+      "price": 129.0,
+      "monthlyUnits": 45,
+      "monthlyRevenue": 5805.0,
+      "rating": 4.5,
+      "ratings": 111,
+      "sellerName": "Dragy International",
+      "isMainUnit": true,
+      "dailyWindow": [
+        {
+          "date": "2026-03-26",
+          "sales": 2,
+          "amount": 288,
+          "price": 144,
+          "bsr": 8420
+        },
+        {
+          "date": "2026-03-27",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 6348
+        },
+        {
+          "date": "2026-03-28",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 9763
+        },
+        {
+          "date": "2026-03-29",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 8640
+        },
+        {
+          "date": "2026-03-30",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 9524
+        },
+        {
+          "date": "2026-03-31",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 10186
+        },
+        {
+          "date": "2026-04-01",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 10391
+        },
+        {
+          "date": "2026-04-02",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 8480
+        },
+        {
+          "date": "2026-04-03",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 10854
+        },
+        {
+          "date": "2026-04-04",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 15522
+        },
+        {
+          "date": "2026-04-05",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 13040
+        },
+        {
+          "date": "2026-04-06",
+          "sales": 2,
+          "amount": 288,
+          "price": 144,
+          "bsr": 13082
+        },
+        {
+          "date": "2026-04-07",
+          "sales": 2,
+          "amount": 288,
+          "price": 144,
+          "bsr": 5940
+        },
+        {
+          "date": "2026-04-08",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 10585
+        },
+        {
+          "date": "2026-04-09",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 8474
+        },
+        {
+          "date": "2026-04-10",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 8955
+        },
+        {
+          "date": "2026-04-11",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 9083
+        },
+        {
+          "date": "2026-04-12",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 8691
+        },
+        {
+          "date": "2026-04-13",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 9084
+        },
+        {
+          "date": "2026-04-14",
+          "sales": 1,
+          "amount": 144,
+          "price": 144,
+          "bsr": 14450
+        },
+        {
+          "date": "2026-04-15",
+          "sales": 2,
+          "amount": 271,
+          "price": 135,
+          "bsr": 9608
+        },
+        {
+          "date": "2026-04-16",
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 6902
+        },
+        {
+          "date": "2026-04-17",
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 6118
+        },
+        {
+          "date": "2026-04-18",
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 7973
+        },
+        {
+          "date": "2026-04-19",
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 7508
+        },
+        {
+          "date": "2026-04-20",
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 7361
+        },
+        {
+          "date": "2026-04-21",
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 6774
+        },
+        {
+          "date": "2026-04-22",
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 6133
+        },
+        {
+          "date": "2026-04-23",
+          "sales": 2,
+          "amount": 258,
+          "price": 129,
+          "bsr": 6289
+        },
+        {
+          "date": "2026-04-24",
+          "sales": 1,
+          "amount": 129,
+          "price": 129,
+          "bsr": 9559
+        }
+      ]
+    },
+    {
+      "marketplace": "DE",
+      "country": "德国",
+      "asin": "B0DSV36JY9",
+      "title": "Dragy Pro, professionelles 25 Hz GPS-Leistungsmesser, mit integriertem Speicher und 6-Achsen-IMU-Bewegungsmelder, inklusive Dragy Halterung für einfache Installation",
+      "imageUrl": "https://m.media-amazon.com/images/I/21ppLp3eiqL._AC_US200_.jpg",
+      "price": 149.0,
+      "monthlyUnits": 94,
+      "monthlyRevenue": 14006.0,
+      "rating": 4.4,
+      "ratings": 107,
+      "sellerName": "Dragy International",
+      "isMainUnit": true,
+      "dailyWindow": [
+        {
+          "date": "2026-03-26",
+          "sales": 4,
+          "amount": 656,
+          "price": 164,
+          "bsr": 20890
+        },
+        {
+          "date": "2026-03-27",
+          "sales": 3,
+          "amount": 492,
+          "price": 164,
+          "bsr": 17262
+        },
+        {
+          "date": "2026-03-28",
+          "sales": 3,
+          "amount": 492,
+          "price": 164,
+          "bsr": 22217
+        },
+        {
+          "date": "2026-03-29",
+          "sales": 3,
+          "amount": 492,
+          "price": 164,
+          "bsr": 22334
+        },
+        {
+          "date": "2026-03-30",
+          "sales": 3,
+          "amount": 492,
+          "price": 164,
+          "bsr": 22334
+        },
+        {
+          "date": "2026-03-31",
+          "sales": 3,
+          "amount": 492,
+          "price": 164,
+          "bsr": 24548
+        },
+        {
+          "date": "2026-04-01",
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 27106
+        },
+        {
+          "date": "2026-04-02",
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 36012
+        },
+        {
+          "date": "2026-04-03",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 28995
+        },
+        {
+          "date": "2026-04-04",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 39840
+        },
+        {
+          "date": "2026-04-05",
+          "sales": 4,
+          "amount": 656,
+          "price": 164,
+          "bsr": 24952
+        },
+        {
+          "date": "2026-04-06",
+          "sales": 5,
+          "amount": 820,
+          "price": 164,
+          "bsr": 12857
+        },
+        {
+          "date": "2026-04-07",
+          "sales": 4,
+          "amount": 656,
+          "price": 164,
+          "bsr": 13123
+        },
+        {
+          "date": "2026-04-08",
+          "sales": 4,
+          "amount": 656,
+          "price": 164,
+          "bsr": 15497
+        },
+        {
+          "date": "2026-04-09",
+          "sales": 5,
+          "amount": 820,
+          "price": 164,
+          "bsr": 13739
+        },
+        {
+          "date": "2026-04-10",
+          "sales": 4,
+          "amount": 656,
+          "price": 164,
+          "bsr": 12198
+        },
+        {
+          "date": "2026-04-11",
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 18359
+        },
+        {
+          "date": "2026-04-12",
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 23760
+        },
+        {
+          "date": "2026-04-13",
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 25392
+        },
+        {
+          "date": "2026-04-14",
+          "sales": 3,
+          "amount": 492,
+          "price": 164,
+          "bsr": 33992
+        },
+        {
+          "date": "2026-04-15",
+          "sales": 5,
+          "amount": 783,
+          "price": 157,
+          "bsr": 19888
+        },
+        {
+          "date": "2026-04-16",
+          "sales": 5,
+          "amount": 745,
+          "price": 149,
+          "bsr": 13777
+        },
+        {
+          "date": "2026-04-17",
+          "sales": 6,
+          "amount": 894,
+          "price": 149,
+          "bsr": 12200
+        },
+        {
+          "date": "2026-04-18",
+          "sales": 4,
+          "amount": 596,
+          "price": 149,
+          "bsr": 11692
+        },
+        {
+          "date": "2026-04-19",
+          "sales": 4,
+          "amount": 596,
+          "price": 149,
+          "bsr": 14354
+        },
+        {
+          "date": "2026-04-20",
+          "sales": 4,
+          "amount": 596,
+          "price": 149,
+          "bsr": 17271
+        },
+        {
+          "date": "2026-04-21",
+          "sales": 4,
+          "amount": 596,
+          "price": 149,
+          "bsr": 17346
+        },
+        {
+          "date": "2026-04-22",
+          "sales": 4,
+          "amount": 596,
+          "price": 149,
+          "bsr": 17176
+        },
+        {
+          "date": "2026-04-23",
+          "sales": 3,
+          "amount": 447,
+          "price": 149,
+          "bsr": 21656
+        },
+        {
+          "date": "2026-04-24",
+          "sales": 4,
+          "amount": 596,
+          "price": 149,
+          "bsr": 18385
+        }
+      ]
+    },
+    {
+      "marketplace": "DE",
+      "country": "德国",
+      "asin": "B0BQ6DWMLT",
+      "title": "Neues GPS-basiertes Leistungsmessgerät, bis zu 25 Hz GPS-Rundentimer, Motorrad-Video-Overlay, verbessertes UBLOX-Hochleistungs-Modul der 10. Generation, USB-Typ-C-Ladeanschluss (DRG70-C)",
+      "imageUrl": "https://m.media-amazon.com/images/I/41ga26EfcrL._AC_SR200,200_.jpg",
+      "price": 119.0,
+      "monthlyUnits": 50,
+      "monthlyRevenue": 5950.0,
+      "rating": 4.6,
+      "ratings": 576,
+      "sellerName": "Dragy International",
+      "isMainUnit": true,
+      "dailyWindow": [
+        {
+          "date": "2026-03-26",
+          "sales": 2,
+          "amount": 278,
+          "price": 139,
+          "bsr": 48254
+        },
+        {
+          "date": "2026-03-27",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 40096
+        },
+        {
+          "date": "2026-03-28",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 49078
+        },
+        {
+          "date": "2026-03-29",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 48331
+        },
+        {
+          "date": "2026-03-30",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 48331
+        },
+        {
+          "date": "2026-03-31",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 48331
+        },
+        {
+          "date": "2026-04-01",
+          "sales": 2,
+          "amount": 278,
+          "price": 139,
+          "bsr": 43104
+        },
+        {
+          "date": "2026-04-02",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 40092
+        },
+        {
+          "date": "2026-04-03",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 45476
+        },
+        {
+          "date": "2026-04-04",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 40067
+        },
+        {
+          "date": "2026-04-05",
+          "sales": 2,
+          "amount": 278,
+          "price": 139,
+          "bsr": 33990
+        },
+        {
+          "date": "2026-04-06",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 32957
+        },
+        {
+          "date": "2026-04-07",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 47409
+        },
+        {
+          "date": "2026-04-08",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 74373
+        },
+        {
+          "date": "2026-04-09",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 46290
+        },
+        {
+          "date": "2026-04-10",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 67745
+        },
+        {
+          "date": "2026-04-11",
+          "sales": 1,
+          "amount": 139,
+          "price": 139,
+          "bsr": 46643
+        },
+        {
+          "date": "2026-04-12",
+          "sales": 4,
+          "amount": 556,
+          "price": 139,
+          "bsr": 40923
+        },
+        {
+          "date": "2026-04-13",
+          "sales": 2,
+          "amount": 278,
+          "price": 139,
+          "bsr": 17411
+        },
+        {
+          "date": "2026-04-14",
+          "sales": 2,
+          "amount": 278,
+          "price": 139,
+          "bsr": 30917
+        },
+        {
+          "date": "2026-04-15",
+          "sales": 3,
+          "amount": 389,
+          "price": 130,
+          "bsr": 33751
+        },
+        {
+          "date": "2026-04-16",
+          "sales": 3,
+          "amount": 357,
+          "price": 119,
+          "bsr": 23198
+        },
+        {
+          "date": "2026-04-17",
+          "sales": 3,
+          "amount": 357,
+          "price": 119,
+          "bsr": 20806
+        },
+        {
+          "date": "2026-04-18",
+          "sales": 2,
+          "amount": 238,
+          "price": 119,
+          "bsr": 21091
+        },
+        {
+          "date": "2026-04-19",
+          "sales": 2,
+          "amount": 238,
+          "price": 119,
+          "bsr": 23141
+        },
+        {
+          "date": "2026-04-20",
+          "sales": 2,
+          "amount": 238,
+          "price": 119,
+          "bsr": 30397
+        },
+        {
+          "date": "2026-04-21",
+          "sales": 2,
+          "amount": 238,
+          "price": 119,
+          "bsr": 34552
+        },
+        {
+          "date": "2026-04-22",
+          "sales": 2,
+          "amount": 203,
+          "price": 119,
+          "bsr": 41398
+        },
+        {
+          "date": "2026-04-23",
+          "sales": 2,
+          "amount": 238,
+          "price": 119,
+          "bsr": 28728
+        },
+        {
+          "date": "2026-04-24",
+          "sales": 3,
+          "amount": 357,
+          "price": 119,
+          "bsr": 24817
+        }
+      ]
+    },
+    {
+      "marketplace": "IT",
+      "country": "意大利",
+      "asin": "B0DSV36JY9",
+      "title": "Dragy Pro - Misuratore di prestazioni GPS professionale da 25 Hz, con memoria integrata e sensore di movimento IMU a 6 assi, include supporto dragy per una facile installazione",
+      "imageUrl": "https://m.media-amazon.com/images/I/21ppLp3eiqL._AC_US200_.jpg",
+      "price": 149.0,
+      "monthlyUnits": 40,
+      "monthlyRevenue": 5960.0,
+      "rating": 4.4,
+      "ratings": 105,
+      "sellerName": "Dragy International",
+      "isMainUnit": true,
+      "dailyWindow": [
+        {
+          "date": "2026-03-26",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 40497
+        },
+        {
+          "date": "2026-03-27",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 33153
+        },
+        {
+          "date": "2026-03-28",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 30079
+        },
+        {
+          "date": "2026-03-29",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 30252
+        },
+        {
+          "date": "2026-03-30",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 30252
+        },
+        {
+          "date": "2026-03-31",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 32348
+        },
+        {
+          "date": "2026-04-01",
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 43355
+        },
+        {
+          "date": "2026-04-02",
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 20812
+        },
+        {
+          "date": "2026-04-03",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 23080
+        },
+        {
+          "date": "2026-04-04",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 36607
+        },
+        {
+          "date": "2026-04-05",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 28499
+        },
+        {
+          "date": "2026-04-06",
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 30922
+        },
+        {
+          "date": "2026-04-07",
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 17382
+        },
+        {
+          "date": "2026-04-08",
+          "sales": 2,
+          "amount": 328,
+          "price": 164,
+          "bsr": 19739
+        },
+        {
+          "date": "2026-04-09",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 22637
+        },
+        {
+          "date": "2026-04-10",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 24517
+        },
+        {
+          "date": "2026-04-11",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 25291
+        },
+        {
+          "date": "2026-04-12",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 39214
+        },
+        {
+          "date": "2026-04-13",
+          "sales": 1,
+          "amount": 164,
+          "price": 164,
+          "bsr": 30982
+        },
+        {
+          "date": "2026-04-14",
+          "sales": 3,
+          "amount": 492,
+          "price": 164,
+          "bsr": 26431
+        },
+        {
+          "date": "2026-04-15",
+          "sales": 2,
+          "amount": 309,
+          "price": 155,
+          "bsr": 16279
+        },
+        {
+          "date": "2026-04-16",
+          "sales": 1,
+          "amount": 149,
+          "price": 149,
+          "bsr": 20458
+        },
+        {
+          "date": "2026-04-17",
+          "sales": 1,
+          "amount": 149,
+          "price": 149,
+          "bsr": 24557
+        },
+        {
+          "date": "2026-04-18",
+          "sales": 1,
+          "amount": 149,
+          "price": 149,
+          "bsr": 37256
+        },
+        {
+          "date": "2026-04-19",
+          "sales": 2,
+          "amount": 298,
+          "price": 149,
+          "bsr": 20582
+        },
+        {
+          "date": "2026-04-20",
+          "sales": 2,
+          "amount": 277,
+          "price": 149,
+          "bsr": 20743
+        },
+        {
+          "date": "2026-04-21",
+          "sales": 1,
+          "amount": 213,
+          "price": 149,
+          "bsr": 24450
+        },
+        {
+          "date": "2026-04-22",
+          "sales": 2,
+          "amount": 298,
+          "price": 149,
+          "bsr": 19284
+        },
+        {
+          "date": "2026-04-23",
+          "sales": 2,
+          "amount": 255,
+          "price": 149,
+          "bsr": 23420
+        },
+        {
+          "date": "2026-04-24",
+          "sales": 1,
+          "amount": 213,
+          "price": 149,
+          "bsr": 24707
+        }
+      ]
+    },
+    {
+      "marketplace": "CA",
+      "country": "加拿大",
+      "asin": "B0DSV36JY9",
+      "title": "All New dragy Pro - Professional 25Hz GPS Performance Meter, with Built-in Memory & 6-Axis IMU Motion Sensor | Includes dragy Mount for Easy Installation",
+      "imageUrl": "https://m.media-amazon.com/images/I/21ppLp3eiqL._AC_US200_.jpg",
+      "price": 249.0,
+      "monthlyUnits": 99,
+      "monthlyRevenue": 24651.0,
+      "rating": 4.5,
+      "ratings": 105,
+      "sellerName": "Dragy International",
+      "isMainUnit": true,
+      "dailyWindow": [
+        {
+          "date": "2026-03-26",
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4291
+        },
+        {
+          "date": "2026-03-27",
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 5108
+        },
+        {
+          "date": "2026-03-28",
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4870
+        },
+        {
+          "date": "2026-03-29",
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 5082
+        },
+        {
+          "date": "2026-03-30",
+          "sales": 2,
+          "amount": 578,
+          "price": 289,
+          "bsr": 4019
+        },
+        {
+          "date": "2026-03-31",
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4984
+        },
+        {
+          "date": "2026-04-01",
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4835
+        },
+        {
+          "date": "2026-04-02",
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 5053
+        },
+        {
+          "date": "2026-04-03",
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 5221
+        },
+        {
+          "date": "2026-04-04",
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 3947
+        },
+        {
+          "date": "2026-04-05",
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4125
+        },
+        {
+          "date": "2026-04-06",
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 5185
+        },
+        {
+          "date": "2026-04-07",
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4337
+        },
+        {
+          "date": "2026-04-08",
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 4173
+        },
+        {
+          "date": "2026-04-09",
+          "sales": 3,
+          "amount": 867,
+          "price": 289,
+          "bsr": 4071
+        },
+        {
+          "date": "2026-04-10",
+          "sales": 5,
+          "amount": 1445,
+          "price": 289,
+          "bsr": 5114
+        },
+        {
+          "date": "2026-04-11",
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 3277
+        },
+        {
+          "date": "2026-04-12",
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 3983
+        },
+        {
+          "date": "2026-04-13",
+          "sales": 4,
+          "amount": 1156,
+          "price": 289,
+          "bsr": 3816
+        },
+        {
+          "date": "2026-04-14",
+          "sales": 5,
+          "amount": 1445,
+          "price": 289,
+          "bsr": 3107
+        },
+        {
+          "date": "2026-04-15",
+          "sales": 5,
+          "amount": 1374,
+          "price": 275,
+          "bsr": 2819
+        },
+        {
+          "date": "2026-04-16",
+          "sales": 4,
+          "amount": 1076,
+          "price": 269,
+          "bsr": 3906
+        },
+        {
+          "date": "2026-04-17",
+          "sales": 3,
+          "amount": 807,
+          "price": 269,
+          "bsr": 5126
+        },
+        {
+          "date": "2026-04-18",
+          "sales": 2,
+          "amount": 538,
+          "price": 269,
+          "bsr": 7108
+        },
+        {
+          "date": "2026-04-19",
+          "sales": 3,
+          "amount": 807,
+          "price": 269,
+          "bsr": 5241
+        },
+        {
+          "date": "2026-04-20",
+          "sales": 3,
+          "amount": 807,
+          "price": 269,
+          "bsr": 5957
+        },
+        {
+          "date": "2026-04-21",
+          "sales": 4,
+          "amount": 1076,
+          "price": 269,
+          "bsr": 3987
+        },
+        {
+          "date": "2026-04-22",
+          "sales": 4,
+          "amount": 1076,
+          "price": 269,
+          "bsr": 3924
+        },
+        {
+          "date": "2026-04-23",
+          "sales": 4,
+          "amount": 1023,
+          "price": 256,
+          "bsr": 3422
+        },
+        {
+          "date": "2026-04-24",
+          "sales": 4,
+          "amount": 996,
+          "price": 249,
+          "bsr": 3525
+        }
+      ]
+    }
+  ],
+  "accessoryProducts": [],
+  "notes": [
+    "本页的近 30 天日销量按 dragy 主机型汇总，配件与翻新品单独列在覆盖清单里。",
+    "国家图表展示的是各站点品牌主机型的日销量总和，方便先看全球分布和国家强弱。",
+    "日本和澳大利亚当前未检索到 dragy 品牌在售产品，因此暂时只作为空白市场观察。"
+  ]
+}

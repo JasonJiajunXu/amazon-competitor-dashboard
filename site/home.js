@@ -8,6 +8,12 @@ function renderHome(payload) {
       description: "保留原月度数据，并单独查看 Racebox 4 月每天销量。",
       href: "./racebox.html",
     },
+    {
+      id: "dragy-global",
+      title: "dragy 全球 30 天销量页",
+      description: "放在 Racebox 下面，按国家查看 dragy 近 30 天全球日销量。",
+      href: "./dragy.html",
+    },
   ];
   const grid = document.getElementById("entry-grid");
 
