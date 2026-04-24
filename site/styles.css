@@ -309,6 +309,7 @@ h3 {
 }
 
 .product-chip {
+  appearance: none;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -336,6 +337,53 @@ h3 {
 .product-chip.active {
   background: rgba(93, 132, 241, 0.1);
   border-color: rgba(93, 132, 241, 0.45);
+}
+
+.line-card {
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.line-card:hover {
+  transform: translateY(-2px);
+}
+
+.line-card.active {
+  border-color: rgba(93, 132, 241, 0.45);
+  box-shadow: 0 28px 54px rgba(41, 56, 86, 0.11);
+}
+
+.line-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.line-card-stat {
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background: var(--panel-soft);
+}
+
+.line-card-stat span {
+  display: block;
+  color: var(--muted);
+  margin-bottom: 8px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+}
+
+.line-card-stat strong {
+  font-size: 24px;
+}
+
+.line-card-markets {
+  margin-top: 16px;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 .product-name {
@@ -465,6 +513,49 @@ h3 {
   padding: 22px;
 }
 
+.month-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0 20px;
+}
+
+.month-chip {
+  appearance: none;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 92px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: var(--panel-soft);
+  border: 1px solid var(--line);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.18s ease, transform 0.18s ease, background 0.18s ease;
+}
+
+.month-chip:hover {
+  transform: translateY(-2px);
+}
+
+.month-chip span {
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+}
+
+.month-chip strong {
+  font-size: 20px;
+}
+
+.month-chip.active {
+  background: rgba(93, 132, 241, 0.1);
+  border-color: rgba(93, 132, 241, 0.45);
+}
+
 .visual-head {
   display: flex;
   justify-content: space-between;
@@ -485,6 +576,93 @@ h3 {
 .detail-sidebar {
   display: grid;
   gap: 20px;
+}
+
+.map-shell {
+  display: grid;
+  gap: 20px;
+}
+
+.atlas-map {
+  display: grid;
+  gap: 14px;
+}
+
+.atlas-surface {
+  position: relative;
+  min-height: 380px;
+  padding: 22px;
+  border-radius: var(--radius-xl);
+  background:
+    radial-gradient(circle at top left, rgba(93, 132, 241, 0.12), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(47, 143, 131, 0.12), transparent 28%),
+    linear-gradient(180deg, #f9fbff, #eef3fb);
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.atlas-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.atlas-land {
+  fill: rgba(125, 134, 150, 0.12);
+  stroke: rgba(125, 134, 150, 0.18);
+  stroke-width: 2;
+}
+
+.map-marker {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  border: 2px solid;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 18px 34px rgba(41, 56, 86, 0.12);
+}
+
+.map-marker.inactive {
+  opacity: 0.48;
+}
+
+.map-marker-dot {
+  width: 42%;
+  height: 42%;
+  border-radius: 999px;
+}
+
+.map-marker-label {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  justify-items: center;
+  min-width: 52px;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 22px rgba(41, 56, 86, 0.08);
+}
+
+.map-marker-label strong {
+  font-size: 12px;
+}
+
+.map-marker-label span {
+  color: var(--muted);
+  font-size: 12px;
+  font-family: "Manrope", sans-serif;
+}
+
+.map-caption,
+.month-footnote {
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 .table-wrap {
@@ -661,7 +839,8 @@ canvas {
 
   .summary-strip,
   .daily-strip,
-  .country-card-grid {
+  .country-card-grid,
+  .line-card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -680,8 +859,14 @@ canvas {
   .status-stack,
   .summary-strip,
   .daily-strip,
-  .country-card-grid {
+  .country-card-grid,
+  .line-card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .month-chip {
+    min-width: 0;
+    flex: 1 1 calc(50% - 10px);
   }
 
   .entry-button {

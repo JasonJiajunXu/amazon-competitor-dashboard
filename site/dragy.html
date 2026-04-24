@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>dragy 全球近 30 天销量看板</title>
+  <title>dragy 全球销量看板</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
@@ -16,8 +16,8 @@
       <div class="brand-lockup">
         <a class="back-link" href="./index.html">返回入口</a>
         <div>
-          <p class="topbar-label">Dragy Global</p>
-          <h1>dragy 全球近 30 天销量看板</h1>
+          <p class="topbar-label">Dragy Brand Board</p>
+          <h1>dragy 全球销量看板</h1>
         </div>
       </div>
       <div class="topbar-meta">
@@ -31,63 +31,63 @@
     <main class="report-layout">
       <section class="product-hero-card" id="dragy-hero-card"></section>
 
-      <section class="summary-strip" id="dragy-summary"></section>
-
-      <section class="daily-sales-section">
-        <article class="visual-card">
-          <div class="visual-head">
-            <div>
-              <p class="kicker">Country Totals</p>
-              <h3>近 30 天各国家销量总览</h3>
-            </div>
-          </div>
-          <div class="daily-strip" id="dragy-daily-strip"></div>
-          <canvas id="dragy-country-chart"></canvas>
-        </article>
-
-        <article class="detail-card">
-          <div class="panel-heading compact">
-            <p class="kicker">Market Mix</p>
-            <h2>国家入口卡片</h2>
-          </div>
-          <div class="country-card-grid" id="dragy-country-cards"></div>
-        </article>
+      <section class="detail-card">
+        <div class="panel-heading compact">
+          <p class="kicker">View Switcher</p>
+          <h2>先看全球，再切到产品线</h2>
+        </div>
+        <div class="product-chooser" id="dragy-scope-tabs"></div>
       </section>
 
-      <section class="visual-grid">
-        <article class="visual-card">
-          <div class="visual-head">
-            <div>
-              <p class="kicker">Daily Trend</p>
-              <h3>近 30 天国家日销量走势</h3>
-            </div>
-          </div>
-          <canvas id="dragy-trend-chart"></canvas>
-        </article>
+      <section class="summary-strip" id="dragy-summary"></section>
 
-        <article class="detail-card">
-          <div class="panel-heading compact">
-            <p class="kicker">Coverage</p>
-            <h2>本次统计口径</h2>
+      <section class="visual-grid" id="dragy-line-cards"></section>
+
+      <section class="detail-card">
+        <div class="visual-head">
+          <div>
+            <p class="kicker">Recent 30 Days</p>
+            <h2>最近 30 天每天销量</h2>
           </div>
-          <div id="dragy-notes"></div>
-        </article>
+        </div>
+        <div class="daily-strip" id="dragy-recent-metrics"></div>
+        <canvas id="dragy-recent-chart"></canvas>
+        <div class="table-wrap" id="dragy-recent-table"></div>
+      </section>
+
+      <section class="detail-card">
+        <div class="visual-head">
+          <div>
+            <p class="kicker">Monthly Explorer</p>
+            <h2>近一年月销量，点月份看当月每天</h2>
+          </div>
+        </div>
+        <canvas id="dragy-monthly-chart"></canvas>
+        <div class="month-chip-row" id="dragy-month-chips"></div>
+        <div class="daily-strip" id="dragy-month-metrics"></div>
+        <canvas id="dragy-month-daily-chart"></canvas>
+        <div class="table-wrap" id="dragy-month-daily-table"></div>
       </section>
 
       <section class="detail-columns">
         <article class="detail-card wide">
-          <div class="panel-heading compact">
-            <p class="kicker">Country Table</p>
-            <h2>国家销量明细</h2>
+          <div class="visual-head">
+            <div>
+              <p class="kicker">World View</p>
+              <h2>全球地图 + 国家销量表</h2>
+            </div>
           </div>
-          <div class="table-wrap" id="dragy-country-table"></div>
+          <div class="map-shell">
+            <div class="atlas-map" id="dragy-map-board"></div>
+            <div class="table-wrap" id="dragy-country-table"></div>
+          </div>
         </article>
 
         <aside class="detail-sidebar">
           <section class="detail-card">
             <div class="panel-heading compact">
-              <p class="kicker">Product Image</p>
-              <h2>品牌主图</h2>
+              <p class="kicker">Brand Image</p>
+              <h2>主视觉</h2>
             </div>
             <div id="dragy-image-panel"></div>
           </section>
@@ -95,23 +95,24 @@
           <section class="detail-card">
             <div class="panel-heading compact">
               <p class="kicker">Tracked Products</p>
-              <h2>追踪产品清单</h2>
+              <h2>当前产品覆盖</h2>
             </div>
             <div id="dragy-product-list"></div>
           </section>
-        </aside>
-      </section>
 
-      <section class="detail-card">
-        <div class="panel-heading compact">
-          <p class="kicker">Daily Matrix</p>
-          <h2>近 30 天全球日销量矩阵</h2>
-        </div>
-        <div class="table-wrap" id="dragy-daily-table"></div>
+          <section class="detail-card">
+            <div class="panel-heading compact">
+              <p class="kicker">Design Notes</p>
+              <h2>这页怎么读</h2>
+            </div>
+            <div id="dragy-notes"></div>
+          </section>
+        </aside>
       </section>
     </main>
   </div>
 
+  <script src="./dragy-data.js"></script>
   <script src="./dragy.js"></script>
 </body>
 </html>
