@@ -6,6 +6,9 @@ const DRAGY_COLORS = {
   global: "#111827",
   dragy_pro: "#e63946",
   dragy: "#5d84f1",
+  dragy_pro_refurbished: "#8f5cff",
+  dragy_refurbished: "#6b7280",
+  mount: "#b38322",
   US: "#e63946",
   UK: "#5d84f1",
   DE: "#2f8f83",
@@ -66,8 +69,8 @@ function renderHero() {
     <div class="product-hero-copy">
       <p class="kicker">Brand Overview</p>
       <h2>${payload.title}</h2>
-      <p class="product-hero-note">这页先让用户直接看到最近 30 天每天销量，再往下钻到 dragy Pro 和 dragy 两条产品线，最后再去看国家地图和月份明细。</p>
-      <div class="product-hero-meta">${payload.recent30Start} 至 ${payload.recent30End} · 近 12 个月可钻取 · 国家和月份联动展示</div>
+      <p class="product-hero-note">这页已经按 5 个具体产品拆开：dragy Pro、dragy、dragy Pro Refurbished、dragy Refurbished、Mount。先看最近 30 天每天销量，再往下钻月度和国家分布。</p>
+      <div class="product-hero-meta">${payload.recent30Start} 至 ${payload.recent30End} · 近 12 个月可钻取 · 5 个产品联动国家和月份</div>
     </div>
     <div class="product-hero-media">
       <img class="product-showcase-image" src="${payload.heroImage}" alt="dragy 主图">
@@ -134,7 +137,7 @@ function renderSummary() {
 }
 
 function renderLineCards() {
-  const cards = ["dragy_pro", "dragy"]
+  const cards = state.payload.scopeOrder.filter((scopeId) => scopeId !== "global")
     .map((scopeId) => {
       const scope = state.payload.scopes[scopeId];
       const recent = scope.recent30;
@@ -240,27 +243,19 @@ function renderRecentSection() {
 
   destroyChart(dragyRecentChart);
   const isGlobal = state.scopeId === "global";
+  const detailScopeIds = state.payload.scopeOrder.filter((scopeId) => scopeId !== "global");
   dragyRecentChart = new Chart(document.getElementById("dragy-recent-chart"), {
     type: "bar",
     data: {
       labels: rows.map((row) => row.date.slice(5)),
       datasets: isGlobal
-        ? [
-            {
-              label: "dragy Pro",
-              data: rows.map((row) => row.lines.dragy_pro),
-              backgroundColor: DRAGY_COLORS.dragy_pro,
-              borderRadius: 6,
-              stack: "sales",
-            },
-            {
-              label: "dragy",
-              data: rows.map((row) => row.lines.dragy),
-              backgroundColor: DRAGY_COLORS.dragy,
-              borderRadius: 6,
-              stack: "sales",
-            },
-          ]
+        ? detailScopeIds.map((scopeId) => ({
+            label: state.payload.scopes[scopeId].meta.name,
+            data: rows.map((row) => row.lines[scopeId]),
+            backgroundColor: DRAGY_COLORS[scopeId],
+            borderRadius: 6,
+            stack: "sales",
+          }))
         : [
             {
               label: scope.meta.name,
@@ -289,7 +284,7 @@ function renderRecentSection() {
         <tr>
           <th>日期</th>
           <th>总销量</th>
-          ${isGlobal ? "<th>dragy Pro</th><th>dragy</th>" : ""}
+          ${isGlobal ? detailScopeIds.map((scopeId) => `<th>${state.payload.scopes[scopeId].meta.name}</th>`).join("") : ""}
           ${markets.map((market) => `<th>${market}</th>`).join("")}
         </tr>
       </thead>
@@ -298,7 +293,7 @@ function renderRecentSection() {
           <tr>
             <td>${row.date}</td>
             <td>${row.sales}</td>
-            ${isGlobal ? `<td>${row.lines.dragy_pro}</td><td>${row.lines.dragy}</td>` : ""}
+            ${isGlobal ? detailScopeIds.map((scopeId) => `<td>${row.lines[scopeId]}</td>`).join("") : ""}
             ${markets.map((market) => `<td>${row.countries[market].sales}</td>`).join("")}
           </tr>
         `).join("")}
@@ -317,6 +312,7 @@ function renderMonthSection() {
   const avgDaily = rows.length ? Math.round(monthData.sales / rows.length) : 0;
   const markets = monthData.countrySummary.filter((item) => item.sales > 0).map((item) => item.marketplace);
   const isGlobal = state.scopeId === "global";
+  const detailScopeIds = state.payload.scopeOrder.filter((scopeId) => scopeId !== "global");
 
   destroyChart(dragyMonthlyChart);
   dragyMonthlyChart = new Chart(document.getElementById("dragy-monthly-chart"), {
@@ -388,22 +384,13 @@ function renderMonthSection() {
     data: {
       labels: rows.map((row) => row.date.slice(8)),
       datasets: isGlobal
-        ? [
-            {
-              label: "dragy Pro",
-              data: rows.map((row) => row.lines.dragy_pro),
-              backgroundColor: DRAGY_COLORS.dragy_pro,
-              stack: "month-sales",
-              borderRadius: 6,
-            },
-            {
-              label: "dragy",
-              data: rows.map((row) => row.lines.dragy),
-              backgroundColor: DRAGY_COLORS.dragy,
-              stack: "month-sales",
-              borderRadius: 6,
-            },
-          ]
+        ? detailScopeIds.map((scopeId) => ({
+            label: state.payload.scopes[scopeId].meta.name,
+            data: rows.map((row) => row.lines[scopeId]),
+            backgroundColor: DRAGY_COLORS[scopeId],
+            stack: "month-sales",
+            borderRadius: 6,
+          }))
         : [
             {
               label: scope.meta.name,
@@ -432,7 +419,7 @@ function renderMonthSection() {
         <tr>
           <th>日期</th>
           <th>总销量</th>
-          ${isGlobal ? "<th>dragy Pro</th><th>dragy</th>" : ""}
+          ${isGlobal ? detailScopeIds.map((scopeId) => `<th>${state.payload.scopes[scopeId].meta.name}</th>`).join("") : ""}
           ${markets.map((market) => `<th>${market}</th>`).join("")}
         </tr>
       </thead>
@@ -441,7 +428,7 @@ function renderMonthSection() {
           <tr>
             <td>${row.date}</td>
             <td>${row.sales}</td>
-            ${isGlobal ? `<td>${row.lines.dragy_pro}</td><td>${row.lines.dragy}</td>` : ""}
+            ${isGlobal ? detailScopeIds.map((scopeId) => `<td>${row.lines[scopeId]}</td>`).join("") : ""}
             ${markets.map((market) => `<td>${row.countries[market].sales}</td>`).join("")}
           </tr>
         `).join("")}

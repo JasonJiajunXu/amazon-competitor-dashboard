@@ -46,7 +46,7 @@ LINE_META = {
         "id": "global",
         "name": "Global",
         "label": "全球总览",
-        "description": "把 dragy Pro 和 dragy 两条主产品线合在一起看，先判断品牌整体趋势。",
+        "description": "把 5 个 dragy 产品组放在一起看，先判断品牌整体体量，再往下拆具体产品线。",
         "color": "#111827",
     },
     "dragy_pro": {
@@ -63,17 +63,54 @@ LINE_META = {
         "description": "经典 GPS Performance Meter，价格更低，适合和 Pro 对比看销量体量与国家覆盖差异。",
         "color": "#5d84f1",
     },
+    "dragy_pro_refurbished": {
+        "id": "dragy_pro_refurbished",
+        "name": "dragy Pro Refurbished",
+        "label": "旗舰翻新款",
+        "description": "dragy Pro 的 Refurbished 版本，适合和全新 Pro 对比看价格换销量是否成立。",
+        "color": "#8f5cff",
+    },
+    "dragy_refurbished": {
+        "id": "dragy_refurbished",
+        "name": "dragy Refurbished",
+        "label": "经典翻新款",
+        "description": "经典 dragy 的 Refurbished 版本，观察低价翻新机在各国家是否仍有持续需求。",
+        "color": "#6b7280",
+    },
+    "mount": {
+        "id": "mount",
+        "name": "dragy Mount",
+        "label": "配件支架",
+        "description": "官方吸盘支架，和主机不同，需要单独看附件型商品的销量波动。",
+        "color": "#b38322",
+    },
 }
+PRODUCT_SCOPE_IDS = (
+    "dragy_pro",
+    "dragy",
+    "dragy_pro_refurbished",
+    "dragy_refurbished",
+    "mount",
+)
 ACCESSORY_TERMS = [
-    "official mount",
-    "window suction cup",
-    "suction cup",
-    "supporto",
-    "halterung",
-    "soporte",
-    "ventosa",
-    "mount compatible",
+    "official dragy mount",
+    "window suction cup mount",
+    "suction cup mount",
+    "mount compatible with dragy",
+    "supporto a ventosa",
+    "halterung für",
+    "soporte de ventosa",
+    "ventosa para",
 ]
+PRODUCT_ASIN_MAP = {
+    "B0DSV36JY9": "dragy_pro",
+    "B0BQ95FSQ4": "dragy_pro_refurbished",
+    "B0BQ648WBW": "dragy_refurbished",
+    "B0BQ6DT2CV": "mount",
+    "B0BQ6DWMLT": "dragy",
+    "B0BQ9QT51G": "dragy",
+    "B077KKPMTB": "dragy",
+}
 
 
 def load_secret_key() -> str:
@@ -110,12 +147,18 @@ def normalize_title(title: str) -> str:
     return html.unescape(title).replace("  ", " ").strip()
 
 
-def classify_product(title: str) -> str:
+def classify_product(asin: str, title: str) -> str:
+    if asin in PRODUCT_ASIN_MAP:
+        return PRODUCT_ASIN_MAP[asin]
     lower = normalize_title(title).lower()
+    if any(term in lower for term in ACCESSORY_TERMS):
+        return "mount"
+    if "refurbished" in lower and "dragy pro" in lower:
+        return "dragy_pro_refurbished"
+    if "refurbished" in lower:
+        return "dragy_refurbished"
     if "dragy pro" in lower:
         return "dragy_pro"
-    if "refurbished" in lower or any(term in lower for term in ACCESSORY_TERMS):
-        return "accessory"
     return "dragy"
 
 
@@ -180,7 +223,7 @@ def serialize_daily_row(raw: dict[str, Any]) -> dict[str, Any]:
         "amount": raw["amount"],
         "price": round(raw["amount"] / raw["sales"]) if raw["sales"] else 0,
         "countries": countries,
-        "lines": {line_id: raw["lines"].get(line_id, 0) for line_id in ("dragy_pro", "dragy")},
+        "lines": {line_id: raw["lines"].get(line_id, 0) for line_id in PRODUCT_SCOPE_IDS},
     }
 
 
@@ -308,9 +351,7 @@ def build_scope(
 
 def build() -> None:
     secret_key = load_secret_key()
-    competitor_results: dict[str, list[dict[str, Any]]] = {}
     all_products: list[dict[str, Any]] = []
-    accessory_products: list[dict[str, Any]] = []
 
     for marketplace in MARKETS:
         payload = call_tool(
@@ -322,17 +363,16 @@ def build() -> None:
                     "marketplace": marketplace,
                     "page": 1,
                     "size": 20,
-                    "variation": "Y",
+                    "variation": "N",
                     "order": {"field": "total_units", "desc": True},
                 }
             },
         )
         items = (payload.get("data") or {}).get("items") or []
-        competitor_results[marketplace] = items
 
         for item in items:
             title = normalize_title(item["title"])
-            line_id = classify_product(title)
+            line_id = classify_product(item["asin"], title)
             enriched = {
                 "asin": item["asin"],
                 "marketplace": marketplace,
@@ -346,12 +386,9 @@ def build() -> None:
                 "ratings": item.get("ratings") or 0,
                 "sellerName": item.get("sellerName") or "",
                 "lineId": line_id,
-                "lineName": LINE_META.get(line_id, {}).get("name", "Accessory"),
+                "lineName": LINE_META.get(line_id, {}).get("name", "Other"),
             }
-            if line_id == "accessory":
-                accessory_products.append(enriched)
-            else:
-                all_products.append(enriched)
+            all_products.append(enriched)
 
     asin_predictions: dict[tuple[str, str], dict[str, Any]] = {}
     for product in all_products:
@@ -394,14 +431,12 @@ def build() -> None:
     )
 
     product_groups = {
-        "dragy_pro": [item for item in all_products if item["lineId"] == "dragy_pro"],
-        "dragy": [item for item in all_products if item["lineId"] == "dragy"],
+        scope_id: [item for item in all_products if item["lineId"] == scope_id]
+        for scope_id in PRODUCT_SCOPE_IDS
     }
-    scopes = {
-        "global": build_scope("global", all_products, recent_dates, last_twelve_months, all_products),
-        "dragy_pro": build_scope("dragy_pro", product_groups["dragy_pro"], recent_dates, last_twelve_months, all_products),
-        "dragy": build_scope("dragy", product_groups["dragy"], recent_dates, last_twelve_months, all_products),
-    }
+    scopes = {"global": build_scope("global", all_products, recent_dates, last_twelve_months, all_products)}
+    for scope_id in PRODUCT_SCOPE_IDS:
+        scopes[scope_id] = build_scope(scope_id, product_groups[scope_id], recent_dates, last_twelve_months, all_products)
 
     months_overview = []
     for month in last_twelve_months:
@@ -412,6 +447,9 @@ def build() -> None:
                 "globalSales": scopes["global"]["monthDrilldowns"][month]["sales"],
                 "dragyProSales": scopes["dragy_pro"]["monthDrilldowns"][month]["sales"],
                 "dragySales": scopes["dragy"]["monthDrilldowns"][month]["sales"],
+                "dragyProRefurbishedSales": scopes["dragy_pro_refurbished"]["monthDrilldowns"][month]["sales"],
+                "dragyRefurbishedSales": scopes["dragy_refurbished"]["monthDrilldowns"][month]["sales"],
+                "mountSales": scopes["mount"]["monthDrilldowns"][month]["sales"],
             }
         )
 
@@ -424,17 +462,17 @@ def build() -> None:
         "recent30End": latest_date,
         "defaultMonth": last_twelve_months[-1] if last_twelve_months else "",
         "heroImage": "./assets/products/dragy.jpg",
-        "scopeOrder": ["global", "dragy_pro", "dragy"],
+        "scopeOrder": ["global", *PRODUCT_SCOPE_IDS],
         "scopes": scopes,
         "months": months_overview,
         "mapPositions": MAP_POSITIONS,
         "notes": [
             "第一屏默认先看最近 30 天每天销量，避免用户一上来就被过多国家维度打散。",
-            "第二屏把 dragy Pro 和 dragy 两条产品线拆开，能直接看出不同产品线的体量差别。",
+            "这版已经按 5 个产品拆开：dragy Pro、dragy、dragy Pro Refurbished、dragy Refurbished、Mount。",
             "第三屏用近 12 个月月度条做入口，点击任意月份，下方会切到那个自然月的每天销量。",
-            "地图和国家表会跟随当前产品线与月份同步变化，既能看全球，也能看单国家贡献。"
+            "地图和国家表会跟随当前产品与月份同步变化，既能看全球，也能看单国家贡献。"
         ],
-        "accessories": accessory_products,
+        "accessories": [],
     }
 
     OUTPUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
