@@ -1,30 +1,30 @@
 {
-  "lastUpdated": "2026/04/24 09:41",
-  "note": "月度历史数据继续保留；SellerSprite 已完成本轮日更，Racebox 保留 4 月逐日记录，其余产品同步到最近 14 天。",
+  "lastUpdated": "2026/04/26 09:44",
+  "note": "月度历史数据继续保留；SellerSprite 已完成本轮日更，Racebox 保留站点月度历史，日销量快照同步到最近 14 天。",
   "sellerSprite": {
     "configuredAsins": 9,
     "pendingReports": 1,
     "liveReports": 8,
-    "latestDailySnapshot": "2026-04-24"
+    "latestDailySnapshot": "2026-04-27"
   },
   "logs": [
     {
-      "time": "2026/04/24 09:41",
+      "time": "2026/04/26 09:44",
       "tag": "SellerSprite",
-      "description": "已完成 8 组已配置产品的日销量刷新，最新快照日期为 2026/04/24。"
+      "description": "已完成 8 组已配置产品的日销量刷新，最新快照日期为 2026-04-27。"
     },
     {
-      "time": "2026/04/24 09:41",
+      "time": "2026/04/26 09:44",
       "tag": "Racebox",
-      "description": "Racebox 继续保留 4 月逐日销量历史，并补入 04/24 最新销量。"
+      "description": "Racebox 日销量快照已更新到最近 14 天，站点月度历史继续保留在独立页面。"
     },
     {
-      "time": "2026/04/24 09:41",
+      "time": "2026/04/26 09:44",
       "tag": "Dashboard",
-      "description": "Bushnell、TAG、Rapsodo、Rangecraft、Blue Tees 等页面已补齐最近 14 天日销量。"
+      "description": "Bushnell、TAG、Rapsodo、Rangecraft、Blue Tees 等页面状态卡已同步最新 SellerSprite 快照。"
     },
     {
-      "time": "2026/04/24 09:41",
+      "time": "2026/04/26 09:44",
       "tag": "Pending",
       "description": "Garmin Xero 仍缺 bundle ASIN，对应页面继续保持待补标记。"
     }
