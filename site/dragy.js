@@ -237,7 +237,15 @@ function renderSummary() {
   const scope = getScope();
   const recent = scope.recent30;
   const latestMonth = scope.monthlySeries[scope.monthlySeries.length - 1];
+  const latestMonthData = scope.monthDrilldowns[state.payload.defaultMonth] || latestMonth;
   const topCountry = [...recent.countrySummary].sort((a, b) => b.sales - a.sales)[0];
+  const fallbackTopCountry = latestMonthData
+    ? [...latestMonthData.countrySummary].sort((a, b) => b.sales - a.sales)[0]
+    : null;
+  const displayTopCountry = topCountry && topCountry.sales > 0 ? topCountry : fallbackTopCountry;
+  const latestMonthNote = latestMonth
+    ? `${latestMonth.label} 月销量${scope.latestMonthEstimatedSales > 0 ? ` · 含 ${scope.latestMonthEstimatedSales} 件 SellerSprite 月估值回填` : ""}`
+    : "-";
 
   document.getElementById("dragy-summary").innerHTML = `
     <article class="summary-card">
@@ -253,12 +261,18 @@ function renderSummary() {
     <article class="summary-card">
       <div class="kicker">Latest Month</div>
       <div class="summary-value">${latestMonth ? latestMonth.sales : 0}</div>
-      <div class="summary-note">${latestMonth ? latestMonth.label : "-"} 月销量</div>
+      <div class="summary-note">${latestMonthNote}</div>
     </article>
     <article class="summary-card">
       <div class="kicker">Lead Country</div>
-      <div class="summary-value">${topCountry ? topCountry.country : "-"}</div>
-      <div class="summary-note">${topCountry ? `${topCountry.sales} 件 / 30天` : "暂无国家销量"}</div>
+      <div class="summary-value">${displayTopCountry ? displayTopCountry.country : "-"}</div>
+      <div class="summary-note">
+        ${displayTopCountry
+          ? (topCountry && topCountry.sales > 0
+            ? `${displayTopCountry.sales} 件 / 30天`
+            : `${displayTopCountry.sales} 件 / ${state.payload.defaultMonth.replace("-", "/")} 月估值`)
+          : "暂无国家销量"}
+      </div>
     </article>
   `;
 }
@@ -277,10 +291,18 @@ function renderComparisonSection() {
       const scope = state.payload.scopes[scopeId];
       const recent = scope.recent30;
       const topCountry = [...recent.countrySummary].sort((a, b) => b.sales - a.sales)[0];
+      const latestMonth = scope.monthDrilldowns[state.payload.defaultMonth];
+      const fallbackTopCountry = latestMonth
+        ? [...latestMonth.countrySummary].sort((a, b) => b.sales - a.sales)[0]
+        : null;
+      const displayTopCountry = topCountry && topCountry.sales > 0 ? topCountry : fallbackTopCountry;
       const markets = recent.countrySummary
         .filter((item) => item.sales > 0)
         .map((item) => item.marketplace)
         .join(" · ");
+      const fallbackMarkets = latestMonth
+        ? latestMonth.countrySummary.filter((item) => item.sales > 0).map((item) => item.marketplace).join(" · ")
+        : "";
       return `
         <article class="detail-card line-card" data-scope-card="${scopeId}">
           <div class="panel-heading compact">
@@ -299,14 +321,16 @@ function renderComparisonSection() {
             </div>
             <div class="line-card-stat">
               <span>主力国家</span>
-              <strong>${topCountry ? topCountry.country : "-"}</strong>
+              <strong>${displayTopCountry && displayTopCountry.sales > 0 ? displayTopCountry.country : "-"}</strong>
             </div>
             <div class="line-card-stat">
               <span>均价</span>
               <strong>${formatCurrency(recent.avgPrice)}</strong>
             </div>
           </div>
-          <div class="line-card-markets">${markets || "当前没有抓到有效国家销量"}</div>
+          <div class="line-card-markets">
+            ${markets || (scope.hasEstimateGap ? `当前 30 天没有逐日销量，${state.payload.defaultMonth.replace("-", "/")} 月估值国家：${fallbackMarkets || "暂无"}` : "当前没有抓到有效国家销量")}
+          </div>
         </article>
       `;
     })
@@ -447,6 +471,7 @@ function renderMonthSection() {
   const markets = monthData.countrySummary.filter((item) => item.sales > 0).map((item) => item.marketplace);
   const isGlobal = state.scopeId === "global";
   const detailScopeIds = state.payload.scopeOrder.filter((scopeId) => scopeId !== "global");
+  const hasEstimatedMonthGap = Number(monthData.estimatedSales || 0) > 0;
 
   destroyChart(dragyMonthlyChart);
   dragyMonthlyChart = new Chart(document.getElementById("dragy-monthly-chart"), {
@@ -510,6 +535,12 @@ function renderMonthSection() {
       <span>峰值日</span>
       <strong>${peak ? `${peak.date.slice(5)} · ${peak.sales}` : "-"}</strong>
     </div>
+    ${hasEstimatedMonthGap ? `
+      <div class="daily-metric estimate-gap">
+        <span>月估值回填</span>
+        <strong>${monthData.estimatedSales}</strong>
+      </div>
+    ` : ""}
   `;
 
   destroyChart(dragyMonthDailyChart);
@@ -568,7 +599,10 @@ function renderMonthSection() {
         `).join("")}
       </tbody>
     </table>
-    <div class="month-footnote">当前选中 ${monthData.label}，有销量国家 ${activeCountries} 个。</div>
+    <div class="month-footnote">
+      当前选中 ${monthData.label}，有销量国家 ${activeCountries} 个。
+      ${hasEstimatedMonthGap ? `其中 ${monthData.estimatedSales} 件来自 SellerSprite 月估值回填，当前没有对应的逐日日序列。` : ""}
+    </div>
   `;
 }
 
@@ -656,13 +690,22 @@ function renderSidebar() {
         <div class="tracking-item">
           <strong>${item.country} · ${item.asin}</strong>
           <p>${item.title}</p>
-          <div class="tracking-tag live">30天 ${item.recent30Sales} · 本月 ${item.currentMonthSales} · ${formatCurrency(item.price)}</div>
+          <div class="tracking-tag ${item.hasDailySeriesGap ? "estimated" : "live"}">
+            30天 ${item.recent30Sales}
+            · ${item.hasDailySeriesGap ? `本月估值 ${item.estimatedCurrentMonthSales}` : `本月 ${item.currentMonthSales}`}
+            · ${formatCurrency(item.price)}
+          </div>
+          ${item.hasDailySeriesGap ? `<p class="tracking-subnote">SellerSprite 品牌列表返回了本月估值，但这个 ASIN 的日序列接口当前没有返回逐日销量。</p>` : ""}
         </div>
       `,
     )
     .join("");
 
-  document.getElementById("dragy-notes").innerHTML = state.payload.notes
+  const notes = [...state.payload.notes];
+  if (scope.hasEstimateGap) {
+    notes.unshift(`${getScopeName(state.scopeId)} 当前包含 ${scope.latestMonthEstimatedSales} 件 SellerSprite 月估值回填。月销量可参考，但这部分没有对应的逐日日序列。`);
+  }
+  document.getElementById("dragy-notes").innerHTML = notes
     .map(
       (note) => `
         <div class="insight-item">

@@ -529,6 +529,11 @@ h3 {
   font-size: 24px;
 }
 
+.daily-metric.estimate-gap {
+  background: linear-gradient(180deg, rgba(93, 132, 241, 0.1), rgba(61, 109, 242, 0.06));
+  border-color: rgba(61, 109, 242, 0.16);
+}
+
 .visual-card {
   padding: 22px;
 }
@@ -866,10 +871,20 @@ th {
   color: var(--teal);
 }
 
+.tracking-tag.estimated {
+  background: rgba(61, 109, 242, 0.12);
+  color: var(--blue);
+}
+
 .tracking-tag.pending_identifier,
 .tracking-tag.pending {
   background: rgba(179, 131, 34, 0.16);
   color: var(--amber);
+}
+
+.tracking-subnote {
+  margin-top: 8px !important;
+  color: var(--blue) !important;
 }
 
 .country-card-grid {

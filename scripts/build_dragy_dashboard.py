@@ -278,6 +278,7 @@ def build_scope(
 ) -> dict[str, Any]:
     date_map = aggregate_rows_by_date(products)
     product_ids = {product_key(item) for item in products}
+    latest_month = last_twelve_months[-1] if last_twelve_months else ""
 
     recent_rows = [
         serialize_daily_row(
@@ -309,6 +310,9 @@ def build_scope(
             "label": month_label(month),
             "sales": month_sales,
             "amount": month_amount,
+            "estimatedSales": 0,
+            "estimatedAmount": 0,
+            "estimatedMarkets": [],
             "dailyRows": daily_rows,
             "countrySummary": build_country_summary(daily_rows, all_products, product_ids),
         }
@@ -316,10 +320,28 @@ def build_scope(
     recent_sales = sum(row["sales"] for row in recent_rows)
     recent_amount = sum(row["amount"] for row in recent_rows)
     line_products = []
+    latest_month_estimated_sales = 0
+    latest_month_estimated_amount = 0
+    estimated_gap_items = []
     for product in products:
         recent30 = sum(row["sales"] for row in product["allRows"] if row["date"] in set(global_recent_dates))
-        latest_month = last_twelve_months[-1] if last_twelve_months else ""
         latest_month_sales = sum(row["sales"] for row in product["allRows"] if row["date"].startswith(latest_month))
+        latest_month_amount = sum(row["amount"] for row in product["allRows"] if row["date"].startswith(latest_month))
+        has_latest_month_daily = any(row["sales"] > 0 for row in product["allRows"] if row["date"].startswith(latest_month))
+        estimated_current_month_sales = product["monthlyUnits"] if latest_month and not has_latest_month_daily and product["monthlyUnits"] > 0 else 0
+        estimated_current_month_amount = product["monthlyRevenue"] if estimated_current_month_sales > 0 else 0
+        if estimated_current_month_sales > 0:
+            latest_month_estimated_sales += estimated_current_month_sales
+            latest_month_estimated_amount += estimated_current_month_amount
+            estimated_gap_items.append(
+                {
+                    "asin": product["asin"],
+                    "marketplace": product["marketplace"],
+                    "country": product["country"],
+                    "estimatedSales": estimated_current_month_sales,
+                    "estimatedAmount": estimated_current_month_amount,
+                }
+            )
         line_products.append(
             {
                 "asin": product["asin"],
@@ -333,10 +355,38 @@ def build_scope(
                 "sellerName": product["sellerName"],
                 "recent30Sales": recent30,
                 "currentMonthSales": latest_month_sales,
+                "currentMonthAmount": latest_month_amount,
+                "estimatedCurrentMonthSales": estimated_current_month_sales,
+                "estimatedCurrentMonthAmount": estimated_current_month_amount,
+                "hasDailySeriesGap": estimated_current_month_sales > 0,
                 "monthlyUnits": product["monthlyUnits"],
                 "monthlyRevenue": product["monthlyRevenue"],
             }
         )
+
+    if latest_month and latest_month in month_drilldowns and latest_month_estimated_sales > 0:
+        latest_month_summary = month_drilldowns[latest_month]
+        latest_month_summary["sales"] += latest_month_estimated_sales
+        latest_month_summary["amount"] += latest_month_estimated_amount
+        latest_month_summary["estimatedSales"] = latest_month_estimated_sales
+        latest_month_summary["estimatedAmount"] = latest_month_estimated_amount
+        latest_month_summary["estimatedMarkets"] = estimated_gap_items
+        for item in latest_month_summary["countrySummary"]:
+            gap = next((gap_item for gap_item in estimated_gap_items if gap_item["marketplace"] == item["marketplace"]), None)
+            if not gap:
+                continue
+            item["sales"] += gap["estimatedSales"]
+            item["amount"] += gap["estimatedAmount"]
+            item["avgPrice"] = round(item["amount"] / item["sales"]) if item["sales"] else 0
+
+        for item in monthly_series:
+            if item["month"] != latest_month:
+                continue
+            item["sales"] += latest_month_estimated_sales
+            item["amount"] += latest_month_estimated_amount
+            item["estimatedSales"] = latest_month_estimated_sales
+            item["estimatedAmount"] = latest_month_estimated_amount
+            break
 
     latest_row = recent_rows[-1] if recent_rows else None
     active_countries = [item for item in build_country_summary(recent_rows, all_products, product_ids) if item["sales"] > 0]
@@ -360,6 +410,10 @@ def build_scope(
         "productCount": len(line_products),
         "activeCountryCount": len(active_countries),
         "heroImage": next((item["imageUrl"] for item in products if item.get("imageUrl")), ""),
+        "hasEstimateGap": latest_month_estimated_sales > 0,
+        "latestMonthEstimatedSales": latest_month_estimated_sales,
+        "latestMonthEstimatedAmount": latest_month_estimated_amount,
+        "estimatedGapItems": estimated_gap_items,
     }
 
 
