@@ -49,10 +49,19 @@ def clamp_row(row: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def aggregate_report_rows(report_rows: list[list[dict[str, Any]]]) -> list[dict[str, Any]]:
-    buckets: dict[str, dict[str, Any]] = defaultdict(lambda: {"sales": 0, "amount": 0, "prices": [], "bsrs": []})
-    for item_rows in report_rows:
-        for row in item_rows:
+def aggregate_report_rows(report_item_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    buckets: dict[str, dict[str, Any]] = defaultdict(
+        lambda: {
+            "sales": 0,
+            "amount": 0,
+            "prices": [],
+            "bsrs": [],
+            "countries": defaultdict(lambda: {"sales": 0, "amount": 0, "prices": [], "bsrs": []}),
+        }
+    )
+    for item_payload in report_item_rows:
+        marketplace = item_payload["marketplace"]
+        for row in item_payload["rows"]:
             bucket = buckets[row["date"]]
             bucket["sales"] += row["sales"]
             bucket["amount"] += row["amount"]
@@ -60,12 +69,29 @@ def aggregate_report_rows(report_rows: list[list[dict[str, Any]]]) -> list[dict[
                 bucket["prices"].append(row["price"])
             if row["bsr"] is not None:
                 bucket["bsrs"].append(row["bsr"])
+            country_bucket = bucket["countries"][marketplace]
+            country_bucket["sales"] += row["sales"]
+            country_bucket["amount"] += row["amount"]
+            if row["price"] > 0:
+                country_bucket["prices"].append(row["price"])
+            if row["bsr"] is not None:
+                country_bucket["bsrs"].append(row["bsr"])
 
     rows = []
     for date in sorted(buckets):
         bucket = buckets[date]
         avg_price = round(bucket["amount"] / bucket["sales"]) if bucket["sales"] else (round(sum(bucket["prices"]) / len(bucket["prices"])) if bucket["prices"] else 0)
         avg_bsr = round(sum(bucket["bsrs"]) / len(bucket["bsrs"])) if bucket["bsrs"] else None
+        countries = {}
+        for marketplace, country_bucket in bucket["countries"].items():
+            country_price = round(country_bucket["amount"] / country_bucket["sales"]) if country_bucket["sales"] else (round(sum(country_bucket["prices"]) / len(country_bucket["prices"])) if country_bucket["prices"] else 0)
+            country_bsr = round(sum(country_bucket["bsrs"]) / len(country_bucket["bsrs"])) if country_bucket["bsrs"] else None
+            countries[marketplace] = {
+                "sales": country_bucket["sales"],
+                "amount": country_bucket["amount"],
+                "price": country_price,
+                "bsr": country_bsr,
+            }
         rows.append(
             {
                 "date": date,
@@ -73,6 +99,7 @@ def aggregate_report_rows(report_rows: list[list[dict[str, Any]]]) -> list[dict[
                 "amount": bucket["amount"],
                 "price": avg_price,
                 "bsr": avg_bsr,
+                "countries": countries,
             }
         )
     return rows[-KEEP_DAYS:]
@@ -108,7 +135,7 @@ def main() -> int:
     next_daily_reports: dict[str, list[dict[str, Any]]] = {}
 
     for report_id, report in status_payload["reports"].items():
-        report_item_rows: list[list[dict[str, Any]]] = []
+        report_item_rows: list[dict[str, Any]] = []
         fetched_any = False
         has_pending = False
 
@@ -126,7 +153,7 @@ def main() -> int:
             data = response.get("data") or {}
             raw_rows = data.get("dailyItemList") or []
             rows = [clamp_row(row) for row in raw_rows][-KEEP_DAYS:]
-            report_item_rows.append(rows)
+            report_item_rows.append({"marketplace": marketplace, "rows": rows})
             if rows:
                 latest_item_date = rows[-1]["date"]
                 latest_snapshot_date = max(latest_snapshot_date, latest_item_date)

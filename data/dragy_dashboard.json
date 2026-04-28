@@ -1,10 +1,10 @@
 {
   "brand": "dragy",
   "title": "dragy 全球销量看板",
-  "generatedAt": "2026/04/27 12:00",
-  "latestDate": "2026-04-27",
-  "recent30Start": "2026-03-29",
-  "recent30End": "2026-04-27",
+  "generatedAt": "2026/04/28 12:00",
+  "latestDate": "2026-04-28",
+  "recent30Start": "2026-03-30",
+  "recent30End": "2026-04-28",
   "defaultMonth": "2026-04",
   "heroImage": "./assets/products/dragy.jpg",
   "scopeOrder": [
@@ -26,74 +26,14 @@
         "color": "#111827"
       },
       "recent30": {
-        "start": "2026-03-29",
-        "end": "2026-04-27",
-        "sales": 1471,
-        "amount": 258750,
-        "avgPrice": 176,
-        "latestSales": 54,
-        "latestAmount": 9246,
+        "start": "2026-03-30",
+        "end": "2026-04-28",
+        "sales": 1499,
+        "amount": 256730,
+        "avgPrice": 171,
+        "latestSales": 57,
+        "latestAmount": 8917,
         "dailyRows": [
-          {
-            "date": "2026-03-29",
-            "sales": 44,
-            "amount": 8084,
-            "price": 184,
-            "countries": {
-              "US": {
-                "sales": 27,
-                "amount": 4793,
-                "price": 178
-              },
-              "UK": {
-                "sales": 2,
-                "amount": 273,
-                "price": 136
-              },
-              "DE": {
-                "sales": 5,
-                "amount": 660,
-                "price": 132
-              },
-              "FR": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "IT": {
-                "sales": 2,
-                "amount": 303,
-                "price": 152
-              },
-              "ES": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "CA": {
-                "sales": 8,
-                "amount": 2055,
-                "price": 257
-              },
-              "JP": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "AU": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              }
-            },
-            "lines": {
-              "dragy_pro": 23,
-              "dragy": 14,
-              "dragy_pro_refurbished": 6,
-              "dragy_refurbished": 0,
-              "mount": 1
-            }
-          },
           {
             "date": "2026-03-30",
             "sales": 38,
@@ -1356,13 +1296,13 @@
           },
           {
             "date": "2026-04-20",
-            "sales": 53,
-            "amount": 8867,
-            "price": 167,
+            "sales": 54,
+            "amount": 9056,
+            "price": 168,
             "countries": {
               "US": {
-                "sales": 32,
-                "amount": 5598,
+                "sales": 33,
+                "amount": 5787,
                 "price": 175
               },
               "UK": {
@@ -1407,23 +1347,23 @@
               }
             },
             "lines": {
-              "dragy_pro": 26,
-              "dragy": 17,
-              "dragy_pro_refurbished": 9,
+              "dragy_pro": 27,
+              "dragy": 16,
+              "dragy_pro_refurbished": 10,
               "dragy_refurbished": 0,
               "mount": 1
             }
           },
           {
             "date": "2026-04-21",
-            "sales": 53,
-            "amount": 9361,
-            "price": 177,
+            "sales": 52,
+            "amount": 9252,
+            "price": 178,
             "countries": {
               "US": {
-                "sales": 33,
-                "amount": 5787,
-                "price": 175
+                "sales": 32,
+                "amount": 5678,
+                "price": 177
               },
               "UK": {
                 "sales": 4,
@@ -1467,23 +1407,23 @@
               }
             },
             "lines": {
-              "dragy_pro": 27,
-              "dragy": 16,
-              "dragy_pro_refurbished": 10,
+              "dragy_pro": 28,
+              "dragy": 15,
+              "dragy_pro_refurbished": 9,
               "dragy_refurbished": 0,
               "mount": 0
             }
           },
           {
             "date": "2026-04-22",
-            "sales": 54,
-            "amount": 9421,
-            "price": 174,
+            "sales": 58,
+            "amount": 9222,
+            "price": 159,
             "countries": {
               "US": {
-                "sales": 32,
-                "amount": 5678,
-                "price": 177
+                "sales": 36,
+                "amount": 5479,
+                "price": 152
               },
               "UK": {
                 "sales": 4,
@@ -1527,8 +1467,8 @@
               }
             },
             "lines": {
-              "dragy_pro": 29,
-              "dragy": 16,
+              "dragy_pro": 28,
+              "dragy": 21,
               "dragy_pro_refurbished": 9,
               "dragy_refurbished": 0,
               "mount": 0
@@ -1536,14 +1476,14 @@
           },
           {
             "date": "2026-04-23",
-            "sales": 55,
-            "amount": 9534,
-            "price": 173,
+            "sales": 57,
+            "amount": 9027,
+            "price": 158,
             "countries": {
               "US": {
-                "sales": 35,
-                "amount": 6175,
-                "price": 176
+                "sales": 37,
+                "amount": 5668,
+                "price": 153
               },
               "UK": {
                 "sales": 3,
@@ -1587,23 +1527,23 @@
               }
             },
             "lines": {
-              "dragy_pro": 29,
-              "dragy": 15,
-              "dragy_pro_refurbished": 11,
+              "dragy_pro": 28,
+              "dragy": 19,
+              "dragy_pro_refurbished": 10,
               "dragy_refurbished": 0,
               "mount": 0
             }
           },
           {
             "date": "2026-04-24",
-            "sales": 53,
-            "amount": 9292,
-            "price": 175,
+            "sales": 54,
+            "amount": 8586,
+            "price": 159,
             "countries": {
               "US": {
-                "sales": 34,
-                "amount": 5976,
-                "price": 176
+                "sales": 35,
+                "amount": 5270,
+                "price": 151
               },
               "UK": {
                 "sales": 2,
@@ -1647,23 +1587,23 @@
               }
             },
             "lines": {
-              "dragy_pro": 27,
-              "dragy": 15,
-              "dragy_pro_refurbished": 11,
+              "dragy_pro": 25,
+              "dragy": 19,
+              "dragy_pro_refurbished": 10,
               "dragy_refurbished": 0,
               "mount": 0
             }
           },
           {
             "date": "2026-04-25",
-            "sales": 57,
-            "amount": 9541,
-            "price": 167,
+            "sales": 61,
+            "amount": 9233,
+            "price": 151,
             "countries": {
               "US": {
-                "sales": 32,
-                "amount": 5578,
-                "price": 174
+                "sales": 36,
+                "amount": 5270,
+                "price": 146
               },
               "UK": {
                 "sales": 4,
@@ -1708,22 +1648,22 @@
             },
             "lines": {
               "dragy_pro": 28,
-              "dragy": 17,
-              "dragy_pro_refurbished": 11,
+              "dragy": 22,
+              "dragy_pro_refurbished": 10,
               "dragy_refurbished": 0,
               "mount": 1
             }
           },
           {
             "date": "2026-04-26",
-            "sales": 55,
-            "amount": 9390,
-            "price": 171,
+            "sales": 57,
+            "amount": 8684,
+            "price": 152,
             "countries": {
               "US": {
-                "sales": 34,
-                "amount": 5976,
-                "price": 176
+                "sales": 36,
+                "amount": 5270,
+                "price": 146
               },
               "UK": {
                 "sales": 3,
@@ -1767,23 +1707,23 @@
               }
             },
             "lines": {
-              "dragy_pro": 29,
-              "dragy": 15,
-              "dragy_pro_refurbished": 11,
+              "dragy_pro": 27,
+              "dragy": 20,
+              "dragy_pro_refurbished": 10,
               "dragy_refurbished": 0,
               "mount": 0
             }
           },
           {
             "date": "2026-04-27",
-            "sales": 54,
-            "amount": 9246,
-            "price": 171,
+            "sales": 56,
+            "amount": 8739,
+            "price": 156,
             "countries": {
               "US": {
-                "sales": 33,
-                "amount": 5827,
-                "price": 177
+                "sales": 35,
+                "amount": 5320,
+                "price": 152
               },
               "UK": {
                 "sales": 3,
@@ -1827,8 +1767,68 @@
               }
             },
             "lines": {
-              "dragy_pro": 29,
-              "dragy": 15,
+              "dragy_pro": 28,
+              "dragy": 19,
+              "dragy_pro_refurbished": 9,
+              "dragy_refurbished": 0,
+              "mount": 0
+            }
+          },
+          {
+            "date": "2026-04-28",
+            "sales": 57,
+            "amount": 8917,
+            "price": 156,
+            "countries": {
+              "US": {
+                "sales": 36,
+                "amount": 5469,
+                "price": 152
+              },
+              "UK": {
+                "sales": 3,
+                "amount": 339,
+                "price": 113
+              },
+              "DE": {
+                "sales": 7,
+                "amount": 953,
+                "price": 136
+              },
+              "FR": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "IT": {
+                "sales": 3,
+                "amount": 404,
+                "price": 135
+              },
+              "ES": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "CA": {
+                "sales": 8,
+                "amount": 1752,
+                "price": 219
+              },
+              "JP": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "AU": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              }
+            },
+            "lines": {
+              "dragy_pro": 28,
+              "dragy": 19,
               "dragy_pro_refurbished": 10,
               "dragy_refurbished": 0,
               "mount": 0
@@ -1839,26 +1839,26 @@
           {
             "marketplace": "US",
             "country": "美国",
-            "sales": 890,
-            "amount": 157160,
-            "avgPrice": 177,
-            "productCount": 5,
-            "monthlyUnits": 1298
+            "sales": 914,
+            "amount": 154983,
+            "avgPrice": 170,
+            "productCount": 6,
+            "monthlyUnits": 1319
           },
           {
             "marketplace": "UK",
             "country": "英国",
-            "sales": 84,
-            "amount": 10544,
-            "avgPrice": 126,
+            "sales": 85,
+            "amount": 10610,
+            "avgPrice": 125,
             "productCount": 2,
             "monthlyUnits": 84
           },
           {
             "marketplace": "DE",
             "country": "德国",
-            "sales": 180,
-            "amount": 23929,
+            "sales": 182,
+            "amount": 24222,
             "avgPrice": 133,
             "productCount": 4,
             "monthlyUnits": 177
@@ -1875,9 +1875,9 @@
           {
             "marketplace": "IT",
             "country": "意大利",
-            "sales": 98,
-            "amount": 12991,
-            "avgPrice": 133,
+            "sales": 99,
+            "amount": 13092,
+            "avgPrice": 132,
             "productCount": 5,
             "monthlyUnits": 99
           },
@@ -1894,8 +1894,8 @@
             "marketplace": "CA",
             "country": "加拿大",
             "sales": 219,
-            "amount": 54126,
-            "avgPrice": 247,
+            "amount": 53823,
+            "avgPrice": 246,
             "productCount": 2,
             "monthlyUnits": 216
           },
@@ -1929,8 +1929,8 @@
         {
           "month": "2025-06",
           "label": "2025/06",
-          "sales": 1220,
-          "amount": 216073
+          "sales": 1223,
+          "amount": 216160
         },
         {
           "month": "2025-07",
@@ -1971,8 +1971,8 @@
         {
           "month": "2026-01",
           "label": "2026/01",
-          "sales": 962,
-          "amount": 177503
+          "sales": 964,
+          "amount": 177561
         },
         {
           "month": "2026-02",
@@ -1989,10 +1989,10 @@
         {
           "month": "2026-04",
           "label": "2026/04",
-          "sales": 1557,
-          "amount": 263917.0,
-          "estimatedSales": 205,
-          "estimatedAmount": 26655.0
+          "sales": 1621,
+          "amount": 268949.0,
+          "estimatedSales": 197,
+          "estimatedAmount": 25623.0
         }
       ],
       "monthDrilldowns": {
@@ -3873,8 +3873,8 @@
               "sales": 945,
               "amount": 172815,
               "avgPrice": 183,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -3953,8 +3953,8 @@
         "2025-06": {
           "month": "2025-06",
           "label": "2025/06",
-          "sales": 1220,
-          "amount": 216073,
+          "sales": 1223,
+          "amount": 216160,
           "estimatedSales": 0,
           "estimatedAmount": 0,
           "estimatedMarkets": [],
@@ -4921,9 +4921,9 @@
             },
             {
               "date": "2025-06-17",
-              "sales": 45,
-              "amount": 8085,
-              "price": 180,
+              "sales": 46,
+              "amount": 8114,
+              "price": 176,
               "countries": {
                 "US": {
                   "sales": 32,
@@ -4936,9 +4936,9 @@
                   "price": 129
                 },
                 "DE": {
-                  "sales": 7,
-                  "amount": 883,
-                  "price": 126
+                  "sales": 8,
+                  "amount": 912,
+                  "price": 114
                 },
                 "FR": {
                   "sales": 0,
@@ -4976,14 +4976,14 @@
                 "dragy": 20,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 2,
-                "mount": 1
+                "mount": 2
               }
             },
             {
               "date": "2025-06-18",
-              "sales": 42,
-              "amount": 7668,
-              "price": 183,
+              "sales": 43,
+              "amount": 7697,
+              "price": 179,
               "countries": {
                 "US": {
                   "sales": 30,
@@ -4996,9 +4996,9 @@
                   "price": 129
                 },
                 "DE": {
-                  "sales": 6,
-                  "amount": 744,
-                  "price": 124
+                  "sales": 7,
+                  "amount": 773,
+                  "price": 110
                 },
                 "FR": {
                   "sales": 0,
@@ -5036,14 +5036,14 @@
                 "dragy": 16,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 2,
-                "mount": 1
+                "mount": 2
               }
             },
             {
               "date": "2025-06-19",
-              "sales": 40,
-              "amount": 7090,
-              "price": 177,
+              "sales": 41,
+              "amount": 7119,
+              "price": 174,
               "countries": {
                 "US": {
                   "sales": 27,
@@ -5056,9 +5056,9 @@
                   "price": 129
                 },
                 "DE": {
-                  "sales": 7,
-                  "amount": 883,
-                  "price": 126
+                  "sales": 8,
+                  "amount": 912,
+                  "price": 114
                 },
                 "FR": {
                   "sales": 0,
@@ -5096,7 +5096,7 @@
                 "dragy": 17,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 2,
-                "mount": 1
+                "mount": 2
               }
             },
             {
@@ -5767,8 +5767,8 @@
               "sales": 833,
               "amount": 150127,
               "avgPrice": 180,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -5782,9 +5782,9 @@
             {
               "marketplace": "DE",
               "country": "德国",
-              "sales": 186,
-              "amount": 23374,
-              "avgPrice": 126,
+              "sales": 189,
+              "amount": 23461,
+              "avgPrice": 124,
               "productCount": 4,
               "monthlyUnits": 177
             },
@@ -7721,8 +7721,8 @@
               "sales": 925,
               "amount": 172475,
               "avgPrice": 186,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -9675,8 +9675,8 @@
               "sales": 954,
               "amount": 171787,
               "avgPrice": 180,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -11569,8 +11569,8 @@
               "sales": 885,
               "amount": 161915,
               "avgPrice": 183,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -13523,8 +13523,8 @@
               "sales": 981,
               "amount": 179182,
               "avgPrice": 183,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -15417,8 +15417,8 @@
               "sales": 1371,
               "amount": 214056,
               "avgPrice": 156,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -17371,8 +17371,8 @@
               "sales": 1280,
               "amount": 192392,
               "avgPrice": 150,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -17451,8 +17451,8 @@
         "2026-01": {
           "month": "2026-01",
           "label": "2026/01",
-          "sales": 962,
-          "amount": 177503,
+          "sales": 964,
+          "amount": 177561,
           "estimatedSales": 0,
           "estimatedAmount": 0,
           "estimatedMarkets": [],
@@ -18959,9 +18959,9 @@
             },
             {
               "date": "2026-01-26",
-              "sales": 27,
-              "amount": 5153,
-              "price": 191,
+              "sales": 28,
+              "amount": 5182,
+              "price": 185,
               "countries": {
                 "US": {
                   "sales": 15,
@@ -18974,9 +18974,9 @@
                   "price": 144
                 },
                 "DE": {
-                  "sales": 4,
-                  "amount": 566,
-                  "price": 142
+                  "sales": 5,
+                  "amount": 595,
+                  "price": 119
                 },
                 "FR": {
                   "sales": 0,
@@ -19014,14 +19014,14 @@
                 "dragy": 12,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 1,
-                "mount": 0
+                "mount": 1
               }
             },
             {
               "date": "2026-01-27",
-              "sales": 29,
-              "amount": 5531,
-              "price": 191,
+              "sales": 30,
+              "amount": 5560,
+              "price": 185,
               "countries": {
                 "US": {
                   "sales": 16,
@@ -19034,9 +19034,9 @@
                   "price": 144
                 },
                 "DE": {
-                  "sales": 3,
-                  "amount": 427,
-                  "price": 142
+                  "sales": 4,
+                  "amount": 456,
+                  "price": 114
                 },
                 "FR": {
                   "sales": 0,
@@ -19074,7 +19074,7 @@
                 "dragy": 12,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 1,
-                "mount": 0
+                "mount": 1
               }
             },
             {
@@ -19325,8 +19325,8 @@
               "sales": 593,
               "amount": 106351,
               "avgPrice": 179,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -19340,9 +19340,9 @@
             {
               "marketplace": "DE",
               "country": "德国",
-              "sales": 118,
-              "amount": 15545,
-              "avgPrice": 132,
+              "sales": 120,
+              "amount": 15603,
+              "avgPrice": 130,
               "productCount": 4,
               "monthlyUnits": 177
             },
@@ -21099,8 +21099,8 @@
               "sales": 652,
               "amount": 117052,
               "avgPrice": 180,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -23053,8 +23053,8 @@
               "sales": 770,
               "amount": 138375,
               "avgPrice": 180,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
@@ -23133,17 +23133,17 @@
         "2026-04": {
           "month": "2026-04",
           "label": "2026/04",
-          "sales": 1557,
-          "amount": 263917.0,
-          "estimatedSales": 205,
-          "estimatedAmount": 26655.0,
+          "sales": 1621,
+          "amount": 268949.0,
+          "estimatedSales": 197,
+          "estimatedAmount": 25623.0,
           "estimatedMarkets": [
             {
               "asin": "B0BQ648WBW",
               "marketplace": "US",
               "country": "美国",
-              "estimatedSales": 198,
-              "estimatedAmount": 25542.0
+              "estimatedSales": 190,
+              "estimatedAmount": 24510.0
             },
             {
               "asin": "B0BQ9QT51G",
@@ -24296,13 +24296,13 @@
             },
             {
               "date": "2026-04-20",
-              "sales": 53,
-              "amount": 8867,
-              "price": 167,
+              "sales": 54,
+              "amount": 9056,
+              "price": 168,
               "countries": {
                 "US": {
-                  "sales": 32,
-                  "amount": 5598,
+                  "sales": 33,
+                  "amount": 5787,
                   "price": 175
                 },
                 "UK": {
@@ -24347,23 +24347,23 @@
                 }
               },
               "lines": {
-                "dragy_pro": 26,
-                "dragy": 17,
-                "dragy_pro_refurbished": 9,
+                "dragy_pro": 27,
+                "dragy": 16,
+                "dragy_pro_refurbished": 10,
                 "dragy_refurbished": 0,
                 "mount": 1
               }
             },
             {
               "date": "2026-04-21",
-              "sales": 53,
-              "amount": 9361,
-              "price": 177,
+              "sales": 52,
+              "amount": 9252,
+              "price": 178,
               "countries": {
                 "US": {
-                  "sales": 33,
-                  "amount": 5787,
-                  "price": 175
+                  "sales": 32,
+                  "amount": 5678,
+                  "price": 177
                 },
                 "UK": {
                   "sales": 4,
@@ -24407,23 +24407,23 @@
                 }
               },
               "lines": {
-                "dragy_pro": 27,
-                "dragy": 16,
-                "dragy_pro_refurbished": 10,
+                "dragy_pro": 28,
+                "dragy": 15,
+                "dragy_pro_refurbished": 9,
                 "dragy_refurbished": 0,
                 "mount": 0
               }
             },
             {
               "date": "2026-04-22",
-              "sales": 54,
-              "amount": 9421,
-              "price": 174,
+              "sales": 58,
+              "amount": 9222,
+              "price": 159,
               "countries": {
                 "US": {
-                  "sales": 32,
-                  "amount": 5678,
-                  "price": 177
+                  "sales": 36,
+                  "amount": 5479,
+                  "price": 152
                 },
                 "UK": {
                   "sales": 4,
@@ -24467,8 +24467,8 @@
                 }
               },
               "lines": {
-                "dragy_pro": 29,
-                "dragy": 16,
+                "dragy_pro": 28,
+                "dragy": 21,
                 "dragy_pro_refurbished": 9,
                 "dragy_refurbished": 0,
                 "mount": 0
@@ -24476,14 +24476,14 @@
             },
             {
               "date": "2026-04-23",
-              "sales": 55,
-              "amount": 9534,
-              "price": 173,
+              "sales": 57,
+              "amount": 9027,
+              "price": 158,
               "countries": {
                 "US": {
-                  "sales": 35,
-                  "amount": 6175,
-                  "price": 176
+                  "sales": 37,
+                  "amount": 5668,
+                  "price": 153
                 },
                 "UK": {
                   "sales": 3,
@@ -24527,23 +24527,23 @@
                 }
               },
               "lines": {
-                "dragy_pro": 29,
-                "dragy": 15,
-                "dragy_pro_refurbished": 11,
+                "dragy_pro": 28,
+                "dragy": 19,
+                "dragy_pro_refurbished": 10,
                 "dragy_refurbished": 0,
                 "mount": 0
               }
             },
             {
               "date": "2026-04-24",
-              "sales": 53,
-              "amount": 9292,
-              "price": 175,
+              "sales": 54,
+              "amount": 8586,
+              "price": 159,
               "countries": {
                 "US": {
-                  "sales": 34,
-                  "amount": 5976,
-                  "price": 176
+                  "sales": 35,
+                  "amount": 5270,
+                  "price": 151
                 },
                 "UK": {
                   "sales": 2,
@@ -24587,23 +24587,23 @@
                 }
               },
               "lines": {
-                "dragy_pro": 27,
-                "dragy": 15,
-                "dragy_pro_refurbished": 11,
+                "dragy_pro": 25,
+                "dragy": 19,
+                "dragy_pro_refurbished": 10,
                 "dragy_refurbished": 0,
                 "mount": 0
               }
             },
             {
               "date": "2026-04-25",
-              "sales": 57,
-              "amount": 9541,
-              "price": 167,
+              "sales": 61,
+              "amount": 9233,
+              "price": 151,
               "countries": {
                 "US": {
-                  "sales": 32,
-                  "amount": 5578,
-                  "price": 174
+                  "sales": 36,
+                  "amount": 5270,
+                  "price": 146
                 },
                 "UK": {
                   "sales": 4,
@@ -24648,22 +24648,22 @@
               },
               "lines": {
                 "dragy_pro": 28,
-                "dragy": 17,
-                "dragy_pro_refurbished": 11,
+                "dragy": 22,
+                "dragy_pro_refurbished": 10,
                 "dragy_refurbished": 0,
                 "mount": 1
               }
             },
             {
               "date": "2026-04-26",
-              "sales": 55,
-              "amount": 9390,
-              "price": 171,
+              "sales": 57,
+              "amount": 8684,
+              "price": 152,
               "countries": {
                 "US": {
-                  "sales": 34,
-                  "amount": 5976,
-                  "price": 176
+                  "sales": 36,
+                  "amount": 5270,
+                  "price": 146
                 },
                 "UK": {
                   "sales": 3,
@@ -24707,23 +24707,23 @@
                 }
               },
               "lines": {
-                "dragy_pro": 29,
-                "dragy": 15,
-                "dragy_pro_refurbished": 11,
+                "dragy_pro": 27,
+                "dragy": 20,
+                "dragy_pro_refurbished": 10,
                 "dragy_refurbished": 0,
                 "mount": 0
               }
             },
             {
               "date": "2026-04-27",
-              "sales": 54,
-              "amount": 9246,
-              "price": 171,
+              "sales": 56,
+              "amount": 8739,
+              "price": 156,
               "countries": {
                 "US": {
-                  "sales": 33,
-                  "amount": 5827,
-                  "price": 177
+                  "sales": 35,
+                  "amount": 5320,
+                  "price": 152
                 },
                 "UK": {
                   "sales": 3,
@@ -24767,8 +24767,68 @@
                 }
               },
               "lines": {
-                "dragy_pro": 29,
-                "dragy": 15,
+                "dragy_pro": 28,
+                "dragy": 19,
+                "dragy_pro_refurbished": 9,
+                "dragy_refurbished": 0,
+                "mount": 0
+              }
+            },
+            {
+              "date": "2026-04-28",
+              "sales": 57,
+              "amount": 8917,
+              "price": 156,
+              "countries": {
+                "US": {
+                  "sales": 36,
+                  "amount": 5469,
+                  "price": 152
+                },
+                "UK": {
+                  "sales": 3,
+                  "amount": 339,
+                  "price": 113
+                },
+                "DE": {
+                  "sales": 7,
+                  "amount": 953,
+                  "price": 136
+                },
+                "FR": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "IT": {
+                  "sales": 3,
+                  "amount": 404,
+                  "price": 135
+                },
+                "ES": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "CA": {
+                  "sales": 8,
+                  "amount": 1752,
+                  "price": 219
+                },
+                "JP": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "AU": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                }
+              },
+              "lines": {
+                "dragy_pro": 28,
+                "dragy": 19,
                 "dragy_pro_refurbished": 10,
                 "dragy_refurbished": 0,
                 "mount": 0
@@ -24779,26 +24839,26 @@
             {
               "marketplace": "US",
               "country": "美国",
-              "sales": 1014,
-              "amount": 169546.0,
-              "avgPrice": 167,
-              "productCount": 5,
-              "monthlyUnits": 1298
+              "sales": 1057,
+              "amount": 171130.0,
+              "avgPrice": 162,
+              "productCount": 6,
+              "monthlyUnits": 1319
             },
             {
               "marketplace": "UK",
               "country": "英国",
-              "sales": 78,
-              "amount": 9725,
-              "avgPrice": 125,
+              "sales": 81,
+              "amount": 10064,
+              "avgPrice": 124,
               "productCount": 2,
               "monthlyUnits": 84
             },
             {
               "marketplace": "DE",
               "country": "德国",
-              "sales": 165,
-              "amount": 21949,
+              "sales": 172,
+              "amount": 22902,
               "avgPrice": 133,
               "productCount": 4,
               "monthlyUnits": 177
@@ -24815,8 +24875,8 @@
             {
               "marketplace": "IT",
               "country": "意大利",
-              "sales": 99,
-              "amount": 13195.0,
+              "sales": 102,
+              "amount": 13599.0,
               "avgPrice": 133,
               "productCount": 5,
               "monthlyUnits": 99
@@ -24833,9 +24893,9 @@
             {
               "marketplace": "CA",
               "country": "加拿大",
-              "sales": 201,
-              "amount": 49502,
-              "avgPrice": 246,
+              "sales": 209,
+              "amount": 51254,
+              "avgPrice": 245,
               "productCount": 2,
               "monthlyUnits": 216
             },
@@ -24871,9 +24931,9 @@
           "rating": 4.4,
           "ratings": 115,
           "sellerName": "Dragy International",
-          "recent30Sales": 453,
-          "currentMonthSales": 414,
-          "currentMonthAmount": 82386,
+          "recent30Sales": 450,
+          "currentMonthSales": 425,
+          "currentMonthAmount": 84575,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -24890,9 +24950,9 @@
           "rating": 4.4,
           "ratings": 115,
           "sellerName": "Dragy International",
-          "recent30Sales": 247,
-          "currentMonthSales": 230,
-          "currentMonthAmount": 34270,
+          "recent30Sales": 246,
+          "currentMonthSales": 235,
+          "currentMonthAmount": 35015,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -24907,16 +24967,16 @@
           "imageUrl": "https://m.media-amazon.com/images/I/41ga26EfcrL._AC_SR200,200_.jpg",
           "price": 159.0,
           "rating": 4.6,
-          "ratings": 523,
+          "ratings": 524,
           "sellerName": "Dragy International",
-          "recent30Sales": 190,
-          "currentMonthSales": 172,
-          "currentMonthAmount": 27348,
+          "recent30Sales": 181,
+          "currentMonthSales": 170,
+          "currentMonthAmount": 27030,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
-          "monthlyUnits": 198,
-          "monthlyRevenue": 31482.0
+          "monthlyUnits": 190,
+          "monthlyRevenue": 30210.0
         },
         {
           "asin": "B0DSV36JY9",
@@ -24929,8 +24989,8 @@
           "ratings": 114,
           "sellerName": "Dragy International",
           "recent30Sales": 110,
-          "currentMonthSales": 101,
-          "currentMonthAmount": 27845,
+          "currentMonthSales": 105,
+          "currentMonthAmount": 28841,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -24948,8 +25008,8 @@
           "ratings": 114,
           "sellerName": "Dragy International",
           "recent30Sales": 109,
-          "currentMonthSales": 100,
-          "currentMonthAmount": 21657,
+          "currentMonthSales": 104,
+          "currentMonthAmount": 22413,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -24966,9 +25026,9 @@
           "rating": 4.5,
           "ratings": 116,
           "sellerName": "Dragy International",
-          "recent30Sales": 105,
-          "currentMonthSales": 96,
-          "currentMonthAmount": 14957,
+          "recent30Sales": 106,
+          "currentMonthSales": 100,
+          "currentMonthAmount": 15553,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -24985,14 +25045,33 @@
           "rating": 4.6,
           "ratings": 579,
           "sellerName": "Dragy International",
-          "recent30Sales": 54,
-          "currentMonthSales": 51,
-          "currentMonthAmount": 6486,
+          "recent30Sales": 56,
+          "currentMonthSales": 54,
+          "currentMonthAmount": 6843,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
           "monthlyUnits": 52,
           "monthlyRevenue": 6188.0
+        },
+        {
+          "asin": "B0DSV36JY9",
+          "marketplace": "IT",
+          "country": "意大利",
+          "title": "Dragy Pro - Misuratore di prestazioni GPS professionale da 25 Hz, con memoria integrata e sensore di movimento IMU a 6 assi, include supporto dragy per una facile installazione",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51VCKL18KQL._AC_US200_.jpg",
+          "price": 149.0,
+          "rating": 4.5,
+          "ratings": 112,
+          "sellerName": "Dragy International",
+          "recent30Sales": 46,
+          "currentMonthSales": 44,
+          "currentMonthAmount": 6753,
+          "estimatedCurrentMonthSales": 0,
+          "estimatedCurrentMonthAmount": 0,
+          "hasDailySeriesGap": false,
+          "monthlyUnits": 42,
+          "monthlyRevenue": 6258.0
         },
         {
           "asin": "B0BQ6DWMLT",
@@ -25005,32 +25084,13 @@
           "ratings": 112,
           "sellerName": "Venduto da Dragy International",
           "recent30Sales": 45,
-          "currentMonthSales": 42,
-          "currentMonthAmount": 5331,
+          "currentMonthSales": 43,
+          "currentMonthAmount": 5501,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
           "monthlyUnits": 42,
           "monthlyRevenue": 5838.0
-        },
-        {
-          "asin": "B0DSV36JY9",
-          "marketplace": "IT",
-          "country": "意大利",
-          "title": "Dragy Pro - Misuratore di prestazioni GPS professionale da 25 Hz, con memoria integrata e sensore di movimento IMU a 6 assi, include supporto dragy per una facile installazione",
-          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51VCKL18KQL._AC_US200_.jpg",
-          "price": 149.0,
-          "rating": 4.5,
-          "ratings": 112,
-          "sellerName": "Dragy International",
-          "recent30Sales": 45,
-          "currentMonthSales": 42,
-          "currentMonthAmount": 6519,
-          "estimatedCurrentMonthSales": 0,
-          "estimatedCurrentMonthAmount": 0,
-          "hasDailySeriesGap": false,
-          "monthlyUnits": 42,
-          "monthlyRevenue": 6258.0
         },
         {
           "asin": "B0DSV36JY9",
@@ -25042,9 +25102,9 @@
           "rating": 4.5,
           "ratings": 117,
           "sellerName": "Dragy International",
-          "recent30Sales": 44,
-          "currentMonthSales": 41,
-          "currentMonthAmount": 5542,
+          "recent30Sales": 45,
+          "currentMonthSales": 43,
+          "currentMonthAmount": 5782,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -25062,13 +25122,32 @@
           "ratings": 112,
           "sellerName": "Dragy International",
           "recent30Sales": 40,
-          "currentMonthSales": 37,
-          "currentMonthAmount": 4183,
+          "currentMonthSales": 38,
+          "currentMonthAmount": 4282,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
           "monthlyUnits": 42,
           "monthlyRevenue": 3465.0
+        },
+        {
+          "asin": "B0F2ZCX52V",
+          "marketplace": "US",
+          "country": "美国",
+          "title": "New dragy GPS Based Performance Meter, up to 25Hz GPS Laptimer, Upgraded UBLOX 10th Gen High Performance GPS Module, Trusted by Million Users, USB-C Charging Port (DRG70-C)",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/719N1-Vz2eL._AC_US200_.jpg",
+          "price": 159.0,
+          "rating": 4.6,
+          "ratings": 508,
+          "sellerName": "Dragy International",
+          "recent30Sales": 37,
+          "currentMonthSales": 37,
+          "currentMonthAmount": 0,
+          "estimatedCurrentMonthSales": 0,
+          "estimatedCurrentMonthAmount": 0,
+          "hasDailySeriesGap": false,
+          "monthlyUnits": 37,
+          "monthlyRevenue": 5883.0
         },
         {
           "asin": "B0BQ6DT2CV",
@@ -25080,7 +25159,7 @@
           "rating": 4.7,
           "ratings": 103,
           "sellerName": "Dragy International",
-          "recent30Sales": 21,
+          "recent30Sales": 20,
           "currentMonthSales": 18,
           "currentMonthAmount": 506,
           "estimatedCurrentMonthSales": 0,
@@ -25173,16 +25252,16 @@
           "imageUrl": "https://m.media-amazon.com/images/I/314quEodqOL._AC_SR200,200_.jpg",
           "price": 129.0,
           "rating": 4.6,
-          "ratings": 523,
+          "ratings": 524,
           "sellerName": "Dragy International",
           "recent30Sales": 0,
           "currentMonthSales": 0,
           "currentMonthAmount": 0,
-          "estimatedCurrentMonthSales": 198,
-          "estimatedCurrentMonthAmount": 25542.0,
+          "estimatedCurrentMonthSales": 190,
+          "estimatedCurrentMonthAmount": 24510.0,
           "hasDailySeriesGap": true,
-          "monthlyUnits": 198,
-          "monthlyRevenue": 25542.0
+          "monthlyUnits": 190,
+          "monthlyRevenue": 24510.0
         },
         {
           "asin": "B0BQ6DT2CV",
@@ -25223,19 +25302,19 @@
           "monthlyRevenue": 0
         }
       ],
-      "productCount": 19,
+      "productCount": 20,
       "activeCountryCount": 5,
       "heroImage": "https://m.media-amazon.com/images/I/21ppLp3eiqL._AC_US200_.jpg",
       "hasEstimateGap": true,
-      "latestMonthEstimatedSales": 205,
-      "latestMonthEstimatedAmount": 26655.0,
+      "latestMonthEstimatedSales": 197,
+      "latestMonthEstimatedAmount": 25623.0,
       "estimatedGapItems": [
         {
           "asin": "B0BQ648WBW",
           "marketplace": "US",
           "country": "美国",
-          "estimatedSales": 198,
-          "estimatedAmount": 25542.0
+          "estimatedSales": 190,
+          "estimatedAmount": 24510.0
         },
         {
           "asin": "B0BQ9QT51G",
@@ -25256,74 +25335,14 @@
         "color": "#e63946"
       },
       "recent30": {
-        "start": "2026-03-29",
-        "end": "2026-04-27",
+        "start": "2026-03-30",
+        "end": "2026-04-28",
         "sales": 757,
-        "amount": 150011,
+        "amount": 149524,
         "avgPrice": 198,
-        "latestSales": 29,
-        "latestAmount": 5488,
+        "latestSales": 28,
+        "latestAmount": 5250,
         "dailyRows": [
-          {
-            "date": "2026-03-29",
-            "sales": 23,
-            "amount": 4742,
-            "price": 206,
-            "countries": {
-              "US": {
-                "sales": 14,
-                "amount": 2786,
-                "price": 199
-              },
-              "UK": {
-                "sales": 1,
-                "amount": 144,
-                "price": 144
-              },
-              "DE": {
-                "sales": 3,
-                "amount": 492,
-                "price": 164
-              },
-              "FR": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "IT": {
-                "sales": 1,
-                "amount": 164,
-                "price": 164
-              },
-              "ES": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "CA": {
-                "sales": 4,
-                "amount": 1156,
-                "price": 289
-              },
-              "JP": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "AU": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              }
-            },
-            "lines": {
-              "dragy_pro": 23,
-              "dragy": 0,
-              "dragy_pro_refurbished": 0,
-              "dragy_refurbished": 0,
-              "mount": 0
-            }
-          },
           {
             "date": "2026-03-30",
             "sales": 20,
@@ -26586,13 +26605,13 @@
           },
           {
             "date": "2026-04-20",
-            "sales": 26,
-            "amount": 4923,
-            "price": 189,
+            "sales": 27,
+            "amount": 5122,
+            "price": 190,
             "countries": {
               "US": {
-                "sales": 15,
-                "amount": 2985,
+                "sales": 16,
+                "amount": 3184,
                 "price": 199
               },
               "UK": {
@@ -26637,7 +26656,7 @@
               }
             },
             "lines": {
-              "dragy_pro": 26,
+              "dragy_pro": 27,
               "dragy": 0,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
@@ -26646,13 +26665,13 @@
           },
           {
             "date": "2026-04-21",
-            "sales": 27,
-            "amount": 5327,
+            "sales": 28,
+            "amount": 5526,
             "price": 197,
             "countries": {
               "US": {
-                "sales": 16,
-                "amount": 3184,
+                "sales": 17,
+                "amount": 3383,
                 "price": 199
               },
               "UK": {
@@ -26697,7 +26716,7 @@
               }
             },
             "lines": {
-              "dragy_pro": 27,
+              "dragy_pro": 28,
               "dragy": 0,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
@@ -26706,13 +26725,13 @@
           },
           {
             "date": "2026-04-22",
-            "sales": 29,
-            "amount": 5611,
+            "sales": 28,
+            "amount": 5412,
             "price": 193,
             "countries": {
               "US": {
-                "sales": 17,
-                "amount": 3383,
+                "sales": 16,
+                "amount": 3184,
                 "price": 199
               },
               "UK": {
@@ -26757,7 +26776,7 @@
               }
             },
             "lines": {
-              "dragy_pro": 29,
+              "dragy_pro": 28,
               "dragy": 0,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
@@ -26766,13 +26785,13 @@
           },
           {
             "date": "2026-04-23",
-            "sales": 29,
-            "amount": 5565,
+            "sales": 28,
+            "amount": 5366,
             "price": 192,
             "countries": {
               "US": {
-                "sales": 18,
-                "amount": 3582,
+                "sales": 17,
+                "amount": 3383,
                 "price": 199
               },
               "UK": {
@@ -26817,7 +26836,7 @@
               }
             },
             "lines": {
-              "dragy_pro": 29,
+              "dragy_pro": 28,
               "dragy": 0,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
@@ -26826,13 +26845,13 @@
           },
           {
             "date": "2026-04-24",
-            "sales": 27,
-            "amount": 5317,
+            "sales": 25,
+            "amount": 4919,
             "price": 197,
             "countries": {
               "US": {
-                "sales": 17,
-                "amount": 3383,
+                "sales": 15,
+                "amount": 2985,
                 "price": 199
               },
               "UK": {
@@ -26877,7 +26896,7 @@
               }
             },
             "lines": {
-              "dragy_pro": 27,
+              "dragy_pro": 25,
               "dragy": 0,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
@@ -26946,13 +26965,13 @@
           },
           {
             "date": "2026-04-26",
-            "sales": 29,
-            "amount": 5488,
+            "sales": 27,
+            "amount": 5090,
             "price": 189,
             "countries": {
               "US": {
-                "sales": 17,
-                "amount": 3383,
+                "sales": 15,
+                "amount": 2985,
                 "price": 199
               },
               "UK": {
@@ -26997,7 +27016,7 @@
               }
             },
             "lines": {
-              "dragy_pro": 29,
+              "dragy_pro": 27,
               "dragy": 0,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
@@ -27006,13 +27025,13 @@
           },
           {
             "date": "2026-04-27",
-            "sales": 29,
-            "amount": 5488,
+            "sales": 28,
+            "amount": 5289,
             "price": 189,
             "countries": {
               "US": {
-                "sales": 17,
-                "amount": 3383,
+                "sales": 16,
+                "amount": 3184,
                 "price": 199
               },
               "UK": {
@@ -27057,7 +27076,67 @@
               }
             },
             "lines": {
-              "dragy_pro": 29,
+              "dragy_pro": 28,
+              "dragy": 0,
+              "dragy_pro_refurbished": 0,
+              "dragy_refurbished": 0,
+              "mount": 0
+            }
+          },
+          {
+            "date": "2026-04-28",
+            "sales": 28,
+            "amount": 5250,
+            "price": 188,
+            "countries": {
+              "US": {
+                "sales": 16,
+                "amount": 3184,
+                "price": 199
+              },
+              "UK": {
+                "sales": 2,
+                "amount": 240,
+                "price": 120
+              },
+              "DE": {
+                "sales": 4,
+                "amount": 596,
+                "price": 149
+              },
+              "FR": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "IT": {
+                "sales": 2,
+                "amount": 234,
+                "price": 117
+              },
+              "ES": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "CA": {
+                "sales": 4,
+                "amount": 996,
+                "price": 249
+              },
+              "JP": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "AU": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              }
+            },
+            "lines": {
+              "dragy_pro": 28,
               "dragy": 0,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
@@ -27069,8 +27148,8 @@
           {
             "marketplace": "US",
             "country": "美国",
-            "sales": 453,
-            "amount": 90147,
+            "sales": 450,
+            "amount": 89550,
             "avgPrice": 199,
             "productCount": 1,
             "monthlyUnits": 451
@@ -27078,18 +27157,18 @@
           {
             "marketplace": "UK",
             "country": "英国",
-            "sales": 44,
-            "amount": 5974,
-            "avgPrice": 136,
+            "sales": 45,
+            "amount": 6070,
+            "avgPrice": 135,
             "productCount": 1,
             "monthlyUnits": 42
           },
           {
             "marketplace": "DE",
             "country": "德国",
-            "sales": 105,
-            "amount": 16433,
-            "avgPrice": 157,
+            "sales": 106,
+            "amount": 16537,
+            "avgPrice": 156,
             "productCount": 1,
             "monthlyUnits": 103
           },
@@ -27105,9 +27184,9 @@
           {
             "marketplace": "IT",
             "country": "意大利",
-            "sales": 45,
-            "amount": 7011,
-            "avgPrice": 156,
+            "sales": 46,
+            "amount": 7081,
+            "avgPrice": 154,
             "productCount": 1,
             "monthlyUnits": 42
           },
@@ -27124,8 +27203,8 @@
             "marketplace": "CA",
             "country": "加拿大",
             "sales": 110,
-            "amount": 30446,
-            "avgPrice": 277,
+            "amount": 30286,
+            "avgPrice": 275,
             "productCount": 1,
             "monthlyUnits": 108
           },
@@ -27219,8 +27298,8 @@
         {
           "month": "2026-04",
           "label": "2026/04",
-          "sales": 694,
-          "amount": 137249
+          "sales": 717,
+          "amount": 141504
         }
       ],
       "monthDrilldowns": {
@@ -48361,8 +48440,8 @@
         "2026-04": {
           "month": "2026-04",
           "label": "2026/04",
-          "sales": 694,
-          "amount": 137249,
+          "sales": 717,
+          "amount": 141504,
           "estimatedSales": 0,
           "estimatedAmount": 0,
           "estimatedMarkets": [],
@@ -49509,13 +49588,13 @@
             },
             {
               "date": "2026-04-20",
-              "sales": 26,
-              "amount": 4923,
-              "price": 189,
+              "sales": 27,
+              "amount": 5122,
+              "price": 190,
               "countries": {
                 "US": {
-                  "sales": 15,
-                  "amount": 2985,
+                  "sales": 16,
+                  "amount": 3184,
                   "price": 199
                 },
                 "UK": {
@@ -49560,7 +49639,7 @@
                 }
               },
               "lines": {
-                "dragy_pro": 26,
+                "dragy_pro": 27,
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
@@ -49569,13 +49648,13 @@
             },
             {
               "date": "2026-04-21",
-              "sales": 27,
-              "amount": 5327,
+              "sales": 28,
+              "amount": 5526,
               "price": 197,
               "countries": {
                 "US": {
-                  "sales": 16,
-                  "amount": 3184,
+                  "sales": 17,
+                  "amount": 3383,
                   "price": 199
                 },
                 "UK": {
@@ -49620,7 +49699,7 @@
                 }
               },
               "lines": {
-                "dragy_pro": 27,
+                "dragy_pro": 28,
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
@@ -49629,13 +49708,13 @@
             },
             {
               "date": "2026-04-22",
-              "sales": 29,
-              "amount": 5611,
+              "sales": 28,
+              "amount": 5412,
               "price": 193,
               "countries": {
                 "US": {
-                  "sales": 17,
-                  "amount": 3383,
+                  "sales": 16,
+                  "amount": 3184,
                   "price": 199
                 },
                 "UK": {
@@ -49680,7 +49759,7 @@
                 }
               },
               "lines": {
-                "dragy_pro": 29,
+                "dragy_pro": 28,
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
@@ -49689,13 +49768,13 @@
             },
             {
               "date": "2026-04-23",
-              "sales": 29,
-              "amount": 5565,
+              "sales": 28,
+              "amount": 5366,
               "price": 192,
               "countries": {
                 "US": {
-                  "sales": 18,
-                  "amount": 3582,
+                  "sales": 17,
+                  "amount": 3383,
                   "price": 199
                 },
                 "UK": {
@@ -49740,7 +49819,7 @@
                 }
               },
               "lines": {
-                "dragy_pro": 29,
+                "dragy_pro": 28,
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
@@ -49749,13 +49828,13 @@
             },
             {
               "date": "2026-04-24",
-              "sales": 27,
-              "amount": 5317,
+              "sales": 25,
+              "amount": 4919,
               "price": 197,
               "countries": {
                 "US": {
-                  "sales": 17,
-                  "amount": 3383,
+                  "sales": 15,
+                  "amount": 2985,
                   "price": 199
                 },
                 "UK": {
@@ -49800,7 +49879,7 @@
                 }
               },
               "lines": {
-                "dragy_pro": 27,
+                "dragy_pro": 25,
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
@@ -49869,13 +49948,13 @@
             },
             {
               "date": "2026-04-26",
-              "sales": 29,
-              "amount": 5488,
+              "sales": 27,
+              "amount": 5090,
               "price": 189,
               "countries": {
                 "US": {
-                  "sales": 17,
-                  "amount": 3383,
+                  "sales": 15,
+                  "amount": 2985,
                   "price": 199
                 },
                 "UK": {
@@ -49920,7 +49999,7 @@
                 }
               },
               "lines": {
-                "dragy_pro": 29,
+                "dragy_pro": 27,
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
@@ -49929,13 +50008,13 @@
             },
             {
               "date": "2026-04-27",
-              "sales": 29,
-              "amount": 5488,
+              "sales": 28,
+              "amount": 5289,
               "price": 189,
               "countries": {
                 "US": {
-                  "sales": 17,
-                  "amount": 3383,
+                  "sales": 16,
+                  "amount": 3184,
                   "price": 199
                 },
                 "UK": {
@@ -49980,7 +50059,67 @@
                 }
               },
               "lines": {
-                "dragy_pro": 29,
+                "dragy_pro": 28,
+                "dragy": 0,
+                "dragy_pro_refurbished": 0,
+                "dragy_refurbished": 0,
+                "mount": 0
+              }
+            },
+            {
+              "date": "2026-04-28",
+              "sales": 28,
+              "amount": 5250,
+              "price": 188,
+              "countries": {
+                "US": {
+                  "sales": 16,
+                  "amount": 3184,
+                  "price": 199
+                },
+                "UK": {
+                  "sales": 2,
+                  "amount": 240,
+                  "price": 120
+                },
+                "DE": {
+                  "sales": 4,
+                  "amount": 596,
+                  "price": 149
+                },
+                "FR": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "IT": {
+                  "sales": 2,
+                  "amount": 234,
+                  "price": 117
+                },
+                "ES": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "CA": {
+                  "sales": 4,
+                  "amount": 996,
+                  "price": 249
+                },
+                "JP": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "AU": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                }
+              },
+              "lines": {
+                "dragy_pro": 28,
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
@@ -49992,8 +50131,8 @@
             {
               "marketplace": "US",
               "country": "美国",
-              "sales": 414,
-              "amount": 82386,
+              "sales": 425,
+              "amount": 84575,
               "avgPrice": 199,
               "productCount": 1,
               "monthlyUnits": 451
@@ -50001,17 +50140,17 @@
             {
               "marketplace": "UK",
               "country": "英国",
-              "sales": 41,
-              "amount": 5542,
-              "avgPrice": 135,
+              "sales": 43,
+              "amount": 5782,
+              "avgPrice": 134,
               "productCount": 1,
               "monthlyUnits": 42
             },
             {
               "marketplace": "DE",
               "country": "德国",
-              "sales": 96,
-              "amount": 14957,
+              "sales": 100,
+              "amount": 15553,
               "avgPrice": 156,
               "productCount": 1,
               "monthlyUnits": 103
@@ -50028,9 +50167,9 @@
             {
               "marketplace": "IT",
               "country": "意大利",
-              "sales": 42,
-              "amount": 6519,
-              "avgPrice": 155,
+              "sales": 44,
+              "amount": 6753,
+              "avgPrice": 153,
               "productCount": 1,
               "monthlyUnits": 42
             },
@@ -50046,9 +50185,9 @@
             {
               "marketplace": "CA",
               "country": "加拿大",
-              "sales": 101,
-              "amount": 27845,
-              "avgPrice": 276,
+              "sales": 105,
+              "amount": 28841,
+              "avgPrice": 275,
               "productCount": 1,
               "monthlyUnits": 108
             },
@@ -50084,9 +50223,9 @@
           "rating": 4.4,
           "ratings": 115,
           "sellerName": "Dragy International",
-          "recent30Sales": 453,
-          "currentMonthSales": 414,
-          "currentMonthAmount": 82386,
+          "recent30Sales": 450,
+          "currentMonthSales": 425,
+          "currentMonthAmount": 84575,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -50104,8 +50243,8 @@
           "ratings": 114,
           "sellerName": "Dragy International",
           "recent30Sales": 110,
-          "currentMonthSales": 101,
-          "currentMonthAmount": 27845,
+          "currentMonthSales": 105,
+          "currentMonthAmount": 28841,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -50122,9 +50261,9 @@
           "rating": 4.5,
           "ratings": 116,
           "sellerName": "Dragy International",
-          "recent30Sales": 105,
-          "currentMonthSales": 96,
-          "currentMonthAmount": 14957,
+          "recent30Sales": 106,
+          "currentMonthSales": 100,
+          "currentMonthAmount": 15553,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -50141,9 +50280,9 @@
           "rating": 4.5,
           "ratings": 112,
           "sellerName": "Dragy International",
-          "recent30Sales": 45,
-          "currentMonthSales": 42,
-          "currentMonthAmount": 6519,
+          "recent30Sales": 46,
+          "currentMonthSales": 44,
+          "currentMonthAmount": 6753,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -50160,9 +50299,9 @@
           "rating": 4.5,
           "ratings": 117,
           "sellerName": "Dragy International",
-          "recent30Sales": 44,
-          "currentMonthSales": 41,
-          "currentMonthAmount": 5542,
+          "recent30Sales": 45,
+          "currentMonthSales": 43,
+          "currentMonthAmount": 5782,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -50188,74 +50327,14 @@
         "color": "#5d84f1"
       },
       "recent30": {
-        "start": "2026-03-29",
-        "end": "2026-04-27",
-        "sales": 438,
-        "amount": 71111,
-        "avgPrice": 162,
-        "latestSales": 15,
-        "latestAmount": 2268,
+        "start": "2026-03-30",
+        "end": "2026-04-28",
+        "sales": 468,
+        "amount": 69756,
+        "avgPrice": 149,
+        "latestSales": 19,
+        "latestAmount": 2177,
         "dailyRows": [
-          {
-            "date": "2026-03-29",
-            "sales": 14,
-            "amount": 2419,
-            "price": 173,
-            "countries": {
-              "US": {
-                "sales": 7,
-                "amount": 1113,
-                "price": 159
-              },
-              "UK": {
-                "sales": 1,
-                "amount": 129,
-                "price": 129
-              },
-              "DE": {
-                "sales": 1,
-                "amount": 139,
-                "price": 139
-              },
-              "FR": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "IT": {
-                "sales": 1,
-                "amount": 139,
-                "price": 139
-              },
-              "ES": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "CA": {
-                "sales": 4,
-                "amount": 899,
-                "price": 225
-              },
-              "JP": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "AU": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              }
-            },
-            "lines": {
-              "dragy_pro": 0,
-              "dragy": 14,
-              "dragy_pro_refurbished": 0,
-              "dragy_refurbished": 0,
-              "mount": 0
-            }
-          },
           {
             "date": "2026-03-30",
             "sales": 11,
@@ -51518,13 +51597,13 @@
           },
           {
             "date": "2026-04-20",
-            "sales": 17,
-            "amount": 2586,
+            "sales": 16,
+            "amount": 2427,
             "price": 152,
             "countries": {
               "US": {
-                "sales": 8,
-                "amount": 1272,
+                "sales": 7,
+                "amount": 1113,
                 "price": 159
               },
               "UK": {
@@ -51570,7 +51649,7 @@
             },
             "lines": {
               "dragy_pro": 0,
-              "dragy": 17,
+              "dragy": 16,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
               "mount": 0
@@ -51578,13 +51657,13 @@
           },
           {
             "date": "2026-04-21",
-            "sales": 16,
-            "amount": 2544,
+            "sales": 15,
+            "amount": 2385,
             "price": 159,
             "countries": {
               "US": {
-                "sales": 7,
-                "amount": 1113,
+                "sales": 6,
+                "amount": 954,
                 "price": 159
               },
               "UK": {
@@ -51630,7 +51709,7 @@
             },
             "lines": {
               "dragy_pro": 0,
-              "dragy": 16,
+              "dragy": 15,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
               "mount": 0
@@ -51638,14 +51717,14 @@
           },
           {
             "date": "2026-04-22",
-            "sales": 16,
+            "sales": 21,
             "amount": 2469,
-            "price": 154,
+            "price": 118,
             "countries": {
               "US": {
-                "sales": 6,
+                "sales": 11,
                 "amount": 954,
-                "price": 159
+                "price": 87
               },
               "UK": {
                 "sales": 2,
@@ -51690,7 +51769,7 @@
             },
             "lines": {
               "dragy_pro": 0,
-              "dragy": 16,
+              "dragy": 21,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
               "mount": 0
@@ -51698,14 +51777,14 @@
           },
           {
             "date": "2026-04-23",
-            "sales": 15,
-            "amount": 2330,
-            "price": 155,
+            "sales": 19,
+            "amount": 2171,
+            "price": 114,
             "countries": {
               "US": {
-                "sales": 6,
-                "amount": 954,
-                "price": 159
+                "sales": 10,
+                "amount": 795,
+                "price": 80
               },
               "UK": {
                 "sales": 1,
@@ -51750,7 +51829,7 @@
             },
             "lines": {
               "dragy_pro": 0,
-              "dragy": 15,
+              "dragy": 19,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
               "mount": 0
@@ -51758,14 +51837,14 @@
           },
           {
             "date": "2026-04-24",
-            "sales": 15,
-            "amount": 2336,
-            "price": 156,
+            "sales": 19,
+            "amount": 2177,
+            "price": 115,
             "countries": {
               "US": {
-                "sales": 6,
-                "amount": 954,
-                "price": 159
+                "sales": 10,
+                "amount": 795,
+                "price": 80
               },
               "UK": {
                 "sales": 1,
@@ -51810,7 +51889,7 @@
             },
             "lines": {
               "dragy_pro": 0,
-              "dragy": 15,
+              "dragy": 19,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
               "mount": 0
@@ -51818,14 +51897,14 @@
           },
           {
             "date": "2026-04-25",
-            "sales": 17,
-            "amount": 2538,
-            "price": 149,
+            "sales": 22,
+            "amount": 2379,
+            "price": 108,
             "countries": {
               "US": {
-                "sales": 6,
-                "amount": 954,
-                "price": 159
+                "sales": 11,
+                "amount": 795,
+                "price": 72
               },
               "UK": {
                 "sales": 2,
@@ -51870,7 +51949,7 @@
             },
             "lines": {
               "dragy_pro": 0,
-              "dragy": 17,
+              "dragy": 22,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
               "mount": 0
@@ -51878,14 +51957,14 @@
           },
           {
             "date": "2026-04-26",
-            "sales": 15,
-            "amount": 2263,
-            "price": 151,
+            "sales": 20,
+            "amount": 2104,
+            "price": 105,
             "countries": {
               "US": {
-                "sales": 6,
-                "amount": 954,
-                "price": 159
+                "sales": 11,
+                "amount": 795,
+                "price": 72
               },
               "UK": {
                 "sales": 1,
@@ -51930,7 +52009,7 @@
             },
             "lines": {
               "dragy_pro": 0,
-              "dragy": 15,
+              "dragy": 20,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
               "mount": 0
@@ -51938,14 +52017,14 @@
           },
           {
             "date": "2026-04-27",
-            "sales": 15,
-            "amount": 2268,
-            "price": 151,
+            "sales": 19,
+            "amount": 2109,
+            "price": 111,
             "countries": {
               "US": {
-                "sales": 6,
-                "amount": 954,
-                "price": 159
+                "sales": 10,
+                "amount": 795,
+                "price": 80
               },
               "UK": {
                 "sales": 1,
@@ -51990,7 +52069,67 @@
             },
             "lines": {
               "dragy_pro": 0,
-              "dragy": 15,
+              "dragy": 19,
+              "dragy_pro_refurbished": 0,
+              "dragy_refurbished": 0,
+              "mount": 0
+            }
+          },
+          {
+            "date": "2026-04-28",
+            "sales": 19,
+            "amount": 2177,
+            "price": 115,
+            "countries": {
+              "US": {
+                "sales": 10,
+                "amount": 795,
+                "price": 80
+              },
+              "UK": {
+                "sales": 1,
+                "amount": 99,
+                "price": 99
+              },
+              "DE": {
+                "sales": 3,
+                "amount": 357,
+                "price": 119
+              },
+              "FR": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "IT": {
+                "sales": 1,
+                "amount": 170,
+                "price": 170
+              },
+              "ES": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "CA": {
+                "sales": 4,
+                "amount": 756,
+                "price": 189
+              },
+              "JP": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "AU": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              }
+            },
+            "lines": {
+              "dragy_pro": 0,
+              "dragy": 19,
               "dragy_pro_refurbished": 0,
               "dragy_refurbished": 0,
               "mount": 0
@@ -52001,17 +52140,17 @@
           {
             "marketplace": "US",
             "country": "美国",
-            "sales": 190,
-            "amount": 30210,
-            "avgPrice": 159,
-            "productCount": 1,
-            "monthlyUnits": 198
+            "sales": 218,
+            "amount": 28779,
+            "avgPrice": 132,
+            "productCount": 2,
+            "monthlyUnits": 227
           },
           {
             "marketplace": "UK",
             "country": "英国",
             "sales": 40,
-            "amount": 4570,
+            "amount": 4540,
             "avgPrice": 114,
             "productCount": 1,
             "monthlyUnits": 42
@@ -52019,9 +52158,9 @@
           {
             "marketplace": "DE",
             "country": "德国",
-            "sales": 54,
-            "amount": 6903,
-            "avgPrice": 128,
+            "sales": 56,
+            "amount": 7121,
+            "avgPrice": 127,
             "productCount": 1,
             "monthlyUnits": 52
           },
@@ -52038,7 +52177,7 @@
             "marketplace": "IT",
             "country": "意大利",
             "sales": 45,
-            "amount": 5748,
+            "amount": 5779,
             "avgPrice": 128,
             "productCount": 2,
             "monthlyUnits": 49
@@ -52056,8 +52195,8 @@
             "marketplace": "CA",
             "country": "加拿大",
             "sales": 109,
-            "amount": 23680,
-            "avgPrice": 217,
+            "amount": 23537,
+            "avgPrice": 216,
             "productCount": 1,
             "monthlyUnits": 108
           },
@@ -52151,8 +52290,8 @@
         {
           "month": "2026-04",
           "label": "2026/04",
-          "sales": 409,
-          "amount": 66118.0,
+          "sales": 453,
+          "amount": 67182.0,
           "estimatedSales": 7,
           "estimatedAmount": 1113.0
         }
@@ -54035,8 +54174,8 @@
               "sales": 381,
               "amount": 60579,
               "avgPrice": 159,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -55929,8 +56068,8 @@
               "sales": 391,
               "amount": 62169,
               "avgPrice": 159,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -57883,8 +58022,8 @@
               "sales": 290,
               "amount": 46110,
               "avgPrice": 159,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -59837,8 +59976,8 @@
               "sales": 424,
               "amount": 66317,
               "avgPrice": 156,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -61731,8 +61870,8 @@
               "sales": 355,
               "amount": 56445,
               "avgPrice": 159,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -63685,8 +63824,8 @@
               "sales": 383,
               "amount": 60180,
               "avgPrice": 157,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -65579,8 +65718,8 @@
               "sales": 407,
               "amount": 54770,
               "avgPrice": 135,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -67533,8 +67672,8 @@
               "sales": 403,
               "amount": 52133,
               "avgPrice": 129,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -69487,8 +69626,8 @@
               "sales": 233,
               "amount": 35980,
               "avgPrice": 154,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -71261,8 +71400,8 @@
               "sales": 188,
               "amount": 29892,
               "avgPrice": 159,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -73215,8 +73354,8 @@
               "sales": 226,
               "amount": 35934,
               "avgPrice": 159,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
@@ -73295,8 +73434,8 @@
         "2026-04": {
           "month": "2026-04",
           "label": "2026/04",
-          "sales": 409,
-          "amount": 66118.0,
+          "sales": 453,
+          "amount": 67182.0,
           "estimatedSales": 7,
           "estimatedAmount": 1113.0,
           "estimatedMarkets": [
@@ -74451,13 +74590,13 @@
             },
             {
               "date": "2026-04-20",
-              "sales": 17,
-              "amount": 2586,
+              "sales": 16,
+              "amount": 2427,
               "price": 152,
               "countries": {
                 "US": {
-                  "sales": 8,
-                  "amount": 1272,
+                  "sales": 7,
+                  "amount": 1113,
                   "price": 159
                 },
                 "UK": {
@@ -74503,7 +74642,7 @@
               },
               "lines": {
                 "dragy_pro": 0,
-                "dragy": 17,
+                "dragy": 16,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
                 "mount": 0
@@ -74511,13 +74650,13 @@
             },
             {
               "date": "2026-04-21",
-              "sales": 16,
-              "amount": 2544,
+              "sales": 15,
+              "amount": 2385,
               "price": 159,
               "countries": {
                 "US": {
-                  "sales": 7,
-                  "amount": 1113,
+                  "sales": 6,
+                  "amount": 954,
                   "price": 159
                 },
                 "UK": {
@@ -74563,7 +74702,7 @@
               },
               "lines": {
                 "dragy_pro": 0,
-                "dragy": 16,
+                "dragy": 15,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
                 "mount": 0
@@ -74571,14 +74710,14 @@
             },
             {
               "date": "2026-04-22",
-              "sales": 16,
+              "sales": 21,
               "amount": 2469,
-              "price": 154,
+              "price": 118,
               "countries": {
                 "US": {
-                  "sales": 6,
+                  "sales": 11,
                   "amount": 954,
-                  "price": 159
+                  "price": 87
                 },
                 "UK": {
                   "sales": 2,
@@ -74623,7 +74762,7 @@
               },
               "lines": {
                 "dragy_pro": 0,
-                "dragy": 16,
+                "dragy": 21,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
                 "mount": 0
@@ -74631,14 +74770,14 @@
             },
             {
               "date": "2026-04-23",
-              "sales": 15,
-              "amount": 2330,
-              "price": 155,
+              "sales": 19,
+              "amount": 2171,
+              "price": 114,
               "countries": {
                 "US": {
-                  "sales": 6,
-                  "amount": 954,
-                  "price": 159
+                  "sales": 10,
+                  "amount": 795,
+                  "price": 80
                 },
                 "UK": {
                   "sales": 1,
@@ -74683,7 +74822,7 @@
               },
               "lines": {
                 "dragy_pro": 0,
-                "dragy": 15,
+                "dragy": 19,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
                 "mount": 0
@@ -74691,14 +74830,14 @@
             },
             {
               "date": "2026-04-24",
-              "sales": 15,
-              "amount": 2336,
-              "price": 156,
+              "sales": 19,
+              "amount": 2177,
+              "price": 115,
               "countries": {
                 "US": {
-                  "sales": 6,
-                  "amount": 954,
-                  "price": 159
+                  "sales": 10,
+                  "amount": 795,
+                  "price": 80
                 },
                 "UK": {
                   "sales": 1,
@@ -74743,7 +74882,7 @@
               },
               "lines": {
                 "dragy_pro": 0,
-                "dragy": 15,
+                "dragy": 19,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
                 "mount": 0
@@ -74751,14 +74890,14 @@
             },
             {
               "date": "2026-04-25",
-              "sales": 17,
-              "amount": 2538,
-              "price": 149,
+              "sales": 22,
+              "amount": 2379,
+              "price": 108,
               "countries": {
                 "US": {
-                  "sales": 6,
-                  "amount": 954,
-                  "price": 159
+                  "sales": 11,
+                  "amount": 795,
+                  "price": 72
                 },
                 "UK": {
                   "sales": 2,
@@ -74803,7 +74942,7 @@
               },
               "lines": {
                 "dragy_pro": 0,
-                "dragy": 17,
+                "dragy": 22,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
                 "mount": 0
@@ -74811,14 +74950,14 @@
             },
             {
               "date": "2026-04-26",
-              "sales": 15,
-              "amount": 2263,
-              "price": 151,
+              "sales": 20,
+              "amount": 2104,
+              "price": 105,
               "countries": {
                 "US": {
-                  "sales": 6,
-                  "amount": 954,
-                  "price": 159
+                  "sales": 11,
+                  "amount": 795,
+                  "price": 72
                 },
                 "UK": {
                   "sales": 1,
@@ -74863,7 +75002,7 @@
               },
               "lines": {
                 "dragy_pro": 0,
-                "dragy": 15,
+                "dragy": 20,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
                 "mount": 0
@@ -74871,14 +75010,14 @@
             },
             {
               "date": "2026-04-27",
-              "sales": 15,
-              "amount": 2268,
-              "price": 151,
+              "sales": 19,
+              "amount": 2109,
+              "price": 111,
               "countries": {
                 "US": {
-                  "sales": 6,
-                  "amount": 954,
-                  "price": 159
+                  "sales": 10,
+                  "amount": 795,
+                  "price": 80
                 },
                 "UK": {
                   "sales": 1,
@@ -74923,7 +75062,67 @@
               },
               "lines": {
                 "dragy_pro": 0,
-                "dragy": 15,
+                "dragy": 19,
+                "dragy_pro_refurbished": 0,
+                "dragy_refurbished": 0,
+                "mount": 0
+              }
+            },
+            {
+              "date": "2026-04-28",
+              "sales": 19,
+              "amount": 2177,
+              "price": 115,
+              "countries": {
+                "US": {
+                  "sales": 10,
+                  "amount": 795,
+                  "price": 80
+                },
+                "UK": {
+                  "sales": 1,
+                  "amount": 99,
+                  "price": 99
+                },
+                "DE": {
+                  "sales": 3,
+                  "amount": 357,
+                  "price": 119
+                },
+                "FR": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "IT": {
+                  "sales": 1,
+                  "amount": 170,
+                  "price": 170
+                },
+                "ES": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "CA": {
+                  "sales": 4,
+                  "amount": 756,
+                  "price": 189
+                },
+                "JP": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "AU": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                }
+              },
+              "lines": {
+                "dragy_pro": 0,
+                "dragy": 19,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
                 "mount": 0
@@ -74934,17 +75133,17 @@
             {
               "marketplace": "US",
               "country": "美国",
-              "sales": 172,
-              "amount": 27348,
-              "avgPrice": 159,
-              "productCount": 1,
-              "monthlyUnits": 198
+              "sales": 207,
+              "amount": 27030,
+              "avgPrice": 131,
+              "productCount": 2,
+              "monthlyUnits": 227
             },
             {
               "marketplace": "UK",
               "country": "英国",
-              "sales": 37,
-              "amount": 4183,
+              "sales": 38,
+              "amount": 4282,
               "avgPrice": 113,
               "productCount": 1,
               "monthlyUnits": 42
@@ -74952,8 +75151,8 @@
             {
               "marketplace": "DE",
               "country": "德国",
-              "sales": 51,
-              "amount": 6486,
+              "sales": 54,
+              "amount": 6843,
               "avgPrice": 127,
               "productCount": 1,
               "monthlyUnits": 52
@@ -74970,8 +75169,8 @@
             {
               "marketplace": "IT",
               "country": "意大利",
-              "sales": 49,
-              "amount": 6444.0,
+              "sales": 50,
+              "amount": 6614.0,
               "avgPrice": 132,
               "productCount": 2,
               "monthlyUnits": 49
@@ -74988,9 +75187,9 @@
             {
               "marketplace": "CA",
               "country": "加拿大",
-              "sales": 100,
-              "amount": 21657,
-              "avgPrice": 217,
+              "sales": 104,
+              "amount": 22413,
+              "avgPrice": 216,
               "productCount": 1,
               "monthlyUnits": 108
             },
@@ -75024,16 +75223,16 @@
           "imageUrl": "https://m.media-amazon.com/images/I/41ga26EfcrL._AC_SR200,200_.jpg",
           "price": 159.0,
           "rating": 4.6,
-          "ratings": 523,
+          "ratings": 524,
           "sellerName": "Dragy International",
-          "recent30Sales": 190,
-          "currentMonthSales": 172,
-          "currentMonthAmount": 27348,
+          "recent30Sales": 181,
+          "currentMonthSales": 170,
+          "currentMonthAmount": 27030,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
-          "monthlyUnits": 198,
-          "monthlyRevenue": 31482.0
+          "monthlyUnits": 190,
+          "monthlyRevenue": 30210.0
         },
         {
           "asin": "B0BQ6DWMLT",
@@ -75046,8 +75245,8 @@
           "ratings": 114,
           "sellerName": "Dragy International",
           "recent30Sales": 109,
-          "currentMonthSales": 100,
-          "currentMonthAmount": 21657,
+          "currentMonthSales": 104,
+          "currentMonthAmount": 22413,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -75064,9 +75263,9 @@
           "rating": 4.6,
           "ratings": 579,
           "sellerName": "Dragy International",
-          "recent30Sales": 54,
-          "currentMonthSales": 51,
-          "currentMonthAmount": 6486,
+          "recent30Sales": 56,
+          "currentMonthSales": 54,
+          "currentMonthAmount": 6843,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -75084,8 +75283,8 @@
           "ratings": 112,
           "sellerName": "Venduto da Dragy International",
           "recent30Sales": 45,
-          "currentMonthSales": 42,
-          "currentMonthAmount": 5331,
+          "currentMonthSales": 43,
+          "currentMonthAmount": 5501,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -75103,13 +75302,32 @@
           "ratings": 112,
           "sellerName": "Dragy International",
           "recent30Sales": 40,
-          "currentMonthSales": 37,
-          "currentMonthAmount": 4183,
+          "currentMonthSales": 38,
+          "currentMonthAmount": 4282,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
           "monthlyUnits": 42,
           "monthlyRevenue": 3465.0
+        },
+        {
+          "asin": "B0F2ZCX52V",
+          "marketplace": "US",
+          "country": "美国",
+          "title": "New dragy GPS Based Performance Meter, up to 25Hz GPS Laptimer, Upgraded UBLOX 10th Gen High Performance GPS Module, Trusted by Million Users, USB-C Charging Port (DRG70-C)",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/719N1-Vz2eL._AC_US200_.jpg",
+          "price": 159.0,
+          "rating": 4.6,
+          "ratings": 508,
+          "sellerName": "Dragy International",
+          "recent30Sales": 37,
+          "currentMonthSales": 37,
+          "currentMonthAmount": 0,
+          "estimatedCurrentMonthSales": 0,
+          "estimatedCurrentMonthAmount": 0,
+          "hasDailySeriesGap": false,
+          "monthlyUnits": 37,
+          "monthlyRevenue": 5883.0
         },
         {
           "asin": "B0BQ9QT51G",
@@ -75131,7 +75349,7 @@
           "monthlyRevenue": 1113.0
         }
       ],
-      "productCount": 6,
+      "productCount": 7,
       "activeCountryCount": 5,
       "heroImage": "https://m.media-amazon.com/images/I/41ga26EfcrL._AC_SR200,200_.jpg",
       "hasEstimateGap": true,
@@ -75157,74 +75375,14 @@
         "color": "#8f5cff"
       },
       "recent30": {
-        "start": "2026-03-29",
-        "end": "2026-04-27",
-        "sales": 247,
-        "amount": 36803,
+        "start": "2026-03-30",
+        "end": "2026-04-28",
+        "sales": 246,
+        "amount": 36654,
         "avgPrice": 149,
         "latestSales": 10,
         "latestAmount": 1490,
         "dailyRows": [
-          {
-            "date": "2026-03-29",
-            "sales": 6,
-            "amount": 894,
-            "price": 149,
-            "countries": {
-              "US": {
-                "sales": 6,
-                "amount": 894,
-                "price": 149
-              },
-              "UK": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "DE": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "FR": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "IT": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "ES": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "CA": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "JP": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "AU": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              }
-            },
-            "lines": {
-              "dragy_pro": 0,
-              "dragy": 0,
-              "dragy_pro_refurbished": 6,
-              "dragy_refurbished": 0,
-              "mount": 0
-            }
-          },
           {
             "date": "2026-03-30",
             "sales": 6,
@@ -76487,66 +76645,6 @@
           },
           {
             "date": "2026-04-20",
-            "sales": 9,
-            "amount": 1341,
-            "price": 149,
-            "countries": {
-              "US": {
-                "sales": 9,
-                "amount": 1341,
-                "price": 149
-              },
-              "UK": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "DE": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "FR": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "IT": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "ES": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "CA": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "JP": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "AU": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              }
-            },
-            "lines": {
-              "dragy_pro": 0,
-              "dragy": 0,
-              "dragy_pro_refurbished": 9,
-              "dragy_refurbished": 0,
-              "mount": 0
-            }
-          },
-          {
-            "date": "2026-04-21",
             "sales": 10,
             "amount": 1490,
             "price": 149,
@@ -76601,6 +76699,66 @@
               "dragy_pro": 0,
               "dragy": 0,
               "dragy_pro_refurbished": 10,
+              "dragy_refurbished": 0,
+              "mount": 0
+            }
+          },
+          {
+            "date": "2026-04-21",
+            "sales": 9,
+            "amount": 1341,
+            "price": 149,
+            "countries": {
+              "US": {
+                "sales": 9,
+                "amount": 1341,
+                "price": 149
+              },
+              "UK": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "DE": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "FR": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "IT": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "ES": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "CA": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "JP": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "AU": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              }
+            },
+            "lines": {
+              "dragy_pro": 0,
+              "dragy": 0,
+              "dragy_pro_refurbished": 9,
               "dragy_refurbished": 0,
               "mount": 0
             }
@@ -76667,13 +76825,13 @@
           },
           {
             "date": "2026-04-23",
-            "sales": 11,
-            "amount": 1639,
+            "sales": 10,
+            "amount": 1490,
             "price": 149,
             "countries": {
               "US": {
-                "sales": 11,
-                "amount": 1639,
+                "sales": 10,
+                "amount": 1490,
                 "price": 149
               },
               "UK": {
@@ -76720,20 +76878,20 @@
             "lines": {
               "dragy_pro": 0,
               "dragy": 0,
-              "dragy_pro_refurbished": 11,
+              "dragy_pro_refurbished": 10,
               "dragy_refurbished": 0,
               "mount": 0
             }
           },
           {
             "date": "2026-04-24",
-            "sales": 11,
-            "amount": 1639,
+            "sales": 10,
+            "amount": 1490,
             "price": 149,
             "countries": {
               "US": {
-                "sales": 11,
-                "amount": 1639,
+                "sales": 10,
+                "amount": 1490,
                 "price": 149
               },
               "UK": {
@@ -76780,20 +76938,20 @@
             "lines": {
               "dragy_pro": 0,
               "dragy": 0,
-              "dragy_pro_refurbished": 11,
+              "dragy_pro_refurbished": 10,
               "dragy_refurbished": 0,
               "mount": 0
             }
           },
           {
             "date": "2026-04-25",
-            "sales": 11,
-            "amount": 1639,
+            "sales": 10,
+            "amount": 1490,
             "price": 149,
             "countries": {
               "US": {
-                "sales": 11,
-                "amount": 1639,
+                "sales": 10,
+                "amount": 1490,
                 "price": 149
               },
               "UK": {
@@ -76840,20 +76998,20 @@
             "lines": {
               "dragy_pro": 0,
               "dragy": 0,
-              "dragy_pro_refurbished": 11,
+              "dragy_pro_refurbished": 10,
               "dragy_refurbished": 0,
               "mount": 0
             }
           },
           {
             "date": "2026-04-26",
-            "sales": 11,
-            "amount": 1639,
+            "sales": 10,
+            "amount": 1490,
             "price": 149,
             "countries": {
               "US": {
-                "sales": 11,
-                "amount": 1639,
+                "sales": 10,
+                "amount": 1490,
                 "price": 149
               },
               "UK": {
@@ -76900,13 +77058,73 @@
             "lines": {
               "dragy_pro": 0,
               "dragy": 0,
-              "dragy_pro_refurbished": 11,
+              "dragy_pro_refurbished": 10,
               "dragy_refurbished": 0,
               "mount": 0
             }
           },
           {
             "date": "2026-04-27",
+            "sales": 9,
+            "amount": 1341,
+            "price": 149,
+            "countries": {
+              "US": {
+                "sales": 9,
+                "amount": 1341,
+                "price": 149
+              },
+              "UK": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "DE": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "FR": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "IT": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "ES": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "CA": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "JP": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "AU": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              }
+            },
+            "lines": {
+              "dragy_pro": 0,
+              "dragy": 0,
+              "dragy_pro_refurbished": 9,
+              "dragy_refurbished": 0,
+              "mount": 0
+            }
+          },
+          {
+            "date": "2026-04-28",
             "sales": 10,
             "amount": 1490,
             "price": 149,
@@ -76970,8 +77188,8 @@
           {
             "marketplace": "US",
             "country": "美国",
-            "sales": 247,
-            "amount": 36803,
+            "sales": 246,
+            "amount": 36654,
             "avgPrice": 149,
             "productCount": 1,
             "monthlyUnits": 451
@@ -77120,8 +77338,8 @@
         {
           "month": "2026-04",
           "label": "2026/04",
-          "sales": 230,
-          "amount": 34270
+          "sales": 235,
+          "amount": 35015
         }
       ],
       "monthDrilldowns": {
@@ -98262,8 +98480,8 @@
         "2026-04": {
           "month": "2026-04",
           "label": "2026/04",
-          "sales": 230,
-          "amount": 34270,
+          "sales": 235,
+          "amount": 35015,
           "estimatedSales": 0,
           "estimatedAmount": 0,
           "estimatedMarkets": [],
@@ -99410,66 +99628,6 @@
             },
             {
               "date": "2026-04-20",
-              "sales": 9,
-              "amount": 1341,
-              "price": 149,
-              "countries": {
-                "US": {
-                  "sales": 9,
-                  "amount": 1341,
-                  "price": 149
-                },
-                "UK": {
-                  "sales": 0,
-                  "amount": 0,
-                  "price": 0
-                },
-                "DE": {
-                  "sales": 0,
-                  "amount": 0,
-                  "price": 0
-                },
-                "FR": {
-                  "sales": 0,
-                  "amount": 0,
-                  "price": 0
-                },
-                "IT": {
-                  "sales": 0,
-                  "amount": 0,
-                  "price": 0
-                },
-                "ES": {
-                  "sales": 0,
-                  "amount": 0,
-                  "price": 0
-                },
-                "CA": {
-                  "sales": 0,
-                  "amount": 0,
-                  "price": 0
-                },
-                "JP": {
-                  "sales": 0,
-                  "amount": 0,
-                  "price": 0
-                },
-                "AU": {
-                  "sales": 0,
-                  "amount": 0,
-                  "price": 0
-                }
-              },
-              "lines": {
-                "dragy_pro": 0,
-                "dragy": 0,
-                "dragy_pro_refurbished": 9,
-                "dragy_refurbished": 0,
-                "mount": 0
-              }
-            },
-            {
-              "date": "2026-04-21",
               "sales": 10,
               "amount": 1490,
               "price": 149,
@@ -99524,6 +99682,66 @@
                 "dragy_pro": 0,
                 "dragy": 0,
                 "dragy_pro_refurbished": 10,
+                "dragy_refurbished": 0,
+                "mount": 0
+              }
+            },
+            {
+              "date": "2026-04-21",
+              "sales": 9,
+              "amount": 1341,
+              "price": 149,
+              "countries": {
+                "US": {
+                  "sales": 9,
+                  "amount": 1341,
+                  "price": 149
+                },
+                "UK": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "DE": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "FR": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "IT": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "ES": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "CA": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "JP": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "AU": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                }
+              },
+              "lines": {
+                "dragy_pro": 0,
+                "dragy": 0,
+                "dragy_pro_refurbished": 9,
                 "dragy_refurbished": 0,
                 "mount": 0
               }
@@ -99590,13 +99808,13 @@
             },
             {
               "date": "2026-04-23",
-              "sales": 11,
-              "amount": 1639,
+              "sales": 10,
+              "amount": 1490,
               "price": 149,
               "countries": {
                 "US": {
-                  "sales": 11,
-                  "amount": 1639,
+                  "sales": 10,
+                  "amount": 1490,
                   "price": 149
                 },
                 "UK": {
@@ -99643,20 +99861,20 @@
               "lines": {
                 "dragy_pro": 0,
                 "dragy": 0,
-                "dragy_pro_refurbished": 11,
+                "dragy_pro_refurbished": 10,
                 "dragy_refurbished": 0,
                 "mount": 0
               }
             },
             {
               "date": "2026-04-24",
-              "sales": 11,
-              "amount": 1639,
+              "sales": 10,
+              "amount": 1490,
               "price": 149,
               "countries": {
                 "US": {
-                  "sales": 11,
-                  "amount": 1639,
+                  "sales": 10,
+                  "amount": 1490,
                   "price": 149
                 },
                 "UK": {
@@ -99703,20 +99921,20 @@
               "lines": {
                 "dragy_pro": 0,
                 "dragy": 0,
-                "dragy_pro_refurbished": 11,
+                "dragy_pro_refurbished": 10,
                 "dragy_refurbished": 0,
                 "mount": 0
               }
             },
             {
               "date": "2026-04-25",
-              "sales": 11,
-              "amount": 1639,
+              "sales": 10,
+              "amount": 1490,
               "price": 149,
               "countries": {
                 "US": {
-                  "sales": 11,
-                  "amount": 1639,
+                  "sales": 10,
+                  "amount": 1490,
                   "price": 149
                 },
                 "UK": {
@@ -99763,20 +99981,20 @@
               "lines": {
                 "dragy_pro": 0,
                 "dragy": 0,
-                "dragy_pro_refurbished": 11,
+                "dragy_pro_refurbished": 10,
                 "dragy_refurbished": 0,
                 "mount": 0
               }
             },
             {
               "date": "2026-04-26",
-              "sales": 11,
-              "amount": 1639,
+              "sales": 10,
+              "amount": 1490,
               "price": 149,
               "countries": {
                 "US": {
-                  "sales": 11,
-                  "amount": 1639,
+                  "sales": 10,
+                  "amount": 1490,
                   "price": 149
                 },
                 "UK": {
@@ -99823,13 +100041,73 @@
               "lines": {
                 "dragy_pro": 0,
                 "dragy": 0,
-                "dragy_pro_refurbished": 11,
+                "dragy_pro_refurbished": 10,
                 "dragy_refurbished": 0,
                 "mount": 0
               }
             },
             {
               "date": "2026-04-27",
+              "sales": 9,
+              "amount": 1341,
+              "price": 149,
+              "countries": {
+                "US": {
+                  "sales": 9,
+                  "amount": 1341,
+                  "price": 149
+                },
+                "UK": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "DE": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "FR": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "IT": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "ES": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "CA": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "JP": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "AU": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                }
+              },
+              "lines": {
+                "dragy_pro": 0,
+                "dragy": 0,
+                "dragy_pro_refurbished": 9,
+                "dragy_refurbished": 0,
+                "mount": 0
+              }
+            },
+            {
+              "date": "2026-04-28",
               "sales": 10,
               "amount": 1490,
               "price": 149,
@@ -99893,8 +100171,8 @@
             {
               "marketplace": "US",
               "country": "美国",
-              "sales": 230,
-              "amount": 34270,
+              "sales": 235,
+              "amount": 35015,
               "avgPrice": 149,
               "productCount": 1,
               "monthlyUnits": 451
@@ -99985,9 +100263,9 @@
           "rating": 4.4,
           "ratings": 115,
           "sellerName": "Dragy International",
-          "recent30Sales": 247,
-          "currentMonthSales": 230,
-          "currentMonthAmount": 34270,
+          "recent30Sales": 246,
+          "currentMonthSales": 235,
+          "currentMonthAmount": 35015,
           "estimatedCurrentMonthSales": 0,
           "estimatedCurrentMonthAmount": 0,
           "hasDailySeriesGap": false,
@@ -100013,74 +100291,14 @@
         "color": "#6b7280"
       },
       "recent30": {
-        "start": "2026-03-29",
-        "end": "2026-04-27",
+        "start": "2026-03-30",
+        "end": "2026-04-28",
         "sales": 0,
         "amount": 0,
         "avgPrice": 0,
         "latestSales": 0,
         "latestAmount": 0,
         "dailyRows": [
-          {
-            "date": "2026-03-29",
-            "sales": 0,
-            "amount": 0,
-            "price": 0,
-            "countries": {
-              "US": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "UK": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "DE": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "FR": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "IT": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "ES": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "CA": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "JP": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "AU": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              }
-            },
-            "lines": {
-              "dragy_pro": 0,
-              "dragy": 0,
-              "dragy_pro_refurbished": 0,
-              "dragy_refurbished": 0,
-              "mount": 0
-            }
-          },
           {
             "date": "2026-03-30",
             "sales": 0,
@@ -101820,6 +102038,66 @@
               "dragy_refurbished": 0,
               "mount": 0
             }
+          },
+          {
+            "date": "2026-04-28",
+            "sales": 0,
+            "amount": 0,
+            "price": 0,
+            "countries": {
+              "US": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "UK": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "DE": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "FR": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "IT": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "ES": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "CA": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "JP": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "AU": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              }
+            },
+            "lines": {
+              "dragy_pro": 0,
+              "dragy": 0,
+              "dragy_pro_refurbished": 0,
+              "dragy_refurbished": 0,
+              "mount": 0
+            }
           }
         ],
         "countrySummary": [
@@ -101830,7 +102108,7 @@
             "amount": 0,
             "avgPrice": 0,
             "productCount": 1,
-            "monthlyUnits": 198
+            "monthlyUnits": 190
           },
           {
             "marketplace": "UK",
@@ -101976,10 +102254,10 @@
         {
           "month": "2026-04",
           "label": "2026/04",
-          "sales": 198,
-          "amount": 25542.0,
-          "estimatedSales": 198,
-          "estimatedAmount": 25542.0
+          "sales": 190,
+          "amount": 24510.0,
+          "estimatedSales": 190,
+          "estimatedAmount": 24510.0
         }
       ],
       "monthDrilldowns": {
@@ -103861,7 +104139,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -105755,7 +106033,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -107709,7 +107987,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -109663,7 +109941,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -111557,7 +111835,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -113511,7 +113789,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -115405,7 +115683,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -117359,7 +117637,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -119313,7 +119591,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -121087,7 +121365,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -123041,7 +123319,7 @@
               "amount": 0,
               "avgPrice": 0,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -123120,17 +123398,17 @@
         "2026-04": {
           "month": "2026-04",
           "label": "2026/04",
-          "sales": 198,
-          "amount": 25542.0,
-          "estimatedSales": 198,
-          "estimatedAmount": 25542.0,
+          "sales": 190,
+          "amount": 24510.0,
+          "estimatedSales": 190,
+          "estimatedAmount": 24510.0,
           "estimatedMarkets": [
             {
               "asin": "B0BQ648WBW",
               "marketplace": "US",
               "country": "美国",
-              "estimatedSales": 198,
-              "estimatedAmount": 25542.0
+              "estimatedSales": 190,
+              "estimatedAmount": 24510.0
             }
           ],
           "dailyRows": [
@@ -124753,17 +125031,77 @@
                 "dragy_refurbished": 0,
                 "mount": 0
               }
+            },
+            {
+              "date": "2026-04-28",
+              "sales": 0,
+              "amount": 0,
+              "price": 0,
+              "countries": {
+                "US": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "UK": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "DE": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "FR": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "IT": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "ES": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "CA": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "JP": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "AU": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                }
+              },
+              "lines": {
+                "dragy_pro": 0,
+                "dragy": 0,
+                "dragy_pro_refurbished": 0,
+                "dragy_refurbished": 0,
+                "mount": 0
+              }
             }
           ],
           "countrySummary": [
             {
               "marketplace": "US",
               "country": "美国",
-              "sales": 198,
-              "amount": 25542.0,
+              "sales": 190,
+              "amount": 24510.0,
               "avgPrice": 129,
               "productCount": 1,
-              "monthlyUnits": 198
+              "monthlyUnits": 190
             },
             {
               "marketplace": "UK",
@@ -124887,16 +125225,16 @@
           "imageUrl": "https://m.media-amazon.com/images/I/314quEodqOL._AC_SR200,200_.jpg",
           "price": 129.0,
           "rating": 4.6,
-          "ratings": 523,
+          "ratings": 524,
           "sellerName": "Dragy International",
           "recent30Sales": 0,
           "currentMonthSales": 0,
           "currentMonthAmount": 0,
-          "estimatedCurrentMonthSales": 198,
-          "estimatedCurrentMonthAmount": 25542.0,
+          "estimatedCurrentMonthSales": 190,
+          "estimatedCurrentMonthAmount": 24510.0,
           "hasDailySeriesGap": true,
-          "monthlyUnits": 198,
-          "monthlyRevenue": 25542.0
+          "monthlyUnits": 190,
+          "monthlyRevenue": 24510.0
         },
         {
           "asin": "B0BQ648WBW",
@@ -124922,15 +125260,15 @@
       "activeCountryCount": 0,
       "heroImage": "https://m.media-amazon.com/images/I/314quEodqOL._AC_SR200,200_.jpg",
       "hasEstimateGap": true,
-      "latestMonthEstimatedSales": 198,
-      "latestMonthEstimatedAmount": 25542.0,
+      "latestMonthEstimatedSales": 190,
+      "latestMonthEstimatedAmount": 24510.0,
       "estimatedGapItems": [
         {
           "asin": "B0BQ648WBW",
           "marketplace": "US",
           "country": "美国",
-          "estimatedSales": 198,
-          "estimatedAmount": 25542.0
+          "estimatedSales": 190,
+          "estimatedAmount": 24510.0
         }
       ]
     },
@@ -124944,74 +125282,14 @@
         "color": "#b38322"
       },
       "recent30": {
-        "start": "2026-03-29",
-        "end": "2026-04-27",
-        "sales": 29,
-        "amount": 825,
+        "start": "2026-03-30",
+        "end": "2026-04-28",
+        "sales": 28,
+        "amount": 796,
         "avgPrice": 28,
         "latestSales": 0,
         "latestAmount": 0,
         "dailyRows": [
-          {
-            "date": "2026-03-29",
-            "sales": 1,
-            "amount": 29,
-            "price": 29,
-            "countries": {
-              "US": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "UK": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "DE": {
-                "sales": 1,
-                "amount": 29,
-                "price": 29
-              },
-              "FR": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "IT": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "ES": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "CA": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "JP": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              },
-              "AU": {
-                "sales": 0,
-                "amount": 0,
-                "price": 0
-              }
-            },
-            "lines": {
-              "dragy_pro": 0,
-              "dragy": 0,
-              "dragy_pro_refurbished": 0,
-              "dragy_refurbished": 0,
-              "mount": 1
-            }
-          },
           {
             "date": "2026-03-30",
             "sales": 1,
@@ -126751,6 +127029,66 @@
               "dragy_refurbished": 0,
               "mount": 0
             }
+          },
+          {
+            "date": "2026-04-28",
+            "sales": 0,
+            "amount": 0,
+            "price": 0,
+            "countries": {
+              "US": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "UK": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "DE": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "FR": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "IT": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "ES": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "CA": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "JP": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              },
+              "AU": {
+                "sales": 0,
+                "amount": 0,
+                "price": 0
+              }
+            },
+            "lines": {
+              "dragy_pro": 0,
+              "dragy": 0,
+              "dragy_pro_refurbished": 0,
+              "dragy_refurbished": 0,
+              "mount": 0
+            }
           }
         ],
         "countrySummary": [
@@ -126775,8 +127113,8 @@
           {
             "marketplace": "DE",
             "country": "德国",
-            "sales": 21,
-            "amount": 593,
+            "sales": 20,
+            "amount": 564,
             "avgPrice": 28,
             "productCount": 1,
             "monthlyUnits": 22
@@ -126847,8 +127185,8 @@
         {
           "month": "2025-06",
           "label": "2025/06",
-          "sales": 31,
-          "amount": 899
+          "sales": 34,
+          "amount": 986
         },
         {
           "month": "2025-07",
@@ -126889,8 +127227,8 @@
         {
           "month": "2026-01",
           "label": "2026/01",
-          "sales": 13,
-          "amount": 357
+          "sales": 15,
+          "amount": 415
         },
         {
           "month": "2026-02",
@@ -128869,8 +129207,8 @@
         "2025-06": {
           "month": "2025-06",
           "label": "2025/06",
-          "sales": 31,
-          "amount": 899,
+          "sales": 34,
+          "amount": 986,
           "estimatedSales": 0,
           "estimatedAmount": 0,
           "estimatedMarkets": [],
@@ -129837,8 +130175,8 @@
             },
             {
               "date": "2025-06-17",
-              "sales": 1,
-              "amount": 29,
+              "sales": 2,
+              "amount": 58,
               "price": 29,
               "countries": {
                 "US": {
@@ -129852,8 +130190,8 @@
                   "price": 0
                 },
                 "DE": {
-                  "sales": 1,
-                  "amount": 29,
+                  "sales": 2,
+                  "amount": 58,
                   "price": 29
                 },
                 "FR": {
@@ -129892,13 +130230,13 @@
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
-                "mount": 1
+                "mount": 2
               }
             },
             {
               "date": "2025-06-18",
-              "sales": 1,
-              "amount": 29,
+              "sales": 2,
+              "amount": 58,
               "price": 29,
               "countries": {
                 "US": {
@@ -129912,8 +130250,8 @@
                   "price": 0
                 },
                 "DE": {
-                  "sales": 1,
-                  "amount": 29,
+                  "sales": 2,
+                  "amount": 58,
                   "price": 29
                 },
                 "FR": {
@@ -129952,13 +130290,13 @@
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
-                "mount": 1
+                "mount": 2
               }
             },
             {
               "date": "2025-06-19",
-              "sales": 1,
-              "amount": 29,
+              "sales": 2,
+              "amount": 58,
               "price": 29,
               "countries": {
                 "US": {
@@ -129972,8 +130310,8 @@
                   "price": 0
                 },
                 "DE": {
-                  "sales": 1,
-                  "amount": 29,
+                  "sales": 2,
+                  "amount": 58,
                   "price": 29
                 },
                 "FR": {
@@ -130012,7 +130350,7 @@
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
-                "mount": 1
+                "mount": 2
               }
             },
             {
@@ -130698,8 +131036,8 @@
             {
               "marketplace": "DE",
               "country": "德国",
-              "sales": 30,
-              "amount": 870,
+              "sales": 33,
+              "amount": 957,
               "avgPrice": 29,
               "productCount": 1,
               "monthlyUnits": 22
@@ -142367,8 +142705,8 @@
         "2026-01": {
           "month": "2026-01",
           "label": "2026/01",
-          "sales": 13,
-          "amount": 357,
+          "sales": 15,
+          "amount": 415,
           "estimatedSales": 0,
           "estimatedAmount": 0,
           "estimatedMarkets": [],
@@ -143875,9 +144213,9 @@
             },
             {
               "date": "2026-01-26",
-              "sales": 0,
-              "amount": 0,
-              "price": 0,
+              "sales": 1,
+              "amount": 29,
+              "price": 29,
               "countries": {
                 "US": {
                   "sales": 0,
@@ -143890,9 +144228,9 @@
                   "price": 0
                 },
                 "DE": {
-                  "sales": 0,
-                  "amount": 0,
-                  "price": 0
+                  "sales": 1,
+                  "amount": 29,
+                  "price": 29
                 },
                 "FR": {
                   "sales": 0,
@@ -143930,14 +144268,14 @@
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
-                "mount": 0
+                "mount": 1
               }
             },
             {
               "date": "2026-01-27",
-              "sales": 0,
-              "amount": 0,
-              "price": 0,
+              "sales": 1,
+              "amount": 29,
+              "price": 29,
               "countries": {
                 "US": {
                   "sales": 0,
@@ -143950,9 +144288,9 @@
                   "price": 0
                 },
                 "DE": {
-                  "sales": 0,
-                  "amount": 0,
-                  "price": 0
+                  "sales": 1,
+                  "amount": 29,
+                  "price": 29
                 },
                 "FR": {
                   "sales": 0,
@@ -143990,7 +144328,7 @@
                 "dragy": 0,
                 "dragy_pro_refurbished": 0,
                 "dragy_refurbished": 0,
-                "mount": 0
+                "mount": 1
               }
             },
             {
@@ -144256,9 +144594,9 @@
             {
               "marketplace": "DE",
               "country": "德国",
-              "sales": 13,
-              "amount": 357,
-              "avgPrice": 27,
+              "sales": 15,
+              "amount": 415,
+              "avgPrice": 28,
               "productCount": 1,
               "monthlyUnits": 22
             },
@@ -149674,6 +150012,66 @@
                 "dragy_refurbished": 0,
                 "mount": 0
               }
+            },
+            {
+              "date": "2026-04-28",
+              "sales": 0,
+              "amount": 0,
+              "price": 0,
+              "countries": {
+                "US": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "UK": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "DE": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "FR": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "IT": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "ES": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "CA": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "JP": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                },
+                "AU": {
+                  "sales": 0,
+                  "amount": 0,
+                  "price": 0
+                }
+              },
+              "lines": {
+                "dragy_pro": 0,
+                "dragy": 0,
+                "dragy_pro_refurbished": 0,
+                "dragy_refurbished": 0,
+                "mount": 0
+              }
             }
           ],
           "countrySummary": [
@@ -149772,7 +150170,7 @@
           "rating": 4.7,
           "ratings": 103,
           "sellerName": "Dragy International",
-          "recent30Sales": 21,
+          "recent30Sales": 20,
           "currentMonthSales": 18,
           "currentMonthAmount": 506,
           "estimatedCurrentMonthSales": 0,
@@ -149843,12 +150241,12 @@
     {
       "id": "2025-06",
       "label": "2025/06",
-      "globalSales": 1220,
+      "globalSales": 1223,
       "dragyProSales": 589,
       "dragySales": 529,
       "dragyProRefurbishedSales": 0,
       "dragyRefurbishedSales": 71,
-      "mountSales": 31
+      "mountSales": 34
     },
     {
       "id": "2025-07",
@@ -149913,12 +150311,12 @@
     {
       "id": "2026-01",
       "label": "2026/01",
-      "globalSales": 962,
+      "globalSales": 964,
       "dragyProSales": 531,
       "dragySales": 377,
       "dragyProRefurbishedSales": 0,
       "dragyRefurbishedSales": 41,
-      "mountSales": 13
+      "mountSales": 15
     },
     {
       "id": "2026-02",
@@ -149943,11 +150341,11 @@
     {
       "id": "2026-04",
       "label": "2026/04",
-      "globalSales": 1557,
-      "dragyProSales": 694,
-      "dragySales": 409,
-      "dragyProRefurbishedSales": 230,
-      "dragyRefurbishedSales": 198,
+      "globalSales": 1621,
+      "dragyProSales": 717,
+      "dragySales": 453,
+      "dragyProRefurbishedSales": 235,
+      "dragyRefurbishedSales": 190,
       "mountSales": 26
     }
   ],

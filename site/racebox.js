@@ -1,5 +1,31 @@
 let raceboxDailyChart;
 
+function getTodayCountryRows(report, latest) {
+  if (!latest) return [];
+  if (latest.countries && Object.keys(latest.countries).length) {
+    return Object.entries(latest.countries)
+      .map(([marketplace, item]) => ({
+        marketplace,
+        sales: item.sales || 0,
+        amount: item.amount || 0,
+        price: item.price || 0,
+        bsr: item.bsr,
+      }))
+      .sort((a, b) => b.sales - a.sales);
+  }
+  const items = report.seller_sprite?.items || [];
+  if (items.length === 1) {
+    return [{
+      marketplace: items[0].marketplace || "-",
+      sales: latest.sales || 0,
+      amount: latest.amount || 0,
+      price: latest.price || 0,
+      bsr: latest.bsr,
+    }];
+  }
+  return [];
+}
+
 function formatCompact(value) {
   if (value == null || Number.isNaN(value)) return "-";
   if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(2)}M`;
@@ -79,6 +105,39 @@ function renderRacebox(payload) {
       <div class="summary-note">${peakDay?.date || "-"} 是当前 4 月最高单日销量</div>
     </article>
   `;
+
+  const todayCountryRows = getTodayCountryRows(report, latest);
+  document.getElementById("racebox-today-global-strip").innerHTML = `
+    <div class="daily-metric">
+      <span>今日日期</span>
+      <strong>${latest?.date || "-"}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>今日全球销量</span>
+      <strong>${latest?.sales || "-"}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>今日全球销售额</span>
+      <strong>$${formatCompact(latest?.amount || 0)}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>今日覆盖国家</span>
+      <strong>${todayCountryRows.filter((item) => item.sales > 0).length}</strong>
+    </div>
+  `;
+  document.getElementById("racebox-today-country-grid").innerHTML = todayCountryRows
+    .map((item) => `
+      <article class="today-country-card ${item.sales > 0 ? "active" : "inactive"}">
+        <div class="today-country-head">
+          <strong>${item.marketplace}</strong>
+          <span>${item.sales > 0 ? "Live" : "No sale"}</span>
+        </div>
+        <div class="today-country-main">${item.sales}</div>
+        <div class="today-country-sub">今日销量</div>
+        <div class="today-country-note">$${formatCompact(item.amount || 0)} · ${item.price ? `$${item.price}` : "无价格"}</div>
+      </article>
+    `)
+    .join("");
 
   document.getElementById("racebox-daily-strip").innerHTML = `
     <div class="daily-metric">

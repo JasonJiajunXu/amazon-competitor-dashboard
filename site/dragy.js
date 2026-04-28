@@ -675,6 +675,61 @@ function renderMapSection() {
   `;
 }
 
+function renderTodaySection() {
+  const scope = getScope();
+  const rows = scope.recent30.dailyRows || [];
+  const latest = rows[rows.length - 1];
+  if (!latest) {
+    document.getElementById("dragy-today-global-strip").innerHTML = `
+      <div class="empty-state">当前没有可展示的今日销量快照。</div>
+    `;
+    document.getElementById("dragy-today-country-grid").innerHTML = "";
+    return;
+  }
+
+  const countryRows = Object.entries(latest.countries || {})
+    .map(([marketplace, item]) => ({
+      marketplace,
+      sales: item.sales || 0,
+      amount: item.amount || 0,
+      price: item.price || 0,
+    }))
+    .sort((a, b) => b.sales - a.sales);
+
+  document.getElementById("dragy-today-global-strip").innerHTML = `
+    <div class="daily-metric">
+      <span>今日日期</span>
+      <strong>${latest.date}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>今日全球销量</span>
+      <strong>${latest.sales}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>今日全球销售额</span>
+      <strong>$${formatCompact(latest.amount || 0)}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>今日覆盖国家</span>
+      <strong>${countryRows.filter((item) => item.sales > 0).length}</strong>
+    </div>
+  `;
+
+  document.getElementById("dragy-today-country-grid").innerHTML = countryRows
+    .map((item) => `
+      <article class="today-country-card ${item.sales > 0 ? "active" : "inactive"}">
+        <div class="today-country-head">
+          <strong>${item.marketplace}</strong>
+          <span>${item.sales > 0 ? "Live" : "No sale"}</span>
+        </div>
+        <div class="today-country-main">${item.sales}</div>
+        <div class="today-country-sub">今日销量</div>
+        <div class="today-country-note">$${formatCompact(item.amount || 0)} · ${item.price ? `$${item.price}` : "无价格"}</div>
+      </article>
+    `)
+    .join("");
+}
+
 function renderSidebar() {
   const scope = getScope();
   document.getElementById("dragy-image-panel").innerHTML = `
@@ -721,6 +776,7 @@ function renderDynamic() {
   renderHero();
   renderScopeTabs();
   renderSummary();
+  renderTodaySection();
   renderComparisonSection();
   renderRecentSection();
   renderMonthSection();

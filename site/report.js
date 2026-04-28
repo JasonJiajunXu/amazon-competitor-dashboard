@@ -2,6 +2,43 @@ let salesChart;
 let secondaryChart;
 let dailyChart;
 
+function getTodayCountryRows(report) {
+  const rows = report.seller_sprite_daily || [];
+  const latest = rows[rows.length - 1];
+  if (!latest) return [];
+
+  if (latest.countries && Object.keys(latest.countries).length) {
+    return Object.entries(latest.countries)
+      .map(([marketplace, item]) => ({
+        marketplace,
+        sales: item.sales || 0,
+        amount: item.amount || 0,
+        price: item.price || 0,
+        bsr: item.bsr,
+      }))
+      .sort((a, b) => b.sales - a.sales);
+  }
+
+  const items = report.seller_sprite?.items || [];
+  if (items.length === 1) {
+    return [{
+      marketplace: items[0].marketplace || "-",
+      sales: latest.sales || 0,
+      amount: latest.amount || 0,
+      price: latest.price || 0,
+      bsr: latest.bsr,
+    }];
+  }
+
+  return items.map((item) => ({
+    marketplace: item.marketplace || "-",
+    sales: 0,
+    amount: 0,
+    price: 0,
+    bsr: null,
+  }));
+}
+
 function formatCompact(value) {
   if (value == null || Number.isNaN(value)) return "-";
   if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(2)}M`;
@@ -170,6 +207,54 @@ function buildTrackingLinks(report) {
         </div>
       `,
     )
+    .join("");
+}
+
+function buildTodaySection(report) {
+  const rows = report.seller_sprite_daily || [];
+  if (rows.length === 0) {
+    document.getElementById("today-global-strip").innerHTML = `
+      <div class="empty-state">今天的全球销量会在 SellerSprite 首次返回逐日快照后显示到这里。</div>
+    `;
+    document.getElementById("today-country-grid").innerHTML = "";
+    return;
+  }
+
+  const latest = rows[rows.length - 1];
+  const countryRows = getTodayCountryRows(report);
+  const activeCountries = countryRows.filter((item) => item.sales > 0).length;
+
+  document.getElementById("today-global-strip").innerHTML = `
+    <div class="daily-metric">
+      <span>今日日期</span>
+      <strong>${latest.date}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>今日全球销量</span>
+      <strong>${latest.sales}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>今日全球销售额</span>
+      <strong>$${formatCompact(latest.amount || 0)}</strong>
+    </div>
+    <div class="daily-metric">
+      <span>今日覆盖国家</span>
+      <strong>${activeCountries}</strong>
+    </div>
+  `;
+
+  document.getElementById("today-country-grid").innerHTML = countryRows
+    .map((item) => `
+      <article class="today-country-card ${item.sales > 0 ? "active" : "inactive"}">
+        <div class="today-country-head">
+          <strong>${item.marketplace}</strong>
+          <span>${item.sales > 0 ? "Live" : "No sale"}</span>
+        </div>
+        <div class="today-country-main">${item.sales}</div>
+        <div class="today-country-sub">今日销量</div>
+        <div class="today-country-note">$${formatCompact(item.amount || 0)} · ${item.price ? `$${item.price}` : "无价格"}</div>
+      </article>
+    `)
     .join("");
 }
 
@@ -426,6 +511,7 @@ function renderReportView(payload) {
 
   buildChooser(filtered, report.report_id);
   buildSummary(report);
+  buildTodaySection(report);
   buildProductImage(report);
   buildHeroStats(report);
   buildInsights(report);
@@ -442,6 +528,7 @@ function renderReportView(payload) {
     if (!next) return;
     buildChooser(filtered, next.report_id);
     buildSummary(next);
+    buildTodaySection(next);
     buildProductImage(next);
     buildHeroStats(next);
     buildInsights(next);
