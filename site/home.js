@@ -34,7 +34,7 @@ function renderHome(payload) {
           <div class="entry-left">
             <img class="entry-thumb" src="${sampleReport?.image_url || './assets/products/dragy.jpg'}" alt="${view.title}">
             <div>
-              <div class="entry-eyebrow">${view.label}</div>
+              <div class="entry-eyebrow">Sales Board</div>
               <div class="entry-title">${view.title}</div>
               <div class="entry-meta">${view.description}</div>
             </div>
