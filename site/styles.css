@@ -64,6 +64,15 @@ div {
   flex-wrap: wrap;
 }
 
+.home-topbar {
+  align-items: flex-end;
+}
+
+.home-brand-lockup {
+  align-items: flex-end;
+  gap: 20px;
+}
+
 .brand-mark {
   width: 44px;
   height: 44px;
@@ -77,10 +86,13 @@ div {
 }
 
 .brand-logo {
-  width: clamp(120px, 15vw, 220px);
-  height: auto;
+  width: auto;
+  height: 52px;
+  max-width: min(260px, 42vw);
   display: block;
   object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 14px;
 }
 
 .topbar-label,
@@ -247,6 +259,18 @@ h3 {
   line-height: 1;
   flex-shrink: 0;
   opacity: 0.78;
+}
+
+.home-layout .entry-button,
+.home-layout .entry-button.special-entry {
+  border-color: rgba(47, 59, 52, 0.05);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(246, 248, 245, 0.92));
+}
+
+.home-layout .entry-button:hover,
+.home-layout .entry-button.special-entry:hover {
+  border-color: rgba(47, 59, 52, 0.09);
+  box-shadow: 0 16px 30px rgba(35, 46, 41, 0.08);
 }
 
 .topbar-meta {
@@ -1090,7 +1114,8 @@ canvas {
   }
 
   .brand-logo {
-    width: min(160px, 52vw);
+    height: 42px;
+    max-width: min(180px, 54vw);
   }
 
   .status-stack,
