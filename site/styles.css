@@ -202,21 +202,12 @@ div {
   font-weight: 800;
 }
 
-.brand-wordmark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 110px;
+.brand-logo {
+  width: auto;
   height: 38px;
-  padding: 0 16px;
-  border-radius: 14px;
-  background: #0f0f10;
-  color: #fff;
-  font-family: "Manrope", sans-serif;
-  font-size: 22px;
-  font-weight: 800;
-  letter-spacing: -0.04em;
-  line-height: 1;
+  max-width: min(188px, 34vw);
+  display: block;
+  object-fit: contain;
   flex-shrink: 0;
 }
 
@@ -1382,11 +1373,9 @@ canvas {
     font-size: 16px;
   }
 
-  .brand-wordmark {
-    min-width: 96px;
+  .brand-logo {
     height: 34px;
-    padding: 0 14px;
-    font-size: 20px;
+    max-width: min(164px, 52vw);
   }
 
   .report-brand-note {
