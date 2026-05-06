@@ -2,7 +2,7 @@ const HOME_GROUPS = [
   {
     label: "all",
     title: "全部",
-    note: "先看完整产品库，再决定进入哪条赛道。",
+    note: "先看完整产品库。",
     items: [
       {
         title: "全部产品",
@@ -15,7 +15,7 @@ const HOME_GROUPS = [
   {
     label: "racing",
     title: "赛车",
-    note: "查看测速与计时设备的整体表现。",
+    note: "测速与计时设备。",
     items: [
       {
         title: "dragy",
@@ -34,7 +34,7 @@ const HOME_GROUPS = [
   {
     label: "baseball",
     title: "棒球",
-    note: "聚焦测速枪和训练设备。",
+    note: "测速枪与训练设备。",
     items: [
       {
         title: "Tag one",
@@ -53,7 +53,7 @@ const HOME_GROUPS = [
   {
     label: "golf",
     title: "高尔夫",
-    note: "查看高尔夫雷达与挥杆训练设备。",
+    note: "雷达与挥杆训练设备。",
     items: [
       {
         title: "Garmin Approach R10",
@@ -84,7 +84,7 @@ const HOME_GROUPS = [
   {
     label: "shooting",
     title: "射击",
-    note: "聚焦弹道测速设备与代际切换。",
+    note: "弹道测速设备。",
     items: [
       {
         title: "Xero C1 pro & C2",
@@ -131,6 +131,7 @@ function renderThumb(payload, item) {
 }
 
 function renderGroup(payload, group) {
+  const singleClass = group.items.length === 1 ? " is-single" : "";
   const cards = group.items.map((item) => `
     <a class="category-product-card" href="${item.href}">
       ${renderThumb(payload, item)}
@@ -141,7 +142,7 @@ function renderGroup(payload, group) {
   `).join("");
 
   return `
-    <section class="category-card">
+    <section class="category-card${singleClass}">
       <div class="category-card-head">
         <div class="category-card-copy">
           <p class="category-card-label">${group.label}</p>

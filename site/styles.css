@@ -118,6 +118,7 @@ div {
 
 .home-topbar {
   align-items: stretch;
+  padding: 4px 2px 20px;
 }
 
 .home-brand-lockup {
@@ -128,17 +129,17 @@ div {
 .home-hero {
   display: block;
   width: 100%;
-  padding: 4px 2px 4px;
+  padding: 2px 2px 0;
 }
 
 .home-heading-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: start;
-  gap: 22px;
-  min-height: 108px;
-  padding: 18px 20px;
-  border-radius: 20px;
+  grid-template-columns: minmax(140px, 170px) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 26px;
+  min-height: 96px;
+  padding: 18px 22px;
+  border-radius: 24px;
   background: rgba(255, 255, 255, 0.64);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
@@ -146,57 +147,56 @@ div {
   width: 100%;
 }
 
-.home-heading-main {
-  display: grid;
-  grid-template-columns: minmax(130px, 180px) minmax(260px, 1fr);
+.home-brand-panel {
+  display: flex;
   align-items: center;
-  gap: 18px;
-  min-width: 0;
+  justify-content: flex-start;
+  min-height: 72px;
 }
 
 .home-heading-copy {
   display: grid;
-  gap: 8px;
+  gap: 6px;
   min-width: 0;
 }
 
-.home-heading-card .brand-logo {
-  width: min(100%, 180px);
+.home-brand-panel .brand-logo {
+  width: min(100%, 145px);
   height: auto;
-  max-width: 180px;
+  max-width: 145px;
 }
 
 .home-heading-kicker {
   color: var(--muted);
-  font-size: 12px;
-  letter-spacing: 0.1em;
+  font-size: 11px;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   font-family: "Manrope", sans-serif;
   font-weight: 700;
 }
 
 .home-heading-card h1 {
-  font-size: clamp(28px, 3vw, 36px);
-  line-height: 1;
+  font-size: clamp(28px, 3.6vw, 42px);
+  line-height: 0.98;
   letter-spacing: -0.04em;
 }
 
 .home-heading-source {
   min-width: 220px;
-  min-height: 100%;
   padding: 12px 14px;
   border-radius: 16px;
-  background: rgba(245, 247, 244, 0.92);
-  border: 1px solid rgba(47, 59, 52, 0.08);
+  background: rgba(247, 249, 246, 0.95);
+  border: 1px solid rgba(47, 59, 52, 0.07);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-self: stretch;
 }
 
 .home-heading-source span {
   margin: 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-family: "Manrope", sans-serif;
@@ -206,6 +206,7 @@ div {
   display: block;
   margin-top: 6px;
   font-size: 16px;
+  line-height: 1.2;
 }
 
 .brand-mark {
@@ -340,25 +341,29 @@ h3 {
 
 .entry-grid {
   display: grid;
-  gap: 18px;
+  gap: 14px;
   align-content: start;
 }
 
 .category-card + .category-card {
-  margin-top: 20px;
+  margin-top: 14px;
 }
 
 .category-card {
-  padding: 22px;
-  border-radius: 30px;
+  padding: 16px;
+  border-radius: 22px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(246, 248, 245, 0.92));
   border: 1px solid rgba(47, 59, 52, 0.06);
   box-shadow: 0 18px 34px rgba(30, 40, 34, 0.06);
 }
 
+.category-card.is-single .category-product-grid {
+  grid-template-columns: 1fr;
+}
+
 .category-card-head {
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .category-card-label {
@@ -372,14 +377,15 @@ h3 {
 }
 
 .category-card-copy h3 {
-  font-size: 28px;
+  font-size: 22px;
   letter-spacing: -0.03em;
 }
 
 .category-card-copy p:last-child {
-  margin: 8px 0 0;
+  margin: 4px 0 0;
   color: var(--muted);
-  line-height: 1.55;
+  line-height: 1.5;
+  font-size: 14px;
 }
 
 .category-product-grid {
@@ -393,8 +399,8 @@ h3 {
   grid-template-columns: 64px minmax(0, 1fr);
   gap: 14px;
   align-items: center;
-  padding: 14px 16px;
-  border-radius: 22px;
+  padding: 11px 13px;
+  border-radius: 18px;
   background: rgba(247, 249, 246, 0.92);
   border: 1px solid rgba(47, 59, 52, 0.06);
   transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
@@ -442,7 +448,7 @@ h3 {
 
 .category-product-title {
   font-family: "Manrope", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.2;
   word-break: break-word;
@@ -1346,11 +1352,6 @@ canvas {
     grid-template-columns: 1fr;
   }
 
-  .home-hero {
-    grid-template-columns: 1fr;
-    align-items: start;
-  }
-
   .summary-strip,
   .daily-strip,
   .today-global-strip,
@@ -1386,23 +1387,26 @@ canvas {
     width: 100%;
     min-height: 0;
     grid-template-columns: 1fr;
+    padding: 16px;
+    gap: 14px;
   }
 
-  .home-heading-main {
-    grid-template-columns: 1fr;
+  .home-brand-panel {
+    min-height: 0;
+    justify-content: flex-start;
   }
 
-  .home-heading-source {
-    min-width: 0;
-  }
-
-  .brand-logo {
-    height: 42px;
-    max-width: min(210px, 58vw);
+  .home-brand-panel .brand-logo {
+    width: min(100%, 132px);
+    max-width: 132px;
   }
 
   .report-brand-note {
     font-size: 13px;
+  }
+
+  .home-heading-card h1 {
+    font-size: 30px;
   }
 
   .status-stack,
