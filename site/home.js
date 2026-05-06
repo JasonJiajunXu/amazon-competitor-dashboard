@@ -5,10 +5,9 @@ const HOME_GROUPS = [
     items: [
       {
         title: "全部产品",
-        description: "查看当前全部产品与品牌的详情页入口。",
+        description: "查看当前全部产品与品牌。",
         href: "./report.html?view=all",
         collection: true,
-        eyebrow: "Full catalog",
       },
     ],
   },
@@ -18,17 +17,15 @@ const HOME_GROUPS = [
     items: [
       {
         title: "dragy",
-        description: "品牌多型号销量页，可从全部产品切到具体型号和国家。",
+        description: "品牌多型号销量页。",
         href: "./dragy.html",
         image: "./assets/products/dragy.jpg",
-        eyebrow: "Brand page",
       },
       {
         title: "Racebox",
-        description: "单产品销量纵览，包含今日销量、逐日变化和历史月度表现。",
+        description: "单产品销量纵览。",
         href: "./racebox.html",
         image: "./assets/products/racebox.jpg",
-        eyebrow: "Product page",
       },
     ],
   },
@@ -38,17 +35,15 @@ const HOME_GROUPS = [
     items: [
       {
         title: "Tag one",
-        description: "直接进入 TAG ONE 详情页。",
+        description: "TAG ONE 详情页。",
         href: "./report.html?view=baseball&report=tag",
         image: "./assets/products/dragy.jpg",
-        eyebrow: "Product page",
       },
       {
         title: "Velocity gun",
-        description: "直接进入 Velocity 详情页。",
+        description: "Velocity 详情页。",
         href: "./report.html?view=baseball&report=bushnell",
         image: "./assets/products/dragy.jpg",
-        eyebrow: "Product page",
       },
     ],
   },
@@ -58,31 +53,27 @@ const HOME_GROUPS = [
     items: [
       {
         title: "Garmin Approach R10",
-        description: "直接进入 Garmin Approach R10 详情页。",
+        description: "Garmin Approach R10 详情页。",
         href: "./report.html?view=golf&report=garmin_r10",
         image: "./assets/products/dragy.jpg",
-        eyebrow: "Product page",
       },
       {
         title: "Rapsodo MLM",
-        description: "直接进入 Rapsodo MLM 详情页。",
+        description: "Rapsodo MLM 详情页。",
         href: "./report.html?view=golf&report=rapsodo_mlm",
         image: "./assets/products/dragy.jpg",
-        eyebrow: "Product page",
       },
       {
         title: "Rapsodo MLM Pro",
-        description: "直接进入 Rapsodo Golf 组合页。",
+        description: "Rapsodo Golf 组合页。",
         href: "./report.html?view=brand-lines&report=rapsodo",
         image: "./assets/products/dragy.jpg",
-        eyebrow: "Brand line",
       },
       {
         title: "Blue Tees",
-        description: "直接进入 Blue Tees 详情页。",
+        description: "Blue Tees 详情页。",
         href: "./report.html?view=golf&report=blue_tees",
         image: "./assets/products/dragy.jpg",
-        eyebrow: "Product page",
       },
     ],
   },
@@ -92,17 +83,15 @@ const HOME_GROUPS = [
     items: [
       {
         title: "Xero C1 pro & C2",
-        description: "直接进入 Xero C1 Pro & C2 详情页。",
+        description: "Xero C1 Pro & C2 详情页。",
         href: "./report.html?view=shooting&report=garmin_xero",
         image: "./assets/products/dragy.jpg",
-        eyebrow: "Product page",
       },
       {
         title: "Rangecraft",
-        description: "直接进入 Rangecraft 详情页。",
+        description: "Rangecraft 详情页。",
         href: "./report.html?view=shooting&report=rangecraft",
         image: "./assets/products/dragy.jpg",
-        eyebrow: "Product page",
       },
     ],
   },
@@ -141,9 +130,7 @@ function renderGroup(payload, group) {
     <a class="category-product-card" href="${item.href}">
       ${renderThumb(payload, item)}
       <div class="category-product-copy">
-        <div class="entry-eyebrow">${item.eyebrow}</div>
         <div class="category-product-title">${item.title}</div>
-        <div class="category-product-desc">${item.description}</div>
       </div>
     </a>
   `).join("");
@@ -152,11 +139,9 @@ function renderGroup(payload, group) {
     <section class="category-card">
       <div class="category-card-head">
         <div class="category-card-copy">
-          <p class="kicker">${group.title}</p>
           <h3>${group.title}</h3>
           <p>${group.note}</p>
         </div>
-        <div class="category-card-count">${group.items.length} items</div>
       </div>
       <div class="category-product-grid">${cards}</div>
     </section>
