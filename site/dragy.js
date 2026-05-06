@@ -720,7 +720,7 @@ function renderTodaySection() {
       <article class="today-country-card ${item.sales > 0 ? "active" : "inactive"}">
         <div class="today-country-head">
           <strong>${item.marketplace}</strong>
-          <span>${item.sales > 0 ? "Live" : "No sale"}</span>
+          <span>${item.sales > 0 ? "有销量" : "暂无销量"}</span>
         </div>
         <div class="today-country-main">${item.sales}</div>
         <div class="today-country-sub">今日销量</div>
@@ -750,7 +750,7 @@ function renderSidebar() {
             · ${item.hasDailySeriesGap ? `本月估值 ${item.estimatedCurrentMonthSales}` : `本月 ${item.currentMonthSales}`}
             · ${formatCurrency(item.price)}
           </div>
-          ${item.hasDailySeriesGap ? `<p class="tracking-subnote">SellerSprite 品牌列表返回了本月估值，但这个 ASIN 的日序列接口当前没有返回逐日销量。</p>` : ""}
+          ${item.hasDailySeriesGap ? `<p class="tracking-subnote">SellerSprite 品牌列表返回了本月估值，但这个 ASIN（Amazon Standard Identification Number）的日序列接口当前没有返回逐日销量。</p>` : ""}
         </div>
       `,
     )
@@ -769,6 +769,25 @@ function renderSidebar() {
       `,
     )
     .join("");
+
+  document.getElementById("dragy-glossary").innerHTML = `
+    <div class="insight-item">
+      <strong>ASIN = Amazon Standard Identification Number</strong>
+      <p>亚马逊给单个商品分配的标准识别编号，可以理解成亚马逊商品身份证。</p>
+    </div>
+    <div class="insight-item">
+      <strong>BSR = Best Sellers Rank</strong>
+      <p>亚马逊类目畅销排名。数字越小，通常代表该商品在对应类目里卖得越靠前。</p>
+    </div>
+    <div class="insight-item">
+      <strong>GPS = Global Positioning System</strong>
+      <p>全球定位系统。dragy 和 Racebox 这类产品依赖卫星定位来测速度、距离和加速表现。</p>
+    </div>
+    <div class="insight-item">
+      <strong>MLM = Mobile Launch Monitor</strong>
+      <p>如果在其他高尔夫页面看到 MLM，通常指移动式击球监测设备，用来记录球速、杆速和击球表现。</p>
+    </div>
+  `;
 }
 
 function renderDynamic() {

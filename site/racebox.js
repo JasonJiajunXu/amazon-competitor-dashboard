@@ -130,7 +130,7 @@ function renderRacebox(payload) {
       <article class="today-country-card ${item.sales > 0 ? "active" : "inactive"}">
         <div class="today-country-head">
           <strong>${item.marketplace}</strong>
-          <span>${item.sales > 0 ? "Live" : "No sale"}</span>
+          <span>${item.sales > 0 ? "有销量" : "暂无销量"}</span>
         </div>
         <div class="today-country-main">${item.sales}</div>
         <div class="today-country-sub">今日销量</div>
@@ -153,7 +153,7 @@ function renderRacebox(payload) {
       <strong>$${formatCompact(latest?.amount || 0)}</strong>
     </div>
     <div class="daily-metric">
-      <span>最近 BSR</span>
+      <span>最近 BSR（Best Sellers Rank）</span>
       <strong>${latest?.bsr?.toLocaleString?.() || "-"}</strong>
     </div>
   `;
@@ -209,7 +209,7 @@ function renderRacebox(payload) {
           <th>销量</th>
           <th>销售额</th>
           <th>价格</th>
-          <th>BSR</th>
+          <th>BSR（Best Sellers Rank）</th>
         </tr>
       </thead>
       <tbody>
@@ -277,6 +277,21 @@ function renderRacebox(payload) {
     <div class="insight-item">
       <strong>价格维持在 $270</strong>
       <p>4 月逐日快照显示成交价基本稳定在 $270，没有像 3 月那样出现明显波动。</p>
+    </div>
+  `;
+
+  document.getElementById("racebox-glossary").innerHTML = `
+    <div class="insight-item">
+      <strong>ASIN = Amazon Standard Identification Number</strong>
+      <p>亚马逊给单个商品分配的标准识别编号，可以理解成亚马逊商品身份证。</p>
+    </div>
+    <div class="insight-item">
+      <strong>BSR = Best Sellers Rank</strong>
+      <p>亚马逊类目畅销排名。数字越小，通常代表该商品在对应类目里卖得越靠前。</p>
+    </div>
+    <div class="insight-item">
+      <strong>GPS = Global Positioning System</strong>
+      <p>全球定位系统。Racebox 这类产品依赖卫星定位来记录速度、轨迹和圈速表现。</p>
     </div>
   `;
 }

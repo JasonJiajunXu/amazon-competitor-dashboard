@@ -108,6 +108,7 @@ function applyReportSelection(report) {
   buildProductImage(report);
   buildHeroStats(report);
   buildInsights(report);
+  buildGlossary();
   buildTrackingLinks(report);
   buildDailyStrip(report);
   buildDailyTable(report);
@@ -157,7 +158,7 @@ function buildSummary(report) {
       note: report.headline_metric_2_label || "销售额",
     },
     {
-      label: "ASIN",
+      label: "ASIN（Amazon Standard Identification Number）",
       value: report.primary_asin || "聚合看板",
       note: report.asin_text,
     },
@@ -208,13 +209,30 @@ function buildInsights(report) {
     .join("");
 }
 
+function buildGlossary() {
+  document.getElementById("glossary-terms").innerHTML = `
+    <div class="insight-item">
+      <strong>ASIN = Amazon Standard Identification Number</strong>
+      <p>亚马逊给单个商品分配的标准识别编号，可以理解成亚马逊商品身份证。</p>
+    </div>
+    <div class="insight-item">
+      <strong>BSR = Best Sellers Rank</strong>
+      <p>亚马逊类目畅销排名。数字越小，通常代表该商品在对应类目里卖得越靠前。</p>
+    </div>
+    <div class="insight-item">
+      <strong>GPS = Global Positioning System</strong>
+      <p>全球定位系统。产品描述里出现 GPS，通常表示设备依赖卫星定位来记录速度、轨迹或距离。</p>
+    </div>
+  `;
+}
+
 function buildTrackingLinks(report) {
   const items = report.seller_sprite?.items || [];
   if (items.length === 0) {
     document.getElementById("tracking-links").innerHTML = `
       <div class="tracking-item empty">
         <strong>还没有 SellerSprite 跟踪项</strong>
-        <p>这份报告暂时没有绑定 ASIN 或市场，后续补齐后就能进入每天自动刷新。</p>
+        <p>这份报告暂时没有绑定 ASIN（Amazon Standard Identification Number）或市场，后续补齐后就能进入每天自动刷新。</p>
         <div class="tracking-tag pending">Pending setup</div>
       </div>
     `;
@@ -226,7 +244,7 @@ function buildTrackingLinks(report) {
       (item) => `
         <div class="tracking-item">
           <strong>${item.label || item.asin || "待补充"}</strong>
-          <p>${item.marketplace || "-"} · ${item.asin || "待补 ASIN"} · ${item.note || "已加入 SellerSprite 同步名单。"}</p>
+          <p>${item.marketplace || "-"} · ${item.asin || "待补 ASIN（Amazon Standard Identification Number）"} · ${item.note || "已加入 SellerSprite 同步名单。"}</p>
           <div class="tracking-tag ${item.status || "configured"}">${item.status_text || item.status || "Configured"}</div>
         </div>
       `,
@@ -272,7 +290,7 @@ function buildTodaySection(report) {
       <article class="today-country-card ${item.sales > 0 ? "active" : "inactive"}">
         <div class="today-country-head">
           <strong>${item.marketplace}</strong>
-          <span>${item.sales > 0 ? "Live" : "No sale"}</span>
+          <span>${item.sales > 0 ? "有销量" : "暂无销量"}</span>
         </div>
         <div class="today-country-main">${item.sales}</div>
         <div class="today-country-sub">今日销量</div>
@@ -353,7 +371,7 @@ function buildDailyTable(report) {
           <th>销量</th>
           <th>销售额</th>
           <th>价格</th>
-          <th>BSR</th>
+          <th>BSR（Best Sellers Rank）</th>
         </tr>
       </thead>
       <tbody>${body}</tbody>
