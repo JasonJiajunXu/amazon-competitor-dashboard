@@ -7,7 +7,7 @@ const HOME_GROUPS = [
         title: "全部产品",
         description: "查看当前全部产品与品牌的详情页入口。",
         href: "./report.html?view=all",
-        image: "./assets/products/dragy.jpg",
+        collection: true,
         eyebrow: "Full catalog",
       },
     ],
@@ -122,10 +122,24 @@ function resolveImage(payload, item) {
   return report?.image_url || item.image || "./assets/products/dragy.jpg";
 }
 
+function renderThumb(payload, item) {
+  if (!item.collection) {
+    return `<img class="category-product-thumb" src="${resolveImage(payload, item)}" alt="${item.title}">`;
+  }
+
+  const images = payload.reports
+    .filter((report) => report.image_url)
+    .slice(0, 4)
+    .map((report) => `<img class="category-collection-thumb" src="${report.image_url}" alt="${report.title}">`)
+    .join("");
+
+  return `<div class="category-product-collage">${images}</div>`;
+}
+
 function renderGroup(payload, group) {
   const cards = group.items.map((item) => `
     <a class="category-product-card" href="${item.href}">
-      <img class="category-product-thumb" src="${resolveImage(payload, item)}" alt="${item.title}">
+      ${renderThumb(payload, item)}
       <div class="category-product-copy">
         <div class="entry-eyebrow">${item.eyebrow}</div>
         <div class="category-product-title">${item.title}</div>
