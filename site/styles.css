@@ -257,6 +257,35 @@ h3 {
   align-content: start;
 }
 
+.grouped-entry-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.home-category-block + .home-category-block {
+  margin-top: 26px;
+}
+
+.home-category-head {
+  margin-bottom: 14px;
+}
+
+.home-category-head h3 {
+  font-size: 28px;
+  letter-spacing: -0.03em;
+}
+
+.home-category-head p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.grouped-entry .entry-thumb {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+}
+
 .entry-button {
   display: flex;
   align-items: center;
@@ -1167,6 +1196,10 @@ canvas {
   .country-card-grid,
   .line-card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grouped-entry-grid {
+    grid-template-columns: 1fr;
   }
 
   .meta-badge {

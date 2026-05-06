@@ -51,6 +51,11 @@ function readViewId() {
   return url.searchParams.get("view") || "overview";
 }
 
+function readReportId() {
+  const url = new URL(window.location.href);
+  return url.searchParams.get("report") || "";
+}
+
 function createValueLabelPlugin() {
   return {
     id: "value-labels",
@@ -499,12 +504,13 @@ function renderCharts(report) {
 
 function renderReportView(payload) {
   const viewId = readViewId();
+  const reportId = readReportId();
   const config = payload.viewConfig[viewId] || payload.viewConfig.overview;
   const filtered = viewId === "overview" || viewId === "all"
     ? payload.reports
     : payload.reports.filter((report) => report.category === viewId);
 
-  const report = filtered[0] || payload.reports[0];
+  const report = filtered.find((item) => item.report_id === reportId) || filtered[0] || payload.reports[0];
   document.getElementById("view-title").textContent = config.title;
   document.getElementById("view-label").textContent = config.label;
   document.getElementById("report-last-updated").textContent = payload.refreshStatus.lastUpdated;
