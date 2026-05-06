@@ -76,55 +76,49 @@ div {
 .home-hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 28px;
+  gap: 20px;
   width: 100%;
-  align-items: end;
-  padding: 8px 2px 6px;
+  align-items: start;
+  padding: 4px 2px 4px;
 }
 
 .home-hero-main {
   display: grid;
-  gap: 18px;
+  gap: 12px;
 }
 
-.home-brand-chip {
+.home-brand-row {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   width: fit-content;
   max-width: 100%;
-  padding: 12px 14px;
-  border-radius: 22px;
-  background: rgba(255, 255, 255, 0.66);
-  border: 1px solid rgba(47, 59, 52, 0.08);
-  box-shadow: 0 14px 28px rgba(31, 41, 35, 0.06);
-  backdrop-filter: blur(14px);
 }
 
 .home-brand-copy {
   display: grid;
-  gap: 4px;
+  gap: 2px;
 }
 
 .home-brand-note {
   color: var(--muted);
   font-family: "Manrope", sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 0.02em;
 }
 
 .home-title-block {
   display: grid;
-  gap: 10px;
-  max-width: 860px;
+  gap: 8px;
+  max-width: 760px;
 }
 
 .home-hero-description {
   margin: 0;
-  max-width: 780px;
+  max-width: 680px;
   color: var(--muted);
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 17px;
+  line-height: 1.55;
 }
 
 .home-topbar-meta {
@@ -145,12 +139,12 @@ div {
 
 .brand-logo {
   width: auto;
-  height: 44px;
-  max-width: min(220px, 38vw);
+  height: 38px;
+  max-width: min(188px, 34vw);
   display: block;
   object-fit: contain;
   flex-shrink: 0;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 .topbar-label,
@@ -177,8 +171,8 @@ strong {
 }
 
 h1 {
-  font-size: clamp(34px, 4vw, 54px);
-  line-height: 1;
+  font-size: clamp(34px, 4vw, 50px);
+  line-height: 0.98;
   letter-spacing: -0.04em;
 }
 
@@ -201,6 +195,12 @@ h3 {
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
   backdrop-filter: blur(18px);
+}
+
+.meta-badge-compact {
+  min-width: 200px;
+  padding: 14px 16px;
+  border-radius: 20px;
 }
 
 .meta-badge strong {
@@ -274,15 +274,25 @@ h3 {
   margin-bottom: 16px;
 }
 
+.category-card-label {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+
 .category-card-copy h3 {
-  font-size: 30px;
+  font-size: 28px;
   letter-spacing: -0.03em;
 }
 
 .category-card-copy p:last-child {
-  margin: 6px 0 0;
+  margin: 8px 0 0;
   color: var(--muted);
-  line-height: 1.65;
+  line-height: 1.55;
 }
 
 .category-product-grid {
@@ -1283,7 +1293,7 @@ canvas {
     flex-direction: column;
   }
 
-  .home-brand-chip {
+  .home-brand-row {
     width: 100%;
   }
 
@@ -1292,8 +1302,8 @@ canvas {
   }
 
   .brand-logo {
-    height: 42px;
-    max-width: min(180px, 54vw);
+    height: 34px;
+    max-width: min(164px, 52vw);
   }
 
   .status-stack,

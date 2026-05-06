@@ -1,7 +1,8 @@
 const HOME_GROUPS = [
   {
+    label: "all",
     title: "全部",
-    note: "先看完整产品库，再决定往哪个赛道继续深入。",
+    note: "先看完整产品库，再决定进入哪条赛道。",
     items: [
       {
         title: "全部产品",
@@ -12,8 +13,9 @@ const HOME_GROUPS = [
     ],
   },
   {
+    label: "racing",
     title: "赛车",
-    note: "适合先看赛车测速相关产品的全球销量和国家分布。",
+    note: "查看测速与计时设备的整体表现。",
     items: [
       {
         title: "dragy",
@@ -30,8 +32,9 @@ const HOME_GROUPS = [
     ],
   },
   {
+    label: "baseball",
     title: "棒球",
-    note: "聚焦测速枪和训练设备，适合看训练器材赛道的变化。",
+    note: "聚焦测速枪和训练设备。",
     items: [
       {
         title: "Tag one",
@@ -48,8 +51,9 @@ const HOME_GROUPS = [
     ],
   },
   {
+    label: "golf",
     title: "高尔夫",
-    note: "把高尔夫雷达、发球监测和训练设备放在一起看。",
+    note: "查看高尔夫雷达与挥杆训练设备。",
     items: [
       {
         title: "Garmin Approach R10",
@@ -78,8 +82,9 @@ const HOME_GROUPS = [
     ],
   },
   {
+    label: "shooting",
     title: "射击",
-    note: "聚焦弹道测速设备，适合看射击测速赛道和代际切换。",
+    note: "聚焦弹道测速设备与代际切换。",
     items: [
       {
         title: "Xero C1 pro & C2",
@@ -139,6 +144,7 @@ function renderGroup(payload, group) {
     <section class="category-card">
       <div class="category-card-head">
         <div class="category-card-copy">
+          <p class="category-card-label">${group.label}</p>
           <h3>${group.title}</h3>
           <p>${group.note}</p>
         </div>
