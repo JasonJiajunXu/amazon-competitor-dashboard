@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20260506m">
+  <link rel="stylesheet" href="./styles.css?v=20260506n">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
 </head>
 <body class="report-body">
@@ -30,6 +30,14 @@
     </header>
 
     <main class="report-layout">
+      <section class="selector-panel" id="chooser-section" hidden>
+        <div class="panel-heading compact">
+          <p class="kicker">Products</p>
+          <h2>产品入口</h2>
+        </div>
+        <div class="product-chooser" id="product-chooser"></div>
+      </section>
+
       <section class="product-hero-card" id="product-hero-card"></section>
 
       <section class="summary-strip" id="summary-strip"></section>
@@ -132,7 +140,7 @@
     </main>
   </div>
 
-  <script src="./data-loader.js?v=20260506m"></script>
-  <script src="./report.js?v=20260506m"></script>
+  <script src="./data-loader.js?v=20260506n"></script>
+  <script src="./report.js?v=20260506n"></script>
 </body>
 </html>

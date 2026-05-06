@@ -79,6 +79,42 @@ function createValueLabelPlugin() {
   };
 }
 
+function buildChooser(reports, activeReportId) {
+  const chooser = document.getElementById("product-chooser");
+  chooser.innerHTML = reports
+    .map(
+      (report) => `
+        <button class="product-chip ${report.report_id === activeReportId ? "active" : ""}" data-report-id="${report.report_id}">
+          <img class="product-thumb" src="${report.image_url}" alt="${report.title}">
+          <div class="product-chip-copy">
+            <div class="product-name">${report.title}</div>
+            <div class="product-asin">${report.primary_asin || report.brand}</div>
+          </div>
+        </button>
+      `,
+    )
+    .join("");
+}
+
+function syncReportUrl(reportId) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("report", reportId);
+  window.history.replaceState({}, "", url);
+}
+
+function applyReportSelection(report) {
+  buildSummary(report);
+  buildTodaySection(report);
+  buildProductImage(report);
+  buildHeroStats(report);
+  buildInsights(report);
+  buildTrackingLinks(report);
+  buildDailyStrip(report);
+  buildDailyTable(report);
+  buildMonthlyTable(report);
+  renderCharts(report);
+}
+
 function buildProductImage(report) {
   const hero = document.getElementById("product-hero-card");
   const panel = document.getElementById("product-image-panel");
@@ -494,20 +530,27 @@ function renderReportView(payload) {
     : payload.reports.filter((report) => report.category === viewId);
 
   const report = filtered.find((item) => item.report_id === reportId) || filtered[0] || payload.reports[0];
+  const showChooser = viewId === "all";
+  const chooserSection = document.getElementById("chooser-section");
   document.getElementById("view-title").textContent = config.title;
   document.getElementById("view-label").textContent = config.label;
   document.getElementById("report-last-updated").textContent = payload.refreshStatus.lastUpdated;
 
-  buildSummary(report);
-  buildTodaySection(report);
-  buildProductImage(report);
-  buildHeroStats(report);
-  buildInsights(report);
-  buildTrackingLinks(report);
-  buildDailyStrip(report);
-  buildDailyTable(report);
-  buildMonthlyTable(report);
-  renderCharts(report);
+  chooserSection.hidden = !showChooser;
+  if (showChooser) {
+    buildChooser(filtered, report.report_id);
+    document.getElementById("product-chooser").addEventListener("click", (event) => {
+      const chip = event.target.closest("[data-report-id]");
+      if (!chip) return;
+      const next = filtered.find((item) => item.report_id === chip.dataset.reportId);
+      if (!next) return;
+      buildChooser(filtered, next.report_id);
+      applyReportSelection(next);
+      syncReportUrl(next.report_id);
+    });
+  }
+
+  applyReportSelection(report);
 }
 
 loadDashboardData().then(renderReportView);
