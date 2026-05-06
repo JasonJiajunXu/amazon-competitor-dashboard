@@ -128,28 +128,54 @@ div {
 .home-hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 20px;
+  gap: 14px 20px;
   width: 100%;
   align-items: start;
   padding: 4px 2px 4px;
 }
 
-.home-hero-main {
-  display: grid;
-  gap: 12px;
+.home-hero-top {
+  min-width: 0;
 }
 
-.home-title-row {
-  display: inline-flex;
+.home-heading-card {
+  display: flex;
   align-items: center;
-  gap: 12px;
-  width: fit-content;
-  max-width: 100%;
+  gap: 16px;
+  min-height: 108px;
+  padding: 18px 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.64);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.home-heading-copy {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.home-heading-kicker {
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+
+.home-heading-card h1 {
+  font-size: clamp(28px, 3vw, 36px);
+  line-height: 1;
+  letter-spacing: -0.04em;
 }
 
 .home-title-block {
-  display: block;
+  grid-column: 1 / 2;
   max-width: 760px;
+  padding: 2px 2px 0;
 }
 
 .home-hero-description {
@@ -238,6 +264,7 @@ h3 {
 
 .meta-badge-compact {
   min-width: 200px;
+  min-height: 108px;
   padding: 14px 16px;
   border-radius: 20px;
 }
@@ -1303,6 +1330,10 @@ canvas {
     align-items: start;
   }
 
+  .home-title-block {
+    grid-column: auto;
+  }
+
   .summary-strip,
   .daily-strip,
   .today-global-strip,
@@ -1334,8 +1365,9 @@ canvas {
     flex-direction: column;
   }
 
-  .home-title-row {
+  .home-heading-card {
     width: 100%;
+    min-height: 0;
   }
 
   .home-hero-description {
