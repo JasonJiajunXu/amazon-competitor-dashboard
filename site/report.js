@@ -79,23 +79,6 @@ function createValueLabelPlugin() {
   };
 }
 
-function buildChooser(reports, activeReportId) {
-  const chooser = document.getElementById("product-chooser");
-  chooser.innerHTML = reports
-    .map(
-      (report) => `
-        <button class="product-chip ${report.report_id === activeReportId ? "active" : ""}" data-report-id="${report.report_id}">
-          <img class="product-thumb" src="${report.image_url}" alt="${report.title}">
-          <div class="product-chip-copy">
-            <div class="product-name">${report.title}</div>
-            <div class="product-asin">${report.primary_asin || report.brand}</div>
-          </div>
-        </button>
-      `,
-    )
-    .join("");
-}
-
 function buildProductImage(report) {
   const hero = document.getElementById("product-hero-card");
   const panel = document.getElementById("product-image-panel");
@@ -515,7 +498,6 @@ function renderReportView(payload) {
   document.getElementById("view-label").textContent = config.label;
   document.getElementById("report-last-updated").textContent = payload.refreshStatus.lastUpdated;
 
-  buildChooser(filtered, report.report_id);
   buildSummary(report);
   buildTodaySection(report);
   buildProductImage(report);
@@ -526,24 +508,6 @@ function renderReportView(payload) {
   buildDailyTable(report);
   buildMonthlyTable(report);
   renderCharts(report);
-
-  document.getElementById("product-chooser").addEventListener("click", (event) => {
-    const chip = event.target.closest("[data-report-id]");
-    if (!chip) return;
-    const next = filtered.find((item) => item.report_id === chip.dataset.reportId);
-    if (!next) return;
-    buildChooser(filtered, next.report_id);
-    buildSummary(next);
-    buildTodaySection(next);
-    buildProductImage(next);
-    buildHeroStats(next);
-    buildInsights(next);
-    buildTrackingLinks(next);
-    buildDailyStrip(next);
-    buildDailyTable(next);
-    buildMonthlyTable(next);
-    renderCharts(next);
-  });
 }
 
 loadDashboardData().then(renderReportView);
