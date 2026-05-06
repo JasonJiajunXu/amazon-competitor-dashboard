@@ -124,26 +124,27 @@ function resolveImage(payload, item) {
 
 function renderGroup(payload, group) {
   const cards = group.items.map((item) => `
-    <a class="entry-button grouped-entry" href="${item.href}">
-      <div class="entry-left">
-        <img class="entry-thumb" src="${resolveImage(payload, item)}" alt="${item.title}">
-        <div>
-          <div class="entry-eyebrow">${item.eyebrow}</div>
-          <div class="entry-title">${item.title}</div>
-          <div class="entry-meta">${item.description}</div>
-        </div>
+    <a class="category-product-card" href="${item.href}">
+      <img class="category-product-thumb" src="${resolveImage(payload, item)}" alt="${item.title}">
+      <div class="category-product-copy">
+        <div class="entry-eyebrow">${item.eyebrow}</div>
+        <div class="category-product-title">${item.title}</div>
+        <div class="category-product-desc">${item.description}</div>
       </div>
-      <div class="entry-arrow">→</div>
     </a>
   `).join("");
 
   return `
-    <section class="home-category-block">
-      <div class="home-category-head">
-        <h3>${group.title}</h3>
-        <p>${group.note}</p>
+    <section class="category-card">
+      <div class="category-card-head">
+        <div class="category-card-copy">
+          <p class="kicker">${group.title}</p>
+          <h3>${group.title}</h3>
+          <p>${group.note}</p>
+        </div>
+        <div class="category-card-count">${group.items.length} items</div>
       </div>
-      <div class="entry-grid grouped-entry-grid">${cards}</div>
+      <div class="category-product-grid">${cards}</div>
     </section>
   `;
 }
