@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20260428d">
+  <link rel="stylesheet" href="./styles.css?v=20260506h">
 </head>
 <body class="home-body">
   <div class="shell">
@@ -30,10 +30,33 @@
     <main class="home-layout">
       <section class="entry-panel">
         <div class="panel-heading">
-          <p class="kicker">Boards</p>
-          <h2>进入不同产品线的销量视图</h2>
+          <p class="kicker">Board Map</p>
+          <h2>先选“看什么”，再决定“看多深”</h2>
+          <p class="home-intro">
+            “起始总览”只放代表产品，适合先判断今天哪个赛道在动；“全产品库”则包含全部报告，适合逐个切到具体产品。
+          </p>
         </div>
-        <div class="entry-grid" id="entry-grid"></div>
+        <section class="home-group">
+          <div class="home-group-head">
+            <p class="kicker">Featured</p>
+            <h3>重点专题页</h3>
+          </div>
+          <div class="featured-grid" id="featured-grid"></div>
+        </section>
+        <section class="home-group">
+          <div class="home-group-head">
+            <p class="kicker">Start vs Full</p>
+            <h3>先看总览，还是直接进全库</h3>
+          </div>
+          <div class="primary-grid" id="primary-grid"></div>
+        </section>
+        <section class="home-group">
+          <div class="home-group-head">
+            <p class="kicker">By Category</p>
+            <h3>按赛道进入细分设备板</h3>
+          </div>
+          <div class="category-grid" id="category-grid"></div>
+        </section>
       </section>
 
       <aside class="status-panel">
@@ -75,7 +98,7 @@
     </main>
   </div>
 
-  <script src="./data-loader.js?v=20260428d"></script>
-  <script src="./home.js?v=20260428d"></script>
+  <script src="./data-loader.js?v=20260506h"></script>
+  <script src="./home.js?v=20260506h"></script>
 </body>
 </html>
