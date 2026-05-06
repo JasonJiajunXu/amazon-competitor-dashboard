@@ -139,9 +139,10 @@ div {
 }
 
 .home-heading-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) minmax(240px, 1fr);
   align-items: center;
-  gap: 16px;
+  gap: 18px;
   min-height: 108px;
   padding: 18px 20px;
   border-radius: 20px;
@@ -155,6 +156,12 @@ div {
   display: grid;
   gap: 8px;
   min-width: 0;
+}
+
+.home-heading-card .brand-logo {
+  width: 100%;
+  height: auto;
+  max-width: none;
 }
 
 .home-heading-kicker {
@@ -1367,6 +1374,7 @@ canvas {
   .home-heading-card {
     width: 100%;
     min-height: 0;
+    grid-template-columns: 1fr;
   }
 
   .home-hero-description {
