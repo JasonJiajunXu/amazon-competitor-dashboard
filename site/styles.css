@@ -64,6 +64,58 @@ div {
   flex-wrap: wrap;
 }
 
+.report-topbar {
+  align-items: flex-start;
+  gap: 24px;
+  padding: 6px 4px 22px;
+}
+
+.report-heading {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  flex: 1 1 640px;
+}
+
+.report-utility-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.report-brand-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.report-brand-note {
+  color: var(--ink);
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.report-title-block {
+  display: grid;
+  gap: 6px;
+  max-width: 860px;
+}
+
+.report-title-block .topbar-label {
+  letter-spacing: 0.1em;
+}
+
+.report-title-block h1 {
+  line-height: 0.94;
+}
+
+.report-topbar-meta {
+  align-self: flex-start;
+}
+
 .home-topbar {
   align-items: stretch;
 }
@@ -530,9 +582,10 @@ h3 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 10px;
   color: var(--muted);
   font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .back-link::before {
@@ -1288,7 +1341,8 @@ canvas {
   }
 
   .topbar,
-  .brand-lockup {
+  .brand-lockup,
+  .report-utility-row {
     align-items: flex-start;
     flex-direction: column;
   }
@@ -1304,6 +1358,10 @@ canvas {
   .brand-logo {
     height: 34px;
     max-width: min(164px, 52vw);
+  }
+
+  .report-brand-note {
+    font-size: 13px;
   }
 
   .status-stack,
