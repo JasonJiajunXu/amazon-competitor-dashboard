@@ -204,8 +204,8 @@ div {
 
 .brand-logo {
   width: auto;
-  height: 38px;
-  max-width: min(188px, 34vw);
+  height: 52px;
+  max-width: min(240px, 42vw);
   display: block;
   object-fit: contain;
   flex-shrink: 0;
@@ -1374,8 +1374,8 @@ canvas {
   }
 
   .brand-logo {
-    height: 34px;
-    max-width: min(164px, 52vw);
+    height: 42px;
+    max-width: min(210px, 58vw);
   }
 
   .report-brand-note {
