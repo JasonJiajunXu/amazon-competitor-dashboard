@@ -140,7 +140,7 @@ div {
 
 .home-heading-card {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) minmax(240px, 1fr);
+  grid-template-columns: minmax(180px, 300px) minmax(260px, 1fr);
   align-items: center;
   gap: 18px;
   min-height: 108px;
@@ -159,9 +159,9 @@ div {
 }
 
 .home-heading-card .brand-logo {
-  width: 100%;
+  width: min(100%, 300px);
   height: auto;
-  max-width: none;
+  max-width: 300px;
 }
 
 .home-heading-kicker {
