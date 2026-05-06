@@ -65,12 +65,70 @@ div {
 }
 
 .home-topbar {
-  align-items: flex-end;
+  align-items: stretch;
 }
 
 .home-brand-lockup {
   align-items: flex-end;
   gap: 20px;
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  width: 100%;
+  align-items: end;
+  padding: 8px 2px 6px;
+}
+
+.home-hero-main {
+  display: grid;
+  gap: 18px;
+}
+
+.home-brand-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  width: fit-content;
+  max-width: 100%;
+  padding: 12px 14px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.66);
+  border: 1px solid rgba(47, 59, 52, 0.08);
+  box-shadow: 0 14px 28px rgba(31, 41, 35, 0.06);
+  backdrop-filter: blur(14px);
+}
+
+.home-brand-copy {
+  display: grid;
+  gap: 4px;
+}
+
+.home-brand-note {
+  color: var(--muted);
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.home-title-block {
+  display: grid;
+  gap: 10px;
+  max-width: 860px;
+}
+
+.home-hero-description {
+  margin: 0;
+  max-width: 780px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.home-topbar-meta {
+  align-self: start;
 }
 
 .brand-mark {
@@ -87,12 +145,12 @@ div {
 
 .brand-logo {
   width: auto;
-  height: 52px;
-  max-width: min(260px, 42vw);
+  height: 44px;
+  max-width: min(220px, 38vw);
   display: block;
   object-fit: contain;
   flex-shrink: 0;
-  border-radius: 14px;
+  border-radius: 12px;
 }
 
 .topbar-label,
@@ -149,6 +207,15 @@ h3 {
   display: block;
   margin-top: 6px;
   font-size: 16px;
+}
+
+.meta-footnote {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .home-layout {
@@ -1087,6 +1154,11 @@ canvas {
     grid-template-columns: 1fr;
   }
 
+  .home-hero {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
   .summary-strip,
   .daily-strip,
   .today-global-strip,
@@ -1111,6 +1183,14 @@ canvas {
   .brand-lockup {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .home-brand-chip {
+    width: 100%;
+  }
+
+  .home-hero-description {
+    font-size: 16px;
   }
 
   .brand-logo {
