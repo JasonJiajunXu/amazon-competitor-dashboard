@@ -139,7 +139,7 @@ div {
   gap: 12px;
 }
 
-.home-brand-row {
+.home-title-row {
   display: inline-flex;
   align-items: center;
   gap: 12px;
@@ -147,21 +147,8 @@ div {
   max-width: 100%;
 }
 
-.home-brand-copy {
-  display: grid;
-  gap: 2px;
-}
-
-.home-brand-note {
-  color: var(--muted);
-  font-family: "Manrope", sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.02em;
-}
-
 .home-title-block {
-  display: grid;
-  gap: 8px;
+  display: block;
   max-width: 760px;
 }
 
@@ -1347,7 +1334,7 @@ canvas {
     flex-direction: column;
   }
 
-  .home-brand-row {
+  .home-title-row {
     width: 100%;
   }
 
