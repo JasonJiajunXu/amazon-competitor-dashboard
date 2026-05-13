@@ -1,37 +1,7 @@
 {
-  "latestSnapshotDate": "2026-05-11",
+  "latestSnapshotDate": "2026-05-13",
   "reports": {
     "racebox": [
-      {
-        "date": "2026-04-28",
-        "sales": 6,
-        "amount": 1680,
-        "price": 280,
-        "bsr": 58860,
-        "countries": {
-          "US": {
-            "sales": 6,
-            "amount": 1680,
-            "price": 280,
-            "bsr": 58860
-          }
-        }
-      },
-      {
-        "date": "2026-04-29",
-        "sales": 4,
-        "amount": 1120,
-        "price": 280,
-        "bsr": 47876,
-        "countries": {
-          "US": {
-            "sales": 4,
-            "amount": 1120,
-            "price": 280,
-            "bsr": 47876
-          }
-        }
-      },
       {
         "date": "2026-04-30",
         "sales": 6,
@@ -94,14 +64,14 @@
       },
       {
         "date": "2026-05-04",
-        "sales": 5,
-        "amount": 1400,
+        "sales": 4,
+        "amount": 1120,
         "price": 280,
         "bsr": 56034,
         "countries": {
           "US": {
-            "sales": 5,
-            "amount": 1400,
+            "sales": 4,
+            "amount": 1120,
             "price": 280,
             "bsr": 56034
           }
@@ -109,14 +79,14 @@
       },
       {
         "date": "2026-05-05",
-        "sales": 4,
-        "amount": 1120,
+        "sales": 6,
+        "amount": 1680,
         "price": 280,
         "bsr": 66053,
         "countries": {
           "US": {
-            "sales": 4,
-            "amount": 1120,
+            "sales": 6,
+            "amount": 1680,
             "price": 280,
             "bsr": 66053
           }
@@ -124,14 +94,14 @@
       },
       {
         "date": "2026-05-06",
-        "sales": 5,
-        "amount": 1400,
+        "sales": 6,
+        "amount": 1680,
         "price": 280,
         "bsr": 57799,
         "countries": {
           "US": {
-            "sales": 5,
-            "amount": 1400,
+            "sales": 6,
+            "amount": 1680,
             "price": 280,
             "bsr": 57799
           }
@@ -169,14 +139,14 @@
       },
       {
         "date": "2026-05-09",
-        "sales": 6,
-        "amount": 1680,
+        "sales": 7,
+        "amount": 1960,
         "price": 280,
         "bsr": 47498,
         "countries": {
           "US": {
-            "sales": 6,
-            "amount": 1680,
+            "sales": 7,
+            "amount": 1960,
             "price": 280,
             "bsr": 47498
           }
@@ -184,14 +154,14 @@
       },
       {
         "date": "2026-05-10",
-        "sales": 8,
-        "amount": 2240,
+        "sales": 7,
+        "amount": 1960,
         "price": 280,
         "bsr": 36501,
         "countries": {
           "US": {
-            "sales": 8,
-            "amount": 2240,
+            "sales": 7,
+            "amount": 1960,
             "price": 280,
             "bsr": 36501
           }
@@ -211,39 +181,39 @@
             "bsr": 48305
           }
         }
+      },
+      {
+        "date": "2026-05-12",
+        "sales": 6,
+        "amount": 1680,
+        "price": 280,
+        "bsr": 45932,
+        "countries": {
+          "US": {
+            "sales": 6,
+            "amount": 1680,
+            "price": 280,
+            "bsr": 45932
+          }
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "sales": 6,
+        "amount": 1680,
+        "price": 280,
+        "bsr": 44457,
+        "countries": {
+          "US": {
+            "sales": 6,
+            "amount": 1680,
+            "price": 280,
+            "bsr": 44457
+          }
+        }
       }
     ],
     "bushnell": [
-      {
-        "date": "2026-04-28",
-        "sales": 41,
-        "amount": 6150,
-        "price": 150,
-        "bsr": 5158,
-        "countries": {
-          "US": {
-            "sales": 41,
-            "amount": 6150,
-            "price": 150,
-            "bsr": 5158
-          }
-        }
-      },
-      {
-        "date": "2026-04-29",
-        "sales": 45,
-        "amount": 6750,
-        "price": 150,
-        "bsr": 5316,
-        "countries": {
-          "US": {
-            "sales": 45,
-            "amount": 6750,
-            "price": 150,
-            "bsr": 5316
-          }
-        }
-      },
       {
         "date": "2026-04-30",
         "sales": 54,
@@ -306,14 +276,14 @@
       },
       {
         "date": "2026-05-04",
-        "sales": 58,
-        "amount": 6959,
+        "sales": 64,
+        "amount": 7679,
         "price": 120,
         "bsr": 3228,
         "countries": {
           "US": {
-            "sales": 58,
-            "amount": 6959,
+            "sales": 64,
+            "amount": 7679,
             "price": 120,
             "bsr": 3228
           }
@@ -321,14 +291,14 @@
       },
       {
         "date": "2026-05-05",
-        "sales": 57,
-        "amount": 6839,
+        "sales": 62,
+        "amount": 7439,
         "price": 120,
         "bsr": 3359,
         "countries": {
           "US": {
-            "sales": 57,
-            "amount": 6839,
+            "sales": 62,
+            "amount": 7439,
             "price": 120,
             "bsr": 3359
           }
@@ -336,14 +306,14 @@
       },
       {
         "date": "2026-05-06",
-        "sales": 59,
-        "amount": 7079,
+        "sales": 63,
+        "amount": 7559,
         "price": 120,
         "bsr": 3214,
         "countries": {
           "US": {
-            "sales": 59,
-            "amount": 7079,
+            "sales": 63,
+            "amount": 7559,
             "price": 120,
             "bsr": 3214
           }
@@ -366,14 +336,14 @@
       },
       {
         "date": "2026-05-08",
-        "sales": 58,
-        "amount": 8699,
+        "sales": 51,
+        "amount": 7649,
         "price": 150,
         "bsr": 3259,
         "countries": {
           "US": {
-            "sales": 58,
-            "amount": 8699,
+            "sales": 51,
+            "amount": 7649,
             "price": 150,
             "bsr": 3259
           }
@@ -381,14 +351,14 @@
       },
       {
         "date": "2026-05-09",
-        "sales": 54,
-        "amount": 8099,
+        "sales": 48,
+        "amount": 7200,
         "price": 150,
         "bsr": 3548,
         "countries": {
           "US": {
-            "sales": 54,
-            "amount": 8099,
+            "sales": 48,
+            "amount": 7200,
             "price": 150,
             "bsr": 3548
           }
@@ -396,66 +366,66 @@
       },
       {
         "date": "2026-05-10",
-        "sales": 51,
-        "amount": 7649,
+        "sales": 42,
+        "amount": 6300,
         "price": 150,
-        "bsr": 3872,
+        "bsr": 4077,
         "countries": {
           "US": {
-            "sales": 51,
-            "amount": 7649,
+            "sales": 42,
+            "amount": 6300,
             "price": 150,
-            "bsr": 3872
+            "bsr": 4077
           }
         }
       },
       {
         "date": "2026-05-11",
-        "sales": 56,
-        "amount": 8399,
+        "sales": 45,
+        "amount": 6750,
         "price": 150,
-        "bsr": 3423,
+        "bsr": 4700,
         "countries": {
           "US": {
-            "sales": 56,
-            "amount": 8399,
+            "sales": 45,
+            "amount": 6750,
             "price": 150,
-            "bsr": 3423
+            "bsr": 4700
+          }
+        }
+      },
+      {
+        "date": "2026-05-12",
+        "sales": 54,
+        "amount": 8099,
+        "price": 150,
+        "bsr": 3761,
+        "countries": {
+          "US": {
+            "sales": 54,
+            "amount": 8099,
+            "price": 150,
+            "bsr": 3761
+          }
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "sales": 52,
+        "amount": 7799,
+        "price": 150,
+        "bsr": 3896,
+        "countries": {
+          "US": {
+            "sales": 52,
+            "amount": 7799,
+            "price": 150,
+            "bsr": 3896
           }
         }
       }
     ],
     "tag": [
-      {
-        "date": "2026-04-28",
-        "sales": 8,
-        "amount": 2320,
-        "price": 290,
-        "bsr": 37987,
-        "countries": {
-          "US": {
-            "sales": 8,
-            "amount": 2320,
-            "price": 290,
-            "bsr": 37987
-          }
-        }
-      },
-      {
-        "date": "2026-04-29",
-        "sales": 6,
-        "amount": 1740,
-        "price": 290,
-        "bsr": 33272,
-        "countries": {
-          "US": {
-            "sales": 6,
-            "amount": 1740,
-            "price": 290,
-            "bsr": 33272
-          }
-        }
-      },
       {
         "date": "2026-04-30",
         "sales": 6,
@@ -518,14 +488,14 @@
       },
       {
         "date": "2026-05-04",
-        "sales": 6,
-        "amount": 1740,
+        "sales": 5,
+        "amount": 1450,
         "price": 290,
         "bsr": 47703,
         "countries": {
           "US": {
-            "sales": 6,
-            "amount": 1740,
+            "sales": 5,
+            "amount": 1450,
             "price": 290,
             "bsr": 47703
           }
@@ -533,14 +503,14 @@
       },
       {
         "date": "2026-05-05",
-        "sales": 6,
-        "amount": 1740,
+        "sales": 5,
+        "amount": 1450,
         "price": 290,
         "bsr": 49067,
         "countries": {
           "US": {
-            "sales": 6,
-            "amount": 1740,
+            "sales": 5,
+            "amount": 1450,
             "price": 290,
             "bsr": 49067
           }
@@ -548,14 +518,14 @@
       },
       {
         "date": "2026-05-06",
-        "sales": 5,
-        "amount": 1450,
+        "sales": 7,
+        "amount": 2030,
         "price": 290,
         "bsr": 50548,
         "countries": {
           "US": {
-            "sales": 5,
-            "amount": 1450,
+            "sales": 7,
+            "amount": 2030,
             "price": 290,
             "bsr": 50548
           }
@@ -563,14 +533,14 @@
       },
       {
         "date": "2026-05-07",
-        "sales": 7,
-        "amount": 2030,
+        "sales": 6,
+        "amount": 1740,
         "price": 290,
         "bsr": 40827,
         "countries": {
           "US": {
-            "sales": 7,
-            "amount": 2030,
+            "sales": 6,
+            "amount": 1740,
             "price": 290,
             "bsr": 40827
           }
@@ -593,14 +563,14 @@
       },
       {
         "date": "2026-05-09",
-        "sales": 6,
-        "amount": 1740,
+        "sales": 7,
+        "amount": 2030,
         "price": 290,
         "bsr": 46387,
         "countries": {
           "US": {
-            "sales": 6,
-            "amount": 1740,
+            "sales": 7,
+            "amount": 2030,
             "price": 290,
             "bsr": 46387
           }
@@ -611,63 +581,63 @@
         "sales": 7,
         "amount": 2030,
         "price": 290,
-        "bsr": 37715,
+        "bsr": 37603,
         "countries": {
           "US": {
             "sales": 7,
             "amount": 2030,
             "price": 290,
-            "bsr": 37715
+            "bsr": 37603
           }
         }
       },
       {
         "date": "2026-05-11",
+        "sales": 7,
+        "amount": 2030,
+        "price": 290,
+        "bsr": 40301,
+        "countries": {
+          "US": {
+            "sales": 7,
+            "amount": 2030,
+            "price": 290,
+            "bsr": 40301
+          }
+        }
+      },
+      {
+        "date": "2026-05-12",
         "sales": 6,
         "amount": 1740,
         "price": 290,
-        "bsr": 44426,
+        "bsr": 46353,
         "countries": {
           "US": {
             "sales": 6,
             "amount": 1740,
             "price": 290,
-            "bsr": 44426
+            "bsr": 46353
+          }
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "sales": 6,
+        "amount": 1740,
+        "price": 290,
+        "bsr": 43460,
+        "countries": {
+          "US": {
+            "sales": 6,
+            "amount": 1740,
+            "price": 290,
+            "bsr": 43460
           }
         }
       }
     ],
     "garmin_r10": [
-      {
-        "date": "2026-04-28",
-        "sales": 32,
-        "amount": 15973,
-        "price": 499,
-        "bsr": 7115,
-        "countries": {
-          "US": {
-            "sales": 32,
-            "amount": 15973,
-            "price": 499,
-            "bsr": 7115
-          }
-        }
-      },
-      {
-        "date": "2026-04-29",
-        "sales": 33,
-        "amount": 16487,
-        "price": 500,
-        "bsr": 7174,
-        "countries": {
-          "US": {
-            "sales": 33,
-            "amount": 16487,
-            "price": 500,
-            "bsr": 7174
-          }
-        }
-      },
       {
         "date": "2026-04-30",
         "sales": 29,
@@ -730,14 +700,14 @@
       },
       {
         "date": "2026-05-04",
-        "sales": 33,
-        "amount": 16368,
+        "sales": 39,
+        "amount": 19344,
         "price": 496,
         "bsr": 6693,
         "countries": {
           "US": {
-            "sales": 33,
-            "amount": 16368,
+            "sales": 39,
+            "amount": 19344,
             "price": 496,
             "bsr": 6693
           }
@@ -745,14 +715,14 @@
       },
       {
         "date": "2026-05-05",
-        "sales": 34,
-        "amount": 16864,
+        "sales": 36,
+        "amount": 17856,
         "price": 496,
         "bsr": 6312,
         "countries": {
           "US": {
-            "sales": 34,
-            "amount": 16864,
+            "sales": 36,
+            "amount": 17856,
             "price": 496,
             "bsr": 6312
           }
@@ -760,14 +730,14 @@
       },
       {
         "date": "2026-05-06",
-        "sales": 35,
-        "amount": 17150,
+        "sales": 31,
+        "amount": 15190,
         "price": 490,
         "bsr": 6290,
         "countries": {
           "US": {
-            "sales": 35,
-            "amount": 17150,
+            "sales": 31,
+            "amount": 15190,
             "price": 490,
             "bsr": 6290
           }
@@ -775,14 +745,14 @@
       },
       {
         "date": "2026-05-07",
-        "sales": 29,
-        "amount": 14210,
+        "sales": 27,
+        "amount": 13230,
         "price": 490,
         "bsr": 7697,
         "countries": {
           "US": {
-            "sales": 29,
-            "amount": 14210,
+            "sales": 27,
+            "amount": 13230,
             "price": 490,
             "bsr": 7697
           }
@@ -790,14 +760,14 @@
       },
       {
         "date": "2026-05-08",
-        "sales": 27,
-        "amount": 13230,
+        "sales": 26,
+        "amount": 12740,
         "price": 490,
         "bsr": 8411,
         "countries": {
           "US": {
-            "sales": 27,
-            "amount": 13230,
+            "sales": 26,
+            "amount": 12740,
             "price": 490,
             "bsr": 8411
           }
@@ -820,16 +790,16 @@
       },
       {
         "date": "2026-05-10",
-        "sales": 26,
-        "amount": 13000,
+        "sales": 29,
+        "amount": 14500,
         "price": 500,
-        "bsr": 8770,
+        "bsr": 8814,
         "countries": {
           "US": {
-            "sales": 26,
-            "amount": 13000,
+            "sales": 29,
+            "amount": 14500,
             "price": 500,
-            "bsr": 8770
+            "bsr": 8814
           }
         }
       },
@@ -838,48 +808,48 @@
         "sales": 29,
         "amount": 14500,
         "price": 500,
-        "bsr": 7970,
+        "bsr": 8092,
         "countries": {
           "US": {
             "sales": 29,
             "amount": 14500,
             "price": 500,
-            "bsr": 7970
+            "bsr": 8092
+          }
+        }
+      },
+      {
+        "date": "2026-05-12",
+        "sales": 30,
+        "amount": 15000,
+        "price": 500,
+        "bsr": 7935,
+        "countries": {
+          "US": {
+            "sales": 30,
+            "amount": 15000,
+            "price": 500,
+            "bsr": 7935
+          }
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "sales": 28,
+        "amount": 14000,
+        "price": 500,
+        "bsr": 8387,
+        "countries": {
+          "US": {
+            "sales": 28,
+            "amount": 14000,
+            "price": 500,
+            "bsr": 8387
           }
         }
       }
     ],
     "rapsodo": [
-      {
-        "date": "2026-04-28",
-        "sales": 36,
-        "amount": 18450,
-        "price": 512,
-        "bsr": 17450,
-        "countries": {
-          "US": {
-            "sales": 36,
-            "amount": 18450,
-            "price": 512,
-            "bsr": 17450
-          }
-        }
-      },
-      {
-        "date": "2026-04-29",
-        "sales": 33,
-        "amount": 16350,
-        "price": 495,
-        "bsr": 15304,
-        "countries": {
-          "US": {
-            "sales": 33,
-            "amount": 16350,
-            "price": 495,
-            "bsr": 15304
-          }
-        }
-      },
       {
         "date": "2026-04-30",
         "sales": 32,
@@ -943,156 +913,156 @@
       {
         "date": "2026-05-04",
         "sales": 35,
-        "amount": 18200,
-        "price": 520,
+        "amount": 17750,
+        "price": 507,
         "bsr": 14826,
         "countries": {
           "US": {
             "sales": 35,
-            "amount": 18200,
-            "price": 520,
+            "amount": 17750,
+            "price": 507,
             "bsr": 14826
           }
         }
       },
       {
         "date": "2026-05-05",
-        "sales": 33,
-        "amount": 16800,
-        "price": 509,
+        "sales": 36,
+        "amount": 18900,
+        "price": 525,
         "bsr": 15733,
         "countries": {
           "US": {
-            "sales": 33,
-            "amount": 16800,
-            "price": 509,
+            "sales": 36,
+            "amount": 18900,
+            "price": 525,
             "bsr": 15733
           }
         }
       },
       {
         "date": "2026-05-06",
-        "sales": 33,
-        "amount": 17250,
-        "price": 523,
+        "sales": 35,
+        "amount": 18650,
+        "price": 533,
         "bsr": 15684,
         "countries": {
           "US": {
-            "sales": 33,
-            "amount": 17250,
-            "price": 523,
+            "sales": 35,
+            "amount": 18650,
+            "price": 533,
             "bsr": 15684
           }
         }
       },
       {
         "date": "2026-05-07",
-        "sales": 33,
-        "amount": 17250,
-        "price": 523,
+        "sales": 32,
+        "amount": 16550,
+        "price": 517,
         "bsr": 16130,
         "countries": {
           "US": {
-            "sales": 33,
-            "amount": 17250,
-            "price": 523,
+            "sales": 32,
+            "amount": 16550,
+            "price": 517,
             "bsr": 16130
           }
         }
       },
       {
         "date": "2026-05-08",
-        "sales": 32,
-        "amount": 16550,
-        "price": 517,
+        "sales": 33,
+        "amount": 16350,
+        "price": 495,
         "bsr": 16032,
         "countries": {
           "US": {
-            "sales": 32,
-            "amount": 16550,
-            "price": 517,
+            "sales": 33,
+            "amount": 16350,
+            "price": 495,
             "bsr": 16032
           }
         }
       },
       {
         "date": "2026-05-09",
-        "sales": 33,
-        "amount": 16350,
-        "price": 495,
+        "sales": 34,
+        "amount": 17050,
+        "price": 501,
         "bsr": 15452,
         "countries": {
           "US": {
-            "sales": 33,
-            "amount": 16350,
-            "price": 495,
+            "sales": 34,
+            "amount": 17050,
+            "price": 501,
             "bsr": 15452
           }
         }
       },
       {
         "date": "2026-05-10",
-        "sales": 33,
-        "amount": 16350,
-        "price": 495,
-        "bsr": 15560,
+        "sales": 32,
+        "amount": 16550,
+        "price": 517,
+        "bsr": 15198,
         "countries": {
           "US": {
-            "sales": 33,
-            "amount": 16350,
-            "price": 495,
-            "bsr": 15560
+            "sales": 32,
+            "amount": 16550,
+            "price": 517,
+            "bsr": 15198
           }
         }
       },
       {
         "date": "2026-05-11",
-        "sales": 33,
-        "amount": 16800,
-        "price": 509,
-        "bsr": 15772,
+        "sales": 34,
+        "amount": 17500,
+        "price": 515,
+        "bsr": 15554,
         "countries": {
           "US": {
-            "sales": 33,
-            "amount": 16800,
-            "price": 509,
-            "bsr": 15772
+            "sales": 34,
+            "amount": 17500,
+            "price": 515,
+            "bsr": 15554
+          }
+        }
+      },
+      {
+        "date": "2026-05-12",
+        "sales": 34,
+        "amount": 17500,
+        "price": 515,
+        "bsr": 15813,
+        "countries": {
+          "US": {
+            "sales": 34,
+            "amount": 17500,
+            "price": 515,
+            "bsr": 15813
+          }
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "sales": 34,
+        "amount": 17500,
+        "price": 515,
+        "bsr": 15610,
+        "countries": {
+          "US": {
+            "sales": 34,
+            "amount": 17500,
+            "price": 515,
+            "bsr": 15610
           }
         }
       }
     ],
     "garmin_xero": [],
     "rangecraft": [
-      {
-        "date": "2026-04-28",
-        "sales": 15,
-        "amount": 6000,
-        "price": 400,
-        "bsr": 19257,
-        "countries": {
-          "US": {
-            "sales": 15,
-            "amount": 6000,
-            "price": 400,
-            "bsr": 19257
-          }
-        }
-      },
-      {
-        "date": "2026-04-29",
-        "sales": 16,
-        "amount": 6400,
-        "price": 400,
-        "bsr": 17702,
-        "countries": {
-          "US": {
-            "sales": 16,
-            "amount": 6400,
-            "price": 400,
-            "bsr": 17702
-          }
-        }
-      },
       {
         "date": "2026-04-30",
         "sales": 14,
@@ -1170,14 +1140,14 @@
       },
       {
         "date": "2026-05-05",
-        "sales": 16,
-        "amount": 6400,
+        "sales": 17,
+        "amount": 6800,
         "price": 400,
         "bsr": 15379,
         "countries": {
           "US": {
-            "sales": 16,
-            "amount": 6400,
+            "sales": 17,
+            "amount": 6800,
             "price": 400,
             "bsr": 15379
           }
@@ -1185,14 +1155,14 @@
       },
       {
         "date": "2026-05-06",
-        "sales": 16,
-        "amount": 6400,
+        "sales": 17,
+        "amount": 6800,
         "price": 400,
         "bsr": 15150,
         "countries": {
           "US": {
-            "sales": 16,
-            "amount": 6400,
+            "sales": 17,
+            "amount": 6800,
             "price": 400,
             "bsr": 15150
           }
@@ -1200,14 +1170,14 @@
       },
       {
         "date": "2026-05-07",
-        "sales": 16,
-        "amount": 6400,
+        "sales": 14,
+        "amount": 5600,
         "price": 400,
         "bsr": 15613,
         "countries": {
           "US": {
-            "sales": 16,
-            "amount": 6400,
+            "sales": 14,
+            "amount": 5600,
             "price": 400,
             "bsr": 15613
           }
@@ -1215,14 +1185,14 @@
       },
       {
         "date": "2026-05-08",
-        "sales": 14,
-        "amount": 5600,
+        "sales": 16,
+        "amount": 6400,
         "price": 400,
         "bsr": 17773,
         "countries": {
           "US": {
-            "sales": 14,
-            "amount": 5600,
+            "sales": 16,
+            "amount": 6400,
             "price": 400,
             "bsr": 17773
           }
@@ -1230,14 +1200,14 @@
       },
       {
         "date": "2026-05-09",
-        "sales": 15,
-        "amount": 6000,
+        "sales": 16,
+        "amount": 6400,
         "price": 400,
         "bsr": 16749,
         "countries": {
           "US": {
-            "sales": 15,
-            "amount": 6000,
+            "sales": 16,
+            "amount": 6400,
             "price": 400,
             "bsr": 16749
           }
@@ -1248,63 +1218,63 @@
         "sales": 17,
         "amount": 6800,
         "price": 400,
-        "bsr": 14985,
+        "bsr": 15081,
         "countries": {
           "US": {
             "sales": 17,
             "amount": 6800,
             "price": 400,
-            "bsr": 14985
+            "bsr": 15081
           }
         }
       },
       {
         "date": "2026-05-11",
+        "sales": 17,
+        "amount": 6800,
+        "price": 400,
+        "bsr": 14872,
+        "countries": {
+          "US": {
+            "sales": 17,
+            "amount": 6800,
+            "price": 400,
+            "bsr": 14872
+          }
+        }
+      },
+      {
+        "date": "2026-05-12",
         "sales": 16,
         "amount": 6400,
         "price": 400,
-        "bsr": 16054,
+        "bsr": 16018,
         "countries": {
           "US": {
             "sales": 16,
             "amount": 6400,
             "price": 400,
-            "bsr": 16054
+            "bsr": 16018
+          }
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "sales": 16,
+        "amount": 6400,
+        "price": 400,
+        "bsr": 16119,
+        "countries": {
+          "US": {
+            "sales": 16,
+            "amount": 6400,
+            "price": 400,
+            "bsr": 16119
           }
         }
       }
     ],
     "blue_tees": [
-      {
-        "date": "2026-04-28",
-        "sales": 110,
-        "amount": 18698,
-        "price": 170,
-        "bsr": 1221,
-        "countries": {
-          "US": {
-            "sales": 110,
-            "amount": 18698,
-            "price": 170,
-            "bsr": 1221
-          }
-        }
-      },
-      {
-        "date": "2026-04-29",
-        "sales": 107,
-        "amount": 18188,
-        "price": 170,
-        "bsr": 1005,
-        "countries": {
-          "US": {
-            "sales": 107,
-            "amount": 18188,
-            "price": 170,
-            "bsr": 1005
-          }
-        }
-      },
       {
         "date": "2026-04-30",
         "sales": 124,
@@ -1367,14 +1337,14 @@
       },
       {
         "date": "2026-05-04",
-        "sales": 119,
-        "amount": 20228,
+        "sales": 142,
+        "amount": 24137,
         "price": 170,
         "bsr": 946,
         "countries": {
           "US": {
-            "sales": 119,
-            "amount": 20228,
+            "sales": 142,
+            "amount": 24137,
             "price": 170,
             "bsr": 946
           }
@@ -1382,14 +1352,14 @@
       },
       {
         "date": "2026-05-05",
-        "sales": 126,
-        "amount": 21417,
+        "sales": 118,
+        "amount": 20058,
         "price": 170,
         "bsr": 886,
         "countries": {
           "US": {
-            "sales": 126,
-            "amount": 21417,
+            "sales": 118,
+            "amount": 20058,
             "price": 170,
             "bsr": 886
           }
@@ -1397,14 +1367,14 @@
       },
       {
         "date": "2026-05-06",
-        "sales": 129,
-        "amount": 21927,
+        "sales": 138,
+        "amount": 23457,
         "price": 170,
         "bsr": 861,
         "countries": {
           "US": {
-            "sales": 129,
-            "amount": 21927,
+            "sales": 138,
+            "amount": 23457,
             "price": 170,
             "bsr": 861
           }
@@ -1427,14 +1397,14 @@
       },
       {
         "date": "2026-05-08",
-        "sales": 130,
-        "amount": 22097,
+        "sales": 131,
+        "amount": 22267,
         "price": 170,
         "bsr": 857,
         "countries": {
           "US": {
-            "sales": 130,
-            "amount": 22097,
+            "sales": 131,
+            "amount": 22267,
             "price": 170,
             "bsr": 857
           }
@@ -1442,14 +1412,14 @@
       },
       {
         "date": "2026-05-09",
-        "sales": 128,
-        "amount": 21757,
+        "sales": 115,
+        "amount": 19548,
         "price": 170,
         "bsr": 867,
         "countries": {
           "US": {
-            "sales": 128,
-            "amount": 21757,
+            "sales": 115,
+            "amount": 19548,
             "price": 170,
             "bsr": 867
           }
@@ -1457,66 +1427,66 @@
       },
       {
         "date": "2026-05-10",
-        "sales": 128,
-        "amount": 21757,
+        "sales": 120,
+        "amount": 20398,
         "price": 170,
-        "bsr": 865,
+        "bsr": 884,
         "countries": {
           "US": {
-            "sales": 128,
-            "amount": 21757,
+            "sales": 120,
+            "amount": 20398,
             "price": 170,
-            "bsr": 865
+            "bsr": 884
           }
         }
       },
       {
         "date": "2026-05-11",
-        "sales": 129,
-        "amount": 21927,
+        "sales": 124,
+        "amount": 21078,
         "price": 170,
-        "bsr": 859,
+        "bsr": 899,
         "countries": {
           "US": {
-            "sales": 129,
-            "amount": 21927,
+            "sales": 124,
+            "amount": 21078,
             "price": 170,
-            "bsr": 859
+            "bsr": 899
+          }
+        }
+      },
+      {
+        "date": "2026-05-12",
+        "sales": 130,
+        "amount": 22097,
+        "price": 170,
+        "bsr": 850,
+        "countries": {
+          "US": {
+            "sales": 130,
+            "amount": 22097,
+            "price": 170,
+            "bsr": 850
+          }
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "sales": 127,
+        "amount": 21587,
+        "price": 170,
+        "bsr": 871,
+        "countries": {
+          "US": {
+            "sales": 127,
+            "amount": 21587,
+            "price": 170,
+            "bsr": 871
           }
         }
       }
     ],
     "rapsodo_mlm": [
-      {
-        "date": "2026-04-28",
-        "sales": 15,
-        "amount": 3750,
-        "price": 250,
-        "bsr": 21861,
-        "countries": {
-          "US": {
-            "sales": 15,
-            "amount": 3750,
-            "price": 250,
-            "bsr": 21861
-          }
-        }
-      },
-      {
-        "date": "2026-04-29",
-        "sales": 15,
-        "amount": 3750,
-        "price": 250,
-        "bsr": 18646,
-        "countries": {
-          "US": {
-            "sales": 15,
-            "amount": 3750,
-            "price": 250,
-            "bsr": 18646
-          }
-        }
-      },
       {
         "date": "2026-04-30",
         "sales": 13,
@@ -1579,14 +1549,14 @@
       },
       {
         "date": "2026-05-04",
-        "sales": 14,
-        "amount": 3500,
+        "sales": 15,
+        "amount": 3750,
         "price": 250,
         "bsr": 18378,
         "countries": {
           "US": {
-            "sales": 14,
-            "amount": 3500,
+            "sales": 15,
+            "amount": 3750,
             "price": 250,
             "bsr": 18378
           }
@@ -1639,14 +1609,14 @@
       },
       {
         "date": "2026-05-08",
-        "sales": 13,
-        "amount": 3250,
+        "sales": 15,
+        "amount": 3750,
         "price": 250,
         "bsr": 19385,
         "countries": {
           "US": {
-            "sales": 13,
-            "amount": 3250,
+            "sales": 15,
+            "amount": 3750,
             "price": 250,
             "bsr": 19385
           }
@@ -1669,16 +1639,16 @@
       },
       {
         "date": "2026-05-10",
-        "sales": 15,
-        "amount": 3750,
+        "sales": 13,
+        "amount": 3250,
         "price": 250,
-        "bsr": 17260,
+        "bsr": 17119,
         "countries": {
           "US": {
-            "sales": 15,
-            "amount": 3750,
+            "sales": 13,
+            "amount": 3250,
             "price": 250,
-            "bsr": 17260
+            "bsr": 17119
           }
         }
       },
@@ -1687,13 +1657,43 @@
         "sales": 14,
         "amount": 3500,
         "price": 250,
-        "bsr": 18731,
+        "bsr": 18312,
         "countries": {
           "US": {
             "sales": 14,
             "amount": 3500,
             "price": 250,
-            "bsr": 18731
+            "bsr": 18312
+          }
+        }
+      },
+      {
+        "date": "2026-05-12",
+        "sales": 14,
+        "amount": 3500,
+        "price": 250,
+        "bsr": 18847,
+        "countries": {
+          "US": {
+            "sales": 14,
+            "amount": 3500,
+            "price": 250,
+            "bsr": 18847
+          }
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "sales": 14,
+        "amount": 3500,
+        "price": 250,
+        "bsr": 18202,
+        "countries": {
+          "US": {
+            "sales": 14,
+            "amount": 3500,
+            "price": 250,
+            "bsr": 18202
           }
         }
       }
